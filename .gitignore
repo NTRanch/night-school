@@ -1,0 +1,9 @@
+# Studied media never enters this repo: no video files, no frames, no
+# transcripts of source material. Technique sheets and our own rebuild
+# evidence only.
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.avi
+.DS_Store
