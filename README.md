@@ -124,6 +124,13 @@ barred at intake on depicted-age grounds):
 
 <img src="assets/sparkles.svg" width="100%" alt="">
 
+## House style — Daddy Style
+
+The plans produce candidate techniques. **[Daddy Style](guides/)** is
+the house style those techniques are rebuilt under: safety-first,
+contract-first engine guides for Blender, Godot, Unity, Unreal, and
+Aseprite, written for adult game production.
+
 ## Standing rules
 
 - **Reference only.** No source media, frames, meshes, motion, or text
