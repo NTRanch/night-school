@@ -10,11 +10,13 @@ render pipelines, adult visual novels, and sprite work for adult games.
 The rules do not soften because the content is explicit; a scene that
 cannot pass its gates does not ship, whatever it depicts.
 
-## The five guides
+## The guides
 
-Each engine has a main guide plus its command-line and scripting
+Each engine guide has a main guide plus its command-line and scripting
 references. The main guide carries the rules; the references carry the
-exact flags, calls, and tables those rules cite.
+exact flags, calls, and tables those rules cite. The prompting guide
+stands alone: it distils a public source article rather than an
+engine's own documentation, and has no reference companions.
 
 - **[DADDY_STYLE_BLENDER.md](DADDY_STYLE_BLENDER.md)** — Blender driven
   headlessly and through bpy: census, conversion, renders, and rigging
@@ -41,6 +43,12 @@ exact flags, calls, and tables those rules cite.
   scripted pixel work with named deterministic converters.
   References: [aseprite-cli.md](aseprite-cli.md),
   [aseprite-scripting-api.md](aseprite-scripting-api.md).
+- **[DADDY_STYLE_PROMPTING.md](DADDY_STYLE_PROMPTING.md)** — Prompting
+  for image generation held to the same contract discipline: ordered
+  prompt slots, per-family dialects and negative-prompt registers,
+  weighting bounds, LoRA stack rules, and the provenance record that
+  makes an image a keeper. Distilled from a public prompt gallery;
+  no reference companions.
 
 ## How the guides relate to the study plans
 
