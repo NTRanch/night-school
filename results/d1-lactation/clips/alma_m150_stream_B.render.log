@@ -1,0 +1,50 @@
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-26 14:00:03)
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_rename_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_retarget" registration error: 'orientation' EnumProperty could not register (see previous error)
+00:00.647  blend            | Read blend: "/home/phaedrus/.local/share/pax/nslac/out/clips/alma_m150_stream_B/alma_m150_stream_B_baked.blend"
+00:01.253  render           | Saved: 'out/clips/alma_m150_stream_B/renders/full_frame_0014.png'
+00:01.446  render           | Saved: 'out/clips/alma_m150_stream_B/renders/full_frame_0020.png'
+00:01.600  render           | Saved: 'out/clips/alma_m150_stream_B/renders/full_frame_0028.png'
+00:01.745  render           | Saved: 'out/clips/alma_m150_stream_B/renders/bust_frame_0014.png'
+00:01.884  render           | Saved: 'out/clips/alma_m150_stream_B/renders/bust_frame_0020.png'
+00:02.024  render           | Saved: 'out/clips/alma_m150_stream_B/renders/bust_frame_0028.png'
+Loading MHX RTS v 5.2.0
+MHX RTS loaded
+Loading BVH Retargeter
+BVH Retargeter loaded
+DAZ loaded
+Register DAZ Importer
+Loading MHX Tools
+Register MHX Tools
+Loading Rigify Tools
+Register Rigify Tools
+Loading Hair Tools
+Register Hair Tools
+Loading Visibility Tools
+Register Visibility Tools
+Loading Export Tools
+Register Export Tools
+Settings directory: /home/phaedrus/DAZ Importer
+File does not exist:
+"/home/phaedrus/DAZ Importer/import_daz_settings.json"
+File does not exist:
+"/home/phaedrus/import-daz-settings-28x.json"
+init
+init
+NSLAC RENDER {'camera': 'full', 'frame': 14, 'mesh_verts': 4414, 'render_seconds': 0.6}
+NSLAC RENDER {'camera': 'full', 'frame': 20, 'mesh_verts': 8854, 'render_seconds': 0.19}
+NSLAC RENDER {'camera': 'full', 'frame': 28, 'mesh_verts': 11372, 'render_seconds': 0.15}
+NSLAC RENDER {'camera': 'bust', 'frame': 14, 'mesh_verts': 4414, 'render_seconds': 0.14}
+NSLAC RENDER {'camera': 'bust', 'frame': 20, 'mesh_verts': 8854, 'render_seconds': 0.14}
+NSLAC RENDER {'camera': 'bust', 'frame': 28, 'mesh_verts': 11372, 'render_seconds': 0.14}
+NSLAC RENDER DONE
+
+Blender quit

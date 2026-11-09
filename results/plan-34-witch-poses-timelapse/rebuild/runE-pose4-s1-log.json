@@ -1,0 +1,121 @@
+{
+ "run": "E",
+ "pose": 4,
+ "pose_name": "contrapposto-rest",
+ "stage": 1,
+ "steps": [
+  {
+   "phase": "pelvis",
+   "bones": [
+    "mixamorig:Hips"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "legs+feet",
+   "bones": [
+    "mixamorig:LeftUpLeg",
+    "mixamorig:RightUpLeg",
+    "mixamorig:LeftLeg",
+    "mixamorig:RightLeg",
+    "mixamorig:LeftFoot",
+    "mixamorig:RightFoot"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "spine",
+   "bones": [
+    "mixamorig:Spine",
+    "mixamorig:Spine1",
+    "mixamorig:Spine2"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "head",
+   "bones": [
+    "mixamorig:Neck",
+    "mixamorig:Head"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "arms",
+   "bones": [
+    "mixamorig:LeftShoulder",
+    "mixamorig:LeftArm",
+    "mixamorig:LeftForeArm",
+    "mixamorig:RightShoulder",
+    "mixamorig:RightArm",
+    "mixamorig:RightForeArm"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "hands",
+   "bones": [
+    "mixamorig:LeftHandThumb1",
+    "mixamorig:LeftHandThumb2",
+    "mixamorig:LeftHandThumb3",
+    "mixamorig:LeftHandIndex1",
+    "mixamorig:LeftHandIndex2",
+    "mixamorig:LeftHandIndex3",
+    "mixamorig:LeftHandMiddle1",
+    "mixamorig:LeftHandMiddle2",
+    "mixamorig:LeftHandMiddle3",
+    "mixamorig:LeftHandRing1",
+    "mixamorig:LeftHandRing2",
+    "mixamorig:LeftHandRing3",
+    "mixamorig:LeftHandPinky1",
+    "mixamorig:LeftHandPinky2",
+    "mixamorig:LeftHandPinky3",
+    "mixamorig:RightHandThumb1",
+    "mixamorig:RightHandThumb2",
+    "mixamorig:RightHandThumb3",
+    "mixamorig:RightHandIndex1",
+    "mixamorig:RightHandIndex2",
+    "mixamorig:RightHandIndex3",
+    "mixamorig:RightHandMiddle1",
+    "mixamorig:RightHandMiddle2",
+    "mixamorig:RightHandMiddle3",
+    "mixamorig:RightHandRing1",
+    "mixamorig:RightHandRing2",
+    "mixamorig:RightHandRing3",
+    "mixamorig:RightHandPinky1",
+    "mixamorig:RightHandPinky2",
+    "mixamorig:RightHandPinky3",
+    "mixamorig:LeftHand",
+    "mixamorig:RightHand"
+   ],
+   "wall_s": 0.0001
+  },
+  {
+   "phase": "contact",
+   "bones": [
+    "mixamorig:LeftArm",
+    "mixamorig:LeftForeArm"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "secondary-settle",
+   "bones": [
+    "mixamorig:Spine2",
+    "mixamorig:Head"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "ambient-expression",
+   "bones": [],
+   "wall_s": 0.0,
+   "note": "Prima_Body:Fac_Mth_Smile=0.35"
+  }
+ ],
+ "hand_hip_dist_m": 0.3944,
+ "final_render_s": 0.5,
+ "retouch_bone_instances": 4,
+ "bones_touched": 50,
+ "posing_wall_s": 0.0001
+}

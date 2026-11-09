@@ -1,0 +1,701 @@
+all right I'd like to be able to preview what I have on the left so wait a minute
+so I have to make some changes to the reddit render settings I'll change the
+device to CPU I'll reduce the sampling the viewport down to 64 you can use any value you want
+but you know this is just a viewport render this is not the final render
+I will go down to performance
+I have a CPU that uses 12 threads
+I don't want blender to use all my computer resources
+right I'd still want to be able to do other things
+so free up resources rather than use all 12 threads I'll use 10
+now that's under performance threads
+fix 10 so now
+while my mouse is hovering over the left viewport I'll hold down z
+and go to rendered
+this is just a quick preview this is not the final render
+just to be able to see what we're doing
+all right you'll notice that in the reference image there's a star field behind our subject
+no I did not model individual stars and put it there no it's just
+it's just a png image
+you simply could just go to google
+type store field png
+and you could use any image you want
+I don't quite remember the specific image I use but
+I have a link to it in the uh in the pdf file
+so we we take a uh
+we create a semi
+I create a semi sphere a half sphere
+and I textured a star field on that sphere
+and that's what it was basically
+so let's do that now
+all right so bear in mind that I have to screen
+cast keys on so you can see what I'm doing
+control uh shift a create a use uv sphere
+all right switch to uh edit mode
+I'm gonna grab the uh the half of the sphere and flatten it
+all right so
+let's see all right
+now I'm in x-ray mode
+a wireframe mode but there's a problem here
+when I select this it only selects the first half
+I'll hit numpad one to look at the front
+if you want to look at if you want to select uh
+the front end the back you have to press this button
+x-ray mode
+I hold b for box selection
+I hold b for box selection
+s for scale
+z to restrict the scaling of the uh
+the z-axis
+then I press zero look at that
+it's flattened
+I'm going to move this up a little bit in gz
+right now I'm in uh local mode or isolation mode
+by uh forward slash you see
+now our scene has a bunch of stuff in there
+it has the uh the subject the lighting
+but we just want to deal with this
+you just uh forward slash and that's it
+now I'm going to look at the top and position
+this uh semi-sphere accordingly
+we wanted to encompass the entire scene
+to maximize the viewport that'll be a control spacebar
+that's a neat little trick
+all right so now this scene is inside the dome
+now we need to bring in our starfield texture
+just highlight it in the uh
+shader editor we create a new shader
+we could just drag and drop our image
+it's a neat little trick
+and with the node uh the node uh wrangler on
+i believe it's ctrl t
+the node wrangler is a uh nice little add-on
+that comes for blender let's see where is it yeah there you go node wrangler
+if it's disabled then that shortcut would not work
+the ctrl t
+this is the starfield image ctrl t
+we get the uh we're able to
+change the uh coordinates of the texture and how it's applied to the dome that we have
+i'm gonna i'm going to connect the texture to the emissive channel
+i'll just give myself more space
+i'll just give myself more space
+set the strap to one
+we're still not seeing anything
+so we have to change the uh base color make it darker and there you go
+our dome is reflective so we need to make it rough
+so i'll set the roughness to one
+and there you go
+now we might be wondering like why do we plug it in the emissive channel instead of
+the the diffuse channel well let's see what happens when we do that
+it won't look quite the same you know let's let's uh
+gotta set the strength now when we see the image we see the star fields we see some of the stars but
+you know it's not it's not prominent
+by plugging it in and by plugging it in the emissive channel we make the
+the stars more you know they pop they glow it's more noticeable
+i disconnected it plug it back in there
+look at that
+we could increase the strength if we wanted but i'm just going to set it to one
+i think this looks fine
+and the mapping and stuff we could uh
+we could change the texture coordinates but i'm just gonna
+leave that alone in fact
+we could probably do without it let's see what happens
+yes it's the same we don't really need it i guess but it's nice to have
+all right now it's time to introduce the lights
+so uh for the time being i guess we could hide the dome
+which is for some reason is all the way over here
+i'd like to organize things better as well
+create folders various folders in the uh
+outliner
+of course you don't have to do this but
+doesn't hurt to be organized
+folder for camera
+lights
+environment
+and i'm just gonna hide the dome
+i'm gonna bring it back later
+the blend file we downloaded already comes with lights
+but we're gonna create our own lights
+so i'm just gonna delete these two
+there's also a background ambient light here
+under world properties
+in a shader editor
+we go here to world to see this
+there's no ambient light
+now typically when you're lighting it's best to start from scratch
+where there's no ambient lighting
+so we could just disconnect this
+and have it pitch black
+and have it pitch black
+now we're starting from scratch
+the only thing we see is the emissive lights from
+her robotic arms
+now when it comes to lighting we're not just going to randomly place lights
+you know lighting is a narrative tool
+there's a story we're trying to convey here
+this is just a simple portrait of her sitting down
+for staring off to the side
+we want to use pleasant colors
+to highlight her
+features
+so i'm going to
+with lighting you know
+typical way we do it is something to call a three-point lighting
+all right let's see
+or we have a
+we have the camera here
+pointing at the subject
+and at 45 degrees there's a key light
+which is the brightest light
+pointing at the subject
+now when you have that light
+it generates harsh shadows
+so we need some way to
+soften those
+shadows
+and that's the purpose of the fill light
+we also want to separate the subject from the background
+so we need a third light called
+a backlight
+or a rim light
+so there's the uh typical lighting method
+used all the time you can see uh
+the effects here just a key light
+wait let me see if i could enlarge this
+this is just with the key light you know you have the harsh shadows
+the side of his face
+the key end rim
+you have these bright highlights on the side of his face
+but we still have the harsh shadows
+key rim and fill now those shadows are gone
+those harsh shadows are gone
+that's just basically what it is
+you see the effects of all three lights
+so we'll we'll try to replicate that in blender
+we won't use
+exactly three points
+but we'll try to follow the uh the principles
+all right
+i will set up the uh
+rim light first
+that's typically how i work
+doesn't matter which type of light you create first
+in fact it doesn't matter how you light it
+it's entirely up to you
+it's all about the story that you want to convey
+so i've created a point light here
+which will be my rim light
+i want to be organized so i move it to the lights folder
+increase it to a thousand
+i position the light behind her
+i'm using a numpad to switch
+to various orthographic views
+this is the front orthographic
+this is the top
+allows me to quickly position the lights
+g to move around
+you can see the effect that's having
+i want to create uh some highlights
+with this light
+it's a point light it's small
+so the transition from
+light to shadows is a harsh
+transition as you can see it's bright
+then when it goes to dark it's just
+you know it's a prop transition
+and that's due to the
+size of the light it's a point light
+if we were to
+make the light larger and the transition
+would be a little softer as you could see
+so we want the highlights to have a
+sharp transition so we've set the radius to zero
+it's the position behind our subject
+i'm looking at the top as you can see top orthographic view
+our cameras right here
+the key light is typically 45 degrees
+from the camera
+so i'm going to duplicate the light that we already have here with shift d
+i would like the key light to be rectangular
+instead of a point light
+over here the green light bulb
+allows me access to various settings of the light
+there's a point light there's a sunlight
+spot light
+area light
+we have the shape of the light which is a square right now
+i would like for it to be a rectangle
+i'm simply showing how i light
+you don't have to do exactly what i'm doing you know
+as i said earlier lighting is a narrative tool
+it's all about the story that you're trying to convey to the audience
+doing exactly what i'm doing is
+you know that's not going to work
+so i'm just going to make it more rectangular
+that's too large
+i'm going to point it at the subject
+it's 45 degrees from the camera
+obviously the key light is way too bright
+so i'm going to try 100
+you don't know what value is appropriate
+you know you have to keep experimenting
+trying various things
+so we have the rim light
+we have the key light
+we could play around the visibility of the various
+objects we have in our scene
+the uh
+the eye icon right here
+it's a good way to see uh what contribution each light makes
+see the rim light here
+look at her look at her hair
+now we enable this and it gives her hair you know some highlights
+and her knees as well
+to reduce confusion we should name our lights
+this will be a rim lgt for light
+key lgt
+now we need to brighten these shadows
+i'm going to duplicate this again
+the power of this will be half
+i'll make this larger
+this will be our fill light
+this will be our fill light
+now what i'm trying to do is replicate the uh the reference
+i don't remember exactly what i did
+you know but i'll try my best to
+replicate
+let's see
+this is the uh contribution of our fill light
+i'll have to keep experimenting
+keep playing around various
+settings
+until i'm satisfied
+i like to play around the colors as well
+make the fill light a little blue
+give the key light an orange or red
+tint
+i'm going to create an additional fill light
+you know it's called three-point lighter lighting but you don't really need three points
+just to highlight her thighs
+a little bit
+that's too big so i'm going to reduce the size
+use a different color
+just playing around
+just playing around
+until i'm happy with eyes with what i uh have
+i think it's too much
+it's just a subtle pink light in the bottom here
+that's the contribution
+shell light
+rim light
+let's bring back the dome
+let's see how
+how that looks
+again it's entirely up to you how you want your scene to look
+i uh
+i encourage you to
+you know play around experiment a little bit
+you don't have to do exactly what i'm doing
+all right
+i'm going to try to create a
+another point light
+just so there's more shine on her chest
+let me mute everything
+this is our old point light
+and all i did was uh duplicate
+it'll be it'll be nice to have you know some more shine on her body
+chest and leg you know
+we'll try that you know
+a lot of experimentation is necessary
+you don't just you know point the uh place the lights in the scene and call it a day you know
+lots of experimentation it's necessary
+let's see how that looks
+i want to do
+yeah i'd prefer
+yeah i'd prefer it
+it was you know shine on her chest
+all right so uh
+of course we're not done
+there's something called volumetrics
+or volumetric lighting
+it gives our scene more depth
+more atmosphere
+makes our scene look more interesting
+all right let's see
+volumetric lighting
+so when there's a light in our scene we could see the uh
+the physical shape
+of the light as it goes through uh
+the fog
+it just makes this scene more interesting
+volumetric lighting is a rendering and photography technique that makes light beams visible as
+they travel through a medium
+such as dust fog or smoke
+adding 3d daff and atmosphere to a scene
+so how do we uh replicate that in blender
+well first i'm going to create a folder
+called volumes
+you don't have to do this but you know
+i want to be organized
+ctrl a
+to create a cube
+i'm going to position the cube around her
+all right
+now we're looking at the world shader
+we want to apply a shader to this cube so we go to object
+new
+delete the principal pts
+principled and shader there
+control spacebar maximize
+we see the material output surface volume displacement thickness we need a volume shader
+so control a principled volume
+plug it into volume not surface
+look at that
+look at the difference that it makes
+to our scene
+obviously it's too thick so
+we could control the density here
+right now it's one so i'll do uh
+0.1 see how that looks
+try a 0.01
+i think i'll go of 0.015
+let me see the difference
+makes the scene more interesting in my opinion
+we should bring back the uh dome
+now our dome is too small and it needs to it needs to encompass the entire scene
+you see some some of the rim lights are outside the dome we don't we don't want that
+scale that up
+our room lights are so bright that it just messes up the background
+so instead of a thousand maybe try 500
+we want the stars to be visible
+we want the stars to be visible
+and we want to maintain the highlights on our body
+let's try a lower number
+let me try something
+so
+let me try something
+our room lights are so bright that it's
+you know screwing up the uh
+star field in the background
+the star field we did a lot of transforms scales and whatnot
+so in order to reset this we have to do ctrl a
+and uh apply scale and that resets it back to one
+another thing is uh the geometry is very faceted
+we want it to be smooth so right click shade smooth
+let's see we had it on
+roughness so i've reduced the roughness
+so now we could see the uh star field more
+of course the uh bottom here is uh
+it's hideous so i'm gonna move that up a little down
+let's see
+all right i think that's
+it's not perfect but
+uh let's see here so our goal is just to try our best to uh
+replicate the reference
+what we do won't be exact you know
+and the image i have here is not
+the scene that i have here is not perfect
+you know you have to spend more time playing around with the lighting
+but it's you know it's the tutorials to you know point you in the right direction
+next we'll discuss
+render settings
+so
+all right here we are
+unfortunately i'm using a low-end gpu
+so it's very necessary for me to
+tweak the various uh render settings
+to ensure that i get a fast render or i render within a reasonable time
+so even when a high-end computer such optimizations are necessary now this next step is uh optional
+now
+i will type cycles
+let's see cycles optimization
+many many many of the tips that i'm about to do come from a particular video
+by uh blender guru
+i believe is this one
+we have got to the point where literally anybody can build a fully working app without knowing how to code
+this is base 44. you ever wonder why your renders
+all right so i will put a link to this video in the description
+i won't explain every little uh thing that i'm changing but just try to follow along
+you know if i explain every little thing i'm doing it this will be a very long video
+so
+so for the uh
+sampling render
+sampling render
+max samples would be 512
+i will disable light tree
+reduce the max bounces
+reduce the indirect clamping
+fast gi approximation will be 2
+everything i'm doing it is uh is explaining that video
+performance
+persistent data
+tile size 256
+what else
+i believe that's it
+resolution i'll do uh
+720p
+i will render in 720p then upscale later
+which is a common uh trick people do they render in low resolution then upscale later
+again i'm using a really
+outdated
+gpu
+geforce gtx 1050ti look at that it's very old card
+so i want to render in a reasonable amount of time
+now before we render
+now before we render when i was looking at the reference i noticed
+she has earrings on
+so there's uh
+some little changes i would like to do before i render
+let me disable the uh the volume and the uh sky dome
+i'll hit end
+go to cloud rig
+and uh look there's earrings
+earring
+look at that
+as for the top
+we're good there's various uh
+cloven that comes with this
+model
+you can use whatever you want of course
+i'm just gonna go zero
+this is uh
+properties
+skin
+upper weight
+vest none
+there's the coat
+again it's entirely up to you what you want to do
+i'm going to keep the coat on
+there's a plethora of options here
+just a bracelet
+it's the style of stockings
+i'm gonna bring this back to one
+all right now for the camera
+we have
+i want to render with uh
+duffer field
+so uh
+you'll see that plus sign here
+i want the viewport
+display show limits
+the focal distance
+that plus sign represents the focal distance
+i'm going to push it like so
+we want the subject to be in focus
+and the background be blurred
+so we change the blurriness to the f-stop
+aperture
+f-stop
+right now it's 2.8
+you put it to a low value it
+blurs everything else
+let's see what 2.8 looks like
+i guess we'll leave it at that
+when we render there'll be uh
+we have the option of rendering of extra information
+that could uh
+help us with post-processing
+post-processing is the act of
+taking your rendered image
+and uh
+improving upon it
+make it better make it uh
+you know we could play around the colors the contrast
+beautify it
+that's the uh step we'll take after every render
+we could render of extra information that'll help us to post-processing
+i'm going to enable
+volume direct and admission
+maybe uh ambient inclusion
+i think that's that's uh
+it's good enough for now
+for a final render i'm going to use the gpu
+even even though my gpu is old
+it still renders faster
+than the cpu
+i'll tr i'll change uh
+thread mode
+so it's gpu and auto detect
+threatens mode all right
+i'm going to save
+finally i'm going to render image
+all right so this is the uh rendered image
+it took five minutes and nine seconds
+upon rendering this i noticed that the uh
+the rim light on her chest
+as a sharp transition
+that's something you want to avoid
+you know it doesn't look nice
+so i'm going to have to
+it's not a big deal but you know
+it bothers me
+i don't like it
+so i'm going to have to go back in there and fix it
+well how do you fix such a problem
+well the sharp edges are
+due
+due to the uh size of the light
+we used a point light here
+for radius of zero
+for radius of zero so it's a point
+so we just make it larger
+and the uh
+sharpness
+should be gone
+i'll try 25
+i'll try 25
+or 0.5
+yeah i think that's a little better
+all right
+and nothing i forgot to do was
+set the noise threshold to 0.03
+perhaps it'll render quicker now
+all right let's let's see
+all right this is our rendered image
+it took two minutes and 44 seconds so that was a little
+that was a quicker than before
+because i i changed the uh noise threshold
+and you can see the uh the light on our chest is much smoother
+but as a consequence of adjusting the noise threshold we have some artifacts down here
+in here
+but uh you know we'll go for it anyway
+yeah i'm going to go ahead of post processing anyway
+so to go to to composite your rendered image you simply go to
+the compositing workspace
+and uh
+you'll have this here
+you could create another pane
+by dragging like so
+changing this to image editor
+going here
+typing a viewer
+so now we could composite while
+we see the results on the left
+so
+the extra information i was talking about was
+volume direct emission and ambient occlusion so
+we will incorporate that right now
+yeah you uh wait a minute
+here shift a
+shift a
+we'll drop down a mix
+mix color node
+take the image
+take the image
+the rendered image
+and the ambient occlusion
+now the ambient occlusion
+looks like this
+wait a minute
+that can't be right
+let's see
+that's weird
+that's weird
+well cycles includes ambient occlusion anyway so we don't have to worry about it too much
+i'll mix in the uh volume direct instead
+have this be add
+we already have a volume
+we already have a volume so it's like we're rendering another volume on top of the image
+this is how i work this is what i do you don't have to
+do that
+you may find it unnecessary
+next i'll incorporate the emission
+her arms have a emissive material
+as you can see
+we could add a glare node
+here
+turn down the threshold
+make it blight uh brighter
+it affects the stars in the background as well
+makes the colors more punchy
+so we incorporate
+volume and emission
+we have to do it but you know it's just an effort to make things
+more appealing
+it's just an effort to make sure
+so we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+and we're going to be working on the surface
+I will apply a glare node over everything
+not just the emission
+again m for before and after
+now the glowy makes it uh
+heavenly you know
+of course that's what I want to convey to the audience
+you know like
+attractive woman you know
+I don't do high quality
+this this is too strong
+you got to experiment just like with lighten
+you know there's no
+magical formula to it
+I'll duplicate uh duplicate this
+shift d and go to streaks
+[SEAM chunk2 +3300s]
+Now, this effect is too aggressive, obviously, so I'll reduce it to 2, and adjust to fade,
+like so. We want the effect to be subtle. I think the glow is a little too strong.
+You could go back in the chain and make changes. The changes will propagate forward, so that's
+the advantage of using nodes.
+The advantage of a node-based workflow. Now, the glare, you know, it's not required,
+you know, it's just a stylistic effect, to make things pretty. We could also do a lens
+distortion, which is another stylistic effect. There's distortion, dispersion.
+You'll see the effect of it. Obviously, it's too strong.
+I'll try 0.06. It's supposed to be a subtle effect. I don't want to overdo it.
+You could play around the color balance, as well.
+Again, very subtle. Don't want to go too much with this.
+And, uh, you would remember that we rendered at 720p.
+So, I'm going to upscale it, dropping down a scale node.
+And, this is our final image. Composite it.
+Alright, this is our final image.
+In the image editor, you could go to image, save, then, uh, change it to, uh, PNG or JPEG or whatever.
+And, you could take your rendered image to, uh, perhaps you could use it in the, uh, AI, uh, image upscaler.
+There's several of these online.
+Again, completely optional. You don't have to do this.
+When you scale images too much, you know, it doesn't look right.
+It's artifacts and stuff. So, this may, uh, necessitate the, uh, the use of AI.
+Like here, this one makes a subtle difference.
+I know many people have a hostile, uh, perspective on AI.
+Here, uh, now this one, her face looks much sharper here.
+I kind of like this.
+Like this, this, this, this is the original.
+This is the AI.
+It's much sharper.
+I, uh, I kind of like it.
+Alright, that's it for this tutorial.
+Be sure to leave a comment.
+I'd like to hear some, uh, suggestions on what I could do to improve.
+If I should make more tutorials.
+Uh, be sure to take, uh, check out the Patreon.
+It will encourage me to make more.
+And, uh, I guess that's it.

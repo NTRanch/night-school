@@ -1,0 +1,50 @@
+[
+ {
+  "pair": "MATCH recreated vs renderer beauty (Image)",
+  "mean_abs_diff": 1.6876950326150109e-07,
+  "max_abs_diff": 3.337860107421875e-06,
+  "rms_diff": 2.6894542770605767e-07,
+  "hash_a": "3aa806b1aeaa4a97a9025775ded8aac2a2d56f312a9875568645b7daf9468db5",
+  "hash_b": "e6cc01dfaa74b53f87e768b2a0807bc3f07367b95aa2547bcdab6486f0380d4e",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 2.1790123456790123,
+  "pct_pixels_beyond_0.0001": 0.0,
+  "pct_pixels_beyond_0.00392157": 0.0
+ },
+ {
+  "pair": "denoised recreation vs renderer beauty (Image)",
+  "mean_abs_diff": 0.01951087825000286,
+  "max_abs_diff": 1.0742679834365845,
+  "rms_diff": 0.04867950826883316,
+  "hash_a": "3e80e0748e92e857291fb0222b914d04dc6812a172445ead524e825f45856acb",
+  "hash_b": "e6cc01dfaa74b53f87e768b2a0807bc3f07367b95aa2547bcdab6486f0380d4e",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 100.0,
+  "pct_pixels_beyond_0.0001": 99.99922839506172,
+  "pct_pixels_beyond_0.00392157": 82.41435185185185
+ },
+ {
+  "pair": "MODIFY variant vs recreated_denoised",
+  "mean_abs_diff": 0.14870914816856384,
+  "max_abs_diff": 0.709913969039917,
+  "rms_diff": 0.19780400395393372,
+  "hash_a": "43268dc576abed214708fab3147b3e607d2d2b965225934db5cf8657a23c0c1a",
+  "hash_b": "3e80e0748e92e857291fb0222b914d04dc6812a172445ead524e825f45856acb",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 100.0,
+  "pct_pixels_beyond_0.0001": 100.0,
+  "pct_pixels_beyond_0.00392157": 99.9945987654321
+ },
+ {
+  "pair": "MODIFY variant vs recreated (raw)",
+  "mean_abs_diff": 0.15611964464187622,
+  "max_abs_diff": 1.0908713340759277,
+  "rms_diff": 0.2032763808965683,
+  "hash_a": "43268dc576abed214708fab3147b3e607d2d2b965225934db5cf8657a23c0c1a",
+  "hash_b": "3aa806b1aeaa4a97a9025775ded8aac2a2d56f312a9875568645b7daf9468db5",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 100.0,
+  "pct_pixels_beyond_0.0001": 100.0,
+  "pct_pixels_beyond_0.00392157": 99.99537037037037
+ }
+]

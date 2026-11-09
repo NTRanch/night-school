@@ -1,0 +1,299 @@
+Welcome to another video from the dojo. This is Kaido3D and today we're going over the animation
+system. This is going to be part of a crash course that we're trying out here in the dojo.
+For the next couple weeks we'll be going over a few key concepts that are kind of foundational
+to getting you ready for animation and then at some other point we're going to have kind of
+a deeper dive into like process workflows and things like that. Today I'll be joined with some
+of the other students in the dojo. They'll be asking me questions throughout. We'll be focusing
+on the motion path and the graph editor itself. So as a few notes for everyone else, I use right-click
+select to do my selection. So when you see right-click it'll say select underneath my monitor.
+Um, if you're using left-click select, it'll be the same for you. That's the same. Um,
+how I'm going to do this today is I'm really kind of taking away like the bouncing ball tutorial and
+just converting it into a sex tutorial. Um, y'all can feel free to ask questions or stop me at any
+point in time. We're going to include that in the recording no matter what. Um, and yes, I am recording
+everything. Um, so try to keep your gamer words to a minimum. Um,
+yeah, aside of that, we'll just get right into it. Um, so I'm going to split my window from the
+bottom and I'm going to put in a dope sheet. Now the three things I want to go over today
+to look over stuff for animation more specifically is the dope sheet, the motion graph or the motion path
+system and the graph editor. All three of those things lead you to the same information. And that's
+really kind of the more important part to think about. Um, there is a billion different ways to actually
+animate. Um, what these tools offer you is either a debug into what's going on with your animation or
+more fine grain controls to actually deal with what's going on animation. Um, for this one,
+we're going to set it as a 30 fps animation and we're going to, um, do two rotations in that time frame.
+So, to reset my timing properties panel and I will hand it to this file at the end. So let's see,
+frame rate set to 30, frame start ends down to 30. Um, I'll try to make sure I call out my hotkeys
+throughout. Um, I do rely a lot more on hotkeys than buttons, but I will also, um, try to show you
+the menu that leads to something not just rely exclusively on the hotkeys. Um, so all in large,
+it's just going to be a cowgirl animation because that is the easiest thing to translate between
+quote unquote, the basis of animation and what we want to do. Um, or less, we're going to be doing it
+quote unquote, pose, um, pose the pose instead of a straight ahead. And because that gives us some time
+to look at some of the other features between the graph editor and the motion graph. Give me one
+second, I gel over. So I actually see some people mentioned anything speaking.
+Yep. I don't see sex. All right. So I've already put down a basic hotkey for the initial position.
+For the characters. Um, what you'll see is the hotkey K that pulls up the keyframe menu. Oh, uh,
+two that changed it from I to K
+So you can either apply keyframe a couple of different ways. You can either go up to a value and click,
+right click on it, and it'll give you the insert keyframe, uh, or insert single key. Um, you can also do
+inside the, um, the dope sheet, you click on the key menu, insert keyframes, and it'll give you a submenu
+for all groups, only set the channels in active group. Usually you want to do all channels, unless you have
+a specific reason to use these other two, uh, we'll explain what these do at a time.
+So for this, I'm just going to press A to select everything.
+I'm going to press K to bring up my menu and I do location rotation and scale.
+I'm leaving out custom properties because I don't want to mess with the properties in this particular animation.
+And you can see that everything has worked correctly when you see values turn yellow. Yellow means that it has been changed.
+So now that we are in the top part of
+animation, you're just going to go
+see the halfway point will be 15.
+If we're doing it twice in one animation, that means we have to do
+about seven as our halfway point.
+So I'm just going to grab the hip control.
+I'm going to press G, press Z, drag the body down.
+And the knees are collapsing, so we're going to have to fix that here in a second.
+So we're going to press K again, rotation of scale, drop that.
+I have X mirror on for this to make my life a little bit easier.
+So I don't have to do things at the same time.
+Spend some time, some of this to get it.
+I think I might have put the feet too far too close forward actually.
+How did the legs cross?
+Okay, so now that we have effectively our first
+cycle in it of up and then down, we're just going to take this first keyframe.
+So I'm going to select everything in the viewport to make sure I grab it all.
+To grab this key, my head over here, make sure this is grabbed.
+And then I'm going to hit shift D to duplicate it.
+And I'm going to put this all the way to frame 15.
+Zoom in so we see the rest of our numbers.
+With that, I hit the home key and the home key gives me a full-fledged view.
+You can do view frame selected.
+frame all that you want, the home key.
+That gives you all the keyframes that you have.
+And as doing for the key, if you want to duplicate it, it's shift D to duplicate it.
+Or you can use the key menu and click duplicate and that gives you the ability.
+All right, so.
+Hold on one second, I think I have an extra.
+This is a particularly boring animation at the moment.
+Up and down, right?
+So as you can tell right now, mine doesn't have any interpolation between the keyframes.
+Because by default, mine is set to steps.
+So if you were doing yours.
+So if I select everything and hit the hotkey T to bring up interpolation.
+What you would probably have is linear animation by default.
+Where it smoothly goes between the keyframes.
+What we can do is change this interpolation to change the timing of the animation.
+Between these two keyframes.
+So when we have T, the ones you're probably going to use the most are on this
+interpolation line right here.
+So there's constant.
+Which that just means, if I have everything set correctly.
+That the frame doesn't change until a key is hit.
+It will hold the keyframe.
+The other one that we have that we didn't show is Bezier.
+Right?
+Now Bezier doesn't really show you anything immediately.
+So the way to see what Bezier does is to switch from the dope sheet into the graph editor.
+You have a bone selected.
+By default, you have this selected only key box here.
+And this shows you a little bit more about what's happening inside the keys.
+So it's a little hard to see right now.
+So we're going to press home again to frame out the entire animation.
+And right here, this line right here is the Z line.
+So you can tell what you're looking at is you look over here on the side panel.
+Which if this is not viewed, if you can't see this frame, you should be able to just pull it out.
+And this might be folded up into this menu right here.
+So if you click on the channel group, it'll show you exactly what you have selected.
+What we're looking at here is the Z location.
+Everything else is remaining constant, so that'll be a straight line.
+So the way we can tell is going on here is if we go in here and I hide everything.
+So we're going to hide all the other frames here.
+And I'm going to press home to give myself a full framing.
+This is what happens when you use the Bezier.
+It will add kind of this s-curve slope to your animation.
+Right?
+What we're looking at here when we're looking at this graph editor is two axes.
+The x-axis is a value.
+So you can see here as I scroll through the animation.
+Right?
+So this is negative 55 on the x-axis.
+And this corresponds to approximately what the location is in the transform channel.
+Right?
+And as I go all the way down to here, I end up at negative 6 right here.
+And then I come back all the way up.
+So this is just the measure of how much you're going.
+Right?
+The y-axis is time.
+Right?
+Right now measured in frames.
+So I'm saying that it takes us seven frames to get to the bottom.
+And then another nine to get to the top.
+Right?
+And that's how we can tell that our animation is quote unquote even.
+I'm actually, since that was on frame 16.
+To make this actually properly halfway, we can only put it on 15.
+Like we'll deal with that particular numbers.
+Okay.
+So what we're going to do is try and make this a little bit more interesting.
+So we're going to go back to the dope sheet.
+And I'm going to reset this back to constant.
+The reason I'm doing that is because when you're doing stuff in the dope sheet and you use this
+interpolation key, you're effectively telling Blender, hey, figure out the animation for me.
+We don't actually want Blender to try and figure things out because it's just going to guess.
+We're going to try and put more information into the animation so that Blender isn't guessing so much when we go to what's called splining mode, which is turn everything to bezier handles.
+So for my interpretation of this, right, I'm going to want Shawnee to stay in the lowered position a little longer.
+So a quick and easy way to do that is if I take this, if I right click this keyframe right here, duplicate it, and I'm just going to move it over to frame eight.
+Hold on one second.
+So now that we've taken that, I've added this extra point of her sitting down a little further.
+Looking at it, I probably want to actually have her go like a little deeper throughout this.
+So what I'm going to do is I'm going to move this frame a little one frame out in between these two keyframes.
+I'm going to come even further down like a like a like an overshoot.
+And then I'm going to keyframe that.
+And so now tap down, overshoot, come back up, back to formal pose, right?
+Now, if I take this, if I select everything, I come into here with ISO.
+I used A to select everything in the 3D viewport.
+Then I used A to select everything inside the dope sheet to press T for my interpolation.
+I'll click, click bezier again to take a look at how the animation is coming across.
+And that's kind of all right.
+It's a little bouncy for what I want.
+So I need to adjust the timing some more.
+So that means I need more time in between these.
+So what I can do, here's a neat little trick.
+If I select the two keyframes that I'm looking for, let's see, there it is.
+For some reason, my computer didn't grab that.
+I can, you can click and drag to do a box selection here.
+And I'll move the cursor over here.
+And if I press S, I can scale the keyframes.
+And it scales away from the playhead.
+So if I want to like add time relative to a bunch of keyframes,
+I can use my playhead as a kind of a pivot point to move things around.
+So now that I move those keyframes, let's play it again.
+Let's see.
+Oh, I'm using, sorry, that was something I didn't mention.
+I'm using spacebar to play it, but I'll use the actual timeline to play here from here on.
+And I need to change my frame range so that it stops.
+One frame, four, so it loops a little better.
+All right, cool.
+This is getting a little better.
+With a more complex animation, you need to like probably do a lot more.
+But the next part I want to look at here is like controlling the timing from going down to up.
+So here, I kind of want her to be going down much faster than we're currently doing.
+So what I'm going to do is, again, I'm going to box select.
+So I'm going to fold this up so I have a little bit of time selecting things.
+I'm just going to grab these and move it over here.
+So this takes her five frames to get to the bottom.
+Two frames to go even deeper.
+I think I'm going to have two frames to come back up.
+And that makes it so that she takes longer to actually get all the way up to the top.
+Now, one thing that I'm seeing here, and actually what I'm going to do is I'm going to use Shift+H to hide everything but the control I'm looking at.
+I'm still having a little bit hard time trying to visualize like where the pelvis is throughout this entire thing.
+So one thing you can do is if you go to the properties panel, and you go to this object data frame right here for the armature is green running man while you're in pose mode for the armature.
+There's this motion paths value.
+What this does is it draws a...
+Well, for me it's green, but it'll draw a visual line between the relationships for all of the bones you have selected when you click the button.
+So I'm going to click calculate.
+It'll prompt me with what I need to look at, and then I click calculate.
+And what you'll get is a kind of like a heat map.
+So where is blue is where the actual animation is at that moment.
+And red represents where the animation has been.
+So like you see that I'm on my way back up.
+So the frames behind it are red.
+Green is where it's going.
+Blue is where it is.
+Some things you can see on here, they're a little difficult.
+Give me a second.
+Let me see if I can make these a little bigger for you.
+Color sense.
+Frame seven.
+Frame nine is in the exact same place as five.
+And then we go all the way back up.
+And that would be where one is, right?
+So what we're looking for when we're talking about this sort of thing is I'm looking at the spacing
+between these dots, right?
+Because I'm seeing as I get closer that the spacing is slowly increasing until I get to the point where
+I'm doing this dip right here.
+And then the spacing doesn't continue as fast as I would like it to.
+So I can't see what's actually happening on like visually here on the motion path inside the dope sheet.
+So to actually get an idea of what's happening here, I need to switch to the graph editor to understand why I am losing space here.
+So if I go back to the graph editor and I frame it, so I can kind of see what's going on here.
+I start slow, right?
+And I start falling, falling, falling, falling, falling.
+But then this curve right here tells me that my acceleration is kind of falling off right here.
+So what I need to do here, Blender has assumed, like earlier, when we pressed "A" to select everything "T" and we did "Bezier".
+Blender assumed I wanted a smooth curve here.
+For this section, I don't.
+So what we're going to do is I'm going to click on this time stamp right here for this keyframe.
+And then I'm going to press "V", which you can do this in the key menu and it's handle type, right?
+So the one we want for this one.
+So if we do "Free", nothing really happens.
+What that means is these handles right here will move independent of each other, right?
+And that's kind of not what I want.
+What I really want is I want something that makes this a straight line coming in and out.
+So what I can do is I'm going to select it again.
+I go "Aligned", and that doesn't help me.
+So if I move one side of the handle, the other handle will move the opposite way and proportional.
+So like if I pull it out this way, you see how it tilts?
+So undo that, that's not what I want.
+Next one is "Vector".
+Now "Vector" gives me what I want here, where it makes the handle point at the previous point on the graph.
+And so I want this one to also point because you see, I'll back up for a second.
+So if I go select the line so you can see it more clearly, I'm going to draw this window up.
+Right?
+When I go here and I press for "Vector", I'm still getting a little bit of a curve here.
+Right?
+So what I'm going to do is I'm going to select this one, this one, and then I'm going to say "Vector".
+Right?
+But see, that causes it to break at the other hand, so I don't get that smoothing that I was looking
+for before.
+So we can zoom out here and observe the animation as I come back out here.
+I'm going to play it again.
+Right?
+And I'm kind of getting this like weird on the downstream, like it just doesn't feel
+smooth anymore now that I've done that.
+So we're going to undo what I did.
+So we're going to leave this as vectored, and then we're going to turn this to free.
+And what that allows me to do is it allows me to take this side
+and shape it how I want for terms of speed.
+And I'll do the same thing on the opposite side.
+I'm going to select it, press V, select free.
+And I'm going to make the graph point at each other.
+Right?
+A good way is you can just make sure the dots are going towards each other.
+And this should try to do that for you.
+And now if I back out for a second and play the animation back.
+Now I'm getting the smoothness that I want, where she doesn't really stop moving
+until you get to the very bottom of this is a very sharp drop.
+And then it comes right back up.
+And that's exactly what I'm looking for.
+And so like, that's kind of the highlight between looking at
+the dope sheet versus looking at the graph editor.
+Because if I pause this, if I go back to the dope sheet,
+this doesn't tell me any of that information.
+There's no way for me to understand what's going on here.
+Right from this, I just see that I'm moving.
+I'm looking at the values, but I don't have control
+over what's happening between these.
+When I get to the graph editor,
+this is when I can get that detail.
+But like when I'm trying to like set down my initial keyframes,
+this is probably a little too much to see.
+So that's why usually you don't really come into this mode
+until after you've made your initial keyframes.
+One additional thing I want to note, because if you're paying, yeah.
+If you were looking at my keyframes here,
+my symbols have changed here.
+When you make changes to the type of
+key that you've made with the V key, it will also change the symbol.
+So let me move this off.
+So that's a little more clear.
+So I'm going to undo this in a second.
+But if I switch this all to aligned, it is now a diamond, right?
+If I said it's automatic, get a circle with a dot.
+So it's auto clamped.
+It's a circle with nothing in there.
+And if I switch back to vector, it's a square.
+Right. So once you get to the point of doing certain things,
+you'll learn which key, which keyframe type you want for each sort of thing.
+You can try and get like a, a very general sense of this sort of situation
+by just kind of having an overview of your dope sheet.
+But really, you're, you're, you're going to dive into the graph editor to set this on a kind of a per channel basis.
+All right.
+And so looking at the time, um, so next time we come to the video, um, we're going to take this
+initial pose and we're going to push it into the next rotate, the next, um, cycle.
+And we're going to show how to make sure that an animation is cycling perfectly between each rotation.
+Thank you.

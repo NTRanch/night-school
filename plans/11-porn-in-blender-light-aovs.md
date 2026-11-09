@@ -1,7 +1,7 @@
 # Plan 11 — How to Make Porn in Blender — Light AOVs
 
 - **Source:** https://rule34video.com/video/4316378/how-to-make-porn-in-blender-light-aovs/
-- **Video ID:** 4316378 · **Duration:** 19:15 · **Creator:** (category listing shows none — record at intake)
+- **Video ID:** 4316378 · **Duration:** 19:15 · **Creator:** divinitystudiox (member 4570966; recorded at intake, runs/plan-11/INTAKE.md)
 - **Lane:** NSFW-primary in examples / SFW translation: AOV compositing is universal render craft
 - **Estate targets:** Keeper stills and renders in both lanes, the Blender still pipeline of Plan 02
 - **Status:** PLANNED
@@ -42,3 +42,21 @@ PASS = three distinct, credible relights from one render's passes. FAIL = name w
 ## Deliverables
 
 - `results/plan-11-porn-in-blender-light-aovs/` — technique sheet, rebuild record, gate result.
+
+
+## Errata (Plan 11 run, 2026-11-06 — local copy only)
+
+- **Title misnomer:** the video's mechanism is Blender
+  **Light Groups**, not shader AOVs — no Shader AOV is
+  created anywhere in the video; the creator uses "AOVs"
+  loosely in narration for the pass set he enables
+  (light groups + Volume Direct + Emission + AO).
+  Evidence: runs/plan-11/OBSERVATION.md §1–2.
+- **Premise note:** the source scene's four lamps are all
+  Point lights (the "key" included), and the finished comp
+  also adds the ungrouped Emission and Volume Direct
+  passes back — the group sum alone is not the beauty in
+  his scene (Σ groups + remainder identity; estate
+  measurement in runs/plan-11/PASS3-REBUILD.md).
+- **Duration verified:** 19:15 (JSON-LD PT0H19M15S);
+  renditions top out at 720p (no 1080p exists).

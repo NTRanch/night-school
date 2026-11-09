@@ -1,0 +1,33 @@
+{
+ "nsfw": {
+  "strip": "pass4-strip-nsfw.png",
+  "strip_pixel_hash": "1e212b57e4494a902e71f333903a268ae98caa1e7567eb3aef75ea1a29efec82",
+  "dead_consecutive_pairs": 0,
+  "first_last_identical": false
+ },
+ "sfw": {
+  "strip": "pass4-strip-sfw.png",
+  "strip_pixel_hash": "cde136ee375ff1dd1a742efa9ebf6e7c2de35b4ba541390a1828f54f1e064374",
+  "dead_consecutive_pairs": 0,
+  "first_last_identical": false
+ },
+ "measurements": {
+  "wrap_step": -0.0,
+  "spacing": [
+   0.009,
+   0.003,
+   -0.013111,
+   -0.018444,
+   -0.010444,
+   0.008556,
+   0.008556,
+   0.012889,
+   0.002222,
+   -0.001111,
+   -0.001111
+  ],
+  "max_constant_spacing_run": 2,
+  "settle_overshoot_past_rest": 0.002222,
+  "approach_spacing_into_settle": 0.012889
+ }
+}

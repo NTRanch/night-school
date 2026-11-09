@@ -41,3 +41,31 @@ PASS = taxonomy written, mapped against current gate checklists, gaps named. A d
 ## Deliverables
 
 - `results/plan-35-how-not-to-make-renders/` — technique sheet, rebuild record, gate result.
+
+---
+
+## ERRATA (appended 2026-11-06 by the Plan 35 study run, local copy only)
+
+- **Premise REFUTED at Pass 1.** The video at this URL is not a
+  failure catalogue: it is a 20:29 behind-the-scenes Blender
+  screen-recording of the creator posing two characters for a
+  fan-fiction comic scene, set to music — no narration, no
+  named defects, no stated causes, no defect examples. The
+  watch page's own description said so at intake ("Behind the
+  scenes of a romantic fan fiction comic…"); the plan's
+  premise, written from the title, was wrong. Full evidence:
+  `runs/plan-35/OBSERVATION.md` §1/§4/§6 (claim C-35-1 REFUTED).
+- **Creator (as seen on the page):** recorded by
+  **shadowyartsdirty**; uploaded by **shadowyartsporn**. The
+  plan's blank creator field is filled by the run's INTAKE.md.
+- **Licence:** none stated on the page (verified by full-text
+  search at intake) — study-only posture.
+- **Run outcome:** Gate PASS in adapted form — the
+  video-derived taxonomy is empty by evidence; the candidate
+  gate checklist was re-sourced to this plan's pre-viewing
+  categories + the estate's own defect record, exercised on
+  20 artifacts, and mapped against current checklists with
+  gaps named (`runs/plan-35/PASS3-CANDIDATE-CHECKS.md`,
+  `PASS4-APPLICATION.md`). Headline gaps: no checklist for
+  flat/unlit reads or the 3D-render lane; no stills checklist
+  for two-body contact/interpenetration.

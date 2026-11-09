@@ -2,6 +2,7 @@
 
 - **Source:** https://rule34video.com/video/3212709/how-to-make-porn-in-blender-basics-images/
 - **Video ID:** 3212709 · **Duration:** 43:55 · **Creator:** (category listing shows none — record at intake)
+- **ERRATA (run 2026-11-06, local copy only):** Creator AS SEEN is **Anime Nyan** (member 807029; page `video_models` field + spoken intro self-identification) — the category listing's blank was a listing artifact, not anonymity. Duration 43:55 is **CORRECT** (capture-verified 2635.418 s, full decode rc=0 — a corpus exception alongside Plans 34/37). Licence as seen: CC0 (JSON-LD description verbatim). See `runs/plan-41/MANIFEST.md`.
 - **Lane:** NSFW-primary in examples / SFW translation: still-image fundamentals
 - **Estate targets:** Keeper stills — the "Basics" companion to Plan 40
 - **Status:** PLANNED

@@ -1,0 +1,2694 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/usr/share/whisper.cpp-model-large-v3-turbo/ggml-large-v3-turbo.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:08,280"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 8280
+			},
+			"text": " all right hello and welcome for this tutorial we will recreate this image"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,280",
+				"to": "00:00:20,180"
+			},
+			"offsets": {
+				"from": 8280,
+				"to": 20180
+			},
+			"text": " this render I did Tifer from Final Fantasy 7 we will employ a feature"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,180",
+				"to": "00:00:29,480"
+			},
+			"offsets": {
+				"from": 20180,
+				"to": 29480
+			},
+			"text": " called light groups which allow us to change properties of our lights after"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,480",
+				"to": "00:00:44,740"
+			},
+			"offsets": {
+				"from": 29480,
+				"to": 44740
+			},
+			"text": " re-render and so this is a very powerful feature in blender we could change the"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,740",
+				"to": "00:00:51,360"
+			},
+			"offsets": {
+				"from": 44740,
+				"to": 51360
+			},
+			"text": " intensity to light like so"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,100",
+				"to": "00:00:57,920"
+			},
+			"offsets": {
+				"from": 54100,
+				"to": 57920
+			},
+			"text": " we could change the color"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,960",
+				"to": "00:01:03,300"
+			},
+			"offsets": {
+				"from": 58960,
+				"to": 63300
+			},
+			"text": " it goes from red to green"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,300",
+				"to": "00:01:14,840"
+			},
+			"offsets": {
+				"from": 63300,
+				"to": 74840
+			},
+			"text": " and of course you could see the power of this we could change these properties without having"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,840",
+				"to": "00:01:15,400"
+			},
+			"offsets": {
+				"from": 74840,
+				"to": 75400
+			},
+			"text": " to re-render"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,400",
+				"to": "00:01:20,640"
+			},
+			"offsets": {
+				"from": 75400,
+				"to": 80640
+			},
+			"text": " so it's a useful thing to"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,640",
+				"to": "00:01:26,140"
+			},
+			"offsets": {
+				"from": 80640,
+				"to": 86140
+			},
+			"text": " to know about it could save you a great deal of time"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,140",
+				"to": "00:01:43,520"
+			},
+			"offsets": {
+				"from": 86140,
+				"to": 103520
+			},
+			"text": " all right this is my scene right here it's a very simple scene you just have T for standing there"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,520",
+				"to": "00:01:47,180"
+			},
+			"offsets": {
+				"from": 103520,
+				"to": 107180
+			},
+			"text": " I have four lights"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,180",
+				"to": "00:01:51,860"
+			},
+			"offsets": {
+				"from": 107180,
+				"to": 111860
+			},
+			"text": " preview window down here"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,860",
+				"to": "00:01:54,280"
+			},
+			"offsets": {
+				"from": 111860,
+				"to": 114280
+			},
+			"text": " wait one second"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,280",
+				"to": "00:02:12,760"
+			},
+			"offsets": {
+				"from": 114280,
+				"to": 132760
+			},
+			"text": " you probably think that I modeled the uh the cabin the uh the building back there nope"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,860",
+				"to": "00:02:16,240"
+			},
+			"offsets": {
+				"from": 132860,
+				"to": 136240
+			},
+			"text": " it's just a simple plane"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,240",
+				"to": "00:02:19,440"
+			},
+			"offsets": {
+				"from": 136240,
+				"to": 139440
+			},
+			"text": " look at that"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:19,440",
+				"to": "00:02:22,540"
+			},
+			"offsets": {
+				"from": 139440,
+				"to": 142540
+			},
+			"text": " I downloaded it"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,540",
+				"to": "00:02:29,380"
+			},
+			"offsets": {
+				"from": 142540,
+				"to": 149380
+			},
+			"text": " off google you know Final Fantasy 7 background wallpaper"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:29,380",
+				"to": "00:02:35,960"
+			},
+			"offsets": {
+				"from": 149380,
+				"to": 155960
+			},
+			"text": " it's just an image that's on the plane here"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,960",
+				"to": "00:02:49,760"
+			},
+			"offsets": {
+				"from": 155960,
+				"to": 169760
+			},
+			"text": " the image is loaded here plugged into the uh emissive channel if I put that to zero it's gone"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:49,760",
+				"to": "00:03:05,640"
+			},
+			"offsets": {
+				"from": 169760,
+				"to": 185640
+			},
+			"text": " so as to view you have the illusion that you know you have a complicated scene here you have T for standing in front of a building but you know it's not it's not even a building it's just a plane"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,640",
+				"to": "00:03:12,220"
+			},
+			"offsets": {
+				"from": 185640,
+				"to": 192220
+			},
+			"text": " so it's not it's not it's not it's not a nice little trick you could do"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:12,220",
+				"to": "00:03:28,600"
+			},
+			"offsets": {
+				"from": 192220,
+				"to": 208600
+			},
+			"text": " I have four lights I mean uh I got a key light here which is above the camera"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:28,600",
+				"to": "00:03:49,560"
+			},
+			"offsets": {
+				"from": 208600,
+				"to": 229560
+			},
+			"text": " fill light down here second fill light down here second fill light"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,560",
+				"to": "00:04:09,940"
+			},
+			"offsets": {
+				"from": 229560,
+				"to": 249940
+			},
+			"text": " you can see the properties of it color and power and the rip light it's a point light over here"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,940",
+				"to": "00:04:19,320"
+			},
+			"offsets": {
+				"from": 249940,
+				"to": 259320
+			},
+			"text": " and I got a fog box here"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,320",
+				"to": "00:04:37,700"
+			},
+			"offsets": {
+				"from": 259320,
+				"to": 277700
+			},
+			"text": " you can see the effect of the uh fog just makes our scene more interesting"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:37,700",
+				"to": "00:04:45,800"
+			},
+			"offsets": {
+				"from": 277700,
+				"to": 285800
+			},
+			"text": " it's a volume shader volume scatter"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,800",
+				"to": "00:04:56,720"
+			},
+			"offsets": {
+				"from": 285800,
+				"to": 296720
+			},
+			"text": " all right"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:56,720",
+				"to": "00:05:03,460"
+			},
+			"offsets": {
+				"from": 296720,
+				"to": 303460
+			},
+			"text": " we want to uh achieve this functionality where we could"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:03,460",
+				"to": "00:05:08,500"
+			},
+			"offsets": {
+				"from": 303460,
+				"to": 308500
+			},
+			"text": " change properties of our light have to render"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:08,500",
+				"to": "00:05:17,640"
+			},
+			"offsets": {
+				"from": 308500,
+				"to": 317640
+			},
+			"text": " and we do this using light groups"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:17,640",
+				"to": "00:05:22,820"
+			},
+			"offsets": {
+				"from": 317640,
+				"to": 322820
+			},
+			"text": " so I'll show you how to do that"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,820",
+				"to": "00:05:27,520"
+			},
+			"offsets": {
+				"from": 322820,
+				"to": 327520
+			},
+			"text": " we go to view later"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:27,520",
+				"to": "00:05:30,120"
+			},
+			"offsets": {
+				"from": 327520,
+				"to": 330120
+			},
+			"text": " and we scroll down"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:30,120",
+				"to": "00:05:41,340"
+			},
+			"offsets": {
+				"from": 330120,
+				"to": 341340
+			},
+			"text": " so if everything is minimized you just"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,340",
+				"to": "00:05:44,740"
+			},
+			"offsets": {
+				"from": 341340,
+				"to": 344740
+			},
+			"text": " go under passes"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:44,740",
+				"to": "00:05:52,440"
+			},
+			"offsets": {
+				"from": 344740,
+				"to": 352440
+			},
+			"text": " shader"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:52,440",
+				"to": "00:05:53,000"
+			},
+			"offsets": {
+				"from": 352440,
+				"to": 353000
+			},
+			"text": " no"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:53,000",
+				"to": "00:05:55,420"
+			},
+			"offsets": {
+				"from": 353000,
+				"to": 355420
+			},
+			"text": " yeah light yeah sorry light groups"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:55,420",
+				"to": "00:06:06,460"
+			},
+			"offsets": {
+				"from": 355420,
+				"to": 366460
+			},
+			"text": " one second yeah okay so"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:06,460",
+				"to": "00:06:09,300"
+			},
+			"offsets": {
+				"from": 366460,
+				"to": 369300
+			},
+			"text": " let's start over"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:09,300",
+				"to": "00:06:16,540"
+			},
+			"offsets": {
+				"from": 369300,
+				"to": 376540
+			},
+			"text": " you create the group first"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:16,540",
+				"to": "00:06:24,540"
+			},
+			"offsets": {
+				"from": 376540,
+				"to": 384540
+			},
+			"text": " give it a helpful name so that you know you'll remember what it what it means"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:24,540",
+				"to": "00:06:27,620"
+			},
+			"offsets": {
+				"from": 384540,
+				"to": 387620
+			},
+			"text": " let's do uh rim"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:27,620",
+				"to": "00:06:30,720"
+			},
+			"offsets": {
+				"from": 387620,
+				"to": 390720
+			},
+			"text": " and key"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:30,720",
+				"to": "00:06:46,660"
+			},
+			"offsets": {
+				"from": 390720,
+				"to": 406660
+			},
+			"text": " then we select the uh the light here we go to object properties"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:46,660",
+				"to": "00:06:51,840"
+			},
+			"offsets": {
+				"from": 406660,
+				"to": 411840
+			},
+			"text": " and then under shading light group"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:51,840",
+				"to": "00:06:57,900"
+			},
+			"offsets": {
+				"from": 411840,
+				"to": 417900
+			},
+			"text": " we assign the light to the group uh one of the groups that we created"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:57,900",
+				"to": "00:07:02,040"
+			},
+			"offsets": {
+				"from": 417900,
+				"to": 422040
+			},
+			"text": " so we have key light selected right"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:02,040",
+				"to": "00:07:06,620"
+			},
+			"offsets": {
+				"from": 422040,
+				"to": 426620
+			},
+			"text": " so we will assign it to the key group"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:06,620",
+				"to": "00:07:09,540"
+			},
+			"offsets": {
+				"from": 426620,
+				"to": 429540
+			},
+			"text": " you could you could assign multiple lights to one group"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:09,540",
+				"to": "00:07:10,940"
+			},
+			"offsets": {
+				"from": 429540,
+				"to": 430940
+			},
+			"text": " by the way"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,940",
+				"to": "00:07:30,940"
+			},
+			"offsets": {
+				"from": 430940,
+				"to": 450940
+			},
+			"text": " rim light to rim. We could create groups of the other lights too if we want. Let's do a fill."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:38,940",
+				"to": "00:07:54,940"
+			},
+			"offsets": {
+				"from": 458940,
+				"to": 474940
+			},
+			"text": " I already did this so that's why it's filled out like that."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:54,940",
+				"to": "00:08:06,940"
+			},
+			"offsets": {
+				"from": 474940,
+				"to": 486940
+			},
+			"text": " Alright we have all four lights assigned to their own light groups. Now I will render and see you in a bit."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:06,940",
+				"to": "00:08:18,940"
+			},
+			"offsets": {
+				"from": 486940,
+				"to": 498940
+			},
+			"text": " Alright the render took one minute and 19 seconds. I've taken the liberty of"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:22,940",
+				"to": "00:08:34,940"
+			},
+			"offsets": {
+				"from": 502940,
+				"to": 514940
+			},
+			"text": " enabling some AOVs, direct volume, emission, ambient occlusion, and just the light groups."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:34,940",
+				"to": "00:08:46,940"
+			},
+			"offsets": {
+				"from": 514940,
+				"to": 526940
+			},
+			"text": " This is the network node I already have. It's very complicated. I don't remember every little thing I've done."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:46,940",
+				"to": "00:08:58,940"
+			},
+			"offsets": {
+				"from": 526940,
+				"to": 538940
+			},
+			"text": " It's a scratch. Don't worry about that."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:58,940",
+				"to": "00:09:04,940"
+			},
+			"offsets": {
+				"from": 538940,
+				"to": 544940
+			},
+			"text": " Alright so this is our, this is the raw render that we have."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:04,940",
+				"to": "00:09:16,940"
+			},
+			"offsets": {
+				"from": 544940,
+				"to": 556940
+			},
+			"text": " Tifa standing behind a plane that you know looks like an environment but it's not really."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:16,940",
+				"to": "00:09:18,940"
+			},
+			"offsets": {
+				"from": 556940,
+				"to": 558940
+			},
+			"text": " Our light groups are over here in the bottom."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:18,940",
+				"to": "00:09:22,940"
+			},
+			"offsets": {
+				"from": 558940,
+				"to": 562940
+			},
+			"text": " Rim, key, fill, one and two."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:26,940",
+				"to": "00:09:30,940"
+			},
+			"offsets": {
+				"from": 566940,
+				"to": 570940
+			},
+			"text": " To incorporate them you'll have to add."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:40,940",
+				"to": "00:09:42,940"
+			},
+			"offsets": {
+				"from": 580940,
+				"to": 582940
+			},
+			"text": " Let's see what that looks like."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:50,940",
+				"to": "00:09:52,940"
+			},
+			"offsets": {
+				"from": 590940,
+				"to": 592940
+			},
+			"text": " Just add, add, add."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:52,940",
+				"to": "00:10:08,940"
+			},
+			"offsets": {
+				"from": 592940,
+				"to": 608940
+			},
+			"text": " So now we, we've now incorporated all four light groups here."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:08,940",
+				"to": "00:10:22,940"
+			},
+			"offsets": {
+				"from": 608940,
+				"to": 622940
+			},
+			"text": " We added the rim to the key and then added both fill lights and then we added everything together."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:22,940",
+				"to": "00:10:28,940"
+			},
+			"offsets": {
+				"from": 622940,
+				"to": 628940
+			},
+			"text": " So in the, uh, previous render, the rim light was, uh, a red hue."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:28,940",
+				"to": "00:10:32,940"
+			},
+			"offsets": {
+				"from": 628940,
+				"to": 632940
+			},
+			"text": " So how do we achieve that?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:32,940",
+				"to": "00:10:34,940"
+			},
+			"offsets": {
+				"from": 632940,
+				"to": 634940
+			},
+			"text": " Well, let's see."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:34,940",
+				"to": "00:10:40,940"
+			},
+			"offsets": {
+				"from": 634940,
+				"to": 640940
+			},
+			"text": " Combine rim, we'll have to put a, uh, HSV node."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:40,940",
+				"to": "00:10:48,940"
+			},
+			"offsets": {
+				"from": 640940,
+				"to": 648940
+			},
+			"text": " Hue, saturation, value."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:48,940",
+				"to": "00:10:54,940"
+			},
+			"offsets": {
+				"from": 648940,
+				"to": 654940
+			},
+			"text": " Between the add and the rim."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:54,940",
+				"to": "00:10:56,940"
+			},
+			"offsets": {
+				"from": 654940,
+				"to": 656940
+			},
+			"text": " One second."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:56,940",
+				"to": "00:11:00,940"
+			},
+			"offsets": {
+				"from": 656940,
+				"to": 660940
+			},
+			"text": " I'm gonna keep rearranging these nodes."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:06,940",
+				"to": "00:11:10,940"
+			},
+			"offsets": {
+				"from": 666940,
+				"to": 670940
+			},
+			"text": " By increasing the value for example."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:10,940",
+				"to": "00:11:12,940"
+			},
+			"offsets": {
+				"from": 670940,
+				"to": 672940
+			},
+			"text": " We, we increase the intensity."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:12,940",
+				"to": "00:11:14,940"
+			},
+			"offsets": {
+				"from": 672940,
+				"to": 674940
+			},
+			"text": " Of the rim light as you can see."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,940",
+				"to": "00:11:22,940"
+			},
+			"offsets": {
+				"from": 678940,
+				"to": 682940
+			},
+			"text": " So, without these, you know, if you want to make small changes to the light."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:22,940",
+				"to": "00:11:24,940"
+			},
+			"offsets": {
+				"from": 682940,
+				"to": 684940
+			},
+			"text": " You'll have to re-render."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:24,940",
+				"to": "00:11:28,940"
+			},
+			"offsets": {
+				"from": 684940,
+				"to": 688940
+			},
+			"text": " And, you know, that, that's not ideal."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:28,940",
+				"to": "00:11:32,940"
+			},
+			"offsets": {
+				"from": 688940,
+				"to": 692940
+			},
+			"text": " So, this is very powerful, you know."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:34,940",
+				"to": "00:11:36,940"
+			},
+			"offsets": {
+				"from": 694940,
+				"to": 696940
+			},
+			"text": " Being able to change things after the fact."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:36,940",
+				"to": "00:11:38,940"
+			},
+			"offsets": {
+				"from": 696940,
+				"to": 698940
+			},
+			"text": " Look at that."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:38,940",
+				"to": "00:11:52,940"
+			},
+			"offsets": {
+				"from": 698940,
+				"to": 712940
+			},
+			"text": " So, if you're serious about, you know, doing 3D art."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:52,940",
+				"to": "00:11:56,940"
+			},
+			"offsets": {
+				"from": 712940,
+				"to": 716940
+			},
+			"text": " This is a feature that, you know, you should take advantage of."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:00,940",
+				"to": "00:12:02,940"
+			},
+			"offsets": {
+				"from": 720940,
+				"to": 722940
+			},
+			"text": " Saves you a tremendous amount of time."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:10,940",
+				"to": "00:12:12,940"
+			},
+			"offsets": {
+				"from": 730940,
+				"to": 732940
+			},
+			"text": " You can, you can do whatever you want basically."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:14,940",
+				"to": "00:12:14,940"
+			},
+			"offsets": {
+				"from": 734940,
+				"to": 734940
+			},
+			"text": " Glare."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:16,940",
+				"to": "00:12:17,940"
+			},
+			"offsets": {
+				"from": 736940,
+				"to": 737940
+			},
+			"text": " Glare filter."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:17,940",
+				"to": "00:12:18,940"
+			},
+			"offsets": {
+				"from": 737940,
+				"to": 738940
+			},
+			"text": " Change the intensity."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:18,940",
+				"to": "00:12:19,940"
+			},
+			"offsets": {
+				"from": 738940,
+				"to": 739940
+			},
+			"text": " Change the color."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:22,940",
+				"to": "00:12:24,940"
+			},
+			"offsets": {
+				"from": 742940,
+				"to": 744940
+			},
+			"text": " We also have ambient occlusion and emission."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:24,940",
+				"to": "00:12:28,940"
+			},
+			"offsets": {
+				"from": 744940,
+				"to": 748940
+			},
+			"text": " You know, if you want to bring the background back."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:28,940",
+				"to": "00:12:30,940"
+			},
+			"offsets": {
+				"from": 748940,
+				"to": 750940
+			},
+			"text": " Because, you know, as I said earlier."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:30,940",
+				"to": "00:12:32,940"
+			},
+			"offsets": {
+				"from": 750940,
+				"to": 752940
+			},
+			"text": " The plane has a."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:32,940",
+				"to": "00:12:33,940"
+			},
+			"offsets": {
+				"from": 752940,
+				"to": 753940
+			},
+			"text": " Emissive."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:33,940",
+				"to": "00:12:34,940"
+			},
+			"offsets": {
+				"from": 753940,
+				"to": 754940
+			},
+			"text": " Channel, right."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:34,940",
+				"to": "00:12:35,940"
+			},
+			"offsets": {
+				"from": 754940,
+				"to": 755940
+			},
+			"text": " It's just a."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:35,940",
+				"to": "00:12:36,940"
+			},
+			"offsets": {
+				"from": 755940,
+				"to": 756940
+			},
+			"text": " It's just this image."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:36,940",
+				"to": "00:12:37,940"
+			},
+			"offsets": {
+				"from": 756940,
+				"to": 757940
+			},
+			"text": " Plugged into."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:37,940",
+				"to": "00:12:38,940"
+			},
+			"offsets": {
+				"from": 757940,
+				"to": 758940
+			},
+			"text": " The emissive channel."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:38,940",
+				"to": "00:12:39,940"
+			},
+			"offsets": {
+				"from": 758940,
+				"to": 759940
+			},
+			"text": " So, if you want to bring that back."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:39,940",
+				"to": "00:12:40,940"
+			},
+			"offsets": {
+				"from": 759940,
+				"to": 760940
+			},
+			"text": " Let's see."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:40,940",
+				"to": "00:12:41,940"
+			},
+			"offsets": {
+				"from": 760940,
+				"to": 761940
+			},
+			"text": " Oh, damn."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:41,940",
+				"to": "00:12:42,940"
+			},
+			"offsets": {
+				"from": 761940,
+				"to": 762940
+			},
+			"text": " Got a hat."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:42,940",
+				"to": "00:12:42,940"
+			},
+			"offsets": {
+				"from": 762940,
+				"to": 762940
+			},
+			"text": " Got a hat."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:42,940",
+				"to": "00:12:42,940"
+			},
+			"offsets": {
+				"from": 762940,
+				"to": 762940
+			},
+			"text": " Oh, damn."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:42,940",
+				"to": "00:12:43,940"
+			},
+			"offsets": {
+				"from": 762940,
+				"to": 763940
+			},
+			"text": " Oh, damn."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:43,940",
+				"to": "00:12:44,940"
+			},
+			"offsets": {
+				"from": 763940,
+				"to": 764940
+			},
+			"text": " Got a hat."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:44,940",
+				"to": "00:12:45,940"
+			},
+			"offsets": {
+				"from": 764940,
+				"to": 765940
+			},
+			"text": " Got a hat."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:45,940",
+				"to": "00:12:46,940"
+			},
+			"offsets": {
+				"from": 765940,
+				"to": 766940
+			},
+			"text": " Oh, damn."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:46,940",
+				"to": "00:12:50,800"
+			},
+			"offsets": {
+				"from": 766940,
+				"to": 770800
+			},
+			"text": " so if you want to bring that back"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:50,800",
+				"to": "00:12:54,660"
+			},
+			"offsets": {
+				"from": 770800,
+				"to": 774660
+			},
+			"text": " let's see"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:54,660",
+				"to": "00:13:03,920"
+			},
+			"offsets": {
+				"from": 774660,
+				"to": 783920
+			},
+			"text": " oh damn"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:03,920",
+				"to": "00:13:12,120"
+			},
+			"offsets": {
+				"from": 783920,
+				"to": 792120
+			},
+			"text": " gotta hack that"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:16,940",
+				"to": "00:13:22,320"
+			},
+			"offsets": {
+				"from": 796940,
+				"to": 802320
+			},
+			"text": " at the end of the chain"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:22,320",
+				"to": "00:13:26,340"
+			},
+			"offsets": {
+				"from": 802320,
+				"to": 806340
+			},
+			"text": " you add all the lights first"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:26,340",
+				"to": "00:13:29,840"
+			},
+			"offsets": {
+				"from": 806340,
+				"to": 809840
+			},
+			"text": " make your changes"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:29,840",
+				"to": "00:13:31,380"
+			},
+			"offsets": {
+				"from": 809840,
+				"to": 811380
+			},
+			"text": " then at the end of the chain"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:31,380",
+				"to": "00:13:33,700"
+			},
+			"offsets": {
+				"from": 811380,
+				"to": 813700
+			},
+			"text": " that's when you incorporate ambient occlusion"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:33,700",
+				"to": "00:13:35,340"
+			},
+			"offsets": {
+				"from": 813700,
+				"to": 815340
+			},
+			"text": " and emissive"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:35,340",
+				"to": "00:13:37,600"
+			},
+			"offsets": {
+				"from": 815340,
+				"to": 817600
+			},
+			"text": " all this other stuff"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:37,600",
+				"to": "00:13:40,600"
+			},
+			"offsets": {
+				"from": 817600,
+				"to": 820600
+			},
+			"text": " that's the typical workflow"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:46,940",
+				"to": "00:13:50,500"
+			},
+			"offsets": {
+				"from": 826940,
+				"to": 830500
+			},
+			"text": " look at that"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:50,500",
+				"to": "00:13:53,500"
+			},
+			"offsets": {
+				"from": 830500,
+				"to": 833500
+			},
+			"text": " look at dark in the background if you want"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:53,500",
+				"to": "00:13:56,340"
+			},
+			"offsets": {
+				"from": 833500,
+				"to": 836340
+			},
+			"text": " maybe create an animation where"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:56,340",
+				"to": "00:14:00,780"
+			},
+			"offsets": {
+				"from": 836340,
+				"to": 840780
+			},
+			"text": " you know you just increase the opacity over time"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:00,780",
+				"to": "00:14:02,760"
+			},
+			"offsets": {
+				"from": 840780,
+				"to": 842760
+			},
+			"text": " kind of looks cool"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:02,760",
+				"to": "00:14:15,020"
+			},
+			"offsets": {
+				"from": 842760,
+				"to": 855020
+			},
+			"text": " let's see"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:15,020",
+				"to": "00:14:19,580"
+			},
+			"offsets": {
+				"from": 855020,
+				"to": 859580
+			},
+			"text": " as you can see"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:19,580",
+				"to": "00:14:20,900"
+			},
+			"offsets": {
+				"from": 859580,
+				"to": 860900
+			},
+			"text": " I've previously"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:20,900",
+				"to": "00:14:22,280"
+			},
+			"offsets": {
+				"from": 860900,
+				"to": 862280
+			},
+			"text": " previously done this"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:22,280",
+				"to": "00:14:24,080"
+			},
+			"offsets": {
+				"from": 862280,
+				"to": 864080
+			},
+			"text": " I don't remember every little"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:24,080",
+				"to": "00:14:25,620"
+			},
+			"offsets": {
+				"from": 864080,
+				"to": 865620
+			},
+			"text": " you know thing I did"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:25,620",
+				"to": "00:14:28,100"
+			},
+			"offsets": {
+				"from": 865620,
+				"to": 868100
+			},
+			"text": " it's not possible for me to"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:28,100",
+				"to": "00:14:29,800"
+			},
+			"offsets": {
+				"from": 868100,
+				"to": 869800
+			},
+			"text": " recreate"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:29,800",
+				"to": "00:14:31,520"
+			},
+			"offsets": {
+				"from": 869800,
+				"to": 871520
+			},
+			"text": " you know exactly"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:31,520",
+				"to": "00:14:32,980"
+			},
+			"offsets": {
+				"from": 871520,
+				"to": 872980
+			},
+			"text": " what I did but"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:32,980",
+				"to": "00:14:34,620"
+			},
+			"offsets": {
+				"from": 872980,
+				"to": 874620
+			},
+			"text": " the whole point is"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:34,620",
+				"to": "00:14:37,420"
+			},
+			"offsets": {
+				"from": 874620,
+				"to": 877420
+			},
+			"text": " you have this power"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:37,420",
+				"to": "00:14:53,180"
+			},
+			"offsets": {
+				"from": 877420,
+				"to": 893180
+			},
+			"text": " let's incorporate the"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:53,180",
+				"to": "00:14:54,740"
+			},
+			"offsets": {
+				"from": 893180,
+				"to": 894740
+			},
+			"text": " ambient inclusion"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:54,740",
+				"to": "00:15:03,360"
+			},
+			"offsets": {
+				"from": 894740,
+				"to": 903360
+			},
+			"text": " down here"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:03,360",
+				"to": "00:15:23,920"
+			},
+			"offsets": {
+				"from": 903360,
+				"to": 923920
+			},
+			"text": " of course you can't do too much"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:23,920",
+				"to": "00:15:25,280"
+			},
+			"offsets": {
+				"from": 923920,
+				"to": 925280
+			},
+			"text": " the character looks weird"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:25,280",
+				"to": "00:15:25,680"
+			},
+			"offsets": {
+				"from": 925280,
+				"to": 925680
+			},
+			"text": " now"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:25,680",
+				"to": "00:15:40,600"
+			},
+			"offsets": {
+				"from": 925680,
+				"to": 940600
+			},
+			"text": " finally"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:40,600",
+				"to": "00:15:43,480"
+			},
+			"offsets": {
+				"from": 940600,
+				"to": 943480
+			},
+			"text": " volume"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:43,480",
+				"to": "00:15:44,360"
+			},
+			"offsets": {
+				"from": 943480,
+				"to": 944360
+			},
+			"text": " oh"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:44,360",
+				"to": "00:15:46,680"
+			},
+			"offsets": {
+				"from": 944360,
+				"to": 946680
+			},
+			"text": " hate when that happens"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:46,680",
+				"to": "00:15:56,240"
+			},
+			"offsets": {
+				"from": 946680,
+				"to": 956240
+			},
+			"text": " volume"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:56,240",
+				"to": "00:15:56,320"
+			},
+			"offsets": {
+				"from": 956240,
+				"to": 956320
+			},
+			"text": " volume"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:56,320",
+				"to": "00:15:56,960"
+			},
+			"offsets": {
+				"from": 956320,
+				"to": 956960
+			},
+			"text": " to wreck"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:56,960",
+				"to": "00:15:57,380"
+			},
+			"offsets": {
+				"from": 956960,
+				"to": 957380
+			},
+			"text": " volume"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:57,380",
+				"to": "00:16:08,300"
+			},
+			"offsets": {
+				"from": 957380,
+				"to": 968300
+			},
+			"text": " always got to plug it to B"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:08,300",
+				"to": "00:16:10,860"
+			},
+			"offsets": {
+				"from": 968300,
+				"to": 970860
+			},
+			"text": " A's on the bottom"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:10,860",
+				"to": "00:16:12,100"
+			},
+			"offsets": {
+				"from": 970860,
+				"to": 972100
+			},
+			"text": " B's on top"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:12,100",
+				"to": "00:16:12,860"
+			},
+			"offsets": {
+				"from": 972100,
+				"to": 972860
+			},
+			"text": " by the way"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:12,860",
+				"to": "00:16:16,820"
+			},
+			"offsets": {
+				"from": 972860,
+				"to": 976820
+			},
+			"text": " so when you're bringing"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:16,820",
+				"to": "00:16:18,220"
+			},
+			"offsets": {
+				"from": 976820,
+				"to": 978220
+			},
+			"text": " a new thing into"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:18,220",
+				"to": "00:16:19,140"
+			},
+			"offsets": {
+				"from": 978220,
+				"to": 979140
+			},
+			"text": " the chain"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:19,140",
+				"to": "00:16:20,880"
+			},
+			"offsets": {
+				"from": 979140,
+				"to": 980880
+			},
+			"text": " that new thing has to be"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:20,880",
+				"to": "00:16:21,400"
+			},
+			"offsets": {
+				"from": 980880,
+				"to": 981400
+			},
+			"text": " on B"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:21,400",
+				"to": "00:16:24,100"
+			},
+			"offsets": {
+				"from": 981400,
+				"to": 984100
+			},
+			"text": " on top of everything"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:24,100",
+				"to": "00:16:29,260"
+			},
+			"offsets": {
+				"from": 984100,
+				"to": 989260
+			},
+			"text": " it's like"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:29,260",
+				"to": "00:16:30,680"
+			},
+			"offsets": {
+				"from": 989260,
+				"to": 990680
+			},
+			"text": " it's like layers in Photoshop"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:30,680",
+				"to": "00:16:36,900"
+			},
+			"offsets": {
+				"from": 990680,
+				"to": 996900
+			},
+			"text": " this is volume"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:36,900",
+				"to": "00:16:37,700"
+			},
+			"offsets": {
+				"from": 996900,
+				"to": 997700
+			},
+			"text": " direct"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:37,700",
+				"to": "00:16:39,820"
+			},
+			"offsets": {
+				"from": 997700,
+				"to": 999820
+			},
+			"text": " added it"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:39,820",
+				"to": "00:16:40,860"
+			},
+			"offsets": {
+				"from": 999820,
+				"to": 1000860
+			},
+			"text": " next"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:40,860",
+				"to": "00:16:42,260"
+			},
+			"offsets": {
+				"from": 1000860,
+				"to": 1002260
+			},
+			"text": " after the"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:42,260",
+				"to": "00:16:43,180"
+			},
+			"offsets": {
+				"from": 1002260,
+				"to": 1003180
+			},
+			"text": " ambient inclusion"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:43,180",
+				"to": "00:16:45,020"
+			},
+			"offsets": {
+				"from": 1003180,
+				"to": 1005020
+			},
+			"text": " let's see"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:45,020",
+				"to": "00:16:46,620"
+			},
+			"offsets": {
+				"from": 1005020,
+				"to": 1006620
+			},
+			"text": " that's the volume"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:46,620",
+				"to": "00:16:55,440"
+			},
+			"offsets": {
+				"from": 1006620,
+				"to": 1015440
+			},
+			"text": " of course there's a"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:55,440",
+				"to": "00:16:56,620"
+			},
+			"offsets": {
+				"from": 1015440,
+				"to": 1016620
+			},
+			"text": " great deal of noise"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:56,620",
+				"to": "00:16:57,120"
+			},
+			"offsets": {
+				"from": 1016620,
+				"to": 1017120
+			},
+			"text": " in the image"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:57,120",
+				"to": "00:17:02,140"
+			},
+			"offsets": {
+				"from": 1017120,
+				"to": 1022140
+			},
+			"text": " that could be rectified"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:02,140",
+				"to": "00:17:02,800"
+			},
+			"offsets": {
+				"from": 1022140,
+				"to": 1022800
+			},
+			"text": " very easily"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:02,800",
+				"to": "00:17:04,060"
+			},
+			"offsets": {
+				"from": 1022800,
+				"to": 1024060
+			},
+			"text": " as we"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:04,060",
+				"to": "00:17:05,780"
+			},
+			"offsets": {
+				"from": 1024060,
+				"to": 1025780
+			},
+			"text": " as I checked"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:05,780",
+				"to": "00:17:07,460"
+			},
+			"offsets": {
+				"from": 1025780,
+				"to": 1027460
+			},
+			"text": " denoise in data"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:07,460",
+				"to": "00:17:11,100"
+			},
+			"offsets": {
+				"from": 1027460,
+				"to": 1031100
+			},
+			"text": " we could use a"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:11,100",
+				"to": "00:17:12,680"
+			},
+			"offsets": {
+				"from": 1031100,
+				"to": 1032680
+			},
+			"text": " denoise node"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:12,680",
+				"to": "00:17:16,380"
+			},
+			"offsets": {
+				"from": 1032680,
+				"to": 1036380
+			},
+			"text": " then bring the data"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:16,380",
+				"to": "00:17:18,540"
+			},
+			"offsets": {
+				"from": 1036380,
+				"to": 1038540
+			},
+			"text": " denoise in normal"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:18,540",
+				"to": "00:17:19,860"
+			},
+			"offsets": {
+				"from": 1038540,
+				"to": 1039860
+			},
+			"text": " to the normal"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:19,860",
+				"to": "00:17:21,940"
+			},
+			"offsets": {
+				"from": 1039860,
+				"to": 1041940
+			},
+			"text": " denoise in albedo"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:21,940",
+				"to": "00:17:22,820"
+			},
+			"offsets": {
+				"from": 1041940,
+				"to": 1042820
+			},
+			"text": " to the albedo"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:22,820",
+				"to": "00:17:32,040"
+			},
+			"offsets": {
+				"from": 1042820,
+				"to": 1052040
+			},
+			"text": " yeah it's really"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:32,040",
+				"to": "00:17:32,720"
+			},
+			"offsets": {
+				"from": 1052040,
+				"to": 1052720
+			},
+			"text": " annoying working"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:32,720",
+				"to": "00:17:33,540"
+			},
+			"offsets": {
+				"from": 1052720,
+				"to": 1053540
+			},
+			"text": " all these notes"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:33,540",
+				"to": "00:17:35,760"
+			},
+			"offsets": {
+				"from": 1053540,
+				"to": 1055760
+			},
+			"text": " all right"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:35,760",
+				"to": "00:17:36,380"
+			},
+			"offsets": {
+				"from": 1055760,
+				"to": 1056380
+			},
+			"text": " one second"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:36,380",
+				"to": "00:17:37,820"
+			},
+			"offsets": {
+				"from": 1056380,
+				"to": 1057820
+			},
+			"text": " here"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:37,820",
+				"to": "00:17:40,540"
+			},
+			"offsets": {
+				"from": 1057820,
+				"to": 1060540
+			},
+			"text": " that should get rid"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:40,540",
+				"to": "00:17:41,080"
+			},
+			"offsets": {
+				"from": 1060540,
+				"to": 1061080
+			},
+			"text": " of the noise"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:41,080",
+				"to": "00:17:47,060"
+			},
+			"offsets": {
+				"from": 1061080,
+				"to": 1067060
+			},
+			"text": " yeah look at that"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:47,060",
+				"to": "00:17:48,880"
+			},
+			"offsets": {
+				"from": 1067060,
+				"to": 1068880
+			},
+			"text": " all gone"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:48,880",
+				"to": "00:17:57,880"
+			},
+			"offsets": {
+				"from": 1068880,
+				"to": 1077880
+			},
+			"text": " and after that"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:57,880",
+				"to": "00:17:58,340"
+			},
+			"offsets": {
+				"from": 1077880,
+				"to": 1078340
+			},
+			"text": " you could do"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:58,340",
+				"to": "00:17:59,100"
+			},
+			"offsets": {
+				"from": 1078340,
+				"to": 1079100
+			},
+			"text": " a bunch of stuff"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:59,100",
+				"to": "00:17:59,440"
+			},
+			"offsets": {
+				"from": 1079100,
+				"to": 1079440
+			},
+			"text": " like"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:59,440",
+				"to": "00:18:01,280"
+			},
+			"offsets": {
+				"from": 1079440,
+				"to": 1081280
+			},
+			"text": " previously"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:01,280",
+				"to": "00:18:02,040"
+			},
+			"offsets": {
+				"from": 1081280,
+				"to": 1082040
+			},
+			"text": " I added"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:02,040",
+				"to": "00:18:03,380"
+			},
+			"offsets": {
+				"from": 1082040,
+				"to": 1083380
+			},
+			"text": " I played around"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:03,380",
+				"to": "00:18:03,960"
+			},
+			"offsets": {
+				"from": 1083380,
+				"to": 1083960
+			},
+			"text": " the contrast"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:03,960",
+				"to": "00:18:04,980"
+			},
+			"offsets": {
+				"from": 1083960,
+				"to": 1084980
+			},
+			"text": " added a bunch"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:04,980",
+				"to": "00:18:05,800"
+			},
+			"offsets": {
+				"from": 1084980,
+				"to": 1085800
+			},
+			"text": " of glare notes"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:05,800",
+				"to": "00:18:07,120"
+			},
+			"offsets": {
+				"from": 1085800,
+				"to": 1087120
+			},
+			"text": " lens distortion"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:07,120",
+				"to": "00:18:08,600"
+			},
+			"offsets": {
+				"from": 1087120,
+				"to": 1088600
+			},
+			"text": " all that"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:08,600",
+				"to": "00:18:16,100"
+			},
+			"offsets": {
+				"from": 1088600,
+				"to": 1096100
+			},
+			"text": " we could mess"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:16,100",
+				"to": "00:18:16,460"
+			},
+			"offsets": {
+				"from": 1096100,
+				"to": 1096460
+			},
+			"text": " around"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:16,460",
+				"to": "00:18:17,640"
+			},
+			"offsets": {
+				"from": 1096460,
+				"to": 1097640
+			},
+			"text": " a key"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:17,640",
+				"to": "00:18:19,340"
+			},
+			"offsets": {
+				"from": 1097640,
+				"to": 1099340
+			},
+			"text": " as well"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:19,340",
+				"to": "00:18:20,140"
+			},
+			"offsets": {
+				"from": 1099340,
+				"to": 1100140
+			},
+			"text": " if we wanted"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:20,140",
+				"to": "00:18:21,120"
+			},
+			"offsets": {
+				"from": 1100140,
+				"to": 1101120
+			},
+			"text": " to"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:21,120",
+				"to": "00:18:34,740"
+			},
+			"offsets": {
+				"from": 1101120,
+				"to": 1114740
+			},
+			"text": " brightening up"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:34,740",
+				"to": "00:18:35,080"
+			},
+			"offsets": {
+				"from": 1114740,
+				"to": 1115080
+			},
+			"text": " maybe"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:35,080",
+				"to": "00:18:40,540"
+			},
+			"offsets": {
+				"from": 1115080,
+				"to": 1120540
+			},
+			"text": " and the changes"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:40,540",
+				"to": "00:18:40,960"
+			},
+			"offsets": {
+				"from": 1120540,
+				"to": 1120960
+			},
+			"text": " we make"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:40,960",
+				"to": "00:18:41,560"
+			},
+			"offsets": {
+				"from": 1120960,
+				"to": 1121560
+			},
+			"text": " are instantaneous"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:41,560",
+				"to": "00:18:42,740"
+			},
+			"offsets": {
+				"from": 1121560,
+				"to": 1122740
+			},
+			"text": " that's the"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:42,740",
+				"to": "00:18:46,600"
+			},
+			"offsets": {
+				"from": 1122740,
+				"to": 1126600
+			},
+			"text": " that's the upside"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:46,600",
+				"to": "00:18:47,300"
+			},
+			"offsets": {
+				"from": 1126600,
+				"to": 1127300
+			},
+			"text": " to all this"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:47,300",
+				"to": "00:18:59,520"
+			},
+			"offsets": {
+				"from": 1127300,
+				"to": 1139520
+			},
+			"text": " all right"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:59,520",
+				"to": "00:19:01,540"
+			},
+			"offsets": {
+				"from": 1139520,
+				"to": 1141540
+			},
+			"text": " that's it"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:01,540",
+				"to": "00:19:01,880"
+			},
+			"offsets": {
+				"from": 1141540,
+				"to": 1141880
+			},
+			"text": " for this"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:01,880",
+				"to": "00:19:02,420"
+			},
+			"offsets": {
+				"from": 1141880,
+				"to": 1142420
+			},
+			"text": " tutorial"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:02,420",
+				"to": "00:19:06,580"
+			},
+			"offsets": {
+				"from": 1142420,
+				"to": 1146580
+			},
+			"text": " post in a"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:06,580",
+				"to": "00:19:06,880"
+			},
+			"offsets": {
+				"from": 1146580,
+				"to": 1146880
+			},
+			"text": " comment"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:06,880",
+				"to": "00:19:07,480"
+			},
+			"offsets": {
+				"from": 1146880,
+				"to": 1147480
+			},
+			"text": " what"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:07,480",
+				"to": "00:19:08,220"
+			},
+			"offsets": {
+				"from": 1147480,
+				"to": 1148220
+			},
+			"text": " what you'll"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:08,220",
+				"to": "00:19:08,700"
+			},
+			"offsets": {
+				"from": 1148220,
+				"to": 1148700
+			},
+			"text": " like to see"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:08,700",
+				"to": "00:19:09,060"
+			},
+			"offsets": {
+				"from": 1148700,
+				"to": 1149060
+			},
+			"text": " next"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:09,060",
+				"to": "00:19:11,520"
+			},
+			"offsets": {
+				"from": 1149060,
+				"to": 1151520
+			},
+			"text": " and"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:11,520",
+				"to": "00:19:13,680"
+			},
+			"offsets": {
+				"from": 1151520,
+				"to": 1153680
+			},
+			"text": " that's it"
+		}
+	]
+}

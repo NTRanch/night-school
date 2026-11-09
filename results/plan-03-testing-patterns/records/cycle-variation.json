@@ -1,0 +1,116 @@
+{
+ "S3": {
+  "t": [
+   19.1,
+   25.0
+  ],
+  "period_f": 107,
+  "full": {
+   "cycle_mad_mean": 1.178,
+   "cycle_mad_min": 0.296,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 2.766
+  },
+  "head_roi": {
+   "cycle_mad_mean": 8.868,
+   "cycle_mad_min": 1.619,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 20.37
+  },
+  "male_body": {
+   "cycle_mad_mean": 1.188,
+   "cycle_mad_min": 0.388,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 3.309
+  },
+  "female_body": {
+   "cycle_mad_mean": 2.424,
+   "cycle_mad_min": 0.569,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 6.176
+  },
+  "background": {
+   "cycle_mad_mean": 0.008,
+   "cycle_mad_min": 0.003,
+   "frac_pairs_mad_lt_0.1": 1.0,
+   "control_mad_mean": 0.008
+  }
+ },
+ "S4": {
+  "t": [
+   25.8,
+   33.2
+  ],
+  "period_f": 107,
+  "full": {
+   "cycle_mad_mean": 1.337,
+   "cycle_mad_min": 0.294,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 3.411
+  },
+  "head_roi": {
+   "cycle_mad_mean": 9.716,
+   "cycle_mad_min": 1.517,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 24.271
+  },
+  "male_body": {
+   "cycle_mad_mean": 1.547,
+   "cycle_mad_min": 0.379,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 4.401
+  },
+  "female_body": {
+   "cycle_mad_mean": 2.964,
+   "cycle_mad_min": 0.669,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 7.93
+  },
+  "background": {
+   "cycle_mad_mean": 0.009,
+   "cycle_mad_min": 0.002,
+   "frac_pairs_mad_lt_0.1": 1.0,
+   "control_mad_mean": 0.009
+  }
+ },
+ "S8": {
+  "t": [
+   65.4,
+   82.7
+  ],
+  "period_f": 63,
+  "full": {
+   "cycle_mad_mean": 1.219,
+   "cycle_mad_min": 0.353,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 3.53
+  },
+  "head_roi": {
+   "cycle_mad_mean": 9.49,
+   "cycle_mad_min": 1.759,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 25.008
+  },
+  "male_body": {
+   "cycle_mad_mean": 1.221,
+   "cycle_mad_min": 0.367,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 4.504
+  },
+  "female_body": {
+   "cycle_mad_mean": 3.074,
+   "cycle_mad_min": 0.645,
+   "frac_pairs_mad_lt_0.1": 0.0,
+   "control_mad_mean": 8.461
+  },
+  "background": {
+   "cycle_mad_mean": 0.007,
+   "cycle_mad_min": 0.004,
+   "frac_pairs_mad_lt_0.1": 1.0,
+   "control_mad_mean": 0.007
+  }
+ },
+ "male_adj_mad_median": 0.233,
+ "male_adj_mad_p95": 0.635,
+ "full_adj_mad_median": 0.309
+}

@@ -59,3 +59,24 @@ house rules the rebuilt techniques get built under — the contracts,
 bounds, and gates a technique has to satisfy before it joins a Ranch
 pipeline. Plans produce candidate techniques; Daddy Style decides
 whether the result is built well enough to keep.
+
+## Disposition (2026-11-08, per D-1088 repair) — studied-not-adopted, CLOSED
+
+The six `DADDY_STYLE_*` guides in this directory are closed as
+**studied-not-adopted**. Grounds, from the adoption audit
+(`ADOPTION-AUDIT-20261108.md`):
+
+- The guides are rebrandings of the estate's Tiger Style guides;
+  the Tiger Style skills cite their own references and never
+  these files. No skill, study plan, run, torogao artifact, or
+  lumen artifact cites any `DADDY_STYLE_*` guide (full-tree
+  scans: 0 references outside this directory).
+- The Prompting guide's bloch candidate claimed a landing in
+  this repo at commits `0a53f160…` and `92050204…`; neither
+  commit exists (`git cat-file` fails on both), `guides/` is
+  untracked, and this repo has no remote configured. No landing
+  or publication occurred (errata appended to
+  `BLOCH-CANDIDATE-DADDY-PROMPTING.md` at the tree root).
+- The estate Tiger Style skills remain the style guides of
+  record. These files are retained as study artifacts only;
+  they govern nothing and are not wired into any pipeline.

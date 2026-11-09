@@ -1,0 +1,74 @@
+[
+  {
+    "camera": "full",
+    "frame": 8,
+    "mesh_verts": 974,
+    "render_seconds": 0.58
+  },
+  {
+    "camera": "full",
+    "frame": 14,
+    "mesh_verts": 5156,
+    "render_seconds": 0.19
+  },
+  {
+    "camera": "full",
+    "frame": 20,
+    "mesh_verts": 9130,
+    "render_seconds": 0.17
+  },
+  {
+    "camera": "full",
+    "frame": 26,
+    "mesh_verts": 12194,
+    "render_seconds": 0.15
+  },
+  {
+    "camera": "full",
+    "frame": 32,
+    "mesh_verts": 12824,
+    "render_seconds": 0.17
+  },
+  {
+    "camera": "full",
+    "frame": 36,
+    "mesh_verts": 13034,
+    "render_seconds": 0.15
+  },
+  {
+    "camera": "bust",
+    "frame": 8,
+    "mesh_verts": 974,
+    "render_seconds": 0.13
+  },
+  {
+    "camera": "bust",
+    "frame": 14,
+    "mesh_verts": 5156,
+    "render_seconds": 0.15
+  },
+  {
+    "camera": "bust",
+    "frame": 20,
+    "mesh_verts": 9130,
+    "render_seconds": 0.16
+  },
+  {
+    "camera": "bust",
+    "frame": 26,
+    "mesh_verts": 12194,
+    "render_seconds": 0.17
+  },
+  {
+    "camera": "bust",
+    "frame": 32,
+    "mesh_verts": 12824,
+    "render_seconds": 0.16
+  },
+  {
+    "camera": "bust",
+    "frame": 36,
+    "mesh_verts": 13034,
+    "render_seconds": 0.15
+  }
+]

@@ -40,3 +40,21 @@ PASS = intake record complete with claims listed and each marked verified / unve
 ## Deliverables
 
 - `results/plan-12-waifufactory-devlog-1/` — technique sheet, rebuild record, gate result.
+
+## Intake errata (2026-11-06, from the Plan 12 execution run — local copy only)
+
+- **Creator:** the video page itself shows no creator field
+  (as planned for), but the page description links the game
+  to `silentcherry.itch.io/waifufactory` — developer =
+  **SilentCherry** (itch page: "WaifuFactory [v0.4.0]").
+- **Duration confirmed:** 94.2 s probed (page: PT0H1M34S).
+- **Content note:** the artefact is a Godot 4.6 **2D** editor
+  screen capture with a quiet voiceover (found by
+  transcription; a silence census alone missed it) — one
+  character authored, no gameplay. The pipeline it evidences
+  is template-plus-parts with data-resource skins, not
+  generation. Full record: `results/plan-12-waifufactory-devlog-1/`.
+- **Status after run:** EXECUTED — gate PASS (claims 23
+  verified / 10 unverifiable / 6 absent). Pass 3 stopped at a
+  scoped rebuild proposal per this plan's own rule; any
+  rebuild awaits a plan amendment.

@@ -1,0 +1,1136 @@
+1
+00:00:00,000 --> 00:00:10,880
+ Hello and welcome. This will be a two-part tutorial on how to make NSFW art with Blender.
+
+2
+00:00:14,640 --> 00:00:22,440
+ This is a tutorial for beginners, of course not complete beginners, you have to have some familiarity with Blender.
+
+3
+00:00:25,920 --> 00:00:53,040
+ Now, there's many aspects to 3D art, you know there's modeling, animation, lighting, but we'll just focus on lighting, we'll download a 3D model, bring it to Blender, set up a lighting scenario, and we'll see how it goes.
+
+4
+00:00:53,840 --> 00:01:07,480
+ When it comes to 3D software, we have a wide range of applications available to us, that we can use to create NSFW 3D art.
+
+5
+00:01:07,480 --> 00:01:18,980
+ Of course, one choice is Houdini, which is a node-based application, characterized by having a steep learning curve.
+
+6
+00:01:21,180 --> 00:01:26,400
+ It's used in Hollywood, various movies, television shows.
+
+7
+00:01:30,940 --> 00:01:34,460
+ You got Maya, which is an industry standard.
+
+8
+00:01:35,900 --> 00:01:41,860
+ It's like Blender, but it's like Blender's big brother, or whatever, I don't know.
+
+9
+00:01:43,040 --> 00:01:45,520
+ I guess that would be the best way to describe it.
+
+10
+00:01:47,400 --> 00:01:49,660
+ It was used in Final Fantasy.
+
+11
+00:01:53,540 --> 00:01:57,760
+ Well-known games, movies, Guardians of the Galaxy.
+
+12
+00:01:59,520 --> 00:02:07,180
+ But for this tutorial, we'll be using Blender, which is free, of course.
+
+13
+00:02:07,520 --> 00:02:11,340
+ No subscription, no account.
+
+14
+00:02:11,440 --> 00:02:14,860
+ You could just go to our website, download Blender, start using it.
+
+15
+00:02:21,540 --> 00:02:31,120
+ So for this tutorial, we'll be using Blender 5.0, which is the latest version, as of this recording.
+
+16
+00:02:36,540 --> 00:02:43,200
+ In addition to Blender, we'll be using a very important plugin called Diffiomorphic.
+
+17
+00:02:45,440 --> 00:02:47,540
+ Just type in Blender, Diffiomorphic.
+
+18
+00:02:51,840 --> 00:02:57,780
+ Alright, because the model will download off the internet, needs this installed in Blender.
+
+19
+00:03:00,080 --> 00:03:03,080
+ It won't work without Diffiomorphic, so it's really important.
+
+20
+00:03:05,920 --> 00:03:11,620
+ The installation for this is quite involved.
+
+21
+00:03:14,680 --> 00:03:24,460
+ I'll leave a link in the description to another video made by someone else who explained how to install this.
+
+22
+00:03:24,760 --> 00:03:26,960
+ But you'll need this going forward.
+
+23
+00:03:34,080 --> 00:03:42,840
+ Alright, so if you endeavor to create NSFW art, obviously you need characters, you need a subject in your art.
+
+24
+00:03:44,060 --> 00:03:50,760
+ So the question for me is like, where do you, where do you get character models from?
+
+25
+00:03:55,600 --> 00:03:56,820
+ Well, there's three ways.
+
+26
+00:03:58,020 --> 00:03:59,500
+ And one way is from scratch.
+
+27
+00:04:06,260 --> 00:04:09,920
+ So you'll use like a sculpting tool like ZBrush.
+
+28
+00:04:19,920 --> 00:04:25,420
+ Now, of course, creating a character from scratch would be the hardest way to do things.
+
+29
+00:04:27,800 --> 00:04:34,660
+ It would require a significant time investment to attain proficiency in such a thing.
+
+30
+00:04:36,500 --> 00:04:40,020
+ You know, it's not something you'll, you can learn, you know, over the weekend.
+
+31
+00:04:44,960 --> 00:04:54,260
+ And you'll need to, you'll need to purchase a, uh, let's see, a tab, yeah, a tablet of some sort.
+
+32
+00:04:58,540 --> 00:05:00,660
+ Well, you don't need to purchase it, but, you know.
+
+33
+00:05:10,740 --> 00:05:12,020
+ I'm so fucking nervous.
+
+34
+00:05:20,660 --> 00:05:25,900
+ Second way is, uh, using a character creation software.
+
+35
+00:05:27,020 --> 00:05:28,700
+ Let's see, character creation.
+
+36
+00:05:33,200 --> 00:05:33,720
+ All right.
+
+37
+00:05:36,020 --> 00:05:37,960
+ Examples of this would be, uh,
+
+38
+00:05:44,320 --> 00:05:44,960
+ MetaHuman.
+
+39
+00:05:48,960 --> 00:05:53,840
+ Character creator 5 and DAS 3D.
+
+40
+00:05:58,560 --> 00:06:01,120
+ MetaHuman is typically used with the Unreal Engine.
+
+41
+00:06:02,160 --> 00:06:03,840
+ Gives you high fidelity characters.
+
+42
+00:06:05,320 --> 00:06:06,480
+ You know, very realistic.
+
+43
+00:06:07,720 --> 00:06:08,640
+ Very convincing.
+
+44
+00:06:13,600 --> 00:06:15,440
+ You're not creating characters from scratch.
+
+45
+00:06:15,440 --> 00:06:19,000
+ You're, you're using sliders, knobs.
+
+46
+00:06:21,120 --> 00:06:23,440
+ You know, you have a friendly user interface.
+
+47
+00:06:24,720 --> 00:06:26,480
+ That allows you to create these characters.
+
+48
+00:06:31,520 --> 00:06:32,640
+ It's very convenient.
+
+49
+00:06:35,480 --> 00:06:38,400
+ Of course, the other one is, uh, character creator 5.
+
+50
+00:06:40,080 --> 00:06:41,040
+ From Reillusion.
+
+51
+00:06:54,680 --> 00:06:57,680
+ This one costs money, uh, this one costs money, I believe, but there's a free trial.
+
+52
+00:07:01,600 --> 00:07:03,240
+ Of course, there's...
+
+53
+00:07:03,240 --> 00:07:08,200
+ DAS Studio, which is, uh, what's primarily used with NSFW art.
+
+54
+00:07:09,240 --> 00:07:10,440
+ This is the main one right here.
+
+55
+00:07:10,440 --> 00:07:12,520
+ This is the main one right here, and DAS is free, luckily.
+
+56
+00:07:17,800 --> 00:07:21,560
+ But this is the, this is the common one that folks use.
+
+57
+00:07:21,560 --> 00:07:29,760
+ They'll create the character in DAS and export it, uh, to Blender using the Diffiomorphic plugin that I mentioned earlier.
+
+58
+00:07:30,800 --> 00:07:35,760
+ So, you should download this and try it out.
+
+59
+00:07:38,240 --> 00:07:39,360
+ It's very easy to use.
+
+60
+00:07:43,200 --> 00:07:53,680
+ Of course, the third way to source characters is by simply downloading.
+
+61
+00:07:56,080 --> 00:08:03,440
+ Somebody else makes the characters and you just simply download it.
+
+62
+00:08:04,160 --> 00:08:05,840
+ And, uh, one such site is smut pace.
+
+63
+00:08:07,040 --> 00:08:08,000
+ That's one source.
+
+64
+00:08:11,120 --> 00:08:14,400
+ You have all these, uh, high-quality characters made by other people.
+
+65
+00:08:18,560 --> 00:08:24,480
+ So, if you're just getting started, this is, this will probably be the, this is probably the recommended way to go about it.
+
+66
+00:08:28,800 --> 00:08:31,680
+ Of course, later on, you know, when you get more skilled, you'll,
+
+67
+00:08:33,520 --> 00:08:35,520
+ you'll want to create characters from scratch.
+
+68
+00:08:36,160 --> 00:08:37,360
+ Later on, but not now.
+
+69
+00:08:37,920 --> 00:08:43,040
+ But here, you could just use other people's models to practice animation lighting.
+
+70
+00:08:46,160 --> 00:08:49,200
+ For just the Torah, we'll use, uh, this model.
+
+71
+00:08:50,080 --> 00:08:51,360
+ Dominar from Overwatch.
+
+72
+00:08:55,680 --> 00:08:58,080
+ You'll scroll down for download.
+
+73
+00:08:59,120 --> 00:09:03,520
+ You're going to need to, you know, you'll need the textures
+
+74
+00:09:05,360 --> 00:09:07,520
+ and the latest version here.
+
+75
+00:09:08,560 --> 00:09:09,360
+ You need both of them.
+
+76
+00:09:09,360 --> 00:09:15,200
+ They're, they're important.
+
+77
+00:09:16,160 --> 00:09:18,000
+ All right.
+
+78
+00:09:19,680 --> 00:09:23,840
+ With Blender downloaded, and Diffiomorphic plugin installed,
+
+79
+00:09:26,160 --> 00:09:27,840
+ and the 3D model downloaded,
+
+80
+00:09:29,360 --> 00:09:31,200
+ you should have a zip file.
+
+81
+00:09:32,480 --> 00:09:34,560
+ Inside the zip file should be a blend file.
+
+82
+00:09:35,280 --> 00:09:36,480
+ You open up Blender,
+
+83
+00:09:39,120 --> 00:09:40,320
+ And then you open up the file.
+
+84
+00:09:40,320 --> 00:09:42,400
+ You'll be presented with this.
+
+85
+00:09:45,040 --> 00:09:46,400
+ You should allow execution.
+
+86
+00:09:46,400 --> 00:09:47,760
+ It's just a Python script.
+
+87
+00:09:49,840 --> 00:09:52,720
+ That allows the, uh, the rig to work.
+
+88
+00:09:54,960 --> 00:09:56,720
+ I'm gonna give myself more space.
+
+89
+00:10:02,560 --> 00:10:02,960
+ All right.
+
+90
+00:10:02,960 --> 00:10:06,000
+ Typically when I download models,
+
+91
+00:10:06,960 --> 00:10:08,400
+ I'll save a copy.
+
+92
+00:10:10,400 --> 00:10:12,160
+ In case I make, uh, changes.
+
+93
+00:10:15,280 --> 00:10:16,800
+ That, uh, messes up the file.
+
+94
+00:10:17,520 --> 00:10:19,040
+ This is completely optional, of course.
+
+95
+00:10:19,040 --> 00:10:20,000
+ You don't have to do this.
+
+96
+00:10:23,440 --> 00:10:23,760
+ All right.
+
+97
+00:10:23,760 --> 00:10:25,200
+ Here in Edit and Prefaces.
+
+98
+00:10:28,720 --> 00:10:32,560
+ You want to make sure that Diffiomorphic plugin.
+
+99
+00:10:32,560 --> 00:10:34,000
+ What's called Daz Importer.
+
+100
+00:10:34,720 --> 00:10:34,960
+ Here.
+
+101
+00:10:38,800 --> 00:10:39,520
+ This is weird.
+
+102
+00:10:48,000 --> 00:10:48,240
+ Yeah.
+
+103
+00:10:48,240 --> 00:10:50,800
+ I don't know why Blender's getting slow all of a sudden.
+
+104
+00:10:54,800 --> 00:10:55,040
+ All right.
+
+105
+00:10:55,040 --> 00:10:57,840
+ So in add-ons, you have the Daz Importer.
+
+106
+00:10:59,280 --> 00:10:59,600
+ All right.
+
+107
+00:10:59,600 --> 00:11:00,560
+ That's important.
+
+108
+00:11:00,560 --> 00:11:01,600
+ Otherwise, it won't work.
+
+109
+00:11:03,520 --> 00:11:05,920
+ And the, uh, it comes with the MH,
+
+110
+00:11:06,640 --> 00:11:08,480
+ MHX Runtime System.
+
+111
+00:11:09,520 --> 00:11:12,880
+ That's the type of rig that this model uses.
+
+112
+00:11:14,240 --> 00:11:14,480
+ Wait.
+
+113
+00:11:15,200 --> 00:11:16,720
+ No, that's not, that's not right.
+
+114
+00:11:18,960 --> 00:11:20,800
+ Actually, no, it doesn't use MHX.
+
+115
+00:11:20,800 --> 00:11:21,760
+ It uses something else.
+
+116
+00:11:22,320 --> 00:11:24,160
+ It uses the Cloud Rig, but
+
+117
+00:11:25,440 --> 00:11:28,400
+ MHX comes with, uh, the Daz Importer.
+
+118
+00:11:35,120 --> 00:11:38,640
+ So we have, uh, the character of these, uh,
+
+119
+00:11:40,480 --> 00:11:41,520
+ this control rig.
+
+120
+00:11:43,440 --> 00:11:45,280
+ It's black lines around the character.
+
+121
+00:11:47,120 --> 00:11:48,400
+ You could go into pose mode.
+
+122
+00:11:48,400 --> 00:11:48,720
+ Wait.
+
+123
+00:11:48,720 --> 00:11:54,160
+ First off, let me enable, uh, screencast key.
+
+124
+00:11:54,160 --> 00:11:55,200
+ So you know what I'm doing.
+
+125
+00:12:07,200 --> 00:12:09,440
+ So the character comes with a user interface.
+
+126
+00:12:12,720 --> 00:12:14,720
+ It allows you to make, uh, changes.
+
+127
+00:12:15,840 --> 00:12:17,040
+ You could change your outfit.
+
+128
+00:12:27,120 --> 00:12:27,600
+ Let's see.
+
+129
+00:12:28,960 --> 00:12:30,000
+ Does the scene at work?
+
+130
+00:12:36,640 --> 00:12:38,640
+ It's working before, but I don't know what happened.
+
+131
+00:12:42,720 --> 00:12:43,760
+ Remove the ear rings.
+
+132
+00:12:45,040 --> 00:12:45,600
+ Headset.
+
+133
+00:12:54,720 --> 00:12:56,000
+ There's a lot of options here.
+
+134
+00:13:01,680 --> 00:13:02,080
+ All right.
+
+135
+00:13:02,080 --> 00:13:05,120
+ So this tutorial is not for complete beginners.
+
+136
+00:13:05,120 --> 00:13:08,320
+ You have to have some familiarity with Blender.
+
+137
+00:13:09,280 --> 00:13:18,560
+ You know, Blender is a very shortcut-centric application, so you gotta memorize a lot of these shortcuts.
+
+138
+00:13:18,560 --> 00:13:21,280
+ Like, you know, G's for grab.
+
+139
+00:13:23,280 --> 00:13:24,480
+ R is for rotate.
+
+140
+00:13:25,520 --> 00:13:26,560
+ S is for scale.
+
+141
+00:13:30,480 --> 00:13:31,680
+ There's a lot of shortcuts.
+
+142
+00:13:33,200 --> 00:13:34,880
+ You got num, numpad.
+
+143
+00:13:36,000 --> 00:13:38,640
+ Key one for front orthographic view.
+
+144
+00:13:40,000 --> 00:13:41,520
+ Three for side view, you know.
+
+145
+00:13:44,560 --> 00:13:48,800
+ Middle mouse to, you know, move the camera around.
+
+146
+00:13:50,160 --> 00:13:51,200
+ Make your life easier.
+
+147
+00:13:54,480 --> 00:13:57,280
+ After using Blender for some time, you'll get used to it.
+
+148
+00:14:01,200 --> 00:14:04,320
+ All right, so we want to recreate this.
+
+149
+00:14:05,840 --> 00:14:11,200
+ We see that the character is seated with her head tilted, right?
+
+150
+00:14:15,840 --> 00:14:19,280
+ When we pose a character, we want to move the torso first.
+
+151
+00:14:21,360 --> 00:14:22,400
+ Then the limbs.
+
+152
+00:14:22,400 --> 00:14:23,920
+ I mean, that's how I do it, at least.
+
+153
+00:14:25,520 --> 00:14:26,320
+ So let's, uh...
+
+154
+00:14:28,480 --> 00:14:30,400
+ The rig, the control rig highlighted.
+
+155
+00:14:30,400 --> 00:14:32,240
+ We'll go to pose mode.
+
+156
+00:14:35,520 --> 00:14:39,440
+ Got numpad plus to zoom in, zoom out.
+
+157
+00:14:39,440 --> 00:14:43,040
+ You could use the mouse wheel to do the same.
+
+158
+00:14:44,560 --> 00:14:46,800
+ My mouse wheel is broken, so I can't do that.
+
+159
+00:14:53,440 --> 00:14:54,400
+ We could have the, uh...
+
+160
+00:14:55,840 --> 00:14:58,080
+ We could select this control to move the torso.
+
+161
+00:15:05,520 --> 00:15:09,760
+ All right, but we want to move the hands, too.
+
+162
+00:15:12,400 --> 00:15:16,480
+ So if you select this, only moves is that hand.
+
+163
+00:15:19,600 --> 00:15:24,400
+ There's a, there's a way to just, uh, move both hands.
+
+164
+00:15:26,160 --> 00:15:27,120
+ Uh, X-Mirror.
+
+165
+00:15:28,880 --> 00:15:29,600
+ Apply change.
+
+166
+00:15:30,400 --> 00:15:32,800
+ Changes to the opposite side of the X-axis.
+
+167
+00:15:32,800 --> 00:15:33,360
+ Look at that.
+
+168
+00:15:34,960 --> 00:15:37,120
+ It allows us to move both of these.
+
+169
+00:15:38,320 --> 00:15:39,440
+ We want this as well.
+
+170
+00:15:40,800 --> 00:15:43,680
+ So to select multiple things, you need shift.
+
+171
+00:15:43,680 --> 00:15:44,720
+ You need a whole shift.
+
+172
+00:15:46,160 --> 00:15:47,120
+ One, two, three.
+
+173
+00:15:49,360 --> 00:15:52,400
+ We have three things selected, but we're moving six things.
+
+174
+00:15:53,760 --> 00:15:54,960
+ See how convenient that is.
+
+175
+00:15:58,320 --> 00:15:59,120
+ Shift and this.
+
+176
+00:16:01,440 --> 00:16:03,200
+ So now we can move the whole thing.
+
+177
+00:16:07,760 --> 00:16:10,160
+ We want to have her seated, right?
+
+178
+00:16:12,560 --> 00:16:13,920
+ That's what the reference has.
+
+179
+00:16:14,720 --> 00:16:28,080
+ We want our legs crossed.
+
+180
+00:16:31,120 --> 00:16:31,440
+ All right.
+
+181
+00:16:34,240 --> 00:16:37,200
+ So G moves the thing in all axes.
+
+182
+00:16:37,200 --> 00:16:42,880
+ So we could restrict movement to a singular axis by doing GX.
+
+183
+00:16:43,360 --> 00:16:43,840
+ And look at that.
+
+184
+00:16:44,400 --> 00:16:46,320
+ Only moves the X-axis, access.
+
+185
+00:16:48,320 --> 00:16:50,000
+ Numpad one for front for you.
+
+186
+00:16:51,520 --> 00:16:52,000
+ GX.
+
+187
+00:16:55,680 --> 00:17:03,360
+ Blender is shortcut-centric, so yeah, you have to get used to knowing these keyboard, keyboard shortcuts.
+
+188
+00:17:05,840 --> 00:17:07,280
+ So we want to cross our legs.
+
+189
+00:17:13,360 --> 00:17:14,240
+ Wrap the leg here.
+
+190
+00:17:14,240 --> 00:17:19,600
+ The symmetry thing is still on, so we have to turn that off.
+
+191
+00:17:29,520 --> 00:17:33,760
+ The legs have pole targets that allow you to move the knees.
+
+192
+00:17:37,840 --> 00:17:46,720
+ Now, what we make won't be exactly a replication of this.
+
+193
+00:17:46,720 --> 00:17:53,920
+ We'll just, you know, it'll take me a considerable time to match this exact pose.
+
+194
+00:17:53,920 --> 00:18:06,080
+ It's just a tutorial, so it's just a tutorial, you know.
+
+195
+00:18:06,320 --> 00:18:06,800
+ I'll move this this way.
+
+196
+00:18:06,800 --> 00:18:18,800
+ I'll move this this way.
+
+197
+00:18:18,800 --> 00:18:35,680
+ I'll reactivate symmetry again.
+
+198
+00:18:35,680 --> 00:18:49,920
+ I'll move both hands.
+
+199
+00:18:53,600 --> 00:18:57,600
+ The hands have pole targets as well.
+
+200
+00:18:57,600 --> 00:19:15,760
+ So, of course, when you're making art, you'll spend a lot of time on this.
+
+201
+00:19:17,200 --> 00:19:18,640
+ It's just part process.
+
+202
+00:19:19,600 --> 00:19:20,480
+ It's unavoidable.
+
+203
+00:19:25,440 --> 00:19:26,880
+ Some people hate this process.
+
+204
+00:19:26,880 --> 00:19:30,080
+ Some people enjoy it.
+
+205
+00:19:30,080 --> 00:19:52,960
+ But first, I'm going to hit control tab to go back to object mode, you see.
+
+206
+00:19:53,920 --> 00:19:56,720
+ Object mode, pose mode, control tab.
+
+207
+00:19:57,360 --> 00:19:58,720
+ Switches between these modes.
+
+208
+00:19:58,720 --> 00:20:00,000
+ I'm going to object mode.
+
+209
+00:20:05,840 --> 00:20:16,480
+ I'm going to upper left corner here until my mouse changes to what looks like a target sign.
+
+210
+00:20:17,600 --> 00:20:20,720
+ And then drag to the right to create two panels.
+
+211
+00:20:21,360 --> 00:20:22,000
+ Two panes.
+
+212
+00:20:27,200 --> 00:20:37,360
+ I'm going to create a new camera here.
+
+213
+00:20:41,920 --> 00:20:42,800
+ I'm going to hit zero.
+
+214
+00:20:46,400 --> 00:20:47,200
+ I'm going to hit end.
+
+215
+00:20:48,640 --> 00:20:48,960
+ View.
+
+216
+00:20:50,400 --> 00:20:51,600
+ Camera to view.
+
+217
+00:20:51,600 --> 00:20:57,440
+ This will have me look through the camera.
+
+218
+00:20:58,320 --> 00:21:03,360
+ Without that, if I move around, I move out of the camera.
+
+219
+00:21:04,400 --> 00:21:05,360
+ It's not what we want.
+
+220
+00:21:06,720 --> 00:21:08,240
+ We want to see what the camera sees.
+
+221
+00:21:08,960 --> 00:21:12,880
+ When we make changes, when we move around, we want the camera to move around too.
+
+222
+00:21:15,280 --> 00:21:16,720
+ So that's what this option is for.
+
+223
+00:21:23,920 --> 00:21:25,200
+ We'll set up the camera.
+
+224
+00:21:32,320 --> 00:21:36,000
+ We could also go to the other pane and control the camera that way.
+
+225
+00:21:38,960 --> 00:21:49,440
+ This is just for convenience.
+
+226
+00:21:50,720 --> 00:21:54,480
+ As I'm posing the character, I could look at the other pane and see what I'm doing.
+
+227
+00:21:55,040 --> 00:22:01,200
+ To see how I'll get an idea of the final render for the camera.
+
+228
+00:22:06,480 --> 00:22:18,160
+ There's some other changes I want to make as well.
+
+229
+00:22:20,240 --> 00:22:24,160
+ Yeah, this camera, I want it to be outside the folder.
+
+230
+00:22:33,600 --> 00:22:35,040
+ And this option.
+
+231
+00:22:38,400 --> 00:22:39,200
+ Back to posing.
+
+232
+00:22:42,080 --> 00:22:43,680
+ See, I think the leg is all right.
+
+233
+00:22:43,680 --> 00:22:44,640
+ It's not perfect.
+
+234
+00:22:47,840 --> 00:22:50,320
+ I guess we should work on the hands next.
+
+235
+00:22:57,680 --> 00:23:10,720
+ Again, what we do won't be exact, but it just gives you an idea.
+
+236
+00:23:10,720 --> 00:23:24,240
+ Because of how the camera is positioned, we won't see her on the other side.
+
+237
+00:23:24,240 --> 00:23:25,360
+ I'm not going to be exact.
+
+238
+00:23:25,360 --> 00:23:26,400
+ I'm not going to be exact.
+
+239
+00:23:26,400 --> 00:23:27,200
+ I'm not going to be exact.
+
+240
+00:23:27,200 --> 00:23:28,400
+ I'm not going to be exact.
+
+241
+00:23:28,400 --> 00:23:29,200
+ I'm not going to be exact.
+
+242
+00:23:29,200 --> 00:23:29,440
+ I'm not going to be exact.
+
+243
+00:23:29,440 --> 00:23:30,400
+ I'm not going to be exact.
+
+244
+00:23:30,400 --> 00:23:31,200
+ I'm not going to be exact.
+
+245
+00:23:31,200 --> 00:23:31,680
+ I'm not going to be exact.
+
+246
+00:23:31,680 --> 00:23:32,800
+ I'm not going to be exact.
+
+247
+00:23:32,800 --> 00:23:33,680
+ I'm not going to be exact.
+
+248
+00:23:33,680 --> 00:23:34,400
+ I'm not going to be exact.
+
+249
+00:23:34,400 --> 00:23:35,040
+ I'm not going to be exact.
+
+250
+00:23:35,040 --> 00:23:35,680
+ I'm not going to be exact.
+
+251
+00:23:35,680 --> 00:23:36,400
+ I'm not going to be exact.
+
+252
+00:23:36,400 --> 00:23:41,760
+ Because of how the camera is positioned, we won't see her right hand.
+
+253
+00:23:41,760 --> 00:23:44,080
+ So, it doesn't really matter what we do.
+
+254
+00:23:47,440 --> 00:23:49,440
+ I think in the reference, we see both hands.
+
+255
+00:23:49,440 --> 00:23:51,520
+ But, you know, again, this is a tutorial.
+
+256
+00:23:51,520 --> 00:24:01,440
+ We just want to take some shortcuts.
+
+257
+00:24:01,440 --> 00:24:10,480
+ We just want to take some shortcuts.
+
+258
+00:24:10,480 --> 00:24:15,760
+ There's probably something in here that will make posing their fingers a whole lot easier.
+
+259
+00:24:20,160 --> 00:24:22,240
+ But, you know, there's so many options here.
+
+260
+00:24:22,960 --> 00:24:24,800
+ I'd rather just do it manually.
+
+261
+00:24:28,320 --> 00:24:36,320
+ We want the hand to look, to look like it's, uh, on the fly.
+
+262
+00:24:39,920 --> 00:24:54,320
+ It's not going to be perfect, but, you know, as long as it looks convincing.
+
+263
+00:24:58,320 --> 00:25:23,600
+ I'm going to try to tilt the head now.
+
+264
+00:25:28,000 --> 00:25:29,920
+ There's global and local space.
+
+265
+00:25:32,400 --> 00:25:36,400
+ If you look at the top right, you'll see the z-axis is up and down.
+
+266
+00:25:37,200 --> 00:25:41,360
+ The y-axis, the negative y-axis is towards the screen.
+
+267
+00:25:42,880 --> 00:25:46,000
+ The positive y-axis is in, you know, opposite direction.
+
+268
+00:25:46,880 --> 00:25:47,680
+ That's the global.
+
+269
+00:25:49,360 --> 00:25:52,160
+ Local is, uh, it's different.
+
+270
+00:25:53,040 --> 00:25:54,800
+ It moves along its own axis.
+
+271
+00:25:56,960 --> 00:26:00,000
+ So, you'll, you'll often find yourself switching between those.
+
+272
+00:26:01,680 --> 00:26:05,360
+ So, we want to tilt the head right towards the camera.
+
+273
+00:26:06,320 --> 00:26:09,680
+ It's rotating along the z-axis.
+
+274
+00:26:15,840 --> 00:26:26,560
+ We're going to pose the robotic hands, too.
+
+275
+00:26:31,200 --> 00:26:32,640
+ We're going to enable symmetry.
+
+276
+00:26:37,760 --> 00:26:39,520
+ Again, what we have won't be exact.
+
+277
+00:26:44,960 --> 00:26:50,400
+ If I were to exactly replicate the reference, you know, the tour will be a lot longer.
+
+278
+00:26:56,480 --> 00:27:13,520
+ Yeah, I think we should have it around here, I guess.
+
+279
+00:27:14,080 --> 00:27:28,160
+ Yeah, I think, I think that's alright.
+
+280
+00:27:30,720 --> 00:27:32,080
+ So, that's it for part one.
+
+281
+00:27:32,640 --> 00:27:35,680
+ Part two will set up the lighting.
+
+282
+00:27:36,880 --> 00:27:41,760
+ Have, uh, optimized render settings and do a little post processing.
+
+283
+00:27:44,240 --> 00:27:47,360
+ And, that's it.
+
+284
+00:27:47,360 --> 00:27:48,360
+ Thank you.
+

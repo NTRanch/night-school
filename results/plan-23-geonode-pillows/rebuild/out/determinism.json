@@ -1,0 +1,20 @@
+{
+ "measures_identical": {
+  "apex_z": true,
+  "bbox": true,
+  "contact_min_z": true,
+  "dent_depth": true,
+  "faces": true,
+  "verts": true
+ },
+ "pixel_hash_A": "3c20ac17e0a844d0417e60556c51dc8c008cea4c7f01c94965746554ac482fd3",
+ "pixel_hash_B": "3c20ac17e0a844d0417e60556c51dc8c008cea4c7f01c94965746554ac482fd3",
+ "pixels_identical": true,
+ "render_size": [
+  640,
+  480
+ ],
+ "vert_hash_A": "73fa0f9e68b6766561a8a5c3fbfe55ef3d0ec0b0dc132a60a3193b6989cd77ac",
+ "vert_hash_B": "73fa0f9e68b6766561a8a5c3fbfe55ef3d0ec0b0dc132a60a3193b6989cd77ac",
+ "verts_identical": true
+}

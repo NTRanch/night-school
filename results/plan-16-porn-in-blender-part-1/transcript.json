@@ -1,0 +1,3156 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/usr/share/whisper.cpp-model-large-v3-turbo/ggml-large-v3-turbo.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:10,880"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 10880
+			},
+			"text": " Hello and welcome. This will be a two-part tutorial on how to make NSFW art with Blender."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,640",
+				"to": "00:00:22,440"
+			},
+			"offsets": {
+				"from": 14640,
+				"to": 22440
+			},
+			"text": " This is a tutorial for beginners, of course not complete beginners, you have to have some familiarity with Blender."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,920",
+				"to": "00:00:53,040"
+			},
+			"offsets": {
+				"from": 25920,
+				"to": 53040
+			},
+			"text": " Now, there's many aspects to 3D art, you know there's modeling, animation, lighting, but we'll just focus on lighting, we'll download a 3D model, bring it to Blender, set up a lighting scenario, and we'll see how it goes."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,840",
+				"to": "00:01:07,480"
+			},
+			"offsets": {
+				"from": 53840,
+				"to": 67480
+			},
+			"text": " When it comes to 3D software, we have a wide range of applications available to us, that we can use to create NSFW 3D art."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,480",
+				"to": "00:01:18,980"
+			},
+			"offsets": {
+				"from": 67480,
+				"to": 78980
+			},
+			"text": " Of course, one choice is Houdini, which is a node-based application, characterized by having a steep learning curve."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,180",
+				"to": "00:01:26,400"
+			},
+			"offsets": {
+				"from": 81180,
+				"to": 86400
+			},
+			"text": " It's used in Hollywood, various movies, television shows."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,940",
+				"to": "00:01:34,460"
+			},
+			"offsets": {
+				"from": 90940,
+				"to": 94460
+			},
+			"text": " You got Maya, which is an industry standard."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,900",
+				"to": "00:01:41,860"
+			},
+			"offsets": {
+				"from": 95900,
+				"to": 101860
+			},
+			"text": " It's like Blender, but it's like Blender's big brother, or whatever, I don't know."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,040",
+				"to": "00:01:45,520"
+			},
+			"offsets": {
+				"from": 103040,
+				"to": 105520
+			},
+			"text": " I guess that would be the best way to describe it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,400",
+				"to": "00:01:49,660"
+			},
+			"offsets": {
+				"from": 107400,
+				"to": 109660
+			},
+			"text": " It was used in Final Fantasy."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,540",
+				"to": "00:01:57,760"
+			},
+			"offsets": {
+				"from": 113540,
+				"to": 117760
+			},
+			"text": " Well-known games, movies, Guardians of the Galaxy."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,520",
+				"to": "00:02:07,180"
+			},
+			"offsets": {
+				"from": 119520,
+				"to": 127180
+			},
+			"text": " But for this tutorial, we'll be using Blender, which is free, of course."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,520",
+				"to": "00:02:11,340"
+			},
+			"offsets": {
+				"from": 127520,
+				"to": 131340
+			},
+			"text": " No subscription, no account."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,440",
+				"to": "00:02:14,860"
+			},
+			"offsets": {
+				"from": 131440,
+				"to": 134860
+			},
+			"text": " You could just go to our website, download Blender, start using it."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:21,540",
+				"to": "00:02:31,120"
+			},
+			"offsets": {
+				"from": 141540,
+				"to": 151120
+			},
+			"text": " So for this tutorial, we'll be using Blender 5.0, which is the latest version, as of this recording."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:36,540",
+				"to": "00:02:43,200"
+			},
+			"offsets": {
+				"from": 156540,
+				"to": 163200
+			},
+			"text": " In addition to Blender, we'll be using a very important plugin called Diffiomorphic."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,440",
+				"to": "00:02:47,540"
+			},
+			"offsets": {
+				"from": 165440,
+				"to": 167540
+			},
+			"text": " Just type in Blender, Diffiomorphic."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:51,840",
+				"to": "00:02:57,780"
+			},
+			"offsets": {
+				"from": 171840,
+				"to": 177780
+			},
+			"text": " Alright, because the model will download off the internet, needs this installed in Blender."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:00,080",
+				"to": "00:03:03,080"
+			},
+			"offsets": {
+				"from": 180080,
+				"to": 183080
+			},
+			"text": " It won't work without Diffiomorphic, so it's really important."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,920",
+				"to": "00:03:11,620"
+			},
+			"offsets": {
+				"from": 185920,
+				"to": 191620
+			},
+			"text": " The installation for this is quite involved."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,680",
+				"to": "00:03:24,460"
+			},
+			"offsets": {
+				"from": 194680,
+				"to": 204460
+			},
+			"text": " I'll leave a link in the description to another video made by someone else who explained how to install this."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:24,760",
+				"to": "00:03:26,960"
+			},
+			"offsets": {
+				"from": 204760,
+				"to": 206960
+			},
+			"text": " But you'll need this going forward."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,080",
+				"to": "00:03:42,840"
+			},
+			"offsets": {
+				"from": 214080,
+				"to": 222840
+			},
+			"text": " Alright, so if you endeavor to create NSFW art, obviously you need characters, you need a subject in your art."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:44,060",
+				"to": "00:03:50,760"
+			},
+			"offsets": {
+				"from": 224060,
+				"to": 230760
+			},
+			"text": " So the question for me is like, where do you, where do you get character models from?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:55,600",
+				"to": "00:03:56,820"
+			},
+			"offsets": {
+				"from": 235600,
+				"to": 236820
+			},
+			"text": " Well, there's three ways."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,020",
+				"to": "00:03:59,500"
+			},
+			"offsets": {
+				"from": 238020,
+				"to": 239500
+			},
+			"text": " And one way is from scratch."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:06,260",
+				"to": "00:04:09,920"
+			},
+			"offsets": {
+				"from": 246260,
+				"to": 249920
+			},
+			"text": " So you'll use like a sculpting tool like ZBrush."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,920",
+				"to": "00:04:25,420"
+			},
+			"offsets": {
+				"from": 259920,
+				"to": 265420
+			},
+			"text": " Now, of course, creating a character from scratch would be the hardest way to do things."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:27,800",
+				"to": "00:04:34,660"
+			},
+			"offsets": {
+				"from": 267800,
+				"to": 274660
+			},
+			"text": " It would require a significant time investment to attain proficiency in such a thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:36,500",
+				"to": "00:04:40,020"
+			},
+			"offsets": {
+				"from": 276500,
+				"to": 280020
+			},
+			"text": " You know, it's not something you'll, you can learn, you know, over the weekend."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:44,960",
+				"to": "00:04:54,260"
+			},
+			"offsets": {
+				"from": 284960,
+				"to": 294260
+			},
+			"text": " And you'll need to, you'll need to purchase a, uh, let's see, a tab, yeah, a tablet of some sort."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:58,540",
+				"to": "00:05:00,660"
+			},
+			"offsets": {
+				"from": 298540,
+				"to": 300660
+			},
+			"text": " Well, you don't need to purchase it, but, you know."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:10,740",
+				"to": "00:05:12,020"
+			},
+			"offsets": {
+				"from": 310740,
+				"to": 312020
+			},
+			"text": " I'm so fucking nervous."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:20,660",
+				"to": "00:05:25,900"
+			},
+			"offsets": {
+				"from": 320660,
+				"to": 325900
+			},
+			"text": " Second way is, uh, using a character creation software."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:27,020",
+				"to": "00:05:28,700"
+			},
+			"offsets": {
+				"from": 327020,
+				"to": 328700
+			},
+			"text": " Let's see, character creation."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:33,200",
+				"to": "00:05:33,720"
+			},
+			"offsets": {
+				"from": 333200,
+				"to": 333720
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:36,020",
+				"to": "00:05:37,960"
+			},
+			"offsets": {
+				"from": 336020,
+				"to": 337960
+			},
+			"text": " Examples of this would be, uh,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:44,320",
+				"to": "00:05:44,960"
+			},
+			"offsets": {
+				"from": 344320,
+				"to": 344960
+			},
+			"text": " MetaHuman."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:48,960",
+				"to": "00:05:53,840"
+			},
+			"offsets": {
+				"from": 348960,
+				"to": 353840
+			},
+			"text": " Character creator 5 and DAS 3D."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:58,560",
+				"to": "00:06:01,120"
+			},
+			"offsets": {
+				"from": 358560,
+				"to": 361120
+			},
+			"text": " MetaHuman is typically used with the Unreal Engine."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:02,160",
+				"to": "00:06:03,840"
+			},
+			"offsets": {
+				"from": 362160,
+				"to": 363840
+			},
+			"text": " Gives you high fidelity characters."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:05,320",
+				"to": "00:06:06,480"
+			},
+			"offsets": {
+				"from": 365320,
+				"to": 366480
+			},
+			"text": " You know, very realistic."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:07,720",
+				"to": "00:06:08,640"
+			},
+			"offsets": {
+				"from": 367720,
+				"to": 368640
+			},
+			"text": " Very convincing."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,600",
+				"to": "00:06:15,440"
+			},
+			"offsets": {
+				"from": 373600,
+				"to": 375440
+			},
+			"text": " You're not creating characters from scratch."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:15,440",
+				"to": "00:06:19,000"
+			},
+			"offsets": {
+				"from": 375440,
+				"to": 379000
+			},
+			"text": " You're, you're using sliders, knobs."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:21,120",
+				"to": "00:06:23,440"
+			},
+			"offsets": {
+				"from": 381120,
+				"to": 383440
+			},
+			"text": " You know, you have a friendly user interface."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:24,720",
+				"to": "00:06:26,480"
+			},
+			"offsets": {
+				"from": 384720,
+				"to": 386480
+			},
+			"text": " That allows you to create these characters."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:31,520",
+				"to": "00:06:32,640"
+			},
+			"offsets": {
+				"from": 391520,
+				"to": 392640
+			},
+			"text": " It's very convenient."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:35,480",
+				"to": "00:06:38,400"
+			},
+			"offsets": {
+				"from": 395480,
+				"to": 398400
+			},
+			"text": " Of course, the other one is, uh, character creator 5."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:40,080",
+				"to": "00:06:41,040"
+			},
+			"offsets": {
+				"from": 400080,
+				"to": 401040
+			},
+			"text": " From Reillusion."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:54,680",
+				"to": "00:06:57,680"
+			},
+			"offsets": {
+				"from": 414680,
+				"to": 417680
+			},
+			"text": " This one costs money, uh, this one costs money, I believe, but there's a free trial."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:01,600",
+				"to": "00:07:03,240"
+			},
+			"offsets": {
+				"from": 421600,
+				"to": 423240
+			},
+			"text": " Of course, there's..."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:03,240",
+				"to": "00:07:08,200"
+			},
+			"offsets": {
+				"from": 423240,
+				"to": 428200
+			},
+			"text": " DAS Studio, which is, uh, what's primarily used with NSFW art."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:09,240",
+				"to": "00:07:10,440"
+			},
+			"offsets": {
+				"from": 429240,
+				"to": 430440
+			},
+			"text": " This is the main one right here."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,440",
+				"to": "00:07:12,520"
+			},
+			"offsets": {
+				"from": 430440,
+				"to": 432520
+			},
+			"text": " This is the main one right here, and DAS is free, luckily."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:17,800",
+				"to": "00:07:21,560"
+			},
+			"offsets": {
+				"from": 437800,
+				"to": 441560
+			},
+			"text": " But this is the, this is the common one that folks use."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:21,560",
+				"to": "00:07:29,760"
+			},
+			"offsets": {
+				"from": 441560,
+				"to": 449760
+			},
+			"text": " They'll create the character in DAS and export it, uh, to Blender using the Diffiomorphic plugin that I mentioned earlier."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:30,800",
+				"to": "00:07:35,760"
+			},
+			"offsets": {
+				"from": 450800,
+				"to": 455760
+			},
+			"text": " So, you should download this and try it out."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:38,240",
+				"to": "00:07:39,360"
+			},
+			"offsets": {
+				"from": 458240,
+				"to": 459360
+			},
+			"text": " It's very easy to use."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:43,200",
+				"to": "00:07:53,680"
+			},
+			"offsets": {
+				"from": 463200,
+				"to": 473680
+			},
+			"text": " Of course, the third way to source characters is by simply downloading."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:56,080",
+				"to": "00:08:03,440"
+			},
+			"offsets": {
+				"from": 476080,
+				"to": 483440
+			},
+			"text": " Somebody else makes the characters and you just simply download it."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:04,160",
+				"to": "00:08:05,840"
+			},
+			"offsets": {
+				"from": 484160,
+				"to": 485840
+			},
+			"text": " And, uh, one such site is smut pace."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:07,040",
+				"to": "00:08:08,000"
+			},
+			"offsets": {
+				"from": 487040,
+				"to": 488000
+			},
+			"text": " That's one source."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:11,120",
+				"to": "00:08:14,400"
+			},
+			"offsets": {
+				"from": 491120,
+				"to": 494400
+			},
+			"text": " You have all these, uh, high-quality characters made by other people."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:18,560",
+				"to": "00:08:24,480"
+			},
+			"offsets": {
+				"from": 498560,
+				"to": 504480
+			},
+			"text": " So, if you're just getting started, this is, this will probably be the, this is probably the recommended way to go about it."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:28,800",
+				"to": "00:08:31,680"
+			},
+			"offsets": {
+				"from": 508800,
+				"to": 511680
+			},
+			"text": " Of course, later on, you know, when you get more skilled, you'll,"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:33,520",
+				"to": "00:08:35,520"
+			},
+			"offsets": {
+				"from": 513520,
+				"to": 515520
+			},
+			"text": " you'll want to create characters from scratch."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:36,160",
+				"to": "00:08:37,360"
+			},
+			"offsets": {
+				"from": 516160,
+				"to": 517360
+			},
+			"text": " Later on, but not now."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:37,920",
+				"to": "00:08:43,040"
+			},
+			"offsets": {
+				"from": 517920,
+				"to": 523040
+			},
+			"text": " But here, you could just use other people's models to practice animation lighting."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:46,160",
+				"to": "00:08:49,200"
+			},
+			"offsets": {
+				"from": 526160,
+				"to": 529200
+			},
+			"text": " For just the Torah, we'll use, uh, this model."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:50,080",
+				"to": "00:08:51,360"
+			},
+			"offsets": {
+				"from": 530080,
+				"to": 531360
+			},
+			"text": " Dominar from Overwatch."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:55,680",
+				"to": "00:08:58,080"
+			},
+			"offsets": {
+				"from": 535680,
+				"to": 538080
+			},
+			"text": " You'll scroll down for download."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:59,120",
+				"to": "00:09:03,520"
+			},
+			"offsets": {
+				"from": 539120,
+				"to": 543520
+			},
+			"text": " You're going to need to, you know, you'll need the textures"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:05,360",
+				"to": "00:09:07,520"
+			},
+			"offsets": {
+				"from": 545360,
+				"to": 547520
+			},
+			"text": " and the latest version here."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:08,560",
+				"to": "00:09:09,360"
+			},
+			"offsets": {
+				"from": 548560,
+				"to": 549360
+			},
+			"text": " You need both of them."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:09,360",
+				"to": "00:09:15,200"
+			},
+			"offsets": {
+				"from": 549360,
+				"to": 555200
+			},
+			"text": " They're, they're important."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:16,160",
+				"to": "00:09:18,000"
+			},
+			"offsets": {
+				"from": 556160,
+				"to": 558000
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:19,680",
+				"to": "00:09:23,840"
+			},
+			"offsets": {
+				"from": 559680,
+				"to": 563840
+			},
+			"text": " With Blender downloaded, and Diffiomorphic plugin installed,"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:26,160",
+				"to": "00:09:27,840"
+			},
+			"offsets": {
+				"from": 566160,
+				"to": 567840
+			},
+			"text": " and the 3D model downloaded,"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:29,360",
+				"to": "00:09:31,200"
+			},
+			"offsets": {
+				"from": 569360,
+				"to": 571200
+			},
+			"text": " you should have a zip file."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:32,480",
+				"to": "00:09:34,560"
+			},
+			"offsets": {
+				"from": 572480,
+				"to": 574560
+			},
+			"text": " Inside the zip file should be a blend file."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:35,280",
+				"to": "00:09:36,480"
+			},
+			"offsets": {
+				"from": 575280,
+				"to": 576480
+			},
+			"text": " You open up Blender,"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:39,120",
+				"to": "00:09:40,320"
+			},
+			"offsets": {
+				"from": 579120,
+				"to": 580320
+			},
+			"text": " And then you open up the file."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:40,320",
+				"to": "00:09:42,400"
+			},
+			"offsets": {
+				"from": 580320,
+				"to": 582400
+			},
+			"text": " You'll be presented with this."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:45,040",
+				"to": "00:09:46,400"
+			},
+			"offsets": {
+				"from": 585040,
+				"to": 586400
+			},
+			"text": " You should allow execution."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:46,400",
+				"to": "00:09:47,760"
+			},
+			"offsets": {
+				"from": 586400,
+				"to": 587760
+			},
+			"text": " It's just a Python script."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:49,840",
+				"to": "00:09:52,720"
+			},
+			"offsets": {
+				"from": 589840,
+				"to": 592720
+			},
+			"text": " That allows the, uh, the rig to work."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:54,960",
+				"to": "00:09:56,720"
+			},
+			"offsets": {
+				"from": 594960,
+				"to": 596720
+			},
+			"text": " I'm gonna give myself more space."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:02,560",
+				"to": "00:10:02,960"
+			},
+			"offsets": {
+				"from": 602560,
+				"to": 602960
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:02,960",
+				"to": "00:10:06,000"
+			},
+			"offsets": {
+				"from": 602960,
+				"to": 606000
+			},
+			"text": " Typically when I download models,"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:06,960",
+				"to": "00:10:08,400"
+			},
+			"offsets": {
+				"from": 606960,
+				"to": 608400
+			},
+			"text": " I'll save a copy."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:10,400",
+				"to": "00:10:12,160"
+			},
+			"offsets": {
+				"from": 610400,
+				"to": 612160
+			},
+			"text": " In case I make, uh, changes."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:15,280",
+				"to": "00:10:16,800"
+			},
+			"offsets": {
+				"from": 615280,
+				"to": 616800
+			},
+			"text": " That, uh, messes up the file."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:17,520",
+				"to": "00:10:19,040"
+			},
+			"offsets": {
+				"from": 617520,
+				"to": 619040
+			},
+			"text": " This is completely optional, of course."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:19,040",
+				"to": "00:10:20,000"
+			},
+			"offsets": {
+				"from": 619040,
+				"to": 620000
+			},
+			"text": " You don't have to do this."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:23,440",
+				"to": "00:10:23,760"
+			},
+			"offsets": {
+				"from": 623440,
+				"to": 623760
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:23,760",
+				"to": "00:10:25,200"
+			},
+			"offsets": {
+				"from": 623760,
+				"to": 625200
+			},
+			"text": " Here in Edit and Prefaces."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:28,720",
+				"to": "00:10:32,560"
+			},
+			"offsets": {
+				"from": 628720,
+				"to": 632560
+			},
+			"text": " You want to make sure that Diffiomorphic plugin."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:32,560",
+				"to": "00:10:34,000"
+			},
+			"offsets": {
+				"from": 632560,
+				"to": 634000
+			},
+			"text": " What's called Daz Importer."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:34,720",
+				"to": "00:10:34,960"
+			},
+			"offsets": {
+				"from": 634720,
+				"to": 634960
+			},
+			"text": " Here."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:38,800",
+				"to": "00:10:39,520"
+			},
+			"offsets": {
+				"from": 638800,
+				"to": 639520
+			},
+			"text": " This is weird."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:48,000",
+				"to": "00:10:48,240"
+			},
+			"offsets": {
+				"from": 648000,
+				"to": 648240
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:48,240",
+				"to": "00:10:50,800"
+			},
+			"offsets": {
+				"from": 648240,
+				"to": 650800
+			},
+			"text": " I don't know why Blender's getting slow all of a sudden."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:54,800",
+				"to": "00:10:55,040"
+			},
+			"offsets": {
+				"from": 654800,
+				"to": 655040
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:55,040",
+				"to": "00:10:57,840"
+			},
+			"offsets": {
+				"from": 655040,
+				"to": 657840
+			},
+			"text": " So in add-ons, you have the Daz Importer."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:59,280",
+				"to": "00:10:59,600"
+			},
+			"offsets": {
+				"from": 659280,
+				"to": 659600
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:59,600",
+				"to": "00:11:00,560"
+			},
+			"offsets": {
+				"from": 659600,
+				"to": 660560
+			},
+			"text": " That's important."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:00,560",
+				"to": "00:11:01,600"
+			},
+			"offsets": {
+				"from": 660560,
+				"to": 661600
+			},
+			"text": " Otherwise, it won't work."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:03,520",
+				"to": "00:11:05,920"
+			},
+			"offsets": {
+				"from": 663520,
+				"to": 665920
+			},
+			"text": " And the, uh, it comes with the MH,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:06,640",
+				"to": "00:11:08,480"
+			},
+			"offsets": {
+				"from": 666640,
+				"to": 668480
+			},
+			"text": " MHX Runtime System."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:09,520",
+				"to": "00:11:12,880"
+			},
+			"offsets": {
+				"from": 669520,
+				"to": 672880
+			},
+			"text": " That's the type of rig that this model uses."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:14,240",
+				"to": "00:11:14,480"
+			},
+			"offsets": {
+				"from": 674240,
+				"to": 674480
+			},
+			"text": " Wait."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:15,200",
+				"to": "00:11:16,720"
+			},
+			"offsets": {
+				"from": 675200,
+				"to": 676720
+			},
+			"text": " No, that's not, that's not right."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,960",
+				"to": "00:11:20,800"
+			},
+			"offsets": {
+				"from": 678960,
+				"to": 680800
+			},
+			"text": " Actually, no, it doesn't use MHX."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:20,800",
+				"to": "00:11:21,760"
+			},
+			"offsets": {
+				"from": 680800,
+				"to": 681760
+			},
+			"text": " It uses something else."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:22,320",
+				"to": "00:11:24,160"
+			},
+			"offsets": {
+				"from": 682320,
+				"to": 684160
+			},
+			"text": " It uses the Cloud Rig, but"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:25,440",
+				"to": "00:11:28,400"
+			},
+			"offsets": {
+				"from": 685440,
+				"to": 688400
+			},
+			"text": " MHX comes with, uh, the Daz Importer."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:35,120",
+				"to": "00:11:38,640"
+			},
+			"offsets": {
+				"from": 695120,
+				"to": 698640
+			},
+			"text": " So we have, uh, the character of these, uh,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:40,480",
+				"to": "00:11:41,520"
+			},
+			"offsets": {
+				"from": 700480,
+				"to": 701520
+			},
+			"text": " this control rig."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:43,440",
+				"to": "00:11:45,280"
+			},
+			"offsets": {
+				"from": 703440,
+				"to": 705280
+			},
+			"text": " It's black lines around the character."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:47,120",
+				"to": "00:11:48,400"
+			},
+			"offsets": {
+				"from": 707120,
+				"to": 708400
+			},
+			"text": " You could go into pose mode."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:48,400",
+				"to": "00:11:48,720"
+			},
+			"offsets": {
+				"from": 708400,
+				"to": 708720
+			},
+			"text": " Wait."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:48,720",
+				"to": "00:11:54,160"
+			},
+			"offsets": {
+				"from": 708720,
+				"to": 714160
+			},
+			"text": " First off, let me enable, uh, screencast key."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:54,160",
+				"to": "00:11:55,200"
+			},
+			"offsets": {
+				"from": 714160,
+				"to": 715200
+			},
+			"text": " So you know what I'm doing."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:07,200",
+				"to": "00:12:09,440"
+			},
+			"offsets": {
+				"from": 727200,
+				"to": 729440
+			},
+			"text": " So the character comes with a user interface."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:12,720",
+				"to": "00:12:14,720"
+			},
+			"offsets": {
+				"from": 732720,
+				"to": 734720
+			},
+			"text": " It allows you to make, uh, changes."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:15,840",
+				"to": "00:12:17,040"
+			},
+			"offsets": {
+				"from": 735840,
+				"to": 737040
+			},
+			"text": " You could change your outfit."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:27,120",
+				"to": "00:12:27,600"
+			},
+			"offsets": {
+				"from": 747120,
+				"to": 747600
+			},
+			"text": " Let's see."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:28,960",
+				"to": "00:12:30,000"
+			},
+			"offsets": {
+				"from": 748960,
+				"to": 750000
+			},
+			"text": " Does the scene at work?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:36,640",
+				"to": "00:12:38,640"
+			},
+			"offsets": {
+				"from": 756640,
+				"to": 758640
+			},
+			"text": " It's working before, but I don't know what happened."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:42,720",
+				"to": "00:12:43,760"
+			},
+			"offsets": {
+				"from": 762720,
+				"to": 763760
+			},
+			"text": " Remove the ear rings."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:45,040",
+				"to": "00:12:45,600"
+			},
+			"offsets": {
+				"from": 765040,
+				"to": 765600
+			},
+			"text": " Headset."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:54,720",
+				"to": "00:12:56,000"
+			},
+			"offsets": {
+				"from": 774720,
+				"to": 776000
+			},
+			"text": " There's a lot of options here."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:01,680",
+				"to": "00:13:02,080"
+			},
+			"offsets": {
+				"from": 781680,
+				"to": 782080
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:02,080",
+				"to": "00:13:05,120"
+			},
+			"offsets": {
+				"from": 782080,
+				"to": 785120
+			},
+			"text": " So this tutorial is not for complete beginners."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:05,120",
+				"to": "00:13:08,320"
+			},
+			"offsets": {
+				"from": 785120,
+				"to": 788320
+			},
+			"text": " You have to have some familiarity with Blender."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:09,280",
+				"to": "00:13:18,560"
+			},
+			"offsets": {
+				"from": 789280,
+				"to": 798560
+			},
+			"text": " You know, Blender is a very shortcut-centric application, so you gotta memorize a lot of these shortcuts."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:18,560",
+				"to": "00:13:21,280"
+			},
+			"offsets": {
+				"from": 798560,
+				"to": 801280
+			},
+			"text": " Like, you know, G's for grab."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:23,280",
+				"to": "00:13:24,480"
+			},
+			"offsets": {
+				"from": 803280,
+				"to": 804480
+			},
+			"text": " R is for rotate."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:25,520",
+				"to": "00:13:26,560"
+			},
+			"offsets": {
+				"from": 805520,
+				"to": 806560
+			},
+			"text": " S is for scale."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:30,480",
+				"to": "00:13:31,680"
+			},
+			"offsets": {
+				"from": 810480,
+				"to": 811680
+			},
+			"text": " There's a lot of shortcuts."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:33,200",
+				"to": "00:13:34,880"
+			},
+			"offsets": {
+				"from": 813200,
+				"to": 814880
+			},
+			"text": " You got num, numpad."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:36,000",
+				"to": "00:13:38,640"
+			},
+			"offsets": {
+				"from": 816000,
+				"to": 818640
+			},
+			"text": " Key one for front orthographic view."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:40,000",
+				"to": "00:13:41,520"
+			},
+			"offsets": {
+				"from": 820000,
+				"to": 821520
+			},
+			"text": " Three for side view, you know."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:44,560",
+				"to": "00:13:48,800"
+			},
+			"offsets": {
+				"from": 824560,
+				"to": 828800
+			},
+			"text": " Middle mouse to, you know, move the camera around."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:50,160",
+				"to": "00:13:51,200"
+			},
+			"offsets": {
+				"from": 830160,
+				"to": 831200
+			},
+			"text": " Make your life easier."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:54,480",
+				"to": "00:13:57,280"
+			},
+			"offsets": {
+				"from": 834480,
+				"to": 837280
+			},
+			"text": " After using Blender for some time, you'll get used to it."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:01,200",
+				"to": "00:14:04,320"
+			},
+			"offsets": {
+				"from": 841200,
+				"to": 844320
+			},
+			"text": " All right, so we want to recreate this."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:05,840",
+				"to": "00:14:11,200"
+			},
+			"offsets": {
+				"from": 845840,
+				"to": 851200
+			},
+			"text": " We see that the character is seated with her head tilted, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:15,840",
+				"to": "00:14:19,280"
+			},
+			"offsets": {
+				"from": 855840,
+				"to": 859280
+			},
+			"text": " When we pose a character, we want to move the torso first."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:21,360",
+				"to": "00:14:22,400"
+			},
+			"offsets": {
+				"from": 861360,
+				"to": 862400
+			},
+			"text": " Then the limbs."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:22,400",
+				"to": "00:14:23,920"
+			},
+			"offsets": {
+				"from": 862400,
+				"to": 863920
+			},
+			"text": " I mean, that's how I do it, at least."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:25,520",
+				"to": "00:14:26,320"
+			},
+			"offsets": {
+				"from": 865520,
+				"to": 866320
+			},
+			"text": " So let's, uh..."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:28,480",
+				"to": "00:14:30,400"
+			},
+			"offsets": {
+				"from": 868480,
+				"to": 870400
+			},
+			"text": " The rig, the control rig highlighted."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:30,400",
+				"to": "00:14:32,240"
+			},
+			"offsets": {
+				"from": 870400,
+				"to": 872240
+			},
+			"text": " We'll go to pose mode."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:35,520",
+				"to": "00:14:39,440"
+			},
+			"offsets": {
+				"from": 875520,
+				"to": 879440
+			},
+			"text": " Got numpad plus to zoom in, zoom out."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:39,440",
+				"to": "00:14:43,040"
+			},
+			"offsets": {
+				"from": 879440,
+				"to": 883040
+			},
+			"text": " You could use the mouse wheel to do the same."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:44,560",
+				"to": "00:14:46,800"
+			},
+			"offsets": {
+				"from": 884560,
+				"to": 886800
+			},
+			"text": " My mouse wheel is broken, so I can't do that."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:53,440",
+				"to": "00:14:54,400"
+			},
+			"offsets": {
+				"from": 893440,
+				"to": 894400
+			},
+			"text": " We could have the, uh..."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:55,840",
+				"to": "00:14:58,080"
+			},
+			"offsets": {
+				"from": 895840,
+				"to": 898080
+			},
+			"text": " We could select this control to move the torso."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:05,520",
+				"to": "00:15:09,760"
+			},
+			"offsets": {
+				"from": 905520,
+				"to": 909760
+			},
+			"text": " All right, but we want to move the hands, too."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:12,400",
+				"to": "00:15:16,480"
+			},
+			"offsets": {
+				"from": 912400,
+				"to": 916480
+			},
+			"text": " So if you select this, only moves is that hand."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:19,600",
+				"to": "00:15:24,400"
+			},
+			"offsets": {
+				"from": 919600,
+				"to": 924400
+			},
+			"text": " There's a, there's a way to just, uh, move both hands."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:26,160",
+				"to": "00:15:27,120"
+			},
+			"offsets": {
+				"from": 926160,
+				"to": 927120
+			},
+			"text": " Uh, X-Mirror."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:28,880",
+				"to": "00:15:29,600"
+			},
+			"offsets": {
+				"from": 928880,
+				"to": 929600
+			},
+			"text": " Apply change."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:30,400",
+				"to": "00:15:32,800"
+			},
+			"offsets": {
+				"from": 930400,
+				"to": 932800
+			},
+			"text": " Changes to the opposite side of the X-axis."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:32,800",
+				"to": "00:15:33,360"
+			},
+			"offsets": {
+				"from": 932800,
+				"to": 933360
+			},
+			"text": " Look at that."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:34,960",
+				"to": "00:15:37,120"
+			},
+			"offsets": {
+				"from": 934960,
+				"to": 937120
+			},
+			"text": " It allows us to move both of these."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:38,320",
+				"to": "00:15:39,440"
+			},
+			"offsets": {
+				"from": 938320,
+				"to": 939440
+			},
+			"text": " We want this as well."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:40,800",
+				"to": "00:15:43,680"
+			},
+			"offsets": {
+				"from": 940800,
+				"to": 943680
+			},
+			"text": " So to select multiple things, you need shift."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:43,680",
+				"to": "00:15:44,720"
+			},
+			"offsets": {
+				"from": 943680,
+				"to": 944720
+			},
+			"text": " You need a whole shift."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:46,160",
+				"to": "00:15:47,120"
+			},
+			"offsets": {
+				"from": 946160,
+				"to": 947120
+			},
+			"text": " One, two, three."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:49,360",
+				"to": "00:15:52,400"
+			},
+			"offsets": {
+				"from": 949360,
+				"to": 952400
+			},
+			"text": " We have three things selected, but we're moving six things."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:53,760",
+				"to": "00:15:54,960"
+			},
+			"offsets": {
+				"from": 953760,
+				"to": 954960
+			},
+			"text": " See how convenient that is."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:58,320",
+				"to": "00:15:59,120"
+			},
+			"offsets": {
+				"from": 958320,
+				"to": 959120
+			},
+			"text": " Shift and this."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:01,440",
+				"to": "00:16:03,200"
+			},
+			"offsets": {
+				"from": 961440,
+				"to": 963200
+			},
+			"text": " So now we can move the whole thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:07,760",
+				"to": "00:16:10,160"
+			},
+			"offsets": {
+				"from": 967760,
+				"to": 970160
+			},
+			"text": " We want to have her seated, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:12,560",
+				"to": "00:16:13,920"
+			},
+			"offsets": {
+				"from": 972560,
+				"to": 973920
+			},
+			"text": " That's what the reference has."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:14,720",
+				"to": "00:16:28,080"
+			},
+			"offsets": {
+				"from": 974720,
+				"to": 988080
+			},
+			"text": " We want our legs crossed."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:31,120",
+				"to": "00:16:31,440"
+			},
+			"offsets": {
+				"from": 991120,
+				"to": 991440
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:34,240",
+				"to": "00:16:37,200"
+			},
+			"offsets": {
+				"from": 994240,
+				"to": 997200
+			},
+			"text": " So G moves the thing in all axes."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:37,200",
+				"to": "00:16:42,880"
+			},
+			"offsets": {
+				"from": 997200,
+				"to": 1002880
+			},
+			"text": " So we could restrict movement to a singular axis by doing GX."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:43,360",
+				"to": "00:16:43,840"
+			},
+			"offsets": {
+				"from": 1003360,
+				"to": 1003840
+			},
+			"text": " And look at that."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:44,400",
+				"to": "00:16:46,320"
+			},
+			"offsets": {
+				"from": 1004400,
+				"to": 1006320
+			},
+			"text": " Only moves the X-axis, access."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:48,320",
+				"to": "00:16:50,000"
+			},
+			"offsets": {
+				"from": 1008320,
+				"to": 1010000
+			},
+			"text": " Numpad one for front for you."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:51,520",
+				"to": "00:16:52,000"
+			},
+			"offsets": {
+				"from": 1011520,
+				"to": 1012000
+			},
+			"text": " GX."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:55,680",
+				"to": "00:17:03,360"
+			},
+			"offsets": {
+				"from": 1015680,
+				"to": 1023360
+			},
+			"text": " Blender is shortcut-centric, so yeah, you have to get used to knowing these keyboard, keyboard shortcuts."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:05,840",
+				"to": "00:17:07,280"
+			},
+			"offsets": {
+				"from": 1025840,
+				"to": 1027280
+			},
+			"text": " So we want to cross our legs."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:13,360",
+				"to": "00:17:14,240"
+			},
+			"offsets": {
+				"from": 1033360,
+				"to": 1034240
+			},
+			"text": " Wrap the leg here."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:14,240",
+				"to": "00:17:19,600"
+			},
+			"offsets": {
+				"from": 1034240,
+				"to": 1039600
+			},
+			"text": " The symmetry thing is still on, so we have to turn that off."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:29,520",
+				"to": "00:17:33,760"
+			},
+			"offsets": {
+				"from": 1049520,
+				"to": 1053760
+			},
+			"text": " The legs have pole targets that allow you to move the knees."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:37,840",
+				"to": "00:17:46,720"
+			},
+			"offsets": {
+				"from": 1057840,
+				"to": 1066720
+			},
+			"text": " Now, what we make won't be exactly a replication of this."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:46,720",
+				"to": "00:17:53,920"
+			},
+			"offsets": {
+				"from": 1066720,
+				"to": 1073920
+			},
+			"text": " We'll just, you know, it'll take me a considerable time to match this exact pose."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:53,920",
+				"to": "00:18:06,080"
+			},
+			"offsets": {
+				"from": 1073920,
+				"to": 1086080
+			},
+			"text": " It's just a tutorial, so it's just a tutorial, you know."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:06,320",
+				"to": "00:18:06,800"
+			},
+			"offsets": {
+				"from": 1086320,
+				"to": 1086800
+			},
+			"text": " I'll move this this way."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:06,800",
+				"to": "00:18:18,800"
+			},
+			"offsets": {
+				"from": 1086800,
+				"to": 1098800
+			},
+			"text": " I'll move this this way."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:18,800",
+				"to": "00:18:35,680"
+			},
+			"offsets": {
+				"from": 1098800,
+				"to": 1115680
+			},
+			"text": " I'll reactivate symmetry again."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:35,680",
+				"to": "00:18:49,920"
+			},
+			"offsets": {
+				"from": 1115680,
+				"to": 1129920
+			},
+			"text": " I'll move both hands."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:53,600",
+				"to": "00:18:57,600"
+			},
+			"offsets": {
+				"from": 1133600,
+				"to": 1137600
+			},
+			"text": " The hands have pole targets as well."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:57,600",
+				"to": "00:19:15,760"
+			},
+			"offsets": {
+				"from": 1137600,
+				"to": 1155760
+			},
+			"text": " So, of course, when you're making art, you'll spend a lot of time on this."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:17,200",
+				"to": "00:19:18,640"
+			},
+			"offsets": {
+				"from": 1157200,
+				"to": 1158640
+			},
+			"text": " It's just part process."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:19,600",
+				"to": "00:19:20,480"
+			},
+			"offsets": {
+				"from": 1159600,
+				"to": 1160480
+			},
+			"text": " It's unavoidable."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:25,440",
+				"to": "00:19:26,880"
+			},
+			"offsets": {
+				"from": 1165440,
+				"to": 1166880
+			},
+			"text": " Some people hate this process."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:26,880",
+				"to": "00:19:30,080"
+			},
+			"offsets": {
+				"from": 1166880,
+				"to": 1170080
+			},
+			"text": " Some people enjoy it."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:30,080",
+				"to": "00:19:52,960"
+			},
+			"offsets": {
+				"from": 1170080,
+				"to": 1192960
+			},
+			"text": " But first, I'm going to hit control tab to go back to object mode, you see."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:53,920",
+				"to": "00:19:56,720"
+			},
+			"offsets": {
+				"from": 1193920,
+				"to": 1196720
+			},
+			"text": " Object mode, pose mode, control tab."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:57,360",
+				"to": "00:19:58,720"
+			},
+			"offsets": {
+				"from": 1197360,
+				"to": 1198720
+			},
+			"text": " Switches between these modes."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:58,720",
+				"to": "00:20:00,000"
+			},
+			"offsets": {
+				"from": 1198720,
+				"to": 1200000
+			},
+			"text": " I'm going to object mode."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:05,840",
+				"to": "00:20:16,480"
+			},
+			"offsets": {
+				"from": 1205840,
+				"to": 1216480
+			},
+			"text": " I'm going to upper left corner here until my mouse changes to what looks like a target sign."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:17,600",
+				"to": "00:20:20,720"
+			},
+			"offsets": {
+				"from": 1217600,
+				"to": 1220720
+			},
+			"text": " And then drag to the right to create two panels."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:21,360",
+				"to": "00:20:22,000"
+			},
+			"offsets": {
+				"from": 1221360,
+				"to": 1222000
+			},
+			"text": " Two panes."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:27,200",
+				"to": "00:20:37,360"
+			},
+			"offsets": {
+				"from": 1227200,
+				"to": 1237360
+			},
+			"text": " I'm going to create a new camera here."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:41,920",
+				"to": "00:20:42,800"
+			},
+			"offsets": {
+				"from": 1241920,
+				"to": 1242800
+			},
+			"text": " I'm going to hit zero."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:46,400",
+				"to": "00:20:47,200"
+			},
+			"offsets": {
+				"from": 1246400,
+				"to": 1247200
+			},
+			"text": " I'm going to hit end."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:48,640",
+				"to": "00:20:48,960"
+			},
+			"offsets": {
+				"from": 1248640,
+				"to": 1248960
+			},
+			"text": " View."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:50,400",
+				"to": "00:20:51,600"
+			},
+			"offsets": {
+				"from": 1250400,
+				"to": 1251600
+			},
+			"text": " Camera to view."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:51,600",
+				"to": "00:20:57,440"
+			},
+			"offsets": {
+				"from": 1251600,
+				"to": 1257440
+			},
+			"text": " This will have me look through the camera."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:58,320",
+				"to": "00:21:03,360"
+			},
+			"offsets": {
+				"from": 1258320,
+				"to": 1263360
+			},
+			"text": " Without that, if I move around, I move out of the camera."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:04,400",
+				"to": "00:21:05,360"
+			},
+			"offsets": {
+				"from": 1264400,
+				"to": 1265360
+			},
+			"text": " It's not what we want."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:06,720",
+				"to": "00:21:08,240"
+			},
+			"offsets": {
+				"from": 1266720,
+				"to": 1268240
+			},
+			"text": " We want to see what the camera sees."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:08,960",
+				"to": "00:21:12,880"
+			},
+			"offsets": {
+				"from": 1268960,
+				"to": 1272880
+			},
+			"text": " When we make changes, when we move around, we want the camera to move around too."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:15,280",
+				"to": "00:21:16,720"
+			},
+			"offsets": {
+				"from": 1275280,
+				"to": 1276720
+			},
+			"text": " So that's what this option is for."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:23,920",
+				"to": "00:21:25,200"
+			},
+			"offsets": {
+				"from": 1283920,
+				"to": 1285200
+			},
+			"text": " We'll set up the camera."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:32,320",
+				"to": "00:21:36,000"
+			},
+			"offsets": {
+				"from": 1292320,
+				"to": 1296000
+			},
+			"text": " We could also go to the other pane and control the camera that way."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:38,960",
+				"to": "00:21:49,440"
+			},
+			"offsets": {
+				"from": 1298960,
+				"to": 1309440
+			},
+			"text": " This is just for convenience."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:50,720",
+				"to": "00:21:54,480"
+			},
+			"offsets": {
+				"from": 1310720,
+				"to": 1314480
+			},
+			"text": " As I'm posing the character, I could look at the other pane and see what I'm doing."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:55,040",
+				"to": "00:22:01,200"
+			},
+			"offsets": {
+				"from": 1315040,
+				"to": 1321200
+			},
+			"text": " To see how I'll get an idea of the final render for the camera."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:06,480",
+				"to": "00:22:18,160"
+			},
+			"offsets": {
+				"from": 1326480,
+				"to": 1338160
+			},
+			"text": " There's some other changes I want to make as well."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:20,240",
+				"to": "00:22:24,160"
+			},
+			"offsets": {
+				"from": 1340240,
+				"to": 1344160
+			},
+			"text": " Yeah, this camera, I want it to be outside the folder."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:33,600",
+				"to": "00:22:35,040"
+			},
+			"offsets": {
+				"from": 1353600,
+				"to": 1355040
+			},
+			"text": " And this option."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:38,400",
+				"to": "00:22:39,200"
+			},
+			"offsets": {
+				"from": 1358400,
+				"to": 1359200
+			},
+			"text": " Back to posing."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:42,080",
+				"to": "00:22:43,680"
+			},
+			"offsets": {
+				"from": 1362080,
+				"to": 1363680
+			},
+			"text": " See, I think the leg is all right."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:43,680",
+				"to": "00:22:44,640"
+			},
+			"offsets": {
+				"from": 1363680,
+				"to": 1364640
+			},
+			"text": " It's not perfect."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:47,840",
+				"to": "00:22:50,320"
+			},
+			"offsets": {
+				"from": 1367840,
+				"to": 1370320
+			},
+			"text": " I guess we should work on the hands next."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:57,680",
+				"to": "00:23:10,720"
+			},
+			"offsets": {
+				"from": 1377680,
+				"to": 1390720
+			},
+			"text": " Again, what we do won't be exact, but it just gives you an idea."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:10,720",
+				"to": "00:23:24,240"
+			},
+			"offsets": {
+				"from": 1390720,
+				"to": 1404240
+			},
+			"text": " Because of how the camera is positioned, we won't see her on the other side."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:24,240",
+				"to": "00:23:25,360"
+			},
+			"offsets": {
+				"from": 1404240,
+				"to": 1405360
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:25,360",
+				"to": "00:23:26,400"
+			},
+			"offsets": {
+				"from": 1405360,
+				"to": 1406400
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:26,400",
+				"to": "00:23:27,200"
+			},
+			"offsets": {
+				"from": 1406400,
+				"to": 1407200
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:27,200",
+				"to": "00:23:28,400"
+			},
+			"offsets": {
+				"from": 1407200,
+				"to": 1408400
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:28,400",
+				"to": "00:23:29,200"
+			},
+			"offsets": {
+				"from": 1408400,
+				"to": 1409200
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:29,200",
+				"to": "00:23:29,440"
+			},
+			"offsets": {
+				"from": 1409200,
+				"to": 1409440
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:29,440",
+				"to": "00:23:30,400"
+			},
+			"offsets": {
+				"from": 1409440,
+				"to": 1410400
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:30,400",
+				"to": "00:23:31,200"
+			},
+			"offsets": {
+				"from": 1410400,
+				"to": 1411200
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:31,200",
+				"to": "00:23:31,680"
+			},
+			"offsets": {
+				"from": 1411200,
+				"to": 1411680
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:31,680",
+				"to": "00:23:32,800"
+			},
+			"offsets": {
+				"from": 1411680,
+				"to": 1412800
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:32,800",
+				"to": "00:23:33,680"
+			},
+			"offsets": {
+				"from": 1412800,
+				"to": 1413680
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:33,680",
+				"to": "00:23:34,400"
+			},
+			"offsets": {
+				"from": 1413680,
+				"to": 1414400
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:34,400",
+				"to": "00:23:35,040"
+			},
+			"offsets": {
+				"from": 1414400,
+				"to": 1415040
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:35,040",
+				"to": "00:23:35,680"
+			},
+			"offsets": {
+				"from": 1415040,
+				"to": 1415680
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:35,680",
+				"to": "00:23:36,400"
+			},
+			"offsets": {
+				"from": 1415680,
+				"to": 1416400
+			},
+			"text": " I'm not going to be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:36,400",
+				"to": "00:23:41,760"
+			},
+			"offsets": {
+				"from": 1416400,
+				"to": 1421760
+			},
+			"text": " Because of how the camera is positioned, we won't see her right hand."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:41,760",
+				"to": "00:23:44,080"
+			},
+			"offsets": {
+				"from": 1421760,
+				"to": 1424080
+			},
+			"text": " So, it doesn't really matter what we do."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:47,440",
+				"to": "00:23:49,440"
+			},
+			"offsets": {
+				"from": 1427440,
+				"to": 1429440
+			},
+			"text": " I think in the reference, we see both hands."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:49,440",
+				"to": "00:23:51,520"
+			},
+			"offsets": {
+				"from": 1429440,
+				"to": 1431520
+			},
+			"text": " But, you know, again, this is a tutorial."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:51,520",
+				"to": "00:24:01,440"
+			},
+			"offsets": {
+				"from": 1431520,
+				"to": 1441440
+			},
+			"text": " We just want to take some shortcuts."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:01,440",
+				"to": "00:24:10,480"
+			},
+			"offsets": {
+				"from": 1441440,
+				"to": 1450480
+			},
+			"text": " We just want to take some shortcuts."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:10,480",
+				"to": "00:24:15,760"
+			},
+			"offsets": {
+				"from": 1450480,
+				"to": 1455760
+			},
+			"text": " There's probably something in here that will make posing their fingers a whole lot easier."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:20,160",
+				"to": "00:24:22,240"
+			},
+			"offsets": {
+				"from": 1460160,
+				"to": 1462240
+			},
+			"text": " But, you know, there's so many options here."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:22,960",
+				"to": "00:24:24,800"
+			},
+			"offsets": {
+				"from": 1462960,
+				"to": 1464800
+			},
+			"text": " I'd rather just do it manually."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:28,320",
+				"to": "00:24:36,320"
+			},
+			"offsets": {
+				"from": 1468320,
+				"to": 1476320
+			},
+			"text": " We want the hand to look, to look like it's, uh, on the fly."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:39,920",
+				"to": "00:24:54,320"
+			},
+			"offsets": {
+				"from": 1479920,
+				"to": 1494320
+			},
+			"text": " It's not going to be perfect, but, you know, as long as it looks convincing."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:58,320",
+				"to": "00:25:23,600"
+			},
+			"offsets": {
+				"from": 1498320,
+				"to": 1523600
+			},
+			"text": " I'm going to try to tilt the head now."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:28,000",
+				"to": "00:25:29,920"
+			},
+			"offsets": {
+				"from": 1528000,
+				"to": 1529920
+			},
+			"text": " There's global and local space."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:32,400",
+				"to": "00:25:36,400"
+			},
+			"offsets": {
+				"from": 1532400,
+				"to": 1536400
+			},
+			"text": " If you look at the top right, you'll see the z-axis is up and down."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:37,200",
+				"to": "00:25:41,360"
+			},
+			"offsets": {
+				"from": 1537200,
+				"to": 1541360
+			},
+			"text": " The y-axis, the negative y-axis is towards the screen."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:42,880",
+				"to": "00:25:46,000"
+			},
+			"offsets": {
+				"from": 1542880,
+				"to": 1546000
+			},
+			"text": " The positive y-axis is in, you know, opposite direction."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:46,880",
+				"to": "00:25:47,680"
+			},
+			"offsets": {
+				"from": 1546880,
+				"to": 1547680
+			},
+			"text": " That's the global."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:49,360",
+				"to": "00:25:52,160"
+			},
+			"offsets": {
+				"from": 1549360,
+				"to": 1552160
+			},
+			"text": " Local is, uh, it's different."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:53,040",
+				"to": "00:25:54,800"
+			},
+			"offsets": {
+				"from": 1553040,
+				"to": 1554800
+			},
+			"text": " It moves along its own axis."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:56,960",
+				"to": "00:26:00,000"
+			},
+			"offsets": {
+				"from": 1556960,
+				"to": 1560000
+			},
+			"text": " So, you'll, you'll often find yourself switching between those."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:01,680",
+				"to": "00:26:05,360"
+			},
+			"offsets": {
+				"from": 1561680,
+				"to": 1565360
+			},
+			"text": " So, we want to tilt the head right towards the camera."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:06,320",
+				"to": "00:26:09,680"
+			},
+			"offsets": {
+				"from": 1566320,
+				"to": 1569680
+			},
+			"text": " It's rotating along the z-axis."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:15,840",
+				"to": "00:26:26,560"
+			},
+			"offsets": {
+				"from": 1575840,
+				"to": 1586560
+			},
+			"text": " We're going to pose the robotic hands, too."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:31,200",
+				"to": "00:26:32,640"
+			},
+			"offsets": {
+				"from": 1591200,
+				"to": 1592640
+			},
+			"text": " We're going to enable symmetry."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:37,760",
+				"to": "00:26:39,520"
+			},
+			"offsets": {
+				"from": 1597760,
+				"to": 1599520
+			},
+			"text": " Again, what we have won't be exact."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:44,960",
+				"to": "00:26:50,400"
+			},
+			"offsets": {
+				"from": 1604960,
+				"to": 1610400
+			},
+			"text": " If I were to exactly replicate the reference, you know, the tour will be a lot longer."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:56,480",
+				"to": "00:27:13,520"
+			},
+			"offsets": {
+				"from": 1616480,
+				"to": 1633520
+			},
+			"text": " Yeah, I think we should have it around here, I guess."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:14,080",
+				"to": "00:27:28,160"
+			},
+			"offsets": {
+				"from": 1634080,
+				"to": 1648160
+			},
+			"text": " Yeah, I think, I think that's alright."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:30,720",
+				"to": "00:27:32,080"
+			},
+			"offsets": {
+				"from": 1650720,
+				"to": 1652080
+			},
+			"text": " So, that's it for part one."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:32,640",
+				"to": "00:27:35,680"
+			},
+			"offsets": {
+				"from": 1652640,
+				"to": 1655680
+			},
+			"text": " Part two will set up the lighting."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:36,880",
+				"to": "00:27:41,760"
+			},
+			"offsets": {
+				"from": 1656880,
+				"to": 1661760
+			},
+			"text": " Have, uh, optimized render settings and do a little post processing."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:44,240",
+				"to": "00:27:47,360"
+			},
+			"offsets": {
+				"from": 1664240,
+				"to": 1667360
+			},
+			"text": " And, that's it."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:47,360",
+				"to": "00:27:48,360"
+			},
+			"offsets": {
+				"from": 1667360,
+				"to": 1668360
+			},
+			"text": " Thank you."
+		}
+	]
+}

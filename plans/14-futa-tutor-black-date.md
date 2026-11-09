@@ -4,7 +4,8 @@
 - **Video ID:** 4293878 · **Duration:** 11:56 · **Creator:** (category listing shows none — record at intake)
 - **Lane:** NSFW-only if studied / triage first
 - **Estate targets:** Narrative format reference only, if anything
-- **Status:** PLANNED
+- **Status:** TRIAGE-CLOSED 2026-11-06 — classification: **CONTENT** (recorded with evidence in `runs/plan-14/INTAKE.md`; closes at intake per this plan's gate, no further passes)
+- **Creator (recorded at intake, 2026-11-06):** uploader NTRgasm (page `video_models`: "NTRgasm, WILDNTR"); story credited in the page description to Aneyasha's comic; upload date 2026-03-25; views 62,368 at capture
 
 ## Why this video
 

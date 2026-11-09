@@ -1,0 +1,42 @@
+{
+ "determinism_mugen": [
+  true,
+  9
+ ],
+ "determinism_depth": [
+  true,
+  9
+ ],
+ "cross_run_c240_meanabsdiff": 0.3656857638888889,
+ "mugen_floorband_transparent_px_max": 0,
+ "mugen_floor_top_edge_rows": [
+  380,
+  380,
+  380,
+  380,
+  380,
+  380,
+  380,
+  380,
+  380
+ ],
+ "mugen_seam_max_coldiff": 4.999999999999998,
+ "depth_floorband_transparent_px_max": 0,
+ "depth_floor_top_edge_rows": [
+  380,
+  380,
+  380,
+  380,
+  380,
+  380,
+  380,
+  380,
+  380
+ ],
+ "depth_seam_max_coldiff": 5.309523809523808,
+ "mugen_ambient_changed_px": 556,
+ "mugen_ambient_changed_share": 0.0018098958333333333,
+ "depth_ambient_changed_px": 1080,
+ "depth_ambient_changed_share": 0.003515625,
+ "negative_control_black_share_top": 0.9999869791666667
+}

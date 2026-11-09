@@ -1,0 +1,36 @@
+# Plan 22 transcript — PARTIAL (segments 0:00–3:47 of 12:27)
+
+whisper.cpp large-v3-turbo, primo, file-mediated run
+`ns22-whisper` (nice -n 19, 2 threads). At the time this run
+was written up, sibling plans' transcription jobs were
+saturating primo (load ~32–35, 12 whisper processes) and the
+ns22 job had landed 21 segments covering 0:00–3:47. The job
+was LEFT RUNNING on primo; the completed transcript lands at
+primo `~/.local/share/pax/night-school/plan-22/transcript.txt`
+beside the media pin. The screen class (OBSERVATION.md §2)
+carries every preset value in this run; the landed narration
+corroborates the architecture and the solidify scaling rule
+(§5 of OBSERVATION.md). Tier: single-transcriber,
+UNCONFIRMED; the screen governs.
+
+[00:00:00.000 --> 00:00:09.040] hello and welcome I want to do this sleeve tutorial since now a longer time
+[00:00:09.040 --> 00:00:16.020] I know what I'm talking I just want to make a sleeve tutorial here for some
+[00:00:16.020 --> 00:00:23.520] responsive sleeves so and now let me just start a little a little amateur do we
+[00:00:23.520 --> 00:00:36.560] need this later in more or less a few minutes so next thing is the cube was a
+[00:00:36.560 --> 00:00:46.860] cube is it's wrong it's the cylinder cylinder one connect let's connect this
+[00:00:46.860 --> 00:00:57.460] one to this one and say connection problem solved let's let me just pull this one
+[00:00:57.460 --> 00:01:10.040] up here so now we are going to reduce the size of this thingy it should be fine then
+[00:01:10.040 --> 00:01:25.340] again side view or more or less side view note this one this one and let's make it
+[00:01:25.340 --> 00:01:38.800] like this so now we have two out of basically a longer sleeve a longer collider for the sleeve I should say so the first thing is what we will do now is to add
+[00:01:38.800 --> 00:01:46.460] for the sleeve I should say so the first thing is what we will do now is to add
+[00:01:46.460 --> 00:01:57.260] some cuts to cuts and let's say around 500 should be faces I mean 500 faces not
+[00:01:57.260 --> 00:02:04.640] two cuts you can see this there if you don't have this right click and yeah you
+[00:02:04.640 --> 00:02:14.460] can check what you want and let's say around 514 this is a small model so yes
+[00:02:14.460 --> 00:02:20.340] should this should this should work should because I don't know until we use this
+[00:02:20.340 --> 00:02:33.240] right so next thing is to delete the faces we don't need them on the the caps we
+[00:02:33.240 --> 00:02:44.340] don't need those caps so let's copy now we have to copy this sleeve oh so it's
+[00:02:44.340 --> 00:02:53.040] it's wrong collider this is the name of this game no copy this one this is no
+[00:02:53.040 --> 00:03:08.940] sleeve pretty easy and we add here under the modifier tab we add solidify in this case I go with
+[00:03:08.940 --> 00:03:18.540] something minus 0.5 but it depends on the size of your model or whatever and we want to do
+[00:03:18.540 --> 00:03:28.560] so we have this okay now we let this the last thing we have to do here is to pin to last
+[00:03:28.560 --> 00:03:47.260] then add and surface deform for now we let this as it is and select the collider the collider

@@ -40,3 +40,16 @@ PASS = clean fit at all three angles with no hand repair. Pinch or slide at the 
 ## Deliverables
 
 - `results/plan-22-shrinkwrap-sleeve/` — technique sheet, rebuild record, gate result.
+
+## Errata (added by the Plan 22 execution run, 2026-11-06, local copy only)
+
+- **Duration is 12:27, not 2:31** (page JSON-LD PT0H12M27S;
+  probed file 746.602 s — runs/plan-22/MANIFEST.md). The
+  "single-modifier micro-tutorial" framing is also wrong:
+  the stack is Shrinkwrap + Surface Deform + Solidify.
+- **Creator: KenFurFox** (watch page, "Uploaded by").
+- **Premise:** the "sleeve" is a responsive tube over an
+  armature-animated shaft asset, not a garment sleeve on an
+  arm; no bent joint is demonstrated. The technique and the
+  plan's rebuild/gate were executed as written; gate result
+  FAIL at the bent angles (see results/plan-22-shrinkwrap-sleeve/).

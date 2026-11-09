@@ -1,0 +1,8 @@
+[00:00:00.000 --> 00:00:08.500]   Hello and welcome to this tutorial. I want to show you some other way to make responsive
+[00:00:08.500 --> 00:00:18.480]   pillows or something like this. Something like you were found on couches and stuff.
+[00:00:18.480 --> 00:00:26.640]   So for this we don't need some kind of soft body or collision, some fake kind of collision
+[00:00:26.640 --> 00:00:36.840]   if you want it this way. But yeah, you will see. It works. It works pretty. It is also pretty
+[00:00:36.840 --> 00:00:46.880]   easy and it works with no real problem. Just model here something small, nothing fancy.
+[00:00:46.880 --> 00:00:57.080]   So let's put this here and extrude this one. Let's put this here. So now we have a stupid
+[00:00:57.080 --> 00:01:08.040]   seed. You see what I mean? So let's put this one here. And yeah, this is a seed. Easy peasy.
+[00:01:08.040 --> 00:01:22.240]   No, no real rocket science here. So now we need some kind of cushion or something, right?

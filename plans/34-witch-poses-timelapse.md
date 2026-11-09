@@ -41,3 +41,22 @@ PASS = the order is stated as a sequence, run once, and the comparison recorded 
 ## Deliverables
 
 - `results/plan-34-witch-poses-timelapse/` — technique sheet, rebuild record, gate result.
+
+## Errata (from the execution run, 2026-11-06 — local copy only)
+
+- Creator: the category listing showed none, but the watch
+  page names the creator: **shadowyartsdirty** (upload
+  2024-03-30). Recorded at intake in the run.
+- Duration: stated 15:04 **verifies exactly** against the
+  captured file (904.400 s) — this plan's number was right.
+- Premise correction: the session does not build a sequence
+  of independent poses. It builds ONE hero pose (broom-sit)
+  from scratch, captures it as a pose library (full preset
+  + chain-scoped partial hand preset + broom/camera
+  presets), re-applies the library to a reset figure, then
+  poses a second subject (cat) against it. The posing-order
+  extraction is unaffected (stronger: three construction
+  units to test conformance against), but any re-plan
+  should describe the library arc, not a pose sequence.
+- Tool on screen is DAZ Studio 4.21 Pro (Genesis 8 Female),
+  not stated in the plan.

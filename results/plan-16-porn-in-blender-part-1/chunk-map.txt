@@ -1,0 +1,2 @@
+Plan 16 chunk map (single-pass lane; media 1668.074 s < 3600 s cap)
+chunk1: 0 - 1668.074 s  audio.wav (16 kHz mono, from plan16-source-720p.mp4)

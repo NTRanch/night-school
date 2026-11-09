@@ -1,0 +1,94 @@
+{
+ "axis_ab": {
+  "X": {
+   "hug_fraction": 1.0,
+   "mean_abs_mm": 0.0,
+   "n": 180
+  },
+  "Y": {
+   "hug_fraction": 1.0,
+   "mean_abs_mm": 0.0,
+   "n": 180
+  },
+  "Z": {
+   "hug_fraction": 0.967,
+   "mean_abs_mm": 0.0,
+   "n": 180
+  },
+  "XYZ": {
+   "hug_fraction": 1.0,
+   "mean_abs_mm": 0.0,
+   "n": 180
+  }
+ },
+ "axis_chosen": "X",
+ "mean_sleeve_radius_m": 0.0412,
+ "solidify_thickness_m": -0.0358,
+ "rings": 9,
+ "seg": 20,
+ "angles": {
+  "rest": {
+   "set_deg": 0,
+   "inter_axis_deg": 21.8,
+   "flexion_from_rest_deg": -0.0,
+   "fit": {
+    "n": 180,
+    "min_mm": 1.87,
+    "mean_mm": 3.75,
+    "max_mm": 3.99,
+    "mean_abs_mm": 3.75,
+    "inside_le_0.5mm": 0
+   },
+   "distal_u": 0.55,
+   "pinch": {
+    "zone_verts": 41,
+    "zone_edges": 63,
+    "mean_edge_mm": 16.92
+   },
+   "slide_mm": 0.0,
+   "pinch_ratio": 1.0
+  },
+  "flex70": {
+   "set_deg": 70,
+   "inter_axis_deg": 91.8,
+   "flexion_from_rest_deg": 70.0,
+   "fit": {
+    "n": 180,
+    "min_mm": -7.96,
+    "mean_mm": 3.0,
+    "max_mm": 5.62,
+    "mean_abs_mm": 3.55,
+    "inside_le_0.5mm": 15
+   },
+   "distal_u": 0.5588,
+   "pinch": {
+    "zone_verts": 44,
+    "zone_edges": 57,
+    "mean_edge_mm": 14.99
+   },
+   "slide_mm": 2.18,
+   "pinch_ratio": 0.886
+  },
+  "flex120": {
+   "set_deg": 120,
+   "inter_axis_deg": 141.8,
+   "flexion_from_rest_deg": 120.0,
+   "fit": {
+    "n": 180,
+    "min_mm": -4.54,
+    "mean_mm": 2.34,
+    "max_mm": 6.56,
+    "mean_abs_mm": 3.61,
+    "inside_le_0.5mm": 39
+   },
+   "distal_u": 0.5497,
+   "pinch": {
+    "zone_verts": 74,
+    "zone_edges": 117,
+    "mean_edge_mm": 19.75
+   },
+   "slide_mm": -0.07,
+   "pinch_ratio": 1.167
+  }
+ }
+}

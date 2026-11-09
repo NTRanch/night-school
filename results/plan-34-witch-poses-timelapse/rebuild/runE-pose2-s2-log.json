@@ -1,0 +1,19 @@
+{
+ "run": "E",
+ "pose": 2,
+ "pose_name": "seated-bench",
+ "stage": 2,
+ "steps": [],
+ "corrections_applied": {
+  "hips_loc_delta": [
+   0,
+   0,
+   -0.04
+  ]
+ },
+ "hand_hip_dist_m": 0.4201,
+ "final_render_s": 0.54,
+ "retouch_bone_instances": 0,
+ "bones_touched": 0,
+ "posing_wall_s": 0
+}

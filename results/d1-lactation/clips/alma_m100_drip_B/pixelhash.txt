@@ -1,0 +1,58 @@
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-26 14:00:03)
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_rename_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_retarget" registration error: 'orientation' EnumProperty could not register (see previous error)
+Loading MHX RTS v 5.2.0
+MHX RTS loaded
+Loading BVH Retargeter
+BVH Retargeter loaded
+DAZ loaded
+Register DAZ Importer
+Loading MHX Tools
+Register MHX Tools
+Loading Rigify Tools
+Register Rigify Tools
+Loading Hair Tools
+Register Hair Tools
+Loading Visibility Tools
+Register Visibility Tools
+Loading Export Tools
+Register Export Tools
+Settings directory: /home/phaedrus/DAZ Importer
+File does not exist:
+"/home/phaedrus/DAZ Importer/import_daz_settings.json"
+File does not exist:
+"/home/phaedrus/import-daz-settings-28x.json"
+init
+PIXELHASH_JSON {
+  "full_frame_0012.png": {
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "87f888930d2fd494dbf6407ede17b5a24488af547f2df357366c980ec5ab7c39"
+  },
+  "full_frame_0024.png": {
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "1c0b479f26e2e48902664a5d89e9db27960f670b9db853f69a937bf226b2a567"
+  },
+  "full_frame_0036.png": {
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "786c1365659e6cd979f6c1bfccd8beb03f6d35f7fe616d323bf3c3cba08d13d5"
+  }
+}
+
+Blender quit

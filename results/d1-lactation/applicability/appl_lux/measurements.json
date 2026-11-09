@@ -1,0 +1,554 @@
+{
+  "frames": {
+    "4": {
+      "mesh_verts": 8,
+      "mesh_islands": 1,
+      "mesh_bbox": [
+        [
+          -0.375,
+          0.375
+        ],
+        [
+          -1.05,
+          0.25
+        ],
+        [
+          -0.03,
+          1.47
+        ]
+      ],
+      "particles": 0,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "6": {
+      "mesh_verts": 126,
+      "mesh_islands": 2,
+      "mesh_bbox": [
+        [
+          -0.0542,
+          0.0544
+        ],
+        [
+          -0.1675,
+          -0.1409
+        ],
+        [
+          1.1953,
+          1.2182
+        ]
+      ],
+      "particles": 49,
+      "centroid": [
+        -0.0004,
+        -0.1548,
+        1.2064
+      ],
+      "mean_vel": [
+        -0.0005,
+        -0.5892,
+        -0.2256
+      ],
+      "mean_speed": 0.6309,
+      "young_mean_vel": [
+        -0.0005,
+        -0.5892,
+        -0.2256
+      ],
+      "young_n": 49,
+      "vcone_p90_deg": 11.22,
+      "vcone_n": 49,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 0,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "8": {
+      "mesh_verts": 852,
+      "mesh_islands": 6,
+      "mesh_bbox": [
+        [
+          -0.0609,
+          0.0572
+        ],
+        [
+          -0.3393,
+          -0.1409
+        ],
+        [
+          1.0791,
+          1.2182
+        ]
+      ],
+      "particles": 294,
+      "centroid": [
+        -0.0014,
+        -0.2366,
+        1.1702
+      ],
+      "mean_vel": [
+        -0.0065,
+        -0.5985,
+        -0.2433
+      ],
+      "mean_speed": 0.6461,
+      "cone_p90_deg": 23.54,
+      "cone_max_deg": 30.51,
+      "cone_n": 238,
+      "young_mean_vel": [
+        0.0018,
+        -0.6334,
+        -0.2132
+      ],
+      "young_n": 222,
+      "vcone_p90_deg": 14.92,
+      "vcone_n": 222,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 45,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "10": {
+      "mesh_verts": 2030,
+      "mesh_islands": 7,
+      "mesh_bbox": [
+        [
+          -0.0968,
+          0.0683
+        ],
+        [
+          -0.5246,
+          -0.1409
+        ],
+        [
+          0.9521,
+          1.2182
+        ]
+      ],
+      "particles": 588,
+      "centroid": [
+        -0.0017,
+        -0.3418,
+        1.1246
+      ],
+      "mean_vel": [
+        -0.0025,
+        -0.7956,
+        -0.2999
+      ],
+      "mean_speed": 0.8503,
+      "cone_p90_deg": 18.5,
+      "cone_max_deg": 33.85,
+      "cone_n": 539,
+      "young_mean_vel": [
+        -0.0146,
+        -0.8279,
+        -0.1848
+      ],
+      "young_n": 207,
+      "vcone_p90_deg": 6.04,
+      "vcone_n": 207,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 376,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "12": {
+      "mesh_verts": 3718,
+      "mesh_islands": 17,
+      "mesh_bbox": [
+        [
+          -0.0863,
+          0.1024
+        ],
+        [
+          -0.8582,
+          -0.1409
+        ],
+        [
+          0.7486,
+          1.2182
+        ]
+      ],
+      "particles": 980,
+      "centroid": [
+        0.0012,
+        -0.4675,
+        1.0757
+      ],
+      "mean_vel": [
+        0.0023,
+        -0.8512,
+        -0.3532
+      ],
+      "mean_speed": 0.9215,
+      "cone_p90_deg": 19.12,
+      "cone_max_deg": 36.74,
+      "cone_n": 907,
+      "young_mean_vel": [
+        -0.0062,
+        -0.7063,
+        -0.2028
+      ],
+      "young_n": 287,
+      "vcone_p90_deg": 9.9,
+      "vcone_n": 287,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 689,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "14": {
+      "mesh_verts": 4848,
+      "mesh_islands": 16,
+      "mesh_bbox": [
+        [
+          -0.0753,
+          0.2517
+        ],
+        [
+          -1.0356,
+          -0.1409
+        ],
+        [
+          0.4274,
+          1.2182
+        ]
+      ],
+      "particles": 1357,
+      "centroid": [
+        0.0135,
+        -0.582,
+        1.021
+      ],
+      "mean_vel": [
+        0.0422,
+        -0.7363,
+        -0.358
+      ],
+      "mean_speed": 0.8198,
+      "cone_p90_deg": 19.15,
+      "cone_max_deg": 36.9,
+      "cone_n": 1283,
+      "young_mean_vel": [
+        -0.0153,
+        -0.6332,
+        -0.203
+      ],
+      "young_n": 296,
+      "vcone_p90_deg": 14.81,
+      "vcone_n": 296,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 1057,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "16": {
+      "mesh_verts": 6302,
+      "mesh_islands": 15,
+      "mesh_bbox": [
+        [
+          -0.102,
+          0.3414
+        ],
+        [
+          -1.0366,
+          -0.1409
+        ],
+        [
+          0.3268,
+          1.2183
+        ]
+      ],
+      "particles": 1797,
+      "centroid": [
+        0.0113,
+        -0.6472,
+        0.9867
+      ],
+      "mean_vel": [
+        -0.0049,
+        -0.4602,
+        -0.2307
+      ],
+      "mean_speed": 0.5149,
+      "cone_p90_deg": 18.44,
+      "cone_max_deg": 36.37,
+      "cone_n": 1705,
+      "young_mean_vel": [
+        -0.0103,
+        -0.6478,
+        -0.201
+      ],
+      "young_n": 296,
+      "vcone_p90_deg": 12.01,
+      "vcone_n": 296,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 1497,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "18": {
+      "mesh_verts": 7670,
+      "mesh_islands": 11,
+      "mesh_bbox": [
+        [
+          -0.1082,
+          0.3392
+        ],
+        [
+          -1.0368,
+          -0.1409
+        ],
+        [
+          0.3265,
+          1.2182
+        ]
+      ],
+      "particles": 2186,
+      "centroid": [
+        0.0065,
+        -0.7222,
+        0.9356
+      ],
+      "mean_vel": [
+        -0.0022,
+        -0.4003,
+        -0.2782
+      ],
+      "mean_speed": 0.4875,
+      "cone_p90_deg": 19.45,
+      "cone_max_deg": 36.38,
+      "cone_n": 2124,
+      "young_mean_vel": [
+        -0.004,
+        -0.6609,
+        -0.2353
+      ],
+      "young_n": 243,
+      "vcone_p90_deg": 14.57,
+      "vcone_n": 243,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 1941,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "20": {
+      "mesh_verts": 8476,
+      "mesh_islands": 14,
+      "mesh_bbox": [
+        [
+          -0.1097,
+          0.3398
+        ],
+        [
+          -1.0368,
+          -0.1409
+        ],
+        [
+          0.3263,
+          1.2182
+        ]
+      ],
+      "particles": 2596,
+      "centroid": [
+        0.0054,
+        -0.7748,
+        0.8777
+      ],
+      "mean_vel": [
+        0.0007,
+        -0.3502,
+        -0.2972
+      ],
+      "mean_speed": 0.4593,
+      "cone_p90_deg": 23.88,
+      "cone_max_deg": 36.39,
+      "cone_n": 2542,
+      "young_mean_vel": [
+        -0.0035,
+        -0.6584,
+        -0.2342
+      ],
+      "young_n": 239,
+      "vcone_p90_deg": 14.29,
+      "vcone_n": 239,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 2351,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "22": {
+      "mesh_verts": 9802,
+      "mesh_islands": 20,
+      "mesh_bbox": [
+        [
+          -0.1083,
+          0.3399
+        ],
+        [
+          -1.037,
+          -0.141
+        ],
+        [
+          0.3261,
+          1.2183
+        ]
+      ],
+      "particles": 3103,
+      "centroid": [
+        0.004,
+        -0.8038,
+        0.8324
+      ],
+      "mean_vel": [
+        0.0062,
+        -0.3118,
+        -0.2641
+      ],
+      "mean_speed": 0.4087,
+      "cone_p90_deg": 26.42,
+      "cone_max_deg": 36.41,
+      "cone_n": 3001,
+      "young_mean_vel": [
+        -0.0083,
+        -0.6457,
+        -0.2233
+      ],
+      "young_n": 318,
+      "vcone_p90_deg": 14.93,
+      "vcone_n": 318,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 2768,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "24": {
+      "mesh_verts": 11030,
+      "mesh_islands": 19,
+      "mesh_bbox": [
+        [
+          -0.1079,
+          0.3401
+        ],
+        [
+          -1.037,
+          -0.1409
+        ],
+        [
+          0.3259,
+          1.2182
+        ]
+      ],
+      "particles": 3616,
+      "centroid": [
+        0.0051,
+        -0.828,
+        0.7923
+      ],
+      "mean_vel": [
+        0.0034,
+        -0.2311,
+        -0.2207
+      ],
+      "mean_speed": 0.3196,
+      "cone_p90_deg": 28.21,
+      "cone_max_deg": 36.42,
+      "cone_n": 3562,
+      "young_mean_vel": [
+        -0.0058,
+        -0.6624,
+        -0.2415
+      ],
+      "young_n": 263,
+      "vcone_p90_deg": 14.64,
+      "vcone_n": 263,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 3340,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "26": {
+      "mesh_verts": 11560,
+      "mesh_islands": 18,
+      "mesh_bbox": [
+        [
+          -0.1074,
+          0.3405
+        ],
+        [
+          -1.037,
+          -0.2657
+        ],
+        [
+          0.3256,
+          1.1759
+        ]
+      ],
+      "particles": 3954,
+      "centroid": [
+        0.0061,
+        -0.8784,
+        0.7327
+      ],
+      "mean_vel": [
+        -0.007,
+        -0.1938,
+        -0.2215
+      ],
+      "mean_speed": 0.2944,
+      "cone_p90_deg": 29.98,
+      "cone_max_deg": 36.44,
+      "cone_n": 3954,
+      "young_mean_vel": [
+        -0.0168,
+        -0.7299,
+        -0.3314
+      ],
+      "young_n": 64,
+      "vcone_p90_deg": 15.33,
+      "vcone_n": 64,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 3875,
+      "interior": 0,
+      "interior_candidates": 0
+    },
+    "28": {
+      "mesh_verts": 11468,
+      "mesh_islands": 11,
+      "mesh_bbox": [
+        [
+          -0.1073,
+          0.3394
+        ],
+        [
+          -1.037,
+          -0.5036
+        ],
+        [
+          0.3253,
+          1.0597
+        ]
+      ],
+      "particles": 4250,
+      "centroid": [
+        0.004,
+        -0.9372,
+        0.6534
+      ],
+      "mean_vel": [
+        -0.0063,
+        -0.1456,
+        -0.2146
+      ],
+      "mean_speed": 0.2594,
+      "cone_p90_deg": 32.47,
+      "cone_max_deg": 36.46,
+      "cone_n": 4250,
+      "landed_z_lt_0.03": 0,
+      "fwd_y_lt_-0.30": 4250,
+      "interior": 0,
+      "interior_candidates": 0
+    }
+  }
+}

@@ -1,0 +1,2 @@
+segments=204 loop=163 empty=0 loop_share=79.9% recoverable=20.1%
+rule: segment counts as loop when its normalized text equals the previous segment's (consecutive-repeat whisper loop signature)

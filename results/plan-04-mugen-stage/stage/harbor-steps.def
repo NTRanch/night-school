@@ -1,0 +1,95 @@
+; Harbor Steps - estate clean-room stage, Night School Plan 04 Pass 3.
+; MUGEN .def terms as the SPEC for stage/compositor.py (both models).
+; Authored from TECHNIQUE.md alone. No source art.
+
+[Info]
+name = "Harbor Steps"
+author = "estate (Plan 04 rebuild)"
+
+[StageInfo]
+zoffset = 390
+localcoord = 640, 480
+
+[Bound]
+boundleft = -480
+boundright = 480
+screenleft = 30
+screenright = 30
+
+[BGdef]
+spr = procedural layers (stage/*.png via make_layers.py)
+
+[BG sky]
+type = normal
+spriteno = sky
+start = 0, 0
+delta = .25, .25
+mask = 0
+tile = 0, 0
+
+[BG stars]
+type = anim
+actionno = 1
+start = 40, 10
+delta = .25, .25
+mask = 1
+tile = 0, 0
+
+[BG skyline]
+type = normal
+spriteno = skyline
+start = -40, 90
+delta = .5, .5
+mask = 1
+tile = 0, 0
+
+[BG plate]
+type = normal
+spriteno = plate
+start = 0, 0
+delta = 1, 1
+mask = 1
+tile = 1, 0
+tilespacing = 0, 0
+
+[BG beacon]
+type = normal
+spriteno = beacon
+start = 430, 190
+delta = 1, 1
+mask = 1
+tile = 0, 0
+scalestart = 1.5, 1.5
+
+[BG beacon solid]
+type = normal
+spriteno = beacon
+start = 470, 130
+delta = 1, 1
+layerno = 0
+mask = 1
+tile = 0, 0
+scalestart = 2, 2
+
+[BG beacon trans]
+type = normal
+spriteno = beacon
+start = 455, 90
+delta = 1, 1
+layerno = 1
+mask = 1
+tile = 0, 0
+scalestart = 2.5, 2.5
+trans = addalpha
+alpha = 100, 120
+
+[Begin Action 1]
+; stars twinkle: 8 frames, 10 ticks each, frame 7 held 50 (120-tick loop)
+stars0, 0,0, 10
+stars1, 0,0, 10
+stars2, 0,0, 10
+stars3, 0,0, 10
+stars4, 0,0, 10
+stars5, 0,0, 10
+stars6, 0,0, 50
+stars7, 0,0, 10

@@ -1,0 +1,54 @@
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-26 14:00:03)
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_rename_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_retarget" registration error: 'orientation' EnumProperty could not register (see previous error)
+00:00.743  blend            | Read blend: "/home/phaedrus/.local/share/pax/nslac/out/clips/alma_m100_drip_B/alma_m100_drip_B_baked.blend"
+Loading MHX RTS v 5.2.0
+MHX RTS loaded
+Loading BVH Retargeter
+BVH Retargeter loaded
+DAZ loaded
+Register DAZ Importer
+Loading MHX Tools
+Register MHX Tools
+Loading Rigify Tools
+Register Rigify Tools
+Loading Hair Tools
+Register Hair Tools
+Loading Visibility Tools
+Register Visibility Tools
+Loading Export Tools
+Register Export Tools
+Settings directory: /home/phaedrus/DAZ Importer
+File does not exist:
+"/home/phaedrus/DAZ Importer/import_daz_settings.json"
+File does not exist:
+"/home/phaedrus/import-daz-settings-28x.json"
+init
+init
+NSLAC MEASURE 4 {"mesh_verts": 8, "mesh_islands": 1, "mesh_bbox": [[-0.375, 0.375], [-1.05, 0.25], [-0.03, 1.47]], "particles": 0, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE 6 {"mesh_verts": 150, "mesh_islands": 2, "mesh_bbox": [[-0.0595, 0.0569], [-0.1769, -0.1484], [1.2991, 1.3273]], "particles": 55, "centroid": [0.0007, -0.1635, 1.3124], "mean_vel": [-0.0, -0.0576, -0.1997], "mean_speed": 0.2078, "young_mean_vel": [-0.0, -0.0576, -0.1997], "young_n": 55, "vcone_p90_deg": 19.9, "vcone_n": 55, "landed_z_lt_0.03": 0, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 20}
+NSLAC MEASURE 8 {"mesh_verts": 498, "mesh_islands": 2, "mesh_bbox": [[-0.0598, 0.0571], [-0.1914, -0.1482], [1.2204, 1.3272]], "particles": 220, "centroid": [0.001, -0.1704, 1.2792], "mean_vel": [0.003, -0.0618, -0.2614], "mean_speed": 0.2686, "cone_p90_deg": 29.13, "cone_max_deg": 39.07, "cone_n": 112, "young_mean_vel": [0.003, -0.0618, -0.2614], "young_n": 220, "vcone_p90_deg": 23.29, "vcone_n": 220, "landed_z_lt_0.03": 0, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 27}
+NSLAC MEASURE 10 {"mesh_verts": 816, "mesh_islands": 2, "mesh_bbox": [[-0.0587, 0.0566], [-0.2157, -0.1532], [1.1192, 1.3034]], "particles": 330, "centroid": [0.0021, -0.1829, 1.2138], "mean_vel": [-0.0018, -0.0482, -0.3986], "mean_speed": 0.4015, "cone_p90_deg": 27.07, "cone_max_deg": 35.28, "cone_n": 294, "young_mean_vel": [-0.0092, -0.0483, -0.4019], "young_n": 273, "vcone_p90_deg": 31.52, "vcone_n": 273, "landed_z_lt_0.03": 0, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 4}
+NSLAC MEASURE 12 {"mesh_verts": 840, "mesh_islands": 3, "mesh_bbox": [[-0.0679, 0.0572], [-0.2493, -0.1668], [0.9604, 1.1567]], "particles": 330, "centroid": [0.0042, -0.1977, 1.0611], "mean_vel": [0.0005, -0.0357, -0.6389], "mean_speed": 0.6399, "cone_p90_deg": 29.84, "cone_max_deg": 31.74, "cone_n": 330, "landed_z_lt_0.03": 0, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE 14 {"mesh_verts": 948, "mesh_islands": 2, "mesh_bbox": [[-0.0664, 0.0824], [-0.2559, -0.1626], [0.6945, 0.9004]], "particles": 334, "centroid": [0.0108, -0.2081, 0.8156], "mean_vel": [0.0114, 0.0005, -1.1698], "mean_speed": 1.1699, "cone_p90_deg": 32.11, "cone_max_deg": 33.21, "cone_n": 334, "landed_z_lt_0.03": 0, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE 16 {"mesh_verts": 1150, "mesh_islands": 3, "mesh_bbox": [[-0.0207, 0.0788], [-0.2673, -0.1678], [0.1432, 0.6375]], "particles": 334, "centroid": [0.0271, -0.2134, 0.4153], "mean_vel": [0.0309, -0.0197, -1.381], "mean_speed": 1.3815, "cone_p90_deg": 32.37, "cone_max_deg": 33.05, "cone_n": 334, "landed_z_lt_0.03": 0, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE 18 {"mesh_verts": 1218, "mesh_islands": 4, "mesh_bbox": [[-0.0595, 0.1237], [-0.2742, -0.1484], [-0.0189, 1.3273]], "particles": 364, "centroid": [0.0352, -0.2087, 0.2624], "mean_vel": [-0.001, -0.0399, -0.7047], "mean_speed": 0.7058, "cone_p90_deg": 32.64, "cone_max_deg": 33.33, "cone_n": 309, "young_mean_vel": [0.0, -0.0526, -0.1097], "young_n": 55, "vcone_p90_deg": 10.01, "vcone_n": 55, "landed_z_lt_0.03": 110, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 20}
+NSLAC MEASURE 20 {"mesh_verts": 1514, "mesh_islands": 3, "mesh_bbox": [[-0.0598, 0.1443], [-0.2834, -0.1477], [-0.0191, 1.3273]], "particles": 681, "centroid": [0.0189, -0.2006, 0.6223], "mean_vel": [-0.0008, -0.0381, -0.1247], "mean_speed": 0.1304, "cone_p90_deg": 32.82, "cone_max_deg": 34.27, "cone_n": 593, "young_mean_vel": [0.0009, -0.0778, -0.2539], "young_n": 330, "vcone_p90_deg": 19.08, "vcone_n": 330, "landed_z_lt_0.03": 326, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 20}
+NSLAC MEASURE 22 {"mesh_verts": 1810, "mesh_islands": 3, "mesh_bbox": [[-0.0593, 0.1441], [-0.2858, -0.1484], [-0.0193, 1.3034]], "particles": 804, "centroid": [0.0168, -0.2092, 0.665], "mean_vel": [0.0045, -0.0494, -0.1961], "mean_speed": 0.2023, "cone_p90_deg": 32.61, "cone_max_deg": 34.68, "cone_n": 764, "young_mean_vel": [0.0079, -0.0883, -0.3585], "young_n": 423, "vcone_p90_deg": 28.43, "vcone_n": 423, "landed_z_lt_0.03": 342, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 4}
+NSLAC MEASURE 24 {"mesh_verts": 1800, "mesh_islands": 3, "mesh_bbox": [[-0.0659, 0.1441], [-0.2875, -0.1484], [-0.0193, 1.1376]], "particles": 835, "centroid": [0.0211, -0.229, 0.5726], "mean_vel": [0.01, -0.0427, -0.2781], "mean_speed": 0.2816, "cone_p90_deg": 32.43, "cone_max_deg": 34.24, "cone_n": 835, "landed_z_lt_0.03": 377, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE 26 {"mesh_verts": 1862, "mesh_islands": 3, "mesh_bbox": [[-0.0581, 0.1435], [-0.2979, -0.1482], [-0.0191, 0.9735]], "particles": 835, "centroid": [0.0245, -0.2423, 0.4727], "mean_vel": [-0.0018, -0.0245, -0.3899], "mean_speed": 0.3907, "cone_p90_deg": 32.42, "cone_max_deg": 34.25, "cone_n": 835, "landed_z_lt_0.03": 380, "fwd_y_lt_-0.30": 0, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE 28 {"mesh_verts": 1868, "mesh_islands": 4, "mesh_bbox": [[-0.037, 0.1434], [-0.3213, -0.148], [-0.0193, 0.7167]], "particles": 846, "centroid": [0.0263, -0.2532, 0.3283], "mean_vel": [0.0018, -0.028, -0.5214], "mean_speed": 0.5221, "cone_p90_deg": 32.51, "cone_max_deg": 34.26, "cone_n": 846, "landed_z_lt_0.03": 395, "fwd_y_lt_-0.30": 102, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE 30 {"mesh_verts": 2150, "mesh_islands": 5, "mesh_bbox": [[-0.0595, 0.1434], [-0.3627, -0.1477], [-0.0193, 1.3273]], "particles": 911, "centroid": [0.0293, -0.2609, 0.2146], "mean_vel": [0.009, -0.0164, -0.611], "mean_speed": 0.6113, "cone_p90_deg": 32.5, "cone_max_deg": 34.27, "cone_n": 856, "young_mean_vel": [0.0009, -0.0517, -0.1125], "young_n": 55, "vcone_p90_deg": 11.01, "vcone_n": 55, "landed_z_lt_0.03": 411, "fwd_y_lt_-0.30": 255, "interior": 0, "interior_candidates": 20}
+NSLAC MEASURE 32 {"mesh_verts": 2408, "mesh_islands": 3, "mesh_bbox": [[-0.06, 0.1435], [-0.3689, -0.1474], [-0.0193, 1.3266]], "particles": 1345, "centroid": [0.0241, -0.2388, 0.4263], "mean_vel": [0.0075, -0.0179, -0.0936], "mean_speed": 0.0956, "cone_p90_deg": 32.12, "cone_max_deg": 34.83, "cone_n": 1154, "young_mean_vel": [-0.001, -0.0562, -0.1972], "young_n": 440, "vcone_p90_deg": 20.8, "vcone_n": 440, "landed_z_lt_0.03": 789, "fwd_y_lt_-0.30": 392, "interior": 0, "interior_candidates": 28}
+NSLAC MEASURE 36 {"mesh_verts": 2636, "mesh_islands": 3, "mesh_bbox": [[-0.065, 0.1434], [-0.3657, -0.1474], [-0.0193, 1.1367]], "particles": 1519, "centroid": [0.0242, -0.2425, 0.3879], "mean_vel": [-0.0015, -0.0084, -0.2296], "mean_speed": 0.2297, "cone_p90_deg": 31.88, "cone_max_deg": 34.3, "cone_n": 1519, "landed_z_lt_0.03": 941, "fwd_y_lt_-0.30": 386, "interior": 0, "interior_candidates": 0}
+NSLAC MEASURE DONE
+
+Blender quit

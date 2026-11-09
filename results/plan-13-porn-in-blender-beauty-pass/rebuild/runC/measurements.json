@@ -1,0 +1,62 @@
+[
+ {
+  "pair": "MATCH recreated vs renderer beauty (Image)",
+  "mean_abs_diff": 0.02099989727139473,
+  "max_abs_diff": 6.443145751953125,
+  "rms_diff": 0.050542593002319336,
+  "hash_a": "84c736323ff3943921719a7f6130af99495bb08cd64cec5f074427b748d705a8",
+  "hash_b": "e9223383c4c4938ee253d510a63e97e1899f24d22bb2ee0c663b1c6624795088",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 100.0,
+  "pct_pixels_beyond_0.0001": 99.99909577546296,
+  "pct_pixels_beyond_0.00392157": 86.5822120949074
+ },
+ {
+  "pair": "MATCH recreated vs Noisy Image",
+  "mean_abs_diff": 1.778589648893103e-07,
+  "max_abs_diff": 2.6702880859375e-05,
+  "rms_diff": 3.2800596727611264e-07,
+  "hash_a": "84c736323ff3943921719a7f6130af99495bb08cd64cec5f074427b748d705a8",
+  "hash_b": "0976a3fae7e0d5921e8b9e1b69714309355bb303b7a702a85be05a2086c872cd",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 4.293258101851852,
+  "pct_pixels_beyond_0.0001": 0.0,
+  "pct_pixels_beyond_0.00392157": 0.0
+ },
+ {
+  "pair": "denoised recreation vs renderer beauty (Image)",
+  "mean_abs_diff": 0.00177247473038733,
+  "max_abs_diff": 0.12424468994140625,
+  "rms_diff": 0.003625141689553857,
+  "hash_a": "af1ae4a6427ca35d17dcaf9ce67fa24ba34329066fa0ac74ad4e1546231d7dd0",
+  "hash_b": "e9223383c4c4938ee253d510a63e97e1899f24d22bb2ee0c663b1c6624795088",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 100.0,
+  "pct_pixels_beyond_0.0001": 99.60214120370371,
+  "pct_pixels_beyond_0.00392157": 23.20511429398148
+ },
+ {
+  "pair": "MODIFY variant vs recreated_denoised",
+  "mean_abs_diff": 0.9987203478813171,
+  "max_abs_diff": 41.14946746826172,
+  "rms_diff": 1.7936762571334839,
+  "hash_a": "1d6e2a71ffd175394d6065ea2c6b7832bb104569738934616ae4d74d0f3f1e9c",
+  "hash_b": "af1ae4a6427ca35d17dcaf9ce67fa24ba34329066fa0ac74ad4e1546231d7dd0",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 100.0,
+  "pct_pixels_beyond_0.0001": 100.0,
+  "pct_pixels_beyond_0.00392157": 99.21784577546296
+ },
+ {
+  "pair": "MODIFY variant vs recreated (raw)",
+  "mean_abs_diff": 1.0046160221099854,
+  "max_abs_diff": 44.36764907836914,
+  "rms_diff": 1.7930101156234741,
+  "hash_a": "1d6e2a71ffd175394d6065ea2c6b7832bb104569738934616ae4d74d0f3f1e9c",
+  "hash_b": "84c736323ff3943921719a7f6130af99495bb08cd64cec5f074427b748d705a8",
+  "hash_equal": false,
+  "pct_pixels_beyond_1e-06": 100.0,
+  "pct_pixels_beyond_0.0001": 100.0,
+  "pct_pixels_beyond_0.00392157": 99.96292679398148
+ }
+]

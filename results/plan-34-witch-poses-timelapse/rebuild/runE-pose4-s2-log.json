@@ -1,0 +1,13 @@
+{
+ "run": "E",
+ "pose": 4,
+ "pose_name": "contrapposto-rest",
+ "stage": 2,
+ "steps": [],
+ "corrections_applied": {},
+ "hand_hip_dist_m": 0.3944,
+ "final_render_s": 0.53,
+ "retouch_bone_instances": 0,
+ "bones_touched": 0,
+ "posing_wall_s": 0
+}

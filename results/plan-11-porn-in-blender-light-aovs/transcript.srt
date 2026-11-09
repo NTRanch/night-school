@@ -1,0 +1,968 @@
+1
+00:00:00,000 --> 00:00:08,280
+ all right hello and welcome for this tutorial we will recreate this image
+
+2
+00:00:08,280 --> 00:00:20,180
+ this render I did Tifer from Final Fantasy 7 we will employ a feature
+
+3
+00:00:20,180 --> 00:00:29,480
+ called light groups which allow us to change properties of our lights after
+
+4
+00:00:29,480 --> 00:00:44,740
+ re-render and so this is a very powerful feature in blender we could change the
+
+5
+00:00:44,740 --> 00:00:51,360
+ intensity to light like so
+
+6
+00:00:54,100 --> 00:00:57,920
+ we could change the color
+
+7
+00:00:58,960 --> 00:01:03,300
+ it goes from red to green
+
+8
+00:01:03,300 --> 00:01:14,840
+ and of course you could see the power of this we could change these properties without having
+
+9
+00:01:14,840 --> 00:01:15,400
+ to re-render
+
+10
+00:01:15,400 --> 00:01:20,640
+ so it's a useful thing to
+
+11
+00:01:20,640 --> 00:01:26,140
+ to know about it could save you a great deal of time
+
+12
+00:01:26,140 --> 00:01:43,520
+ all right this is my scene right here it's a very simple scene you just have T for standing there
+
+13
+00:01:43,520 --> 00:01:47,180
+ I have four lights
+
+14
+00:01:47,180 --> 00:01:51,860
+ preview window down here
+
+15
+00:01:51,860 --> 00:01:54,280
+ wait one second
+
+16
+00:01:54,280 --> 00:02:12,760
+ you probably think that I modeled the uh the cabin the uh the building back there nope
+
+17
+00:02:12,860 --> 00:02:16,240
+ it's just a simple plane
+
+18
+00:02:16,240 --> 00:02:19,440
+ look at that
+
+19
+00:02:19,440 --> 00:02:22,540
+ I downloaded it
+
+20
+00:02:22,540 --> 00:02:29,380
+ off google you know Final Fantasy 7 background wallpaper
+
+21
+00:02:29,380 --> 00:02:35,960
+ it's just an image that's on the plane here
+
+22
+00:02:35,960 --> 00:02:49,760
+ the image is loaded here plugged into the uh emissive channel if I put that to zero it's gone
+
+23
+00:02:49,760 --> 00:03:05,640
+ so as to view you have the illusion that you know you have a complicated scene here you have T for standing in front of a building but you know it's not it's not even a building it's just a plane
+
+24
+00:03:05,640 --> 00:03:12,220
+ so it's not it's not it's not it's not a nice little trick you could do
+
+25
+00:03:12,220 --> 00:03:28,600
+ I have four lights I mean uh I got a key light here which is above the camera
+
+26
+00:03:28,600 --> 00:03:49,560
+ fill light down here second fill light down here second fill light
+
+27
+00:03:49,560 --> 00:04:09,940
+ you can see the properties of it color and power and the rip light it's a point light over here
+
+28
+00:04:09,940 --> 00:04:19,320
+ and I got a fog box here
+
+29
+00:04:19,320 --> 00:04:37,700
+ you can see the effect of the uh fog just makes our scene more interesting
+
+30
+00:04:37,700 --> 00:04:45,800
+ it's a volume shader volume scatter
+
+31
+00:04:45,800 --> 00:04:56,720
+ all right
+
+32
+00:04:56,720 --> 00:05:03,460
+ we want to uh achieve this functionality where we could
+
+33
+00:05:03,460 --> 00:05:08,500
+ change properties of our light have to render
+
+34
+00:05:08,500 --> 00:05:17,640
+ and we do this using light groups
+
+35
+00:05:17,640 --> 00:05:22,820
+ so I'll show you how to do that
+
+36
+00:05:22,820 --> 00:05:27,520
+ we go to view later
+
+37
+00:05:27,520 --> 00:05:30,120
+ and we scroll down
+
+38
+00:05:30,120 --> 00:05:41,340
+ so if everything is minimized you just
+
+39
+00:05:41,340 --> 00:05:44,740
+ go under passes
+
+40
+00:05:44,740 --> 00:05:52,440
+ shader
+
+41
+00:05:52,440 --> 00:05:53,000
+ no
+
+42
+00:05:53,000 --> 00:05:55,420
+ yeah light yeah sorry light groups
+
+43
+00:05:55,420 --> 00:06:06,460
+ one second yeah okay so
+
+44
+00:06:06,460 --> 00:06:09,300
+ let's start over
+
+45
+00:06:09,300 --> 00:06:16,540
+ you create the group first
+
+46
+00:06:16,540 --> 00:06:24,540
+ give it a helpful name so that you know you'll remember what it what it means
+
+47
+00:06:24,540 --> 00:06:27,620
+ let's do uh rim
+
+48
+00:06:27,620 --> 00:06:30,720
+ and key
+
+49
+00:06:30,720 --> 00:06:46,660
+ then we select the uh the light here we go to object properties
+
+50
+00:06:46,660 --> 00:06:51,840
+ and then under shading light group
+
+51
+00:06:51,840 --> 00:06:57,900
+ we assign the light to the group uh one of the groups that we created
+
+52
+00:06:57,900 --> 00:07:02,040
+ so we have key light selected right
+
+53
+00:07:02,040 --> 00:07:06,620
+ so we will assign it to the key group
+
+54
+00:07:06,620 --> 00:07:09,540
+ you could you could assign multiple lights to one group
+
+55
+00:07:09,540 --> 00:07:10,940
+ by the way
+
+56
+00:07:10,940 --> 00:07:30,940
+ rim light to rim. We could create groups of the other lights too if we want. Let's do a fill.
+
+57
+00:07:38,940 --> 00:07:54,940
+ I already did this so that's why it's filled out like that.
+
+58
+00:07:54,940 --> 00:08:06,940
+ Alright we have all four lights assigned to their own light groups. Now I will render and see you in a bit.
+
+59
+00:08:06,940 --> 00:08:18,940
+ Alright the render took one minute and 19 seconds. I've taken the liberty of
+
+60
+00:08:22,940 --> 00:08:34,940
+ enabling some AOVs, direct volume, emission, ambient occlusion, and just the light groups.
+
+61
+00:08:34,940 --> 00:08:46,940
+ This is the network node I already have. It's very complicated. I don't remember every little thing I've done.
+
+62
+00:08:46,940 --> 00:08:58,940
+ It's a scratch. Don't worry about that.
+
+63
+00:08:58,940 --> 00:09:04,940
+ Alright so this is our, this is the raw render that we have.
+
+64
+00:09:04,940 --> 00:09:16,940
+ Tifa standing behind a plane that you know looks like an environment but it's not really.
+
+65
+00:09:16,940 --> 00:09:18,940
+ Our light groups are over here in the bottom.
+
+66
+00:09:18,940 --> 00:09:22,940
+ Rim, key, fill, one and two.
+
+67
+00:09:26,940 --> 00:09:30,940
+ To incorporate them you'll have to add.
+
+68
+00:09:40,940 --> 00:09:42,940
+ Let's see what that looks like.
+
+69
+00:09:50,940 --> 00:09:52,940
+ Just add, add, add.
+
+70
+00:09:52,940 --> 00:10:08,940
+ So now we, we've now incorporated all four light groups here.
+
+71
+00:10:08,940 --> 00:10:22,940
+ We added the rim to the key and then added both fill lights and then we added everything together.
+
+72
+00:10:22,940 --> 00:10:28,940
+ So in the, uh, previous render, the rim light was, uh, a red hue.
+
+73
+00:10:28,940 --> 00:10:32,940
+ So how do we achieve that?
+
+74
+00:10:32,940 --> 00:10:34,940
+ Well, let's see.
+
+75
+00:10:34,940 --> 00:10:40,940
+ Combine rim, we'll have to put a, uh, HSV node.
+
+76
+00:10:40,940 --> 00:10:48,940
+ Hue, saturation, value.
+
+77
+00:10:48,940 --> 00:10:54,940
+ Between the add and the rim.
+
+78
+00:10:54,940 --> 00:10:56,940
+ One second.
+
+79
+00:10:56,940 --> 00:11:00,940
+ I'm gonna keep rearranging these nodes.
+
+80
+00:11:06,940 --> 00:11:10,940
+ By increasing the value for example.
+
+81
+00:11:10,940 --> 00:11:12,940
+ We, we increase the intensity.
+
+82
+00:11:12,940 --> 00:11:14,940
+ Of the rim light as you can see.
+
+83
+00:11:18,940 --> 00:11:22,940
+ So, without these, you know, if you want to make small changes to the light.
+
+84
+00:11:22,940 --> 00:11:24,940
+ You'll have to re-render.
+
+85
+00:11:24,940 --> 00:11:28,940
+ And, you know, that, that's not ideal.
+
+86
+00:11:28,940 --> 00:11:32,940
+ So, this is very powerful, you know.
+
+87
+00:11:34,940 --> 00:11:36,940
+ Being able to change things after the fact.
+
+88
+00:11:36,940 --> 00:11:38,940
+ Look at that.
+
+89
+00:11:38,940 --> 00:11:52,940
+ So, if you're serious about, you know, doing 3D art.
+
+90
+00:11:52,940 --> 00:11:56,940
+ This is a feature that, you know, you should take advantage of.
+
+91
+00:12:00,940 --> 00:12:02,940
+ Saves you a tremendous amount of time.
+
+92
+00:12:10,940 --> 00:12:12,940
+ You can, you can do whatever you want basically.
+
+93
+00:12:14,940 --> 00:12:14,940
+ Glare.
+
+94
+00:12:16,940 --> 00:12:17,940
+ Glare filter.
+
+95
+00:12:17,940 --> 00:12:18,940
+ Change the intensity.
+
+96
+00:12:18,940 --> 00:12:19,940
+ Change the color.
+
+97
+00:12:22,940 --> 00:12:24,940
+ We also have ambient occlusion and emission.
+
+98
+00:12:24,940 --> 00:12:28,940
+ You know, if you want to bring the background back.
+
+99
+00:12:28,940 --> 00:12:30,940
+ Because, you know, as I said earlier.
+
+100
+00:12:30,940 --> 00:12:32,940
+ The plane has a.
+
+101
+00:12:32,940 --> 00:12:33,940
+ Emissive.
+
+102
+00:12:33,940 --> 00:12:34,940
+ Channel, right.
+
+103
+00:12:34,940 --> 00:12:35,940
+ It's just a.
+
+104
+00:12:35,940 --> 00:12:36,940
+ It's just this image.
+
+105
+00:12:36,940 --> 00:12:37,940
+ Plugged into.
+
+106
+00:12:37,940 --> 00:12:38,940
+ The emissive channel.
+
+107
+00:12:38,940 --> 00:12:39,940
+ So, if you want to bring that back.
+
+108
+00:12:39,940 --> 00:12:40,940
+ Let's see.
+
+109
+00:12:40,940 --> 00:12:41,940
+ Oh, damn.
+
+110
+00:12:41,940 --> 00:12:42,940
+ Got a hat.
+
+111
+00:12:42,940 --> 00:12:42,940
+ Got a hat.
+
+112
+00:12:42,940 --> 00:12:42,940
+ Oh, damn.
+
+113
+00:12:42,940 --> 00:12:43,940
+ Oh, damn.
+
+114
+00:12:43,940 --> 00:12:44,940
+ Got a hat.
+
+115
+00:12:44,940 --> 00:12:45,940
+ Got a hat.
+
+116
+00:12:45,940 --> 00:12:46,940
+ Oh, damn.
+
+117
+00:12:46,940 --> 00:12:50,800
+ so if you want to bring that back
+
+118
+00:12:50,800 --> 00:12:54,660
+ let's see
+
+119
+00:12:54,660 --> 00:13:03,920
+ oh damn
+
+120
+00:13:03,920 --> 00:13:12,120
+ gotta hack that
+
+121
+00:13:16,940 --> 00:13:22,320
+ at the end of the chain
+
+122
+00:13:22,320 --> 00:13:26,340
+ you add all the lights first
+
+123
+00:13:26,340 --> 00:13:29,840
+ make your changes
+
+124
+00:13:29,840 --> 00:13:31,380
+ then at the end of the chain
+
+125
+00:13:31,380 --> 00:13:33,700
+ that's when you incorporate ambient occlusion
+
+126
+00:13:33,700 --> 00:13:35,340
+ and emissive
+
+127
+00:13:35,340 --> 00:13:37,600
+ all this other stuff
+
+128
+00:13:37,600 --> 00:13:40,600
+ that's the typical workflow
+
+129
+00:13:46,940 --> 00:13:50,500
+ look at that
+
+130
+00:13:50,500 --> 00:13:53,500
+ look at dark in the background if you want
+
+131
+00:13:53,500 --> 00:13:56,340
+ maybe create an animation where
+
+132
+00:13:56,340 --> 00:14:00,780
+ you know you just increase the opacity over time
+
+133
+00:14:00,780 --> 00:14:02,760
+ kind of looks cool
+
+134
+00:14:02,760 --> 00:14:15,020
+ let's see
+
+135
+00:14:15,020 --> 00:14:19,580
+ as you can see
+
+136
+00:14:19,580 --> 00:14:20,900
+ I've previously
+
+137
+00:14:20,900 --> 00:14:22,280
+ previously done this
+
+138
+00:14:22,280 --> 00:14:24,080
+ I don't remember every little
+
+139
+00:14:24,080 --> 00:14:25,620
+ you know thing I did
+
+140
+00:14:25,620 --> 00:14:28,100
+ it's not possible for me to
+
+141
+00:14:28,100 --> 00:14:29,800
+ recreate
+
+142
+00:14:29,800 --> 00:14:31,520
+ you know exactly
+
+143
+00:14:31,520 --> 00:14:32,980
+ what I did but
+
+144
+00:14:32,980 --> 00:14:34,620
+ the whole point is
+
+145
+00:14:34,620 --> 00:14:37,420
+ you have this power
+
+146
+00:14:37,420 --> 00:14:53,180
+ let's incorporate the
+
+147
+00:14:53,180 --> 00:14:54,740
+ ambient inclusion
+
+148
+00:14:54,740 --> 00:15:03,360
+ down here
+
+149
+00:15:03,360 --> 00:15:23,920
+ of course you can't do too much
+
+150
+00:15:23,920 --> 00:15:25,280
+ the character looks weird
+
+151
+00:15:25,280 --> 00:15:25,680
+ now
+
+152
+00:15:25,680 --> 00:15:40,600
+ finally
+
+153
+00:15:40,600 --> 00:15:43,480
+ volume
+
+154
+00:15:43,480 --> 00:15:44,360
+ oh
+
+155
+00:15:44,360 --> 00:15:46,680
+ hate when that happens
+
+156
+00:15:46,680 --> 00:15:56,240
+ volume
+
+157
+00:15:56,240 --> 00:15:56,320
+ volume
+
+158
+00:15:56,320 --> 00:15:56,960
+ to wreck
+
+159
+00:15:56,960 --> 00:15:57,380
+ volume
+
+160
+00:15:57,380 --> 00:16:08,300
+ always got to plug it to B
+
+161
+00:16:08,300 --> 00:16:10,860
+ A's on the bottom
+
+162
+00:16:10,860 --> 00:16:12,100
+ B's on top
+
+163
+00:16:12,100 --> 00:16:12,860
+ by the way
+
+164
+00:16:12,860 --> 00:16:16,820
+ so when you're bringing
+
+165
+00:16:16,820 --> 00:16:18,220
+ a new thing into
+
+166
+00:16:18,220 --> 00:16:19,140
+ the chain
+
+167
+00:16:19,140 --> 00:16:20,880
+ that new thing has to be
+
+168
+00:16:20,880 --> 00:16:21,400
+ on B
+
+169
+00:16:21,400 --> 00:16:24,100
+ on top of everything
+
+170
+00:16:24,100 --> 00:16:29,260
+ it's like
+
+171
+00:16:29,260 --> 00:16:30,680
+ it's like layers in Photoshop
+
+172
+00:16:30,680 --> 00:16:36,900
+ this is volume
+
+173
+00:16:36,900 --> 00:16:37,700
+ direct
+
+174
+00:16:37,700 --> 00:16:39,820
+ added it
+
+175
+00:16:39,820 --> 00:16:40,860
+ next
+
+176
+00:16:40,860 --> 00:16:42,260
+ after the
+
+177
+00:16:42,260 --> 00:16:43,180
+ ambient inclusion
+
+178
+00:16:43,180 --> 00:16:45,020
+ let's see
+
+179
+00:16:45,020 --> 00:16:46,620
+ that's the volume
+
+180
+00:16:46,620 --> 00:16:55,440
+ of course there's a
+
+181
+00:16:55,440 --> 00:16:56,620
+ great deal of noise
+
+182
+00:16:56,620 --> 00:16:57,120
+ in the image
+
+183
+00:16:57,120 --> 00:17:02,140
+ that could be rectified
+
+184
+00:17:02,140 --> 00:17:02,800
+ very easily
+
+185
+00:17:02,800 --> 00:17:04,060
+ as we
+
+186
+00:17:04,060 --> 00:17:05,780
+ as I checked
+
+187
+00:17:05,780 --> 00:17:07,460
+ denoise in data
+
+188
+00:17:07,460 --> 00:17:11,100
+ we could use a
+
+189
+00:17:11,100 --> 00:17:12,680
+ denoise node
+
+190
+00:17:12,680 --> 00:17:16,380
+ then bring the data
+
+191
+00:17:16,380 --> 00:17:18,540
+ denoise in normal
+
+192
+00:17:18,540 --> 00:17:19,860
+ to the normal
+
+193
+00:17:19,860 --> 00:17:21,940
+ denoise in albedo
+
+194
+00:17:21,940 --> 00:17:22,820
+ to the albedo
+
+195
+00:17:22,820 --> 00:17:32,040
+ yeah it's really
+
+196
+00:17:32,040 --> 00:17:32,720
+ annoying working
+
+197
+00:17:32,720 --> 00:17:33,540
+ all these notes
+
+198
+00:17:33,540 --> 00:17:35,760
+ all right
+
+199
+00:17:35,760 --> 00:17:36,380
+ one second
+
+200
+00:17:36,380 --> 00:17:37,820
+ here
+
+201
+00:17:37,820 --> 00:17:40,540
+ that should get rid
+
+202
+00:17:40,540 --> 00:17:41,080
+ of the noise
+
+203
+00:17:41,080 --> 00:17:47,060
+ yeah look at that
+
+204
+00:17:47,060 --> 00:17:48,880
+ all gone
+
+205
+00:17:48,880 --> 00:17:57,880
+ and after that
+
+206
+00:17:57,880 --> 00:17:58,340
+ you could do
+
+207
+00:17:58,340 --> 00:17:59,100
+ a bunch of stuff
+
+208
+00:17:59,100 --> 00:17:59,440
+ like
+
+209
+00:17:59,440 --> 00:18:01,280
+ previously
+
+210
+00:18:01,280 --> 00:18:02,040
+ I added
+
+211
+00:18:02,040 --> 00:18:03,380
+ I played around
+
+212
+00:18:03,380 --> 00:18:03,960
+ the contrast
+
+213
+00:18:03,960 --> 00:18:04,980
+ added a bunch
+
+214
+00:18:04,980 --> 00:18:05,800
+ of glare notes
+
+215
+00:18:05,800 --> 00:18:07,120
+ lens distortion
+
+216
+00:18:07,120 --> 00:18:08,600
+ all that
+
+217
+00:18:08,600 --> 00:18:16,100
+ we could mess
+
+218
+00:18:16,100 --> 00:18:16,460
+ around
+
+219
+00:18:16,460 --> 00:18:17,640
+ a key
+
+220
+00:18:17,640 --> 00:18:19,340
+ as well
+
+221
+00:18:19,340 --> 00:18:20,140
+ if we wanted
+
+222
+00:18:20,140 --> 00:18:21,120
+ to
+
+223
+00:18:21,120 --> 00:18:34,740
+ brightening up
+
+224
+00:18:34,740 --> 00:18:35,080
+ maybe
+
+225
+00:18:35,080 --> 00:18:40,540
+ and the changes
+
+226
+00:18:40,540 --> 00:18:40,960
+ we make
+
+227
+00:18:40,960 --> 00:18:41,560
+ are instantaneous
+
+228
+00:18:41,560 --> 00:18:42,740
+ that's the
+
+229
+00:18:42,740 --> 00:18:46,600
+ that's the upside
+
+230
+00:18:46,600 --> 00:18:47,300
+ to all this
+
+231
+00:18:47,300 --> 00:18:59,520
+ all right
+
+232
+00:18:59,520 --> 00:19:01,540
+ that's it
+
+233
+00:19:01,540 --> 00:19:01,880
+ for this
+
+234
+00:19:01,880 --> 00:19:02,420
+ tutorial
+
+235
+00:19:02,420 --> 00:19:06,580
+ post in a
+
+236
+00:19:06,580 --> 00:19:06,880
+ comment
+
+237
+00:19:06,880 --> 00:19:07,480
+ what
+
+238
+00:19:07,480 --> 00:19:08,220
+ what you'll
+
+239
+00:19:08,220 --> 00:19:08,700
+ like to see
+
+240
+00:19:08,700 --> 00:19:09,060
+ next
+
+241
+00:19:09,060 --> 00:19:11,520
+ and
+
+242
+00:19:11,520 --> 00:19:13,680
+ that's it
+

@@ -1,0 +1,195 @@
+{
+ "render_denoise": false,
+ "samples": 64,
+ "res": [
+  384,
+  288
+ ],
+ "gloss_boost": 1.6,
+ "emit_boost": 2.0,
+ "rl_sockets": [
+  "Image",
+  "Alpha",
+  "Diffuse Direct",
+  "Diffuse Indirect",
+  "Diffuse Color",
+  "Glossy Direct",
+  "Glossy Indirect",
+  "Glossy Color",
+  "Transmission Direct",
+  "Transmission Indirect",
+  "Transmission Color",
+  "Volume Direct",
+  "Volume Indirect",
+  "Emission",
+  "Ambient Occlusion",
+  "Denoising Albedo",
+  "Denoising Specular Albedo",
+  "Denoising Normal",
+  "Denoising Roughness",
+  "Denoising Depth"
+ ],
+ "have_volume": true,
+ "nodes": [
+  {
+   "name": "Render Layers",
+   "type": "CompositorNodeRLayers",
+   "blend_type": null
+  },
+  {
+   "name": "Group Output",
+   "type": "NodeGroupOutput",
+   "blend_type": null
+  },
+  {
+   "name": "Viewer",
+   "type": "CompositorNodeViewer",
+   "blend_type": null
+  },
+  {
+   "name": "FO_Beauty",
+   "type": "CompositorNodeOutputFile",
+   "blend_type": null
+  },
+  {
+   "name": "Diff_Add",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Diff_Mul",
+   "type": "ShaderNodeMix",
+   "blend_type": "MULTIPLY"
+  },
+  {
+   "name": "Gloss_Add",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Gloss_Mul",
+   "type": "ShaderNodeMix",
+   "blend_type": "MULTIPLY"
+  },
+  {
+   "name": "Trans_Add",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Trans_Mul",
+   "type": "ShaderNodeMix",
+   "blend_type": "MULTIPLY"
+  },
+  {
+   "name": "Rest_Add1",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Rest_Add2",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Rec_Sum1",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Rec_Sum2",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Rec_Sum3",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "FO_Recreated",
+   "type": "CompositorNodeOutputFile",
+   "blend_type": null
+  },
+  {
+   "name": "Denoise_Rec",
+   "type": "CompositorNodeDenoise",
+   "blend_type": null
+  },
+  {
+   "name": "FO_RecreatedDenoised",
+   "type": "CompositorNodeOutputFile",
+   "blend_type": null
+  },
+  {
+   "name": "FO_RecreatedPNG",
+   "type": "CompositorNodeOutputFile",
+   "blend_type": null
+  },
+  {
+   "name": "AB_Switch",
+   "type": "CompositorNodeSwitch",
+   "blend_type": null
+  },
+  {
+   "name": "GlossV_Add",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "GlossV_Mul",
+   "type": "ShaderNodeMix",
+   "blend_type": "MULTIPLY"
+  },
+  {
+   "name": "GlossV_Boost",
+   "type": "ShaderNodeMix",
+   "blend_type": "MULTIPLY"
+  },
+  {
+   "name": "RestV_Add1",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "EmitV_Boost",
+   "type": "ShaderNodeMix",
+   "blend_type": "MULTIPLY"
+  },
+  {
+   "name": "RestV_Add2",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Var_Sum1",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Var_Sum2",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Var_Sum3",
+   "type": "ShaderNodeMix",
+   "blend_type": "ADD"
+  },
+  {
+   "name": "Denoise_Var",
+   "type": "CompositorNodeDenoise",
+   "blend_type": null
+  },
+  {
+   "name": "FO_Variant",
+   "type": "CompositorNodeOutputFile",
+   "blend_type": null
+  },
+  {
+   "name": "FO_VariantPNG",
+   "type": "CompositorNodeOutputFile",
+   "blend_type": null
+  }
+ ]
+}

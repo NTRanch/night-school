@@ -1,0 +1,31 @@
+Plan 08 — audio RMS level (dB) per 300 s window, ffmpeg astats on the
+extracted 16 kHz mono WAV (primo plan-08/audio.wav), computed 2026-11-06.
+Purpose: corroborate that audio energy exists across the whole video
+(a music bed under sped-up footage), i.e. the transcript's post-intro
+whisper loops are a no-speech signature, not missing audio.
+window_start_s  rms_db
+0  -38.24
+300  -36.99
+600  -38.32
+900  -37.65
+1200  -34.88
+1500  -44.39
+1800  -inf (silent window)
+2100  -39.81
+2400  -38.07
+2700  -35.94
+3000  -38.74
+3300  -38.38
+3600  -35.31
+3900  -35.95
+4200  -34.49
+4500  -36.26
+4800  -37.55
+5100  -35.37
+Read: continuous programme energy in every window but one; consistent
+with music under sped-up work footage (the format the narrator states
+at ~04:00). RMS cannot prove absence of speech; combined with the
+transcript (substantive speech ends 04:16.9, then exact 30.00 s
+"The End" loop blocks) the narration is recorded as front-loaded,
+and any speech under the music after 04:17 is UNRECOVERABLE by this
+lane and marked so, never reconstructed.

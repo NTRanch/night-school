@@ -2,6 +2,7 @@
 
 - **Source:** https://rule34video.com/video/4274245/how-to-make-porn-in-blender-part-1/
 - **Video ID:** 4274245 · **Duration:** 1:14:03 · **Creator:** (category listing shows none — record at intake)
+- **ERRATA (run of 2026-11-06, local copy only):** Duration as planned (1:14:03) is WRONG. Verified at intake: watch page JSON-LD PT0H27M48S, info tab 27:48, pinned file ffprobe 1668.074 s — **duration of record: 27:48**. Creator of record: page field blank; **Divinity Studio** via the description's Patreon/SubscribeStar links. No 1080p rendition exists (360p/480p/720p only); canonical pin is 720p. The SHOULD-BE-SEEN's "posing/animation fundamentals" over-promises for Part 1: the creator's own close assigns lighting/render/post to Part 2, and Part 1 contains no animation (no keyframe set). Evidence: `runs/plan-16/INTAKE.md`, `runs/plan-16/MANIFEST.md`, `runs/plan-16/OBSERVATION.md`.
 - **Lane:** NSFW-primary / SFW translation: general Blender scene/animation workflow
 - **Estate targets:** The Blender lane generally; companion to Plans 01 and 02
 - **Status:** PLANNED

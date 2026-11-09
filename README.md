@@ -131,6 +131,10 @@ the house style those techniques are rebuilt under: safety-first,
 contract-first engine guides for Blender, Godot, Unity, Unreal, and
 Aseprite, written for adult game production.
 
+*(Disposition note, 2026-11-08, per D-1088: the guides are closed
+as studied-not-adopted — they rebrand the estate Tiger Style
+guides, which remain the guides of record. See `guides/README.md`.)*
+
 ## Standing rules
 
 - **Reference only.** No source media, frames, meshes, motion, or text

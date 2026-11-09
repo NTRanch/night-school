@@ -1,0 +1,73 @@
+CLIP alma_m100_drip START 09:52:47
+CLIP alma_m100_drip simA rc=0 09:58:43
+CLIP alma_m100_drip measA rc=0
+CLIP alma_m100_drip simB rc=0 10:04:40
+CLIP alma_m100_drip measB rc=0
+CLIP alma_m100_drip renders rc=0
+CLIP alma_m100_drip DONE 10:04:55
+CLIP alma_m100_stream START 10:04:55
+CLIP alma_m100_stream simA rc=0 10:10:59
+CLIP alma_m100_stream measA rc=0
+CLIP alma_m100_stream simB rc=0 10:17:01
+CLIP alma_m100_stream measB rc=0
+CLIP alma_m100_stream renders rc=0
+CLIP alma_m100_stream DONE 10:17:18
+CLIP alma_m100_spray START 10:17:18
+CLIP alma_m100_spray simA rc=0 10:23:36
+CLIP alma_m100_spray measA rc=0
+CLIP alma_m100_spray simB rc=0 10:29:52
+CLIP alma_m100_spray measB rc=0
+CLIP alma_m100_spray renders rc=0
+CLIP alma_m100_spray DONE 10:30:07
+CLIP alma_m150_stream START 10:30:07
+CLIP alma_m150_stream simA rc=0 10:35:36
+CLIP alma_m150_stream measA rc=0
+CLIP alma_m150_stream simB rc=0 10:41:04
+CLIP alma_m150_stream measB rc=0
+CLIP alma_m150_stream renders rc=0
+CLIP alma_m150_stream DONE 10:41:20
+CLIP prima_m100_stream START 10:41:20
+CLIP prima_m100_stream simA rc=0 10:47:34
+CLIP prima_m100_stream measA rc=0
+CLIP prima_m100_stream simB rc=0 10:53:50
+CLIP prima_m100_stream measB rc=0
+CLIP prima_m100_stream renders rc=0
+CLIP prima_m100_stream DONE 10:54:07
+CLIP prima_m100_drip START 10:54:07
+CLIP prima_m100_drip simA rc=0 10:59:21
+CLIP prima_m100_drip measA rc=0
+CLIP prima_m100_drip simB rc=0 11:04:37
+CLIP prima_m100_drip measB rc=0
+CLIP prima_m100_drip renders rc=0
+CLIP prima_m100_drip DONE 11:04:54
+CLIP prima_m150_stream START 11:04:54
+CLIP prima_m150_stream simA rc=0 11:10:29
+CLIP prima_m150_stream measA rc=0
+CLIP prima_m150_stream simB rc=0 11:16:06
+CLIP prima_m150_stream measB rc=0
+CLIP prima_m150_stream renders rc=0
+CLIP prima_m150_stream DONE 11:16:21
+SENS lo START 11:16:21
+SENS lo DONE 11:21:21
+SENS hi START 11:21:21
+SENS hi DONE 11:26:24
+APPL yui START 11:26:24
+APPL yui DONE 11:31:06
+APPL sloane START 11:31:06
+APPL sloane DONE 11:36:16
+APPL lux START 11:36:16
+APPL lux DONE 11:40:41
+APPL piper START 11:40:41
+APPL piper DONE 11:45:42
+ALL DONE 11:45:42
+FIX alma_m100_drip done 11:46:13
+FIX alma_m100_stream done 11:46:22
+FIX alma_m100_spray done 11:46:31
+FIX alma_m150_stream done 11:46:41
+FIX prima_m100_stream done 11:46:50
+FIX prima_m100_drip done 11:46:59
+FIX prima_m150_stream done 11:47:08
+SRC sloane done
+SRC lux done
+SRC piper done
+FIXUP ALL DONE 11:47:13

@@ -1,0 +1,174 @@
+{
+ "control_exr": {
+  "file": "control/passes-control.exr",
+  "parts": [
+   "Combined",
+   "Combined_Accent_1",
+   "Combined_Accent_2",
+   "Combined_Accent_3",
+   "Combined_Accent_4",
+   "Combined_Backdrop",
+   "Combined_Fill",
+   "Combined_Key",
+   "Combined_Rim",
+   "Emission"
+  ],
+  "group_mean_lum": {
+   "Key": 0.46115532235292783,
+   "Rim": 0.0,
+   "Fill": 0.09834117634547511,
+   "Accent_1": 0.0031234189911906896,
+   "Accent_2": 0.0034470872384258825,
+   "Accent_3": 0.008450290515133121,
+   "Accent_4": 0.0018735775307407495,
+   "Backdrop": 0.03377772181329687
+  },
+  "group_shares": {
+   "Key": 0.7557834445965971,
+   "Rim": 0.0,
+   "Fill": 0.16117049809778192,
+   "Accent_1": 0.005118944203085462,
+   "Accent_2": 0.005649401276753895,
+   "Accent_3": 0.013849107586535729,
+   "Accent_4": 0.0030705899103086434,
+   "Backdrop": 0.055358014328937395
+  },
+  "sum_vs_combined": {
+   "mean_abs_diff": 0.010261763978394558,
+   "pct_px_gt_1e-3": 96.25916280864197,
+   "combined_mean_lum": 0.6100384392460911,
+   "sum_mean_lum": 0.6101685947871902
+  },
+  "combined_pixel_sha256": "26d69baf7dc18bcc9ba18d721a5da67b7b9ed9153c89e4b15ae0a8355de5405e",
+  "combined_nonzero_px": 2073600
+ },
+ "variant_exr": {
+  "file": "variant/passes-twin1.exr",
+  "parts": [
+   "Combined",
+   "Combined_Backdrop",
+   "Combined_NS40Fill",
+   "Combined_NS40Key",
+   "Combined_NS40Points",
+   "Combined_NS40SpotKey",
+   "Combined_NS40SpotRim",
+   "Combined_NS40Strip",
+   "Emission"
+  ],
+  "group_mean_lum": {
+   "NS40Key": 0.015607817480704037,
+   "NS40Fill": 0.034408245674823174,
+   "NS40Strip": 0.017468789113346966,
+   "NS40SpotKey": 0.004245716593902688,
+   "NS40SpotRim": 8.426599177025763e-05,
+   "NS40Points": 0.02155123421654375,
+   "Backdrop": 0.03377794988537764
+  },
+  "group_shares": {
+   "NS40Key": 0.12275699328057131,
+   "NS40Fill": 0.27062417844919506,
+   "NS40Strip": 0.13739371506989972,
+   "NS40SpotKey": 0.033392971440963606,
+   "NS40SpotRim": 0.0006627601711969523,
+   "NS40Points": 0.16950254045314117,
+   "Backdrop": 0.2656668411350322
+  },
+  "sum_vs_combined": {
+   "mean_abs_diff": 0.00522268779601293,
+   "pct_px_gt_1e-3": 80.94926697530865,
+   "combined_mean_lum": 0.1271809757599784,
+   "sum_mean_lum": 0.12714401895646854
+  },
+  "combined_pixel_sha256": "a12557c3fe5998b3ace9b35da1bf3638f1e45009cb537e6d48f70a13e973da08",
+  "combined_nonzero_px": 518400
+ },
+ "variant_exr_twin": {
+  "file": "variant/passes-variant.exr",
+  "parts": [
+   "Combined",
+   "Combined_Backdrop",
+   "Combined_NS40Fill",
+   "Combined_NS40Key",
+   "Combined_NS40Points",
+   "Combined_NS40SpotKey",
+   "Combined_NS40SpotRim",
+   "Combined_NS40Strip",
+   "Emission"
+  ],
+  "group_mean_lum": {
+   "NS40Key": 0.015601982047490047,
+   "NS40Fill": 0.034397102958526105,
+   "NS40Strip": 0.01746641341416927,
+   "NS40SpotKey": 0.00424392609936025,
+   "NS40SpotRim": 8.372335290771292e-05,
+   "NS40Points": 0.02156034769192144,
+   "Backdrop": 0.03377766696686729
+  },
+  "group_shares": {
+   "NS40Key": 0.12272350647038176,
+   "NS40Fill": 0.27056389852545487,
+   "NS40Strip": 0.13738892232560956,
+   "NS40SpotKey": 0.033382264543654415,
+   "NS40SpotRim": 0.0006585588556003186,
+   "NS40Points": 0.1695913673928927,
+   "Backdrop": 0.2656914818864063
+  },
+  "sum_vs_combined": {
+   "mean_abs_diff": 0.003392622424402097,
+   "pct_px_gt_1e-3": 77.40272955246914,
+   "combined_mean_lum": 0.1271665042566317,
+   "sum_mean_lum": 0.1271311625312421
+  },
+  "combined_pixel_sha256": "31a14ec150dc6d42e1809ef9603d148b347da5763662d9a0dea050cf318fb7fa",
+  "combined_nonzero_px": 2073600
+ },
+ "determinism_combined_pixel_equal": false,
+ "beauty_control": {
+  "name": "beauty_control",
+  "mean_lum": 0.3742131713931251,
+  "channel_means": [
+   0.4071566168905834,
+   0.35739898783587515,
+   0.44376618479181795
+  ],
+  "pct_px_lum_gt_0.5": 23.793113425925927,
+  "pct_px_lum_lt_0.02": 0.0,
+  "pixel_sha256": "3395529b7067a897dc7d5cb40b3f7430757135a396f8448b86745ef680c36202"
+ },
+ "beauty_variant_graded": {
+  "name": "beauty_variant_graded",
+  "mean_lum": 0.39924192404684095,
+  "channel_means": [
+   0.38346928520636653,
+   0.4001026688453159,
+   0.4371596295539822
+  ],
+  "pct_px_lum_gt_0.5": 12.80907600308642,
+  "pct_px_lum_lt_0.02": 0.09654706790123456,
+  "pixel_sha256": "52cac147a8656924a0dd79747cafb41d4ba95a73fb976833c30b42b896220739"
+ },
+ "beauty_variant_raw": {
+  "name": "beauty_variant_raw",
+  "mean_lum": 0.313962414716473,
+  "channel_means": [
+   0.3771060635288066,
+   0.2868652736171629,
+   0.3964490570533769
+  ],
+  "pct_px_lum_gt_0.5": 12.850935570987653,
+  "pct_px_lum_lt_0.02": 0.0,
+  "pixel_sha256": "9f4c866bfd33738d011bea9b90b5e9c774a65d925fa71a3e0f264d7128bbf09a"
+ },
+ "diff_raw_vs_graded": {
+  "mean_abs_diff": 0.07095557030682643,
+  "rmse": 0.08922028598375865,
+  "mean_lum_a": 0.313962414716473,
+  "mean_lum_b": 0.39924192404684095
+ },
+ "diff_control_vs_variant_graded": {
+  "mean_abs_diff": 0.11593581684216897,
+  "rmse": 0.1381531842608074,
+  "mean_lum_a": 0.3742131713931251,
+  "mean_lum_b": 0.39924192404684095
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "run": "E",
+ "pose": 1,
+ "pose_name": "standing-alert",
+ "stage": 2,
+ "steps": [],
+ "corrections_applied": {},
+ "hand_hip_dist_m": 0.3169,
+ "final_render_s": 0.56,
+ "retouch_bone_instances": 0,
+ "bones_touched": 0,
+ "posing_wall_s": 0
+}

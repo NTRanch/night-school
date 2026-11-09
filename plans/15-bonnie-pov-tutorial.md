@@ -1,7 +1,7 @@
 # Plan 15 — Bonnie Doggystyle POV Tutorial Video
 
 - **Source:** https://rule34video.com/video/4297714/bonnie-doggystyle-pov-tutorial-video/
-- **Video ID:** 4297714 · **Duration:** 1:21:00 · **Creator:** (category listing shows none — record at intake)
+- **Video ID:** 4297714 · **Duration:** 1:23:11 (4,991 s — ERRATA 2026-11-06 at Plan 15 intake: plan originally stated 1:21:00; the watch page's JSON-LD and the captured file both say 4,991 s) · **Creator:** Malikai Polk (uploader) / Hstudios (model credit) — recorded at intake; the plan's creator field was blank
 - **Lane:** NSFW-primary / SFW translation: POV camera craft transfers to any first-person scene
 - **Estate targets:** Torogao scene direction, camera grammar across the animation pipeline
 - **Status:** PLANNED

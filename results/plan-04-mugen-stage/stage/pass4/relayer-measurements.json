@@ -1,0 +1,15 @@
+{
+ "layers": {
+  "back curtain": {
+   "delta": 0.5,
+   "disp_measured": -60.0,
+   "disp_expected": -60.0
+  },
+  "floor": {
+   "delta": 1.0,
+   "disp_measured": -120.0,
+   "disp_expected": -120.0
+  }
+ },
+ "frame_hash_c060": "a622c2a9ae3e26658fbcb3c9e4a8ffc141c2ec2961f06acc830312a780cef02b"
+}

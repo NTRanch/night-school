@@ -1,0 +1,507 @@
+all right this will be a short tutorial on how to recreate the beauty pass and blender
+the beauty pass is the final rendered image it could be broken down into its constituent parts
+thereby allowing us to make changes to our rendered image without the need for re-rendering so it's a
+very powerful thing that we could do the formula I believe it's very simple
+you take the indirect diffuse and add it to the diffuse multiplied by the diffuse color of course
+all this gets added to indirect glossy direct glossy
+glossy color and so on
+then there's the uh transmission
+of course transmission color
+we will recreate this image this is the uh protagonist from the new resident evil game
+and of course i got her from smut base
+i believe her name is grace right
+and it's up to uh resident evil 9
+which recently came out i believe i used this model
+made by kenju nsfw
+as usual you have to
+download the blend file and the textures
+and it looks like a nice model
+the scene is very simple
+i have three light sources
+a key light
+two fill lights
+wait one second
+let me show the uh the light contribution
+all right this is no lights
+no fog
+so this is the key light
+this is the key light
+this is yeah i put a uh
+a square light
+down here
+a subtle uh pink
+orangey type color
+down here
+and a second fill light
+and a second fill light
+over here
+and the fog
+fog box
+oh here in the background
+the background is a uh
+it's an emissive material
+i took a screenshot
+from the game
+and used that
+used that as a texture
+for the uh background
+and plugged it into the uh
+emissive color
+one second
+yeah i might have used
+oh
+yeah i think i used this one
+or something similar
+don't remember the exact image that i used
+but it was you know similar to this
+created a uh
+a plane
+plugged it into the emissive material
+uh emissive slot
+used it as a background
+and note the color of the lights
+the color is similar to the uh background
+you know you just use the sample here
+when you use the same colors as the uh background
+it's a better lighting
+it gives the impression that the subject is in the uh the room
+even though there's no actual room
+it's just a plane
+all right and before we render
+we need to use something cool
+so uh
+yes yeah render passes
+so i have combine
+denoising data
+and of course the fuse
+direct indirect
+and these are the constituent parts that make up the final beauty render
+and when we finally render we can gain access to all this information
+so i will i will render now
+and i'll be back
+all right that took uh eight minutes and twenty three seconds
+here uh pretty pathetic
+using an old gpu
+and i think the render came out nice
+all right so you'll go to the uh composite desktop
+and you have uh render layers
+tab here and so
+remember the formula
+all this crap
+so the uh
+the first output is the image
+it's the beauty pass
+but we want to reconstruct
+uh this
+using its constituent parts
+so
+let's uh add
+diffuse direct
+and indirect
+and we want to multiply that by the color
+yeah i minimize this because
+you know this will
+this will get messy very quick
+you know there's going to be a lot of nodes
+so let's just multiply
+by the color
+so we have to diffuse information
+so we have to diffuse information
+of course that's incomplete
+we still need
+the glossy and the uh
+the glossy and the uh
+uh transmission
+so i'm just gonna
+box select these two
+and do uh
+shift d
+actually one second
+all right
+yeah so i
+i box select
+shift d
+so now the glossy
+same thing
+direct plus indirect
+multiply by the color
+transmission
+same thing
+told you the process
+will get messy
+very quickly
+so many notes
+of course we have to add
+we're almost there
+all right
+the glasses has a
+transmission
+uh material
+so as you can see
+by the way
+i created the uh
+other viewport
+by
+going to the upper left
+hand corner
+until my cursor changes
+to
+to this uh
+sign here
+then i drag to the right
+then the upper left hand corner
+went to image editor
+then i went here
+type in viewer
+so anything connected to this
+viewer node here
+shows up on the left
+if i disconnect that
+there's nothing here
+i mentioned earlier
+that the background
+uses a emissive material
+so that's missing
+from our reconstruction
+luckily we have a
+emissive channel right here
+we simply have to add that
+and a lot of these nodes
+you will have an a
+and a b
+the b is the top
+the a is the bottom
+you know it's like
+if you're working in photoshop
+or some layer based application
+photoshop after effects
+think of b as the uh
+the layer on top
+so you have to keep that in mind
+when you perform these operations
+our image is very noisy
+so when i rendered
+i had uh denoising data
+checked
+this will uh help us
+get rid of the noise
+i'm doing shift a
+denoise
+in addition to the image
+i need albedo
+and normal
+and that's what we have here
+the denoise in normal
+denoise in albedo
+we simply connect that
+those two
+all right let's see if that
+fixes it
+oh yeah okay
+fixes it
+yeah sometimes you have to
+hit that to
+refresh
+and we've successfully
+reconstructed
+the beauty path
+using its constituent parts
+we could confirm that of the uh
+by comparing
+our reconstruction of the uh
+the image
+the image
+i just dropped down a switch note
+all right let's see
+off
+on
+well it's not quite the same
+we're missing volume
+all right let's incorporate the volume
+we have uh volume direct
+and indirect
+which we'll just
+we could just add
+we always add
+direct and indirect
+so many notes
+so many notes man
+it's just
+all right i think uh
+i think we have to do it before the denoise
+because the volume
+aov
+could be noisy
+aov is arbitrary
+output variables
+those are the constituent parts
+that make up the beauty
+so we just
+add this
+that
+remember a and b
+whatever new thing we're bringing in
+we plug it on b
+we're bringing in the volume
+we've added the uh
+volume direct and indirect
+to this node
+then we're adding it
+to
+this monstrosity
+now we're going to feed it to the
+the noiser
+all right let's uh
+let's see
+the moment of truth
+this is off
+this is on
+let's try that again
+yeah it looks like uh
+we've successfully reconstructed the beauty
+the beauty pass
+doesn't have any noise
+because
+when we rendered
+we added the noiser here
+but unfortunately the aovs
+have noise
+so after we uh
+combine
+all the aovs
+we have to
+denoise it
+of course to denoise it
+we need the extra information
+the albedo and the normal
+that's why i had denoising data
+checked
+now why
+where would i do all this
+what's the point of this
+we could make
+we could make changes
+without having to re-render
+this is the fog box
+what if i went less fog
+look at that
+i can make these changes
+very quickly
+without re-rendering
+because rendering
+rendering is a computationally expensive
+operation
+it's a computationally expensive
+and time-consuming operation
+so if we could do less rendering
+that would be preferred
+so this is very powerful
+you know
+being able to make changes
+so quickly
+we could see our results
+instantaneously
+instantaneously
+this is the
+uh
+emission
+i believe
+the background
+we can make it darker
+lighter
+i really don't like
+working with all these nodes
+it's just
+it's messy
+you know
+it's hard to keep track
+of what's what
+what else i could do
+i could uh
+i could change the color
+look at that
+the background was green
+now it's gonna
+now it's just purple
+look at that
+i could change the hue
+i could change the saturation
+i could add effects
+like i
+we could add a
+glare mode
+glare node
+let's add bloom
+see what that looks like
+all right so after we've done everything
+we could
+begin uh
+you know color correction
+color grading
+all right we could uh
+incorporate the
+ambient occlusion
+which is usually done
+with a multiplication
+i have to go at the end of the chain
+after the
+denoising
+and you'll see what that does
+we have a complicated node uh network
+so there's a lot of processing it has to do
+and of course i'm using a really bad computer so here's that
+makes the model more realistic
+makes the model more realistic
+let's see uh
+what else we could do
+oh yeah to maximize the viewport i'm doing control space bar like that
+i have the uh screencast keys on but i don't know it's not working for some reason
+all right
+all right this is a brief intermission
+just a gentle reminder to check out the patreon
+there isn't much on there right now but i intend on
+i'm currently working on a animation course
+which will be uh patreon exclusive
+so before uh be sure to be on the lookout for that
+but you know support on patreon would be uh
+very helpful
+thank you
+all right i have the uh
+volume direct and indirect
+i added them together
+so now i'm gonna
+drag it all the way out here
+and add that
+after the ambient occlusion
+we already added the uh
+we already incorporated volume here
+but i'm doing it again
+because it looks better
+all right
+so uh
+anything you do after the denoiser
+you know that's
+it's entirely up to you
+you could do whatever you want
+but before the denoiser
+you know we reconstructed the beauty pass
+we could uh
+so
+after that point
+comes to color grading
+and you know stylistic effects
+to beautify
+the uh render
+so we added
+ambient occlusion
+volume
+of course this is all optional
+you could just stop here
+and be done
+everything i'm doing after the
+after the denoiser is just
+you know
+completely optional
+there's so many
+different ways to uh
+color grade
+there's no set path
+you know
+set in stone
+you gotta do this
+you gotta do that
+it's entirely up to you
+and what you want to
+and uh
+what you want to achieve
+the look
+that you're going for
+a lot of uh
+experimentation
+you might think
+one thing's gonna work
+but then you try it
+and it looks terrible
+but that's the advantage
+of the node-based workflow
+so you know
+you could go back
+and change things
+you know
+it's not set in stone
+add this nice bloom effect
+it's a little too
+aggressive
+yeah this kind of sucks
+you know
+every little change
+you make
+it takes a while
+to process
+you know
+again it's a complicated
+node system
+every little change
+it has to add
+multiply
+add
+reapply some of the effects
+i'm sure there's some way
+to speed things up
+haven't really looked
+into that yet
+but it's a minor inconvenience
+not really a big deal
+just trying some things
+yeah when you uh
+you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+and you know what's going on in the middle of the night
+yeah when you uh
+under highlights
+when you decrease the threshold
+it amplifies the effect
+this is one
+this is zero
+but you know that's not what I want
+you know I just
+you want clarity
+you know you want to be able to see the subject's face
+you want to see all the details
+the body and the face
+you know you don't want to overdo these effects
+all right
+what else we could do
+Let me try our lens distortion.
+This is too aggressive.
+I rendered the image in 720x1280.
+So I usually render in a low resolution like that and then scale up later.
+Her face is not like really clear.
+So another thing I would do is I would sharpen.
+That produces mixed results.
+You know, sometimes it looks bad, sometimes it looks good.
+I just want her face to be clear enough so you could like see the details, the eyes and whatnot.
+Anyway.
+Anyway, this tutorial is about reconstructing the beauty paths.
+I think we've achieved that.
+All these extra things I did is completely optional.
+There's so many nodes available.
+So many little things you could do.
+And I think that's it.
+Oh yeah.
+Currently working on an animation course.
+Short animation course.
+So be on the lookout for that.
+And that's it for now.
+Catch you next time.

@@ -1,0 +1,36 @@
+{
+ "branch_diff": {
+  "mean_rgb": 0.23398691415786743,
+  "max": 3.2981724739074707,
+  "share_of_sum_pct": 17.34
+ },
+ "branch_gloss": {
+  "mean_rgb": 0.09114381670951843,
+  "max": 62.36457824707031,
+  "share_of_sum_pct": 6.75
+ },
+ "branch_trans": {
+  "mean_rgb": 0.015904320403933525,
+  "max": 1.555464744567871,
+  "share_of_sum_pct": 1.18
+ },
+ "branch_rest": {
+  "mean_rgb": 1.008557677268982,
+  "max": 6.281583786010742,
+  "share_of_sum_pct": 74.73
+ },
+ "branch_gloss_v": {
+  "mean_rgb": 0.14583010971546173,
+  "max": 99.7833251953125
+ },
+ "branch_rest_v": {
+  "mean_rgb": 1.9531359672546387,
+  "max": 12.562833786010742
+ },
+ "derived": {
+  "emission_mean": 0.9445782899856567,
+  "volume_mean": 0.0639793872833252,
+  "gloss_boost_ratio": 1.6000000326981285,
+  "sum_branch_means": 1.3495927285403013
+ }
+}

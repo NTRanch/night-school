@@ -1,0 +1,4 @@
+[Parsed_showinfo_1 @ 0x7d19a0002380] config in time_base: 1/15360, frame_rate: 60/1
+[Parsed_showinfo_1 @ 0x7d19a0002380] config out time_base: 0/0, frame_rate: 0/0
+15.166667
+[Parsed_showinfo_1 @ 0x7d19a0002380] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709

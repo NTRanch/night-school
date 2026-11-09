@@ -1,0 +1,1816 @@
+{
+ "castings": [
+  {
+   "build": "01",
+   "follower": "prima",
+   "leader": "yui",
+   "bust_m": 1.0,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.3933,
+    "mean": 0.0865
+   },
+   "penetration_pre_cure_mm": 5.9728,
+   "penetration_post_cure_mm": 5.4582,
+   "penetration_layered_worst_mm": 5.4582,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 6.973,
+    "value": 1.0,
+    "verts_moved": 8
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 236,
+     "max_mm": 15.203,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    },
+    "leader": {
+     "band_verts": 224,
+     "max_mm": 15.025,
+     "mean_mm": 5.429,
+     "verts_over_5mm": 97
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 236,
+     "max_mm": 8.108,
+     "mean_mm": 2.85,
+     "verts_over_5mm": 26
+    },
+    "leader@45": {
+     "band_verts": 224,
+     "max_mm": 10.117,
+     "mean_mm": 3.656,
+     "verts_over_5mm": 58
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "54066a8e44d45c2bdb6f59942c0d30a1ca46aa63c8bb3b1e10803e1925719e0d",
+     "f0038": "090365e879e2bb2d206b993779329731ad7eaf0c6fadf2a65458cc454348d374",
+     "f0045": "ebbeced778d0f987f54834ebdbdde28e1dd1d97a3ab429130480bed571eaa7d0",
+     "f0060": "b750f541777009e2c8e6b62b118aec32cb5d2bab11fd182fb17f5b619da7afc5"
+    },
+    "clip_sha256": {
+     "prima": {
+      "prima-contactloop-channels.json": "f97ce038dc67761d3dd065b454547dbbec20149c85b0142d3eb2f3c75ef94054",
+      "prima-contactloop-jiggle.clip.json": "5bff5c4adab5a3dbbdfcf6322b2acee32f1c07787cb0856d34e449ea58c9a746",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "bab815bbe20078502154afbf756b02595dfa27a6397f988043db737ff54f2566"
+     },
+     "yui": {
+      "yui-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "yui-contactloop-jiggle.clip.json": "98805eee371f8c3cdeff350d4b75472c589f8205b4f3bbd3df83fe2ee3b19d7e",
+      "yui-contactloop-skeleton.json": "bfd41873c5593867ab8c7370b51113b345ec906859a3402d372306d018159796",
+      "yui-contactloop.clip.json": "6089cc6902ca6f6869aeecdf20050976ebd05dda34c508f789e7d4578aefa541"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "follower_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "follower_match": true,
+    "leader_in_stack": "ff179a5b9028cd9b83ddd78947b14c2c5c3f7d091d36afce4f34dfd16e5ddce8",
+    "leader_ref": "ff179a5b9028cd9b83ddd78947b14c2c5c3f7d091d36afce4f34dfd16e5ddce8",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3181,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "01A_fluidmesh.abc",
+     "bytes": 2233584,
+     "sha256": "c1b7df4c0c164c644f3e6ce80c6f7c06adc4ebb144d84437353b3637b39af2d6"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 33,
+     "35": 68,
+     "38": 173,
+     "42": 316,
+     "45": 410,
+     "47": 467,
+     "48": 467,
+     "60": 467,
+     "78": 467,
+     "90": 467
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 156,
+     "35": 176,
+     "38": 192,
+     "42": 210,
+     "45": 214,
+     "47": 212,
+     "48": 220,
+     "60": 218,
+     "78": 250,
+     "90": 302
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "e0e62e0dcf7f10edec9b2a9cefc8e2c9425dc7fbdcede3c6246c3b83f66fe22e",
+     "38": "3bb28db5a5b5c7d7e5a0f185adf8e8ca7263f8cbaafc523ee7633847e239b06d",
+     "45": "0a2a9da32856ea94ed102ad1101fa2e89a9934d0b636dba690f13d8dbcc2233d",
+     "90": "897ad7989837da81cdfe19bb157552f9c2c5153740cc0e1cac54fd6c6697d4b5"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa",
+     "Fac_Pupil_Heart"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 4.9388
+  },
+  {
+   "build": "02",
+   "follower": "yui",
+   "leader": "prima",
+   "bust_m": 1.0,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.3938,
+    "mean": 0.0866
+   },
+   "penetration_pre_cure_mm": 4.6989,
+   "penetration_post_cure_mm": 4.0978,
+   "penetration_layered_worst_mm": 2.993,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 5.699,
+    "value": 1.0,
+    "verts_moved": 7
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 224,
+     "max_mm": 15.025,
+     "mean_mm": 5.429,
+     "verts_over_5mm": 97
+    },
+    "leader": {
+     "band_verts": 236,
+     "max_mm": 15.202,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 224,
+     "max_mm": 8.013,
+     "mean_mm": 2.896,
+     "verts_over_5mm": 26
+    },
+    "leader@45": {
+     "band_verts": 236,
+     "max_mm": 10.236,
+     "mean_mm": 3.598,
+     "verts_over_5mm": 51
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "c126022d48776d8bd52ee8abb2bc7d881c5ef620bea107d0b4819b2dbe369222",
+     "f0038": "ef7fb637178e0385d96b6d7d72c6a2dbc1daf219173f5e71819106c529a46af8",
+     "f0045": "d0c61cde2cd4790620be7b575c3b76a8864eb7ca92eea0c54a094ee8025a0173",
+     "f0060": "dafd545423ee75cca863095215f397537487e4c4c9712266905afa8c863a4c38"
+    },
+    "clip_sha256": {
+     "prima": {
+      "prima-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "prima-contactloop-jiggle.clip.json": "3654a593c216ce6a743c9e19c73ad3270dd4b71e42e07ff5f065aafd198943d3",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "530731e9c916d2ee61cbda6a93607ff5c8e49b428c1ac3170cfaba2e78e749e7"
+     },
+     "yui": {
+      "yui-contactloop-channels.json": "f97ce038dc67761d3dd065b454547dbbec20149c85b0142d3eb2f3c75ef94054",
+      "yui-contactloop-jiggle.clip.json": "77d16e2a4fae909590f6d93d4428863b42bc35d04209d42c685ee2a97e3c74a9",
+      "yui-contactloop-skeleton.json": "bfd41873c5593867ab8c7370b51113b345ec906859a3402d372306d018159796",
+      "yui-contactloop.clip.json": "9bd14f08d33507d857df6314d8e62c394bb0d624e369229c0a833f350f5e3e32"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "ff179a5b9028cd9b83ddd78947b14c2c5c3f7d091d36afce4f34dfd16e5ddce8",
+    "follower_ref": "ff179a5b9028cd9b83ddd78947b14c2c5c3f7d091d36afce4f34dfd16e5ddce8",
+    "follower_match": true,
+    "leader_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3219,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "02A_fluidmesh.abc",
+     "bytes": 2716083,
+     "sha256": "1a2934b70efc1166ee8067b5700f59f8a8d08f66c85fd9157c370a9c3a25d11f"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 40,
+     "35": 80,
+     "38": 193,
+     "42": 340,
+     "45": 432,
+     "47": 486,
+     "48": 486,
+     "60": 486,
+     "78": 486,
+     "90": 486
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 176,
+     "35": 180,
+     "38": 210,
+     "42": 226,
+     "45": 248,
+     "47": 240,
+     "48": 240,
+     "60": 240,
+     "78": 338,
+     "90": 530
+    },
+    "interior_all_measured_zero": false,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "4c8c4c7ebd9aac7b790ce4455a0c411240e8f5f192b9377d4726f85b009fbe24",
+     "38": "511dacd9732e4940e148547f0f8beae36a2aba2bdcc514bba4a7bedf6839f966",
+     "45": "2916667eb111e414eacef7ea5e024d34c1e587ed926e4c37c646c47d96edc70e",
+     "90": "3c5c5b211f70f1a2ab012332d400859ebf4bff652f79a32e070ee744cf597823"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa",
+     "Fac_Pupil_Heart"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 4.8893
+  },
+  {
+   "build": "03",
+   "follower": "alma",
+   "leader": "prima",
+   "bust_m": 1.0,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.4111,
+    "mean": 0.0905
+   },
+   "penetration_pre_cure_mm": 2.4811,
+   "penetration_post_cure_mm": 2.4001,
+   "penetration_layered_worst_mm": 1.3456,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 3.481,
+    "value": 1.0,
+    "verts_moved": 3
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 257,
+     "max_mm": 13.701,
+     "mean_mm": 5.346,
+     "verts_over_5mm": 116
+    },
+    "leader": {
+     "band_verts": 236,
+     "max_mm": 15.202,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 257,
+     "max_mm": 7.307,
+     "mean_mm": 2.851,
+     "verts_over_5mm": 21
+    },
+    "leader@45": {
+     "band_verts": 236,
+     "max_mm": 10.236,
+     "mean_mm": 3.598,
+     "verts_over_5mm": 51
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "5f5c3d56dc3783cd9cbb128ec4f33538c26965bd137776152d537045b5cf4cec",
+     "f0038": "30552f68a58f52073340d57928d50e00df9077f25ce842c6d6f43c0ec3e86f24",
+     "f0045": "43bd3032231e4de54ac2c936395dfca48706f92fa8adcbb9e753633afed870bb",
+     "f0060": "4b9c5b190604c0d4c3aa3b3f04b76868de68db063b3fba8f40add54911539807"
+    },
+    "clip_sha256": {
+     "alma": {
+      "alma-contactloop-channels.json": "f97ce038dc67761d3dd065b454547dbbec20149c85b0142d3eb2f3c75ef94054",
+      "alma-contactloop-jiggle.clip.json": "02f0812fa7d19e2bc9c8e39dbb9e08fabbd3bcf5792ce1a1e26fb22202a3c890",
+      "alma-contactloop-skeleton.json": "b8038d0c58073383786935ecb5364d38ec23cb165335ea091044255c8283faaf",
+      "alma-contactloop.clip.json": "efa5eae1c33b2a9aa6218bd16ab9090299a816ee0bfc58dc18f2ac3d45b07404"
+     },
+     "prima": {
+      "prima-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "prima-contactloop-jiggle.clip.json": "6f3e79403b4956aea27b1f3f1e8bea6a5695578aec13aeb28ae0e57960047b20",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "a949f587f739e6800d2e0c5d9acecb51adaa8925ac4facb5cb7f4a3edb124707"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "1d8c759316695afae0f97824c15953c2abef996a733b301aa638dfc3c639b24c",
+    "follower_ref": "1d8c759316695afae0f97824c15953c2abef996a733b301aa638dfc3c639b24c",
+    "follower_match": true,
+    "leader_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3103,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "03A_fluidmesh.abc",
+     "bytes": 2653013,
+     "sha256": "ea413f817ca5735da9af06b5a69a84fac2a6cef7eb538aa320eb55b368c0816d"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 41,
+     "35": 81,
+     "38": 207,
+     "42": 363,
+     "45": 482,
+     "47": 555,
+     "48": 555,
+     "60": 555,
+     "78": 555,
+     "90": 555
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 176,
+     "35": 190,
+     "38": 198,
+     "42": 224,
+     "45": 248,
+     "47": 256,
+     "48": 254,
+     "60": 262,
+     "78": 304,
+     "90": 358
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "705904238ebaab88ea0435fb63d149d73a8df3753b144daf2229a018563b16a9",
+     "38": "2da488255c2d02de3dc26334e7bc7015db9d97de3c87ebd9305e26c445b0eab8",
+     "45": "98c861f98e5f23c03da71d184aff672b85aa9d1ebef1985409e14c3a5322f296",
+     "90": "1d326b583553e152b5cd4feff91b5a255d3308d67582bf1f02d16bbc5d94def0"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa",
+     "Fac_Pupil_Heart"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 5.3816
+  },
+  {
+   "build": "04",
+   "follower": "sloane",
+   "leader": "prima",
+   "bust_m": 1.0,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.4024,
+    "mean": 0.0885
+   },
+   "penetration_pre_cure_mm": 3.0605,
+   "penetration_post_cure_mm": 2.3556,
+   "penetration_layered_worst_mm": 1.9232,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 4.061,
+    "value": 1.0,
+    "verts_moved": 9
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 236,
+     "max_mm": 15.279,
+     "mean_mm": 5.411,
+     "verts_over_5mm": 103
+    },
+    "leader": {
+     "band_verts": 236,
+     "max_mm": 15.202,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 236,
+     "max_mm": 8.149,
+     "mean_mm": 2.886,
+     "verts_over_5mm": 27
+    },
+    "leader@45": {
+     "band_verts": 236,
+     "max_mm": 10.236,
+     "mean_mm": 3.598,
+     "verts_over_5mm": 51
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "ef1b5420bb339d1abeccef297fe08f65a4e7846e0987347e2f331ea0b91bceae",
+     "f0038": "2a2e5e31c5e5717ad9530a7d77f06a46d0fc5a26ba8f6170bb64faa987bab975",
+     "f0045": "73ca136c9ea5c74d20856cc2bb59c5a4a5d28f1daad92c44ec406fcb8e5f351a",
+     "f0060": "f8dd5091168a2f12ebe58c5d2158322dcd73d5537826dec83174392bf67d782b"
+    },
+    "clip_sha256": {
+     "prima": {
+      "prima-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "prima-contactloop-jiggle.clip.json": "b127c119171e84cb694f747b0e8160f2cdcc77f5e4b607d205fa1c8a0e4335cb",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "9f5e56a14becc9d7dfa0c23361ec8d48173e8230766b1141f1fa05b955bce057"
+     },
+     "sloane": {
+      "sloane-contactloop-channels.json": "c5dd791c2ab96c7288c4645e6909164e9296a4a84e16409b171ef813b34a5df0",
+      "sloane-contactloop-jiggle.clip.json": "3f0dd1afa877b6dfdb44aee73f76975531afab636da8bed943fb449a3e57c63d",
+      "sloane-contactloop-skeleton.json": "4b682429d43e9e2dacec97b305edfbf26f56188ed11bfd6f6042cd771b0c5255",
+      "sloane-contactloop.clip.json": "c1898efe3f775f965194bfd041bb03f30bf1062dd2393b818c937780a1d1551d"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "44845646acdeedd00dced683758e9538db5f0fd1fe4c49263b6f13dc851d0f7c",
+    "follower_ref": "44845646acdeedd00dced683758e9538db5f0fd1fe4c49263b6f13dc851d0f7c",
+    "follower_match": true,
+    "leader_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3161,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "04A_fluidmesh.abc",
+     "bytes": 2430251,
+     "sha256": "05642f5fbd60df93d2112b664d242e97afb9a9a730329de418470d3bf6181494"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 35,
+     "35": 71,
+     "38": 176,
+     "42": 315,
+     "45": 418,
+     "47": 480,
+     "48": 480,
+     "60": 480,
+     "78": 480,
+     "90": 480
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 156,
+     "35": 182,
+     "38": 190,
+     "42": 210,
+     "45": 230,
+     "47": 236,
+     "48": 234,
+     "60": 232,
+     "78": 274,
+     "90": 386
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "76f86df88dbf1406185bc14ced1916c38177795ddc7dbe2b4dc182af66c9e121",
+     "38": "016449c71d9a8fff60e6cc0c0c3fce4777a7dc8d6ec9d61a7c88c8ac7e5fb8af",
+     "45": "985d5fa3403314273947754278778ed6dcb436f05a3694f79948aeb9a9343a9f",
+     "90": "a9d5e82e9023f6b783ec282c7863b5f49b21d58621b97fa11d062f96b0c0e8f5"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [
+    "Fac_Pupil_Heart"
+   ],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 5.1548
+  },
+  {
+   "build": "05",
+   "follower": "lux",
+   "leader": "prima",
+   "bust_m": 1.0,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.3995,
+    "mean": 0.0879
+   },
+   "penetration_pre_cure_mm": 14.912,
+   "penetration_post_cure_mm": 2.8064,
+   "penetration_layered_worst_mm": 2.0583,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 8.0,
+    "value": 1.0,
+    "verts_moved": 11
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 236,
+     "max_mm": 15.616,
+     "mean_mm": 5.426,
+     "verts_over_5mm": 102
+    },
+    "leader": {
+     "band_verts": 236,
+     "max_mm": 15.202,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 236,
+     "max_mm": 8.329,
+     "mean_mm": 2.894,
+     "verts_over_5mm": 27
+    },
+    "leader@45": {
+     "band_verts": 236,
+     "max_mm": 10.236,
+     "mean_mm": 3.598,
+     "verts_over_5mm": 51
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "4d0d0b17520de53697ca3b9783932a4a0379463c1ca3fa0e9f2c308b6518b35b",
+     "f0038": "a9f5c4f02e211c97c1ab1a06661c0e6565efd2b01e1352ec7c9fab4b6cbc9697",
+     "f0045": "cd822f3e22d74a46109c3554fa1759ad9e9e332949524f8a20af48055bbb7c61",
+     "f0060": "de2293256db2b7772708dba2154679d21dd9a07a8b3614843b62ee698d450597"
+    },
+    "clip_sha256": {
+     "lux": {
+      "lux-contactloop-channels.json": "c5dd791c2ab96c7288c4645e6909164e9296a4a84e16409b171ef813b34a5df0",
+      "lux-contactloop-jiggle.clip.json": "494dba11c6c9c1b548e89fec55e251da3d88f043082c794ac48f6d340dfddfde",
+      "lux-contactloop-skeleton.json": "da537c688353f447590700cb9d73764b7c8fcad561722d3553966fae04d5d22d",
+      "lux-contactloop.clip.json": "56369ee2c5bc90841684cdf4bab37bf4225136b471fde660d3576a97c50eeacb"
+     },
+     "prima": {
+      "prima-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "prima-contactloop-jiggle.clip.json": "137d34892a0f00f8ef2ce239551b193fbe78a5e265376a69fd0e5ef4d22a7e78",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "00a512b40eb1ed96fe9b275e5601bf4380f1e0fc0b5a25a3155d835c723051f7"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "1638e35675f79bb6938500d75b0f530e81d710bffc19f5ad5bb3ab984f4e07a3",
+    "follower_ref": "1638e35675f79bb6938500d75b0f530e81d710bffc19f5ad5bb3ab984f4e07a3",
+    "follower_match": true,
+    "leader_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.318,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "05A_fluidmesh.abc",
+     "bytes": 2371547,
+     "sha256": "73dc94772332417a1b5c5978f9461c43432e6ce21a7675d792cd17cb43ea306f"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 40,
+     "35": 82,
+     "38": 199,
+     "42": 341,
+     "45": 433,
+     "47": 489,
+     "48": 489,
+     "60": 489,
+     "78": 489,
+     "90": 489
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 168,
+     "35": 178,
+     "38": 206,
+     "42": 228,
+     "45": 240,
+     "47": 246,
+     "48": 246,
+     "60": 230,
+     "78": 262,
+     "90": 320
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "38b4dae3a3776f5e0ebe45a5fdc7f447acb3068ee9d311aaf47a7d6b8d536c27",
+     "38": "db245ff47404284d28c9f3dedf0073819662bd3617d8e96f7d6c26d0384af22b",
+     "45": "f569a60fd4babdfa0dd2c89c74b011433910db646ef4d48e5d7b2d6fc698a37a",
+     "90": "0d1625a7c22db0b1d4b8503648c1a3d3d95fedd0218626c1ef35d0454d72ee84"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [
+    "Fac_Pupil_Heart"
+   ],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 5.0854
+  },
+  {
+   "build": "06",
+   "follower": "piper",
+   "leader": "prima",
+   "bust_m": 1.0,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.3983,
+    "mean": 0.0876
+   },
+   "penetration_pre_cure_mm": 1.7343,
+   "penetration_post_cure_mm": 1.442,
+   "penetration_layered_worst_mm": 1.1856,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 2.734,
+    "value": 1.0,
+    "verts_moved": 6
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 236,
+     "max_mm": 15.783,
+     "mean_mm": 5.572,
+     "verts_over_5mm": 104
+    },
+    "leader": {
+     "band_verts": 236,
+     "max_mm": 15.202,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 236,
+     "max_mm": 8.418,
+     "mean_mm": 2.972,
+     "verts_over_5mm": 32
+    },
+    "leader@45": {
+     "band_verts": 236,
+     "max_mm": 10.236,
+     "mean_mm": 3.598,
+     "verts_over_5mm": 51
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "fc618247758899781678e61d722088abad775287c49580d165139591508486a4",
+     "f0038": "16ef9f1df57d2710ec6f04cd91a6833dfc9ff08f770f933f64d9f6cbbf560689",
+     "f0045": "bb05a3753768d40ddcddbbae2ec9cc154ef88ba884ad824d6f22a83eba19b650",
+     "f0060": "896157c233eaa1bd8c22b619d4d20217a1c0dd1bbe16f4cb78a66e1d748a5d23"
+    },
+    "clip_sha256": {
+     "piper": {
+      "piper-contactloop-channels.json": "c5dd791c2ab96c7288c4645e6909164e9296a4a84e16409b171ef813b34a5df0",
+      "piper-contactloop-jiggle.clip.json": "2a7b3be2803d24d77568890a1253e431133043b7d77375688e846be4d27d5ef4",
+      "piper-contactloop-skeleton.json": "f4bdb4eaa72c84baa52f1a89b21777e346c36ad1d45e6aff7f9533132b27cf8f",
+      "piper-contactloop.clip.json": "637336e0b9f5bbfc7a5a2fcd480372bb68cf454788a1eed46993243316fc711a"
+     },
+     "prima": {
+      "prima-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "prima-contactloop-jiggle.clip.json": "8028e0a7e977ffc63d9927dac387ec926dc3346c0c96cfd11506550cec5b38ca",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "710ddcec9447e1f85180213650c7fbe63a08404988bf29594df36bfa239489c9"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "0e4591b5ca2e9d3d7eab78a6af6f2e92854340b0ae3c95562f05bb5a60cc437f",
+    "follower_ref": "0e4591b5ca2e9d3d7eab78a6af6f2e92854340b0ae3c95562f05bb5a60cc437f",
+    "follower_match": true,
+    "leader_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3188,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "06A_fluidmesh.abc",
+     "bytes": 2293370,
+     "sha256": "943fc69037002b2e37c47498e883c909d4c10fde0984c48e9258897b54b20ed2"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 42,
+     "35": 82,
+     "38": 206,
+     "42": 353,
+     "45": 443,
+     "47": 497,
+     "48": 497,
+     "60": 497,
+     "78": 497,
+     "90": 497
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 172,
+     "35": 178,
+     "38": 212,
+     "42": 226,
+     "45": 240,
+     "47": 234,
+     "48": 236,
+     "60": 230,
+     "78": 238,
+     "90": 286
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "a8c197017d2b0eba677744a93c7226eed4a03040abc3a349728960327ac9a949",
+     "38": "1f38668e930bcf8283eb5f5f8195ad5a6fd6cbe14b2cff703619c12ae37feff1",
+     "45": "0b5ac11a71f4393e8ca4a349ec0ebe1c08456c569ecb1fb3422957ce07bcd7e9",
+     "90": "8b17bc74b9cd4ac3395316cc86dc15d7e8d1987c123f9bad4acf82c3c571e850"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [
+    "Fac_Pupil_Heart"
+   ],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 5.0933
+  },
+  {
+   "build": "07",
+   "follower": "prima",
+   "leader": "alma",
+   "bust_m": 1.0,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.4116,
+    "mean": 0.0906
+   },
+   "penetration_pre_cure_mm": 3.5995,
+   "penetration_post_cure_mm": 3.2959,
+   "penetration_layered_worst_mm": 3.2472,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 4.599,
+    "value": 1.0,
+    "verts_moved": 3
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 236,
+     "max_mm": 15.203,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    },
+    "leader": {
+     "band_verts": 257,
+     "max_mm": 13.701,
+     "mean_mm": 5.346,
+     "verts_over_5mm": 116
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 236,
+     "max_mm": 8.108,
+     "mean_mm": 2.85,
+     "verts_over_5mm": 26
+    },
+    "leader@45": {
+     "band_verts": 257,
+     "max_mm": 9.226,
+     "mean_mm": 3.6,
+     "verts_over_5mm": 63
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "dada25fa63ce9afd55c31f99a3c758766bb74d0b08f42cea379456efbc01452c",
+     "f0038": "57e04e96473130bb9e14e9b28a04b8361b16cec282f656e9a863e42fdb7c06d7",
+     "f0045": "78bb8d5595259b7f36daaa499d0976737312cb9f2f9d2785f7fbad584a6d93e1",
+     "f0060": "257a64c2049285b396327316521950ff459bfd3df84614f73366a4a996dcb487"
+    },
+    "clip_sha256": {
+     "alma": {
+      "alma-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "alma-contactloop-jiggle.clip.json": "412fa28aed4593e399f85ef04722f47e3f4de16d2de261dff47fdea93d58aeb7",
+      "alma-contactloop-skeleton.json": "b8038d0c58073383786935ecb5364d38ec23cb165335ea091044255c8283faaf",
+      "alma-contactloop.clip.json": "80c9b8259211fc807e7112a46036362d83927d99a6cd81fca934ab104899aacf"
+     },
+     "prima": {
+      "prima-contactloop-channels.json": "f97ce038dc67761d3dd065b454547dbbec20149c85b0142d3eb2f3c75ef94054",
+      "prima-contactloop-jiggle.clip.json": "5bff5c4adab5a3dbbdfcf6322b2acee32f1c07787cb0856d34e449ea58c9a746",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "bab815bbe20078502154afbf756b02595dfa27a6397f988043db737ff54f2566"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "follower_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "follower_match": true,
+    "leader_in_stack": "1d8c759316695afae0f97824c15953c2abef996a733b301aa638dfc3c639b24c",
+    "leader_ref": "1d8c759316695afae0f97824c15953c2abef996a733b301aa638dfc3c639b24c",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3138,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "07A_fluidmesh.abc",
+     "bytes": 2540844,
+     "sha256": "452e41b1083c629c838ead50d5db1c44151e3d37811a4cde508725253bf6eb01"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 39,
+     "35": 79,
+     "38": 196,
+     "42": 349,
+     "45": 455,
+     "47": 519,
+     "48": 519,
+     "60": 519,
+     "78": 519,
+     "90": 519
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 176,
+     "35": 186,
+     "38": 216,
+     "42": 236,
+     "45": 242,
+     "47": 254,
+     "48": 254,
+     "60": 222,
+     "78": 284,
+     "90": 396
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "8d6c8a148a7c7de70ee08982e3f880727d43b61459e3a32685d150f27fd36f83",
+     "38": "28dd80b872dad953d2097483ff1221dca8709d4534842ea38fb3151275d1cf59",
+     "45": "d0c5799d23d8cad3563a33935b1f3d01a45686072b3212c1d6597319d0c166e6",
+     "90": "ddd045257b8708ae7a1ee31de416885361a78e566c12a2fe6acc7174838df0e5"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa",
+     "Fac_Pupil_Heart"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 5.2542
+  },
+  {
+   "build": "08",
+   "follower": "alma",
+   "leader": "prima",
+   "bust_m": 0.5,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.4111,
+    "mean": 0.0905
+   },
+   "penetration_pre_cure_mm": 2.4811,
+   "penetration_post_cure_mm": 2.4001,
+   "penetration_layered_worst_mm": 1.3456,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 3.481,
+    "value": 1.0,
+    "verts_moved": 3
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 257,
+     "max_mm": 13.701,
+     "mean_mm": 5.346,
+     "verts_over_5mm": 116
+    },
+    "leader": {
+     "band_verts": 236,
+     "max_mm": 15.202,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 257,
+     "max_mm": 7.307,
+     "mean_mm": 2.851,
+     "verts_over_5mm": 21
+    },
+    "leader@45": {
+     "band_verts": 236,
+     "max_mm": 10.236,
+     "mean_mm": 3.598,
+     "verts_over_5mm": 51
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "7062f4ad885df0ad980910feee50935967c4defdb19864e8681c0819e1a37580",
+     "f0038": "9dd12027fd5e5d7db64237f23be52b8f07542878070eb3067a8be1a3b63847e3",
+     "f0045": "7679c0e45326f9d016860fe312f9b8ef0c42e7da933e69fa7a552d8b39dabf86",
+     "f0060": "c149f32761d4d1c65cb5b505332628f13de892507063ad6f12aa25520cbb0d79"
+    },
+    "clip_sha256": {
+     "alma": {
+      "alma-contactloop-channels.json": "f97ce038dc67761d3dd065b454547dbbec20149c85b0142d3eb2f3c75ef94054",
+      "alma-contactloop-jiggle.clip.json": "02f0812fa7d19e2bc9c8e39dbb9e08fabbd3bcf5792ce1a1e26fb22202a3c890",
+      "alma-contactloop-skeleton.json": "b8038d0c58073383786935ecb5364d38ec23cb165335ea091044255c8283faaf",
+      "alma-contactloop.clip.json": "efa5eae1c33b2a9aa6218bd16ab9090299a816ee0bfc58dc18f2ac3d45b07404"
+     },
+     "prima": {
+      "prima-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "prima-contactloop-jiggle.clip.json": "6f3e79403b4956aea27b1f3f1e8bea6a5695578aec13aeb28ae0e57960047b20",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "a949f587f739e6800d2e0c5d9acecb51adaa8925ac4facb5cb7f4a3edb124707"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "edef050f35e27254809308b98aa59d83559a1261d389f7c552625084fe8d722b",
+    "follower_ref": "edef050f35e27254809308b98aa59d83559a1261d389f7c552625084fe8d722b",
+    "follower_match": true,
+    "leader_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3103,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "08A_fluidmesh.abc",
+     "bytes": 2653013,
+     "sha256": "0a89126eeaf0d2f188498cc94e25152c80f0b4a692eee9db0a7d2d75986cda72"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 41,
+     "35": 81,
+     "38": 207,
+     "42": 363,
+     "45": 482,
+     "47": 555,
+     "48": 555,
+     "60": 555,
+     "78": 555,
+     "90": 555
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 176,
+     "35": 190,
+     "38": 198,
+     "42": 224,
+     "45": 248,
+     "47": 256,
+     "48": 254,
+     "60": 262,
+     "78": 304,
+     "90": 358
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "51bee4e254d6bc47a6fbc6e3087b7f5e209d1c886da5fc39e9bed4d6880db73c",
+     "38": "19f54dff7c3638820acd3058c18b48d9a5837116e2fb0528acac0df1a1256b24",
+     "45": "96053bebe71aeae4ea142d01815b9d626d8a5fc65faa1ca4acb4e5189b00de9c",
+     "90": "fc470e082db53dd49c52a1d6a18f83e6109a3f9218e0c18e63161d307f194db8"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa",
+     "Fac_Pupil_Heart"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 5.3816
+  },
+  {
+   "build": "09",
+   "follower": "alma",
+   "leader": "prima",
+   "bust_m": 1.5,
+   "drift_empty_mm": {
+    "max": 0.0001,
+    "mean": 0.0
+   },
+   "drift_leader_keyed_mm": {
+    "max": 0.4111,
+    "mean": 0.0905
+   },
+   "penetration_pre_cure_mm": 2.4811,
+   "penetration_post_cure_mm": 2.4001,
+   "penetration_layered_worst_mm": 1.3456,
+   "cure": {
+    "applied": true,
+    "key": "ContactFix",
+    "max_delta_mm": 3.481,
+    "value": 1.0,
+    "verts_moved": 3
+   },
+   "seam": {
+    "bones_compared": 108,
+    "max_rot_deg": 0.0,
+    "max_trans_mm": 0.0
+   },
+   "jiggle_own_peak": {
+    "follower": {
+     "band_verts": 257,
+     "max_mm": 13.701,
+     "mean_mm": 5.346,
+     "verts_over_5mm": 116
+    },
+    "leader": {
+     "band_verts": 236,
+     "max_mm": 15.202,
+     "mean_mm": 5.343,
+     "verts_over_5mm": 100
+    }
+   },
+   "jiggle_cross": {
+    "follower@38": {
+     "band_verts": 257,
+     "max_mm": 7.307,
+     "mean_mm": 2.851,
+     "verts_over_5mm": 21
+    },
+    "leader@45": {
+     "band_verts": 236,
+     "max_mm": 10.236,
+     "mean_mm": 3.598,
+     "verts_over_5mm": 51
+    }
+   },
+   "bounce_max": {
+    "follower": {
+     "L": 1.0,
+     "R": 0.85
+    },
+    "leader": {
+     "L": 1.0,
+     "R": 0.85
+    }
+   },
+   "binds_all_true": true,
+   "determinism": {
+    "scene_data_eq": true,
+    "pixels_eq": true,
+    "clips_eq": true,
+    "pixel_hashes": {
+     "f0000": "a75c7449e2a9aa68ed76745f697f3853818365486e1d820795d3805588def5d4",
+     "f0038": "4de8357630edb1867fa73e8b4b9a4765d2313f1079ae82fc6a80ea4af22cd69a",
+     "f0045": "475ec20a440fbfe83f79b69a3d092c4073bd64175b9f887243e6110d91c6b2a0",
+     "f0060": "34edbf2656d1c9e1383a2fc1f062beedf8dc09ee770265b42c7de044dc851fd8"
+    },
+    "clip_sha256": {
+     "alma": {
+      "alma-contactloop-channels.json": "f97ce038dc67761d3dd065b454547dbbec20149c85b0142d3eb2f3c75ef94054",
+      "alma-contactloop-jiggle.clip.json": "02f0812fa7d19e2bc9c8e39dbb9e08fabbd3bcf5792ce1a1e26fb22202a3c890",
+      "alma-contactloop-skeleton.json": "b8038d0c58073383786935ecb5364d38ec23cb165335ea091044255c8283faaf",
+      "alma-contactloop.clip.json": "efa5eae1c33b2a9aa6218bd16ab9090299a816ee0bfc58dc18f2ac3d45b07404"
+     },
+     "prima": {
+      "prima-contactloop-channels.json": "2d171812e40c9e209026993039468767089a7d06770340d220a9b4d750a626fa",
+      "prima-contactloop-jiggle.clip.json": "6f3e79403b4956aea27b1f3f1e8bea6a5695578aec13aeb28ae0e57960047b20",
+      "prima-contactloop-skeleton.json": "1c6087af79f67c63d719b24ae4625260f75372dafcdba9d5e8d4d833abee7638",
+      "prima-contactloop.clip.json": "a949f587f739e6800d2e0c5d9acecb51adaa8925ac4facb5cb7f4a3edb124707"
+     }
+    }
+   },
+   "identity": {
+    "follower_in_stack": "e6ee3ed8414cf84fc85aeacd78bcb9b82df574c3766b324c5723f8fbaf7a3999",
+    "follower_ref": "e6ee3ed8414cf84fc85aeacd78bcb9b82df574c3766b324c5723f8fbaf7a3999",
+    "follower_match": true,
+    "leader_in_stack": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_ref": "d05222a38140bf173770982cbe2d66bdbe1b55068d61c443559ef24f6a0775f4",
+    "leader_match": true
+   },
+   "anchors_follower_max_err_vs_fix_mm": 0.0,
+   "anchors_follower_err_mm": {
+    "Anchor_Fluid_Chest": 0.0,
+    "Anchor_Fluid_Hand.L": 0.0,
+    "Anchor_Fluid_Hand.R": 0.0,
+    "Anchor_Fluid_Mouth": 0.0,
+    "Anchor_Fluid_Nipple.L": 0.0,
+    "Anchor_Fluid_Nipple.R": 0.0,
+    "Anchor_Fluid_Pelvis": 0.0
+   },
+   "fluid": {
+    "gate": {
+     "threshold": 0.1,
+     "on_frame": 34,
+     "off_frame": 48,
+     "expected_first_sourced": 34,
+     "expected_last_sourced": 47
+    },
+    "margin_m": 0.3103,
+    "preset": {
+     "viscosity_value": 0.05632000043988228,
+     "surface_tension": 10.0,
+     "flip_ratio": 0.9700000286102295,
+     "particle_radius": 1.4299999475479126,
+     "mesh_particle_radius": 2.933000087738037
+    },
+    "emitter_anchor": "Anchor_Fluid_Pelvis.001",
+    "aim_anchor": "Anchor_Fluid_Pelvis",
+    "alembic": {
+     "path": "09A_fluidmesh.abc",
+     "bytes": 2652988,
+     "sha256": "df6c2e1fead5d8fbe625cc561725a8a9305014519bedff076223a00986600c55"
+    },
+    "particles": {
+     "1": 0,
+     "33": 0,
+     "34": 41,
+     "35": 81,
+     "38": 207,
+     "42": 363,
+     "45": 482,
+     "47": 555,
+     "48": 555,
+     "60": 555,
+     "78": 555,
+     "90": 555
+    },
+    "mesh_verts": {
+     "1": 8,
+     "33": 8,
+     "34": 176,
+     "35": 190,
+     "38": 198,
+     "42": 224,
+     "45": 248,
+     "47": 256,
+     "48": 254,
+     "60": 262,
+     "78": 304,
+     "90": 358
+    },
+    "interior_all_measured_zero": true,
+    "interior_gated": {
+     "34": 0,
+     "38": 0,
+     "42": 0,
+     "45": 0,
+     "47": 0,
+     "48": 0
+    },
+    "renders": {
+     "34": "3fe099bb52a89326822c04bd0b4a0fd6a4baabc87800c2b2a4d695efb0866369",
+     "38": "c2b18e2451439cba71d17b75b5b0a2d507ab2522cd11e062488df7f722fa0248",
+     "45": "31a8731ae7c7f6f79c8349b8782fa64d2986b538e6a71120c356cfe9cca9e31c",
+     "90": "cb1d05d64f171f3a89c5321b1b658098cf24b033ca88001713dbdd05380a4a0a"
+    }
+   },
+   "face_channels": {
+    "follower": [
+     "Fac_Ebr_Relax",
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Aa",
+     "Fac_Pupil_Heart"
+    ],
+    "leader": [
+     "Fac_Eye_HalfClose",
+     "Fac_Mth_Smile"
+    ]
+   },
+   "governance_dropped_scene": [],
+   "spine_rx": {
+    "0": 11.8,
+    "15": 10.8,
+    "30": 10.0,
+    "38": 10.0,
+    "45": 14.0,
+    "52": 13.2,
+    "78": 11.8
+   },
+   "hand_dev_max_mm": 5.3816
+  }
+ ]
+}

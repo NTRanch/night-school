@@ -39,3 +39,17 @@ PASS = identification and disposition recorded, as Plan 25.
 ## Deliverables
 
 - `results/plan-29-amour-tv/` — technique sheet, rebuild record, gate result.
+
+## Errata (local copy only — appended 2026-11-06, Plan 29 triage run)
+
+- The source URL https://rule34video.com/video/3637868/amour-tv/
+  returned the origin's application-level **404 Not Found** on
+  BOTH terminal egresses (sandbox + primo, byte-identical 384 B
+  body) across repeated attempts, while a same-egress control
+  (video 4293878) fetched 200 on both. The item appears removed
+  or renamed at source; see `runs/plan-29/MANIFEST.md`.
+- The stated duration **14:51 could not be verified** — no watch
+  page and no file exist for this ID as of the run. Recorded as
+  plan-stated only.
+- Disposition: CAPTURE-BLOCKED / SOURCE-NOT-FOUND; identification
+  outstanding. Not a census instance.

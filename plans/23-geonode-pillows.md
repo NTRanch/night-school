@@ -40,3 +40,20 @@ PASS = node group rebuilt, sweep recorded, safe ranges written. A group that onl
 ## Deliverables
 
 - `results/plan-23-geonode-pillows/` — technique sheet, rebuild record, gate result.
+
+## Errata (2026-11-06, from the Plan 23 execution run — local copy only)
+
+- **Duration is 11:46, not 2:04.** Page JSON-LD PT0H11M46S;
+  the acquired file probes at 706.048 s (sha256 ade3ef07…,
+  MANIFEST in `runs/plan-23/`). The 2:04 figure is wrong by
+  ~5.7×.
+- **Creator is KenFurFox** (watch-page info block), not
+  unlisted.
+- **Premise correction:** the video does not construct a
+  pillow (no seam pinch, no fabric subdivision). Per the
+  creator's own description and the screen, it teaches a
+  **Set Position + Geometry Proximity fake-collision
+  deformation** ("kissen" group) that makes a subdivided box
+  behave like a soft cushion under a sitter. The rebuild,
+  sweep, safe ranges, and gate are in
+  `results/plan-23-geonode-pillows/`.

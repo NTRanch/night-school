@@ -40,3 +40,13 @@ PASS = both joins bend-tested with frames, and the estate practice either confir
 ## Deliverables
 
 - `results/plan-28-headhack-models/` — technique sheet, rebuild record, gate result.
+
+> **ERRATA (local copy only, 2026-11-06, Plan 28 run):** (1) The video
+> ID in the Source line (3655211) is a 404 on rule34video (verified
+> from two egress routes + the site's own search). The executed
+> source is ID **3644780**, "How to Make 3D Porn - How to Headhack
+> Models in Blender - Anime Nyan" — title-exact, and its description
+> reproduces the estate headhack skill's asset inventory item for
+> item. See runs/plan-28/INTAKE.md. (2) Duration is **1:42:49**
+> (6169.23 s, ffprobe of the acquired file; JSON-LD PT1H42M49S),
+> not 1:58.

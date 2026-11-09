@@ -1,0 +1,43 @@
+{
+ "apex_z": 0.672798,
+ "bbox": [
+  1.2,
+  0.8,
+  0.368754
+ ],
+ "blender": "5.2.3 LTS",
+ "bottom_max_z": 0.472079,
+ "contact_lift": 0.225539,
+ "contact_mean_z": 0.475539,
+ "contact_min_z": 0.46387,
+ "degenerate": 0,
+ "dent_depth": 0.208928,
+ "faces": 1536,
+ "flipped": 0,
+ "inversion": false,
+ "inverted_columns": 0,
+ "min_thickness": 0.141625,
+ "nan": 0,
+ "nonmanifold": 0,
+ "params": {
+  "collider_r": 0.3,
+  "collider_zs": 0.62,
+  "depth": 0.8,
+  "from_max": 1.0,
+  "from_min": -2.1,
+  "press": 0.06,
+  "ramp_end": 0.982,
+  "ramp_start": 0.714,
+  "seg": 16,
+  "thick": 0.25,
+  "to_max": 0.9,
+  "to_min": 0.5,
+  "width": 1.2
+ },
+ "penetration_verts": 126,
+ "poke_depth": 0.0,
+ "tag": "A",
+ "thick_ratio": 0.566502,
+ "vert_hash": "73fa0f9e68b6766561a8a5c3fbfe55ef3d0ec0b0dc132a60a3193b6989cd77ac",
+ "verts": 1538
+}

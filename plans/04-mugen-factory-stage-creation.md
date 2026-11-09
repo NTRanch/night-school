@@ -71,3 +71,17 @@ playing distance.
 
 - `results/plan-04-mugen-stage/` — technique sheet, layer grammar,
   rebuilt stage, sweep evidence.
+
+## Errata (from the 2026-11-06 execution run, LOCAL copy only)
+
+- Views at capture (2026-11-06): 11,592 (plan intake recorded
+  11,579 on 2026-11-05; counts move, both are of their moment).
+- The SHOULD-BE-SEEN expectation of "parallax factors" per
+  layer did not materialise: the finished stage ships every
+  delta at 1,1, with depth carried by compositing, file order,
+  scale, and one layerno=1 ghost. The delta doctrine exists in
+  the creator's template comments (floor always 1,1 low-res /
+  2,2 high-res; lower delta = further) but is not exercised in
+  this build. Full record: runs/plan-04/OBSERVATION.md (DG1).
+- "Pixel art" tag: the stage plate is a painted anime
+  background, palette-reduced to 8-bit on .sff import.

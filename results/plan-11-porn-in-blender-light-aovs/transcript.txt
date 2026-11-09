@@ -1,0 +1,242 @@
+all right hello and welcome for this tutorial we will recreate this image
+this render I did Tifer from Final Fantasy 7 we will employ a feature
+called light groups which allow us to change properties of our lights after
+re-render and so this is a very powerful feature in blender we could change the
+intensity to light like so
+we could change the color
+it goes from red to green
+and of course you could see the power of this we could change these properties without having
+to re-render
+so it's a useful thing to
+to know about it could save you a great deal of time
+all right this is my scene right here it's a very simple scene you just have T for standing there
+I have four lights
+preview window down here
+wait one second
+you probably think that I modeled the uh the cabin the uh the building back there nope
+it's just a simple plane
+look at that
+I downloaded it
+off google you know Final Fantasy 7 background wallpaper
+it's just an image that's on the plane here
+the image is loaded here plugged into the uh emissive channel if I put that to zero it's gone
+so as to view you have the illusion that you know you have a complicated scene here you have T for standing in front of a building but you know it's not it's not even a building it's just a plane
+so it's not it's not it's not it's not a nice little trick you could do
+I have four lights I mean uh I got a key light here which is above the camera
+fill light down here second fill light down here second fill light
+you can see the properties of it color and power and the rip light it's a point light over here
+and I got a fog box here
+you can see the effect of the uh fog just makes our scene more interesting
+it's a volume shader volume scatter
+all right
+we want to uh achieve this functionality where we could
+change properties of our light have to render
+and we do this using light groups
+so I'll show you how to do that
+we go to view later
+and we scroll down
+so if everything is minimized you just
+go under passes
+shader
+no
+yeah light yeah sorry light groups
+one second yeah okay so
+let's start over
+you create the group first
+give it a helpful name so that you know you'll remember what it what it means
+let's do uh rim
+and key
+then we select the uh the light here we go to object properties
+and then under shading light group
+we assign the light to the group uh one of the groups that we created
+so we have key light selected right
+so we will assign it to the key group
+you could you could assign multiple lights to one group
+by the way
+rim light to rim. We could create groups of the other lights too if we want. Let's do a fill.
+I already did this so that's why it's filled out like that.
+Alright we have all four lights assigned to their own light groups. Now I will render and see you in a bit.
+Alright the render took one minute and 19 seconds. I've taken the liberty of
+enabling some AOVs, direct volume, emission, ambient occlusion, and just the light groups.
+This is the network node I already have. It's very complicated. I don't remember every little thing I've done.
+It's a scratch. Don't worry about that.
+Alright so this is our, this is the raw render that we have.
+Tifa standing behind a plane that you know looks like an environment but it's not really.
+Our light groups are over here in the bottom.
+Rim, key, fill, one and two.
+To incorporate them you'll have to add.
+Let's see what that looks like.
+Just add, add, add.
+So now we, we've now incorporated all four light groups here.
+We added the rim to the key and then added both fill lights and then we added everything together.
+So in the, uh, previous render, the rim light was, uh, a red hue.
+So how do we achieve that?
+Well, let's see.
+Combine rim, we'll have to put a, uh, HSV node.
+Hue, saturation, value.
+Between the add and the rim.
+One second.
+I'm gonna keep rearranging these nodes.
+By increasing the value for example.
+We, we increase the intensity.
+Of the rim light as you can see.
+So, without these, you know, if you want to make small changes to the light.
+You'll have to re-render.
+And, you know, that, that's not ideal.
+So, this is very powerful, you know.
+Being able to change things after the fact.
+Look at that.
+So, if you're serious about, you know, doing 3D art.
+This is a feature that, you know, you should take advantage of.
+Saves you a tremendous amount of time.
+You can, you can do whatever you want basically.
+Glare.
+Glare filter.
+Change the intensity.
+Change the color.
+We also have ambient occlusion and emission.
+You know, if you want to bring the background back.
+Because, you know, as I said earlier.
+The plane has a.
+Emissive.
+Channel, right.
+It's just a.
+It's just this image.
+Plugged into.
+The emissive channel.
+So, if you want to bring that back.
+Let's see.
+Oh, damn.
+Got a hat.
+Got a hat.
+Oh, damn.
+Oh, damn.
+Got a hat.
+Got a hat.
+Oh, damn.
+so if you want to bring that back
+let's see
+oh damn
+gotta hack that
+at the end of the chain
+you add all the lights first
+make your changes
+then at the end of the chain
+that's when you incorporate ambient occlusion
+and emissive
+all this other stuff
+that's the typical workflow
+look at that
+look at dark in the background if you want
+maybe create an animation where
+you know you just increase the opacity over time
+kind of looks cool
+let's see
+as you can see
+I've previously
+previously done this
+I don't remember every little
+you know thing I did
+it's not possible for me to
+recreate
+you know exactly
+what I did but
+the whole point is
+you have this power
+let's incorporate the
+ambient inclusion
+down here
+of course you can't do too much
+the character looks weird
+now
+finally
+volume
+oh
+hate when that happens
+volume
+volume
+to wreck
+volume
+always got to plug it to B
+A's on the bottom
+B's on top
+by the way
+so when you're bringing
+a new thing into
+the chain
+that new thing has to be
+on B
+on top of everything
+it's like
+it's like layers in Photoshop
+this is volume
+direct
+added it
+next
+after the
+ambient inclusion
+let's see
+that's the volume
+of course there's a
+great deal of noise
+in the image
+that could be rectified
+very easily
+as we
+as I checked
+denoise in data
+we could use a
+denoise node
+then bring the data
+denoise in normal
+to the normal
+denoise in albedo
+to the albedo
+yeah it's really
+annoying working
+all these notes
+all right
+one second
+here
+that should get rid
+of the noise
+yeah look at that
+all gone
+and after that
+you could do
+a bunch of stuff
+like
+previously
+I added
+I played around
+the contrast
+added a bunch
+of glare notes
+lens distortion
+all that
+we could mess
+around
+a key
+as well
+if we wanted
+to
+brightening up
+maybe
+and the changes
+we make
+are instantaneous
+that's the
+that's the upside
+to all this
+all right
+that's it
+for this
+tutorial
+post in a
+comment
+what
+what you'll
+like to see
+next
+and
+that's it

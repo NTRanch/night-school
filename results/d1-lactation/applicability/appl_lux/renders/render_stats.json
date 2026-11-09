@@ -1,0 +1,26 @@
+[
+  {
+    "camera": "full",
+    "frame": 14,
+    "mesh_verts": 4848,
+    "render_seconds": 0.51
+  },
+  {
+    "camera": "full",
+    "frame": 22,
+    "mesh_verts": 9802,
+    "render_seconds": 0.17
+  },
+  {
+    "camera": "bust",
+    "frame": 14,
+    "mesh_verts": 4848,
+    "render_seconds": 0.14
+  },
+  {
+    "camera": "bust",
+    "frame": 22,
+    "mesh_verts": 9802,
+    "render_seconds": 0.15
+  }
+]

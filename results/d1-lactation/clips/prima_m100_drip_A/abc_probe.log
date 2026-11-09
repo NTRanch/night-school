@@ -1,0 +1,45 @@
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-26 14:00:03)
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_rename_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_retarget" registration error: 'orientation' EnumProperty could not register (see previous error)
+Loading MHX RTS v 5.2.0
+MHX RTS loaded
+Loading BVH Retargeter
+BVH Retargeter loaded
+DAZ loaded
+Register DAZ Importer
+Loading MHX Tools
+Register MHX Tools
+Loading Rigify Tools
+Register Rigify Tools
+Loading Hair Tools
+Register Hair Tools
+Loading Visibility Tools
+Register Visibility Tools
+Loading Export Tools
+Register Export Tools
+Settings directory: /home/phaedrus/DAZ Importer
+File does not exist:
+"/home/phaedrus/DAZ Importer/import_daz_settings.json"
+File does not exist:
+"/home/phaedrus/import-daz-settings-28x.json"
+init
+addon_utils.disable: bl_ext.open3dlab_com.import_daz not enabled
+addon_utils.disable: bl_ext.open3dlab_com.mhx_rts not enabled
+addon_utils.disable: bl_ext.open3dlab_com.retarget_bvh not enabled
+NSLAC ABC objects: ['NSLAC_Domain']
+NSLAC ABC 12 {"verts": 984, "bbox": [[-0.0705, 0.0601], [-0.2607, -0.1547], [0.8552, 1.0392]]}
+NSLAC ABC 24 {"verts": 2108, "bbox": [[-0.0986, 0.1389], [-0.2815, -0.1091], [-0.0193, 0.9983]]}
+NSLAC ABC 36 {"verts": 2264, "bbox": [[-0.0738, 0.1456], [-0.2938, -0.1088], [-0.0191, 1.0041]]}
+NSLAC ABC_PROBE_JSON {"12": {"verts": 984, "bbox": [[-0.0705, 0.0601], [-0.2607, -0.1547], [0.8552, 1.0392]]}, "24": {"verts": 2108, "bbox": [[-0.0986, 0.1389], [-0.2815, -0.1091], [-0.0193, 0.9983]]}, "36": {"verts": 2264, "bbox": [[-0.0738, 0.1456], [-0.2938, -0.1088], [-0.0191, 1.0041]]}}
+Alembic import out/clips/prima_m100_drip_A/prima_m100_drip_fluidmesh.abc took 4.36 ms
+Alembic import took 4.42 ms
+
+Blender quit

@@ -1,0 +1,209 @@
+{
+ "job": {
+  "name": "T-05-s51005",
+  "loop": "T",
+  "seed": 51005,
+  "prompt": "Prima, nude, solo, 1girl, adult woman, silver hair, long wavy hair, red eyes, heart-shaped pupils, medium breasts, sitting on a couch, looking at viewer",
+  "negative": "bad-hands-5, bad-artist, EasyNegative",
+  "steps": 20,
+  "cfg": 7.0,
+  "sampler": "euler_ancestral",
+  "scheduler": "normal",
+  "width": 768,
+  "height": 768,
+  "ip_weight": null,
+  "cn_strength": null,
+  "clip_skip": 2,
+  "hires": {
+   "mode": "model",
+   "scale": 1.8,
+   "steps": 15,
+   "denoise": 0.4,
+   "upscale_model": "4x-AnimeSharp.pth"
+  }
+ },
+ "prompt_id": "bdf1cb9d-bd17-4df9-b7a2-b43e5958cb71",
+ "seconds": 14.0,
+ "output_file": "T-05-s51005_00001_.png",
+ "sha256": "d43f4a14ac3b731f66f1e265e60bf658ccf706b38bff68145662f2e1b65400c8",
+ "bytes": 1962116,
+ "workflow": {
+  "1": {
+   "class_type": "CheckpointLoaderSimple",
+   "inputs": {
+    "ckpt_name": "waiIllustriousSDXL_v170.safetensors"
+   }
+  },
+  "2": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "text": "Prima, nude, solo, 1girl, adult woman, silver hair, long wavy hair, red eyes, heart-shaped pupils, medium breasts, sitting on a couch, looking at viewer",
+    "clip": [
+     "18",
+     0
+    ]
+   }
+  },
+  "3": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "text": "bad-hands-5, bad-artist, EasyNegative",
+    "clip": [
+     "18",
+     0
+    ]
+   }
+  },
+  "4": {
+   "class_type": "EmptyLatentImage",
+   "inputs": {
+    "width": 768,
+    "height": 768,
+    "batch_size": 1
+   }
+  },
+  "18": {
+   "class_type": "CLIPSetLastLayer",
+   "inputs": {
+    "clip": [
+     "1",
+     1
+    ],
+    "stop_at_clip_layer": -2
+   }
+  },
+  "13": {
+   "class_type": "KSampler",
+   "inputs": {
+    "model": [
+     "1",
+     0
+    ],
+    "positive": [
+     "2",
+     0
+    ],
+    "negative": [
+     "3",
+     0
+    ],
+    "latent_image": [
+     "4",
+     0
+    ],
+    "seed": 51005,
+    "steps": 20,
+    "cfg": 7.0,
+    "sampler_name": "euler_ancestral",
+    "scheduler": "normal",
+    "denoise": 1.0
+   }
+  },
+  "19": {
+   "class_type": "VAEDecode",
+   "inputs": {
+    "samples": [
+     "13",
+     0
+    ],
+    "vae": [
+     "1",
+     2
+    ]
+   }
+  },
+  "20": {
+   "class_type": "UpscaleModelLoader",
+   "inputs": {
+    "model_name": "4x-AnimeSharp.pth"
+   }
+  },
+  "21": {
+   "class_type": "ImageUpscaleWithModel",
+   "inputs": {
+    "upscale_model": [
+     "20",
+     0
+    ],
+    "image": [
+     "19",
+     0
+    ]
+   }
+  },
+  "22": {
+   "class_type": "ImageScaleBy",
+   "inputs": {
+    "image": [
+     "21",
+     0
+    ],
+    "upscale_method": "lanczos",
+    "scale_by": 0.45
+   }
+  },
+  "23": {
+   "class_type": "VAEEncode",
+   "inputs": {
+    "pixels": [
+     "22",
+     0
+    ],
+    "vae": [
+     "1",
+     2
+    ]
+   }
+  },
+  "17": {
+   "class_type": "KSampler",
+   "inputs": {
+    "model": [
+     "1",
+     0
+    ],
+    "positive": [
+     "2",
+     0
+    ],
+    "negative": [
+     "3",
+     0
+    ],
+    "latent_image": [
+     "23",
+     0
+    ],
+    "seed": 51005,
+    "steps": 15,
+    "cfg": 7.0,
+    "sampler_name": "euler_ancestral",
+    "scheduler": "normal",
+    "denoise": 0.4
+   }
+  },
+  "14": {
+   "class_type": "VAEDecode",
+   "inputs": {
+    "samples": [
+     "17",
+     0
+    ],
+    "vae": [
+     "1",
+     2
+    ]
+   }
+  },
+  "15": {
+   "class_type": "SaveImage",
+   "inputs": {
+    "images": [
+     "14",
+     0
+    ],
+    "filename_prefix": "ns05/T-05-s51005"
+   }
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "displacement": {
+  "prima@38": {
+   "max_mm": 8.108,
+   "mean_mm": 2.85,
+   "verts_over_5mm": 26,
+   "band_verts": 236
+  },
+  "prima@45": {
+   "max_mm": 15.203,
+   "mean_mm": 5.343,
+   "verts_over_5mm": 100,
+   "band_verts": 236
+  },
+  "yui@38": {
+   "max_mm": 15.025,
+   "mean_mm": 5.429,
+   "verts_over_5mm": 97,
+   "band_verts": 224
+  },
+  "yui@45": {
+   "max_mm": 10.117,
+   "mean_mm": 3.656,
+   "verts_over_5mm": 58,
+   "band_verts": 224
+  }
+ },
+ "penetration_layered": {
+  "61": {
+   "max_mm": 5.391,
+   "rejected_far": 0
+  },
+  "62": {
+   "max_mm": 5.4172,
+   "rejected_far": 0
+  },
+  "63": {
+   "max_mm": 5.4424,
+   "rejected_far": 0
+  },
+  "64": {
+   "max_mm": 5.4582,
+   "rejected_far": 0
+  },
+  "65": {
+   "max_mm": 5.4218,
+   "rejected_far": 0
+  },
+  "66": {
+   "max_mm": 4.0174,
+   "rejected_far": 0
+  },
+  "67": {
+   "max_mm": 5.3812,
+   "rejected_far": 0
+  },
+  "38": {
+   "max_mm": 1.0434,
+   "rejected_far": 0
+  },
+  "45": {
+   "max_mm": 3.1743,
+   "rejected_far": 0
+  }
+ },
+ "bounce_max": {
+  "prima": {
+   "L": 1.0,
+   "R": 0.85
+  },
+  "yui": {
+   "L": 1.0,
+   "R": 0.85
+  }
+ }
+}

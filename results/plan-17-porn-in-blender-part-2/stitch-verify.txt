@@ -1,0 +1,4 @@
+chunk1=664 chunk2=36 stitched=701
+last_inrange_end=3668.98 overshoot_segments=0
+chunk1_last_end=3300.00
+chunk2_first_start=3300.00 text="Now, this effect is too aggressive, obviously, so I'll reduc"

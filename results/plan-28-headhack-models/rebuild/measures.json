@@ -1,0 +1,167 @@
+{
+ "bins": {
+  "A_body": 3,
+  "A_head": 3,
+  "B": 6
+ },
+ "pairsA": 24,
+ "weld_edges": 120,
+ "weld_edges_A": 122,
+ "poses": {
+  "rest": {
+   "head_tilt_deg": 0.0,
+   "A_body": {
+    "kink_max_mm": 0.0,
+    "kink_at_z": null,
+    "radius_step_max_mm": 0.0,
+    "normal_step_change_max_deg": 0.0,
+    "normal_step_at_z": null
+   },
+   "A_head": {
+    "kink_max_mm": 0.0,
+    "kink_at_z": null,
+    "radius_step_max_mm": 0.0,
+    "normal_step_change_max_deg": 0.0,
+    "normal_step_at_z": null
+   },
+   "B": {
+    "kink_max_mm": 0.0,
+    "kink_at_z": null,
+    "radius_step_max_mm": 0.0,
+    "normal_step_change_max_deg": 0.0,
+    "normal_step_at_z": null
+   },
+   "A_seam_pair_dist_max_mm": 3.431,
+   "A_seam_pair_dist_mean_mm": 2.85,
+   "A_seam_pair_change_max_mm": 0.0,
+   "B_weld_strain_max_mm": 0.0,
+   "B_weld_strain_mean_mm": 0.0,
+   "A_weld_strain_max_mm": 0.0,
+   "A_weld_strain_mean_mm": 0.0
+  },
+  "flexion": {
+   "head_tilt_deg": 45.0,
+   "A_body": {
+    "kink_max_mm": 4.727,
+    "kink_at_z": 1.423,
+    "radius_step_max_mm": 0.296,
+    "normal_step_change_max_deg": 38.78,
+    "normal_step_at_z": 1.426
+   },
+   "A_head": {
+    "kink_max_mm": 7.207,
+    "kink_at_z": 1.462,
+    "radius_step_max_mm": 2.244,
+    "normal_step_change_max_deg": 5.34,
+    "normal_step_at_z": 1.447
+   },
+   "B": {
+    "kink_max_mm": 5.041,
+    "kink_at_z": 1.423,
+    "radius_step_max_mm": 2.749,
+    "normal_step_change_max_deg": 11.37,
+    "normal_step_at_z": 1.444
+   },
+   "A_seam_pair_dist_max_mm": 3.167,
+   "A_seam_pair_dist_mean_mm": 2.862,
+   "A_seam_pair_change_max_mm": 0.43,
+   "B_weld_strain_max_mm": 0.007,
+   "B_weld_strain_mean_mm": 0.002,
+   "A_weld_strain_max_mm": 0.613,
+   "A_weld_strain_mean_mm": 0.092
+  },
+  "extension": {
+   "head_tilt_deg": 30.0,
+   "A_body": {
+    "kink_max_mm": 3.462,
+    "kink_at_z": 1.423,
+    "radius_step_max_mm": 0.14,
+    "normal_step_change_max_deg": 35.98,
+    "normal_step_at_z": 1.426
+   },
+   "A_head": {
+    "kink_max_mm": 5.128,
+    "kink_at_z": 1.462,
+    "radius_step_max_mm": 1.03,
+    "normal_step_change_max_deg": 4.72,
+    "normal_step_at_z": 1.447
+   },
+   "B": {
+    "kink_max_mm": 3.672,
+    "kink_at_z": 1.459,
+    "radius_step_max_mm": 1.243,
+    "normal_step_change_max_deg": 8.57,
+    "normal_step_at_z": 1.444
+   },
+   "A_seam_pair_dist_max_mm": 3.612,
+   "A_seam_pair_dist_mean_mm": 2.837,
+   "A_seam_pair_change_max_mm": 0.293,
+   "B_weld_strain_max_mm": 0.003,
+   "B_weld_strain_mean_mm": 0.001,
+   "A_weld_strain_max_mm": 0.511,
+   "A_weld_strain_mean_mm": 0.057
+  },
+  "yaw": {
+   "head_tilt_deg": 50.0,
+   "A_body": {
+    "kink_max_mm": 0.377,
+    "kink_at_z": 1.426,
+    "radius_step_max_mm": 0.175,
+    "normal_step_change_max_deg": 0.05,
+    "normal_step_at_z": 1.426
+   },
+   "A_head": {
+    "kink_max_mm": 1.627,
+    "kink_at_z": 1.447,
+    "radius_step_max_mm": 0.309,
+    "normal_step_change_max_deg": 1.01,
+    "normal_step_at_z": 1.447
+   },
+   "B": {
+    "kink_max_mm": 1.138,
+    "kink_at_z": 1.444,
+    "radius_step_max_mm": 0.423,
+    "normal_step_change_max_deg": 0.94,
+    "normal_step_at_z": 1.444
+   },
+   "A_seam_pair_dist_max_mm": 3.405,
+   "A_seam_pair_dist_mean_mm": 2.811,
+   "A_seam_pair_change_max_mm": 0.063,
+   "B_weld_strain_max_mm": 0.007,
+   "B_weld_strain_mean_mm": 0.003,
+   "A_weld_strain_max_mm": 0.532,
+   "A_weld_strain_mean_mm": 0.089
+  },
+  "lateral": {
+   "head_tilt_deg": 27.0,
+   "A_body": {
+    "kink_max_mm": 2.841,
+    "kink_at_z": 1.423,
+    "radius_step_max_mm": 0.202,
+    "normal_step_change_max_deg": 37.13,
+    "normal_step_at_z": 1.426
+   },
+   "A_head": {
+    "kink_max_mm": 4.338,
+    "kink_at_z": 1.462,
+    "radius_step_max_mm": 1.075,
+    "normal_step_change_max_deg": 9.06,
+    "normal_step_at_z": 1.447
+   },
+   "B": {
+    "kink_max_mm": 3.037,
+    "kink_at_z": 1.423,
+    "radius_step_max_mm": 1.28,
+    "normal_step_change_max_deg": 7.65,
+    "normal_step_at_z": 1.444
+   },
+   "A_seam_pair_dist_max_mm": 3.48,
+   "A_seam_pair_dist_mean_mm": 2.845,
+   "A_seam_pair_change_max_mm": 0.274,
+   "B_weld_strain_max_mm": 0.003,
+   "B_weld_strain_mean_mm": 0.001,
+   "A_weld_strain_max_mm": 0.274,
+   "A_weld_strain_mean_mm": 0.063
+  }
+ }
+}

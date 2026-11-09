@@ -39,3 +39,20 @@ PASS = both methods measured on the same gates and a default named with evidence
 ## Deliverables
 
 - `results/plan-20-bonnie-tutorial/` — technique sheet, rebuild record, gate result.
+
+---
+
+## Errata (filed by the Plan 20 run, 2026-11-06 — LOCAL copy only)
+
+- **Duration:** the plan states 51:08 (3,068 s). The watch
+  page's JSON-LD states PT0H12M04S and the pinned capture
+  probes at 724.400 s (21,732 frames @ 30 fps). The plan
+  overstates the artefact ~4.24× — the fourth duration error
+  in this series (cf. Plans 15/18/19 errata). See
+  `runs/plan-20/MANIFEST.md` / `INTAKE.md`.
+- **Creator:** the plan's blank creator field is filled from
+  the page as seen: uploader Malikai Polk, models Hstudios.
+- **Premise:** the artefact is the sitting's FIRST segment
+  (rig creation via Auto-Rigger), not a complete one-act
+  build; blocking/contact/loop live in the series' later
+  instalments. See `runs/plan-20/INTAKE.md` premise verdict.

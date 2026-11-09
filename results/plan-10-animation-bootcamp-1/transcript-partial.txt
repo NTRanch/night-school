@@ -1,0 +1,89 @@
+PARTIAL TRANSCRIPT — whisper log harvest, segments 0:00-8:33 of 25:52, 87 segments, tier UNCONFIRMED, single transcriber (large-v3-turbo). Full transcript pending on primo (detach ns10-whisper) — see REPORT.md addendum.
+
+[00:00:00.000 --> 00:00:06.340]   Welcome to another video from the dojo. This is Kaido3D and today we're going over the animation
+[00:00:06.340 --> 00:00:12.000]   system. This is going to be part of a crash course that we're trying out here in the dojo.
+[00:00:12.500 --> 00:00:17.840]   For the next couple weeks we'll be going over a few key concepts that are kind of foundational
+[00:00:17.840 --> 00:00:22.840]   to getting you ready for animation and then at some other point we're going to have kind of
+[00:00:22.840 --> 00:00:30.520]   a deeper dive into like process workflows and things like that. Today I'll be joined with some
+[00:00:30.520 --> 00:00:35.240]   of the other students in the dojo. They'll be asking me questions throughout. We'll be focusing
+[00:00:35.240 --> 00:00:47.140]   on the motion path and the graph editor itself. So as a few notes for everyone else, I use right-click
+[00:00:47.140 --> 00:00:51.800]   select to do my selection. So when you see right-click it'll say select underneath my monitor.
+[00:00:51.800 --> 00:01:00.600]   Um, if you're using left-click select, it'll be the same for you. That's the same. Um,
+[00:01:03.320 --> 00:01:09.240]   how I'm going to do this today is I'm really kind of taking away like the bouncing ball tutorial and
+[00:01:09.240 --> 00:01:15.080]   just converting it into a sex tutorial. Um, y'all can feel free to ask questions or stop me at any
+[00:01:15.080 --> 00:01:19.960]   point in time. We're going to include that in the recording no matter what. Um, and yes, I am recording
+[00:01:19.960 --> 00:01:26.360]   everything. Um, so try to keep your gamer words to a minimum. Um,
+[00:01:27.960 --> 00:01:33.960]   yeah, aside of that, we'll just get right into it. Um, so I'm going to split my window from the
+[00:01:33.960 --> 00:01:41.640]   bottom and I'm going to put in a dope sheet. Now the three things I want to go over today
+[00:01:42.200 --> 00:01:51.000]   to look over stuff for animation more specifically is the dope sheet, the motion graph or the motion path
+[00:01:51.000 --> 00:01:58.280]   system and the graph editor. All three of those things lead you to the same information. And that's
+[00:01:58.280 --> 00:02:04.120]   really kind of the more important part to think about. Um, there is a billion different ways to actually
+[00:02:04.120 --> 00:02:12.120]   animate. Um, what these tools offer you is either a debug into what's going on with your animation or
+[00:02:12.120 --> 00:02:18.360]   more fine grain controls to actually deal with what's going on animation. Um, for this one,
+[00:02:18.360 --> 00:02:29.240]   we're going to set it as a 30 fps animation and we're going to, um, do two rotations in that time frame.
+[00:02:29.240 --> 00:02:38.600]   So, to reset my timing properties panel and I will hand it to this file at the end. So let's see,
+[00:02:38.600 --> 00:02:46.920]   frame rate set to 30, frame start ends down to 30. Um, I'll try to make sure I call out my hotkeys
+[00:02:46.920 --> 00:02:53.560]   throughout. Um, I do rely a lot more on hotkeys than buttons, but I will also, um, try to show you
+[00:02:53.560 --> 00:03:02.600]   the menu that leads to something not just rely exclusively on the hotkeys. Um, so all in large,
+[00:03:02.600 --> 00:03:07.640]   it's just going to be a cowgirl animation because that is the easiest thing to translate between
+[00:03:07.640 --> 00:03:13.720]   quote unquote, the basis of animation and what we want to do. Um, or less, we're going to be doing it
+[00:03:13.720 --> 00:03:19.400]   quote unquote, pose, um, pose the pose instead of a straight ahead. And because that gives us some time
+[00:03:19.400 --> 00:03:25.480]   to look at some of the other features between the graph editor and the motion graph. Give me one
+[00:03:25.480 --> 00:03:31.640]   second, I gel over. So I actually see some people mentioned anything speaking.
+[00:03:40.920 --> 00:03:49.240]   Yep. I don't see sex. All right. So I've already put down a basic hotkey for the initial position.
+[00:03:49.400 --> 00:03:58.360]   For the characters. Um, what you'll see is the hotkey K that pulls up the keyframe menu. Oh, uh,
+[00:03:58.360 --> 00:04:02.360]   two that changed it from I to K
+[00:04:07.960 --> 00:04:14.360]   So you can either apply keyframe a couple of different ways. You can either go up to a value and click,
+[00:04:14.920 --> 00:04:22.520]   right click on it, and it'll give you the insert keyframe, uh, or insert single key. Um, you can also do
+[00:04:23.560 --> 00:04:31.560]   inside the, um, the dope sheet, you click on the key menu, insert keyframes, and it'll give you a submenu
+[00:04:31.560 --> 00:04:36.360]   for all groups, only set the channels in active group. Usually you want to do all channels, unless you have
+[00:04:36.360 --> 00:04:40.280]   a specific reason to use these other two, uh, we'll explain what these do at a time.
+[00:04:42.920 --> 00:04:45.320]   So for this, I'm just going to press A to select everything.
+[00:04:45.960 --> 00:04:50.600]   I'm going to press K to bring up my menu and I do location rotation and scale.
+[00:04:50.600 --> 00:04:55.240]   I'm leaving out custom properties because I don't want to mess with the properties in this particular animation.
+[00:04:56.840 --> 00:05:03.320]   And you can see that everything has worked correctly when you see values turn yellow. Yellow means that it has been changed.
+[00:05:05.320 --> 00:05:08.920]   So now that we are in the top part of
+[00:05:09.800 --> 00:05:12.200]   animation, you're just going to go
+[00:05:13.160 --> 00:05:15.000]   see the halfway point will be 15.
+[00:05:15.720 --> 00:05:18.920]   If we're doing it twice in one animation, that means we have to do
+[00:05:20.280 --> 00:05:23.400]   about seven as our halfway point.
+[00:05:24.680 --> 00:05:26.280]   So I'm just going to grab the hip control.
+[00:05:27.720 --> 00:05:31.560]   I'm going to press G, press Z, drag the body down.
+[00:05:33.000 --> 00:05:35.560]   And the knees are collapsing, so we're going to have to fix that here in a second.
+[00:05:35.560 --> 00:05:40.920]   So we're going to press K again, rotation of scale, drop that.
+[00:05:41.800 --> 00:05:45.560]   I have X mirror on for this to make my life a little bit easier.
+[00:05:46.280 --> 00:05:48.520]   So I don't have to do things at the same time.
+[00:05:49.960 --> 00:05:53.800]   Spend some time, some of this to get it.
+[00:06:01.160 --> 00:06:06.120]   I think I might have put the feet too far too close forward actually.
+[00:06:14.120 --> 00:06:15.280]   How did the legs cross?
+[00:06:16.840 --> 00:06:21.000]   Okay, so now that we have effectively our first
+[00:06:22.520 --> 00:06:27.240]   cycle in it of up and then down, we're just going to take this first keyframe.
+[00:06:27.960 --> 00:06:32.440]   So I'm going to select everything in the viewport to make sure I grab it all.
+[00:06:33.400 --> 00:06:38.760]   To grab this key, my head over here, make sure this is grabbed.
+[00:06:38.760 --> 00:06:41.240]   And then I'm going to hit shift D to duplicate it.
+[00:06:41.800 --> 00:06:44.680]   And I'm going to put this all the way to frame 15.
+[00:06:47.240 --> 00:06:48.840]   Zoom in so we see the rest of our numbers.
+[00:06:50.440 --> 00:06:53.880]   With that, I hit the home key and the home key gives me a full-fledged view.
+[00:06:53.880 --> 00:06:58.920]   You can do view frame selected.
+[00:07:02.840 --> 00:07:06.120]   frame all that you want, the home key.
+[00:07:07.880 --> 00:07:10.040]   That gives you all the keyframes that you have.
+[00:07:14.520 --> 00:07:19.640]   And as doing for the key, if you want to duplicate it, it's shift D to duplicate it.
+[00:07:19.640 --> 00:07:24.360]   Or you can use the key menu and click duplicate and that gives you the ability.
+[00:07:25.800 --> 00:07:27.480]   All right, so.
+[00:07:29.960 --> 00:07:31.640]   Hold on one second, I think I have an extra.
+[00:07:33.400 --> 00:07:35.560]   This is a particularly boring animation at the moment.
+[00:07:36.440 --> 00:07:37.400]   Up and down, right?
+[00:07:37.400 --> 00:07:43.000]   So as you can tell right now, mine doesn't have any interpolation between the keyframes.
+[00:07:43.960 --> 00:07:46.600]   Because by default, mine is set to steps.
+[00:07:46.600 --> 00:07:48.440]   So if you were doing yours.
+[00:07:50.200 --> 00:07:53.720]   So if I select everything and hit the hotkey T to bring up interpolation.
+[00:07:54.760 --> 00:07:59.400]   What you would probably have is linear animation by default.
+[00:07:59.400 --> 00:08:03.880]   Where it smoothly goes between the keyframes.
+[00:08:06.600 --> 00:08:12.040]   What we can do is change this interpolation to change the timing of the animation.
+[00:08:13.400 --> 00:08:14.840]   Between these two keyframes.
+[00:08:15.560 --> 00:08:19.240]   So when we have T, the ones you're probably going to use the most are on this
+[00:08:19.960 --> 00:08:21.880]   interpolation line right here.
+[00:08:21.880 --> 00:08:22.760]   So there's constant.
+[00:08:23.720 --> 00:08:28.680]   Which that just means, if I have everything set correctly.
+[00:08:28.680 --> 00:08:31.640]   That the frame doesn't change until a key is hit.
+[00:08:32.280 --> 00:08:33.800]   It will hold the keyframe.

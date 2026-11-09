@@ -1,0 +1,129 @@
+{
+  "variant": "probe_stream_r1",
+  "girl": "alma",
+  "m": 1.0,
+  "mode": "stream",
+  "blender_version": "5.2.3 LTS",
+  "seed": 7,
+  "fps": 24,
+  "frames": [
+    1,
+    32
+  ],
+  "resolution_max": 120,
+  "cell_size_m": 0.0125,
+  "domain": {
+    "centre": [
+      0.0,
+      -0.4,
+      0.72
+    ],
+    "dims": [
+      0.75,
+      1.3,
+      1.5
+    ]
+  },
+  "bust_key_values": {
+    "Alma_Body": 0.0,
+    "Alma_Outfit": 0.0,
+    "Alma_OutfitEnd": 0.0
+  },
+  "body_name": "Alma_Body",
+  "derived_nipple": {
+    "L": [
+      0.04472,
+      -0.14555,
+      1.33791
+    ],
+    "R": [
+      -0.04472,
+      -0.14555,
+      1.33791
+    ]
+  },
+  "stored_anchor": {
+    "L": [
+      0.04472,
+      -0.14555,
+      1.33791
+    ],
+    "R": [
+      -0.04472,
+      -0.14555,
+      1.33791
+    ]
+  },
+  "anchor_vs_derived_mm": {
+    "L": 0.0,
+    "R": 0.0
+  },
+  "emitters": {
+    "L": {
+      "centre": [
+        0.04472,
+        -0.17425,
+        1.32918
+      ],
+      "derived": [
+        0.04472,
+        -0.14555,
+        1.33791
+      ],
+      "vel_readback": [
+        0.0,
+        -1.15,
+        -0.35
+      ],
+      "vrandom_readback": 0.0
+    },
+    "R": {
+      "centre": [
+        -0.04472,
+        -0.17425,
+        1.32918
+      ],
+      "derived": [
+        -0.04472,
+        -0.14555,
+        1.33791
+      ],
+      "vel_readback": [
+        0.0,
+        -1.15,
+        -0.35
+      ],
+      "vrandom_readback": 0.0
+    }
+  },
+  "gate_schedule": [
+    [
+      6,
+      30
+    ]
+  ],
+  "velocity_coord": [
+    0.0,
+    -1.149999976158142,
+    -0.3499999940395355
+  ],
+  "velocity_random": 0.0,
+  "emitter_radius_m": 0.016,
+  "emitter_offset_mm": 30.0,
+  "preset_readback": {
+    "viscosity_value": 0.05632000043988228,
+    "viscosity_mult": 1.0,
+    "surface_tension": 10.0,
+    "flip_ratio": 0.9700000286102295,
+    "particle_radius": 1.4299999475479126,
+    "mesh_particle_radius": 1.2000000476837158,
+    "delete_in_obstacle": false,
+    "mesh_rad_arg": 1.2
+  },
+  "effector_readback": {
+    "body_surface_distance": 0.0,
+    "body_subframes": 2
+  },
+  "bake_seconds": 448.85,
+  "script_sha256": "e837b0a6f8e6c4be57dcfee3eb4d3c0f93dce246ac54119a963afe17ce81ed14"
+}

@@ -1,0 +1,219 @@
+Just being a bit careful how I do this because if I don't get this right it will cause some
+major headaches for me later.
+Now I just select this ring, I'm just going to hide it here because it's getting in the
+way and I'm just going to delete this ring along here.
+And I'll just unhide this just to see where the neck is.
+Just make sure I'm cutting above that.
+Yeah I think that's okay.
+So I'm going to go to wireframe mode now and I'm just going to delete everything above that
+line.
+So I'm just going to delete this first and just delete any leftover points.
+Let me just hide this head first because it's getting in the way.
+Okay it looks okay, I'll just delete these final few points and yeah, okay and these
+points up here as well, okay and that's done.
+Okay, let me just check my selection, make sure it's even, okay that's good.
+So basically what I did there is I made sure that the neck was higher than the other one,
+than the thing because I want this to fit in nicely basically because the back of this
+neck you can see it's much higher than it is at the front.
+So it'll be a lot easier to stretch these, these won't have to stretch as much, okay.
+So just before I do that I'm just going to make sure that this is a little bit more
+even, so let me just check actually, okay, actually no I don't, so basically you can
+make this a little bit more even by kind of making this a more smooth line by pressing
+GZ and using like this symmetry, so using symmetry to kind of suss it out a little bit
+more but we actually what, I'm pad three, let me make sure that I have an extra point
+here, I have an extra point, I think I have an extra point, okay that's better, okay let
+me just, okay that's better, okay yeah I have an extra point there, so that was kind of
+irking me a little bit, let me just make sure everything is the same way, what, so now
+if I go here, I have an extra point here as well, no no no, okay so that's fine actually,
+it's just that the perspective is throwing me off, okay that's all good, okay yep let's
+see, okay so from here, so you can actually just even this out a little bit, let me just
+take that point there though, interesting, so this symmetry isn't really working very
+well, okay so we're just gonna turn off symmetry, so don't use symmetry if you're just gonna
+do it, you can do it manually, okay but anyway, honestly we really don't need to do that because
+we cut it nicely so we can just start the process of doing it together, so I'm just going
+to select both of them and I'm just going to start placing them together, so before you
+do this just go edit preferences and just go to the key map here and make sure that your
+spacebar action is not on play but on search because this will make it a lot more easy,
+so what we're gonna do is we're going to select this point here and we're gonna basically
+drag it to that right there, so but to do that we're just going to select this bottom
+point first and select this top point and I'm just going to press spacebar and search
+for selection to active, okay yeah, okay so then I'm just going to do that with the next
+point on the left and press spacebar and you can see that it's already there, so we can
+just go along and just do it symmetrically, one point at a time, I would suggest doing
+it symmetrically because very quickly you're gonna forget what points you're using, okay
+so I'm just going to go along and just do this one point at a time, okay yep so this
+one here and then this one here, so you need to select the bottom point first then shift
+select the top point, press spacebar and then that will drag it down, okay otherwise yeah,
+so let me just turn on wireframe so I can actually see some of these other points, this
+might actually, no that's okay actually, let's see if I can select, so I'm going to select
+this top point here but it's actually technically the bottom skin and select that other point
+there, press spacebar, selection to active, okay interesting, actually no no, so what
+I'm gonna do here is I'm just gonna go to, I'm gonna go back to solid mode and I'm gonna
+delete this point right here, oops I'm just gonna delete this point from the skin up top
+and then I'm just going to create a face in between here, okay so I'm just gonna select
+three of these points, so basically I'm just going to, if you can't, if you select end
+up selecting the wrong point, so you can make sure that you're selecting the right point
+which is this skin here, okay and then you can shift select these other faces here, press
+F to form a face in between that, so I'm gonna do the same thing here, I'm gonna delete this
+point right here, press delete and I'm going to form a face, so I'm just gonna press G,
+make sure I selected the right face there, it's the one that's underneath, not the one
+that's on top because there's two points on top of each other, then shift select these
+other points, create a face with the F key, okay so then I can easily just select the
+bottom, select the top, press selection to active and that will, because we don't want
+any of these points to stretch too much and we don't want to ruin the topology either,
+ruin the shape, so we can delete this vertice here, I'm gonna do the same to the other side,
+so I can just remember to do it, okay then I can just put these points together very
+easily, okay yep that's good and then this point here to there, okay so this point here,
+I'm probably going to end up deleting it, so I'm just gonna delete, just because I don't
+really like how much it's sticking out, so I'm just gonna delete it and I'm going to,
+wait okay wait yep yeah I'm gonna delete it, so I'm gonna delete it first, then I'm gonna
+form a face in between these three, I'm going to do the same with the other side, form a
+face in between and just make sure that you don't select the top one because if you selected
+the top one for instance and you try to form a face between these three points you'll start
+to see it gets really really weird, so don't do that, okay so just make sure you've selected
+the right one by pressing G, to make sure you've selected the bottom one, okay and I'm
+just gonna select these three points, press F, okay then I'm just going to select these
+two and press spacebar and selection to active, okay I'm gonna go around to the other side,
+do the same thing, okay so I'm just gonna put these two together and put these two together,
+okay that looks good, okay I'm gonna start using, I'm gonna start using wireframe mode
+just to check these points, okay interesting, probably gonna end up deleting this point
+here and this point here honestly, yeah I'm gonna delete these two points, I'm gonna delete
+those two points and on the other side I'm gonna delete those two points as well, okay
+so wait actually what did I delete them, there's two points going upwards, there's only one
+here, wait actually let me go back to solid mode just to double check if I've done something
+wrong, because if I delete this one right here, let's actually just do it from the front
+forward actually, so just to make sure that we're doing this symmetrically I'm gonna do
+the middle point because that's easy and then I'm just gonna do the right point then the
+left point because even I've kind of lost track honestly, so I'm gonna select the bottom
+point and select the top point, selection to active, okay and then select this point,
+select this point, okay bottom and then the top, selection to active, okay so here interesting,
+okay so I have to make a decision here, I'm probably going to end up deleting this face
+here and creating two triangles, yeah I'm gonna do, yeah I'm gonna do that, I'm gonna
+delete this face and delete this face here, I'm gonna create two triangles in between
+that, okay so I'm just gonna create a triangle between these faces here, press F, in fact
+I can just hide this skeleton, this spirit skeleton just for now and then I can make a
+face between these ones here and then I can make a face between these faces here, okay
+so we just have there and then now I can kind of put these two together by joining, by stretching
+this one upwards just a tiny bit, okay yeah it's just bulging a little bit outwards we
+can fix that in a bit, okay so this one here I'm just gonna create a face but here I'm
+gonna create a face here, oops here I'm gonna create a face here and then I'm gonna create
+a face here by pressing F, okay now I can join this point up there, okay so now I think
+I'm going to start deleting some points on this other mesh, so I'm probably gonna delete
+this point here, delete the same point on the other side, so actually I don't need to
+delete it on the other side, no I do, wait a second, interesting, it's just not symmetrical
+I think I've made it not symmetrical, okay anyway I'll just put this one here, I'll put
+this one here, okay so this one I'll probably delete this point and I'll delete these two
+points here, probably just do the rest by eye actually honestly, I'm just going to select
+these two points, put them in, okay so this one, this is interesting, so okay honestly
+what I'm going to do here is I'm going to actually use the knife tool and I'm going
+to create another point in the middle, so I'm just going to press K to use the knife
+tool, I'm going to put a point in the middle right here, okay so I'm going to connect it
+to just the point there, I'm going to press enter, I'm going to press K again and just
+put a point in here and there and just press enter and now I can just shift select these
+and shift select these and just join them, okay yeah so I've done a join there, okay I'm
+probably going to make that list, I'm going to delete this point here, probably delete
+this one here, let's see, let's see, I could bring that one down, yeah I think it's just
+not symmetrical which is the thing, okay so I'm going to select these two, selection
+to active, okay and I'm just going to make two more points, so I'm just going to press
+K, select the middle of this line, make a point there, press enter, press K, make a point in
+the middle of this line and there and press enter, okay cool now I'm just going to do
+these final two points, okay yeah so that should be roughly not too bad, let me just
+fix these three points here, I'm just going G, Y, oops actually, before I do that I'll
+have to sew them together, so I'm not going to do that just yet, that looks okay, let
+me just check in material preview mode, okay so nothing's too stretched which is very
+great because last time that was a huge, huge problem and it was kind of throwing me
+off, okay now what I'm going to do is I'm going to start joining these together, okay
+so don't worry that it's a little bit weird, we will fix that in a couple of seconds, so
+what we're going to do is I'm going to select both these meshes, so I'm going to select
+the head first, then the body of the second, so we're going to join them together, we're
+going to make this head join to the eight female mesh by pressing ctrl J, okay and you'll
+see that the colors are all wrong on the head, so what happened, so if you press ctrl Z there's
+a really easy fix to that, so if you just go under this green vertex groups tab and you
+look at the UV maps here, so UV maps, can you see how it's called UV single, but if you
+go up to Genesis 8 female mesh it's called base female, okay so you need to have the
+same name for the UV maps before you fuse them together, okay so you need to have this
+one, so I just basically what I did there is I pressed this Genesis 8 female mesh, double
+clicked to highlight this, press ctrl C to copy it and then I put it down to the head
+here and I changed the name of this by double clicking ctrl V and enter, so this names are
+now the same, so again select the head first and the body second, press ctrl J, okay and
+as you can see the textures were fine, okay from there we're just going to change a few
+more things, so I'm just going to fix this thing here, so what I'm going to do is actually
+I'm going to go to Y frame mode and I'm going to press W to toggle between these things here
+as you can see on the top left, so I'm going to toggle to my lasso select mode, I'm just
+going to select this one ring around here, okay so I'm just going to select this ring
+around here, okay I'm going to make sure I'm going to go back to solid mode, make sure
+that I've selected everything correctly, so I need to add anything to the selection,
+I just I can press shift and just add that to the selection, so shift and then I make
+a little selection there, if I want to delete something from the selection I can put a whole
+control and just select that and that will delete something from the selection, so I need
+to add these points to the selection, so I'm going to go to Y frame because there are
+two points on top, so I need to make sure I select both of the points there, okay and
+yep and that should be okay, okay so I'm just going to press spacebar and what I'm
+going to do is I'm going to say merge by distance, okay so this one here, so mesh merge by distance
+and as you should see I moved 33 vertices in here, so yeah we've removed vertices so
+when I pull this point it won't separate into two things anymore, so there'll be just one
+complete mesh, now I shouldn't be able to select these three points here, gy, so to move
+them backwards a little bit and yeah that looks a little bit more correct, gy, probably
+going to select these two points, move them back a little bit as well, gy, yeah just move
+them up a little bit, just they look a little bit less weird, so g, then gk, they just look
+a little bit less pointy basically, oh god, so these points here need to be, okay so this
+one selection to active, okay and let me just use these two points together, so I'm just
+going to make a selection here and just make sure that's the only selected point, the other
+points are selected, I'm just going to merge by distance, okay yep, so I removed that
+vertices, okay so I'm just going to go to solid node and make sure there's nothing else
+that kind of did that, okay yep that looks okay, okay so I'm just going to fix this area
+here, because you can see it's just kind of moved backwards a little bit, so I'm just
+going to gy, okay actually I'm going to use proportional editing here, so basically normally
+if we turn off proportional editing you can see that we are only just moving these points,
+these selected points, however if we want to move some points more than that we can use
+proportional editing, so I can press g and I can select how much that I want to move
+and so I can just use scroll down to expand my sphere influence, so I influence a really
+wide area, I can scroll inwards to make my area of selection, my circle of selection
+just a little bit wider, but not too wide, okay so I'm just going to have it roughly
+around here and I'm just going to move it backwards a little bit, so I'm probably just
+going to go to iPad 3 and just move it outwards a little bit, so it just doesn't look too
+weird, yep that looks semi-decent I'd say, as long as it looks decent by eye, it doesn't
+need to be perfect, it just needs to look semi-decent, let me expand my selection a little bit,
+maybe oops, scape, so gy I think it's turned on snapping a little bit, okay yep let me just
+make my selection a little bit wider and that looks okay, yeah okay let me just select these
+two points as well, I guess, and let me just get it out a little bit, actually let me just
+select these two points by themselves and I'll just put out a little bit, same with the other
+side, g and yeah, okay cool, that looks semi-decent to my eye, so I'm just going to probably
+leave it there, maybe just pull this inwards just a little bit, okay okay that looks, yeah
+that'll be good enough for me, okay let me just check it in material preview mode and
+everything should be okay, okay so now we're just going to match the color of the skin,
+now that we've done the head hack properly, we're going to match the color of the skin,
+okay so the way to do that is actually not too hard, so you can either use Photoshop with gradient
+maps or you can use even blender itself, so I'm going to show both methods, I would say preferred
+is using Photoshop, okay so I'll just go through that real quick, okay so I'm going to see the body
+and I'm going to go to the torso, okay so we just care about the torso, so I'm just going to click
+on the torso maps D, so basically I select the mesh first, then I go to the torso material,
+then can you see this D, so D stands for diffuse, so it gives it its color, so if I unplug it,
+you'll see what happens, right so can you see that it has no color, so we want to take this texture
+and edit it to make it blue, so I'm just going to click on unpack item and use file from current
+directory, okay so basically what this is going to do if we just have a look in our folder, so I'm
+just going to go to then the projects, oh yeah I should probably say this is a new file honestly,
+file save as a head hack tutorial, but basically it's going to create,
+okay so if I go to NSFW project's spirit head hack tutorial textures, so actually I'll just
+delete all these, so basically, oh god actually, actually okay yeah so basically if you go to this
+textures folder, so there won't be a textures folder here and there won't be an edited textures
+folder here either, so basically when you press unpack files and use file from current directory
+create when necessary, it will create this textures folder and it will take this diffuse map and
+put it there so we can edit it, okay so we don't have to do the face and lips because we just
+got rid of them, right because the face and lips were just where we put this game model head,
+so now we just need to do the legs, so I'm just going to unpack item and use file from current
+directory, okay and same with arm, so I'm going to click here and just make sure you're doing the D,
+not the B, which is the bump map or the SSS which is the subsurface scattering, which is like the
+glow from skin, like blood under the skin basically, when you have translucency and S which is the,
+actually I have no clue what that is honestly, I think that's a normal map or something,
+specular, sorry, the specular and yeah so but basically make sure that you're on the D, okay,
+the diffuse, okay so just press this and use file from current directory, okay so you can see
+we created the arm and also we need the final one which is the genitalia and but as you can see
+here we don't have that icon because it's already, it uses the same texture for the genitals as it
+does for the torso itself, okay so now let's do it, so I'm just going to go to Photoshop and we're
+going to edit it to something like this, so the way we're going to do that is I'm just going to
+not going to save any of these and I'm just going to show you how to do it from scratch,
+okay so basically when you open Photoshop, so you just open Photoshop by typing it in,
+like press the Windows key, type in Photoshop, we'll just have it like right here,
+okay so we're just going to wait for it to open, also yeah so one more thing, we also need to go
+to MIK, HK head, so the material for the head texture because we need the BC which is the same as

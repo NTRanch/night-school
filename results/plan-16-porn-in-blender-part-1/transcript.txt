@@ -1,0 +1,284 @@
+Hello and welcome. This will be a two-part tutorial on how to make NSFW art with Blender.
+This is a tutorial for beginners, of course not complete beginners, you have to have some familiarity with Blender.
+Now, there's many aspects to 3D art, you know there's modeling, animation, lighting, but we'll just focus on lighting, we'll download a 3D model, bring it to Blender, set up a lighting scenario, and we'll see how it goes.
+When it comes to 3D software, we have a wide range of applications available to us, that we can use to create NSFW 3D art.
+Of course, one choice is Houdini, which is a node-based application, characterized by having a steep learning curve.
+It's used in Hollywood, various movies, television shows.
+You got Maya, which is an industry standard.
+It's like Blender, but it's like Blender's big brother, or whatever, I don't know.
+I guess that would be the best way to describe it.
+It was used in Final Fantasy.
+Well-known games, movies, Guardians of the Galaxy.
+But for this tutorial, we'll be using Blender, which is free, of course.
+No subscription, no account.
+You could just go to our website, download Blender, start using it.
+So for this tutorial, we'll be using Blender 5.0, which is the latest version, as of this recording.
+In addition to Blender, we'll be using a very important plugin called Diffiomorphic.
+Just type in Blender, Diffiomorphic.
+Alright, because the model will download off the internet, needs this installed in Blender.
+It won't work without Diffiomorphic, so it's really important.
+The installation for this is quite involved.
+I'll leave a link in the description to another video made by someone else who explained how to install this.
+But you'll need this going forward.
+Alright, so if you endeavor to create NSFW art, obviously you need characters, you need a subject in your art.
+So the question for me is like, where do you, where do you get character models from?
+Well, there's three ways.
+And one way is from scratch.
+So you'll use like a sculpting tool like ZBrush.
+Now, of course, creating a character from scratch would be the hardest way to do things.
+It would require a significant time investment to attain proficiency in such a thing.
+You know, it's not something you'll, you can learn, you know, over the weekend.
+And you'll need to, you'll need to purchase a, uh, let's see, a tab, yeah, a tablet of some sort.
+Well, you don't need to purchase it, but, you know.
+I'm so fucking nervous.
+Second way is, uh, using a character creation software.
+Let's see, character creation.
+All right.
+Examples of this would be, uh,
+MetaHuman.
+Character creator 5 and DAS 3D.
+MetaHuman is typically used with the Unreal Engine.
+Gives you high fidelity characters.
+You know, very realistic.
+Very convincing.
+You're not creating characters from scratch.
+You're, you're using sliders, knobs.
+You know, you have a friendly user interface.
+That allows you to create these characters.
+It's very convenient.
+Of course, the other one is, uh, character creator 5.
+From Reillusion.
+This one costs money, uh, this one costs money, I believe, but there's a free trial.
+Of course, there's...
+DAS Studio, which is, uh, what's primarily used with NSFW art.
+This is the main one right here.
+This is the main one right here, and DAS is free, luckily.
+But this is the, this is the common one that folks use.
+They'll create the character in DAS and export it, uh, to Blender using the Diffiomorphic plugin that I mentioned earlier.
+So, you should download this and try it out.
+It's very easy to use.
+Of course, the third way to source characters is by simply downloading.
+Somebody else makes the characters and you just simply download it.
+And, uh, one such site is smut pace.
+That's one source.
+You have all these, uh, high-quality characters made by other people.
+So, if you're just getting started, this is, this will probably be the, this is probably the recommended way to go about it.
+Of course, later on, you know, when you get more skilled, you'll,
+you'll want to create characters from scratch.
+Later on, but not now.
+But here, you could just use other people's models to practice animation lighting.
+For just the Torah, we'll use, uh, this model.
+Dominar from Overwatch.
+You'll scroll down for download.
+You're going to need to, you know, you'll need the textures
+and the latest version here.
+You need both of them.
+They're, they're important.
+All right.
+With Blender downloaded, and Diffiomorphic plugin installed,
+and the 3D model downloaded,
+you should have a zip file.
+Inside the zip file should be a blend file.
+You open up Blender,
+And then you open up the file.
+You'll be presented with this.
+You should allow execution.
+It's just a Python script.
+That allows the, uh, the rig to work.
+I'm gonna give myself more space.
+All right.
+Typically when I download models,
+I'll save a copy.
+In case I make, uh, changes.
+That, uh, messes up the file.
+This is completely optional, of course.
+You don't have to do this.
+All right.
+Here in Edit and Prefaces.
+You want to make sure that Diffiomorphic plugin.
+What's called Daz Importer.
+Here.
+This is weird.
+Yeah.
+I don't know why Blender's getting slow all of a sudden.
+All right.
+So in add-ons, you have the Daz Importer.
+All right.
+That's important.
+Otherwise, it won't work.
+And the, uh, it comes with the MH,
+MHX Runtime System.
+That's the type of rig that this model uses.
+Wait.
+No, that's not, that's not right.
+Actually, no, it doesn't use MHX.
+It uses something else.
+It uses the Cloud Rig, but
+MHX comes with, uh, the Daz Importer.
+So we have, uh, the character of these, uh,
+this control rig.
+It's black lines around the character.
+You could go into pose mode.
+Wait.
+First off, let me enable, uh, screencast key.
+So you know what I'm doing.
+So the character comes with a user interface.
+It allows you to make, uh, changes.
+You could change your outfit.
+Let's see.
+Does the scene at work?
+It's working before, but I don't know what happened.
+Remove the ear rings.
+Headset.
+There's a lot of options here.
+All right.
+So this tutorial is not for complete beginners.
+You have to have some familiarity with Blender.
+You know, Blender is a very shortcut-centric application, so you gotta memorize a lot of these shortcuts.
+Like, you know, G's for grab.
+R is for rotate.
+S is for scale.
+There's a lot of shortcuts.
+You got num, numpad.
+Key one for front orthographic view.
+Three for side view, you know.
+Middle mouse to, you know, move the camera around.
+Make your life easier.
+After using Blender for some time, you'll get used to it.
+All right, so we want to recreate this.
+We see that the character is seated with her head tilted, right?
+When we pose a character, we want to move the torso first.
+Then the limbs.
+I mean, that's how I do it, at least.
+So let's, uh...
+The rig, the control rig highlighted.
+We'll go to pose mode.
+Got numpad plus to zoom in, zoom out.
+You could use the mouse wheel to do the same.
+My mouse wheel is broken, so I can't do that.
+We could have the, uh...
+We could select this control to move the torso.
+All right, but we want to move the hands, too.
+So if you select this, only moves is that hand.
+There's a, there's a way to just, uh, move both hands.
+Uh, X-Mirror.
+Apply change.
+Changes to the opposite side of the X-axis.
+Look at that.
+It allows us to move both of these.
+We want this as well.
+So to select multiple things, you need shift.
+You need a whole shift.
+One, two, three.
+We have three things selected, but we're moving six things.
+See how convenient that is.
+Shift and this.
+So now we can move the whole thing.
+We want to have her seated, right?
+That's what the reference has.
+We want our legs crossed.
+All right.
+So G moves the thing in all axes.
+So we could restrict movement to a singular axis by doing GX.
+And look at that.
+Only moves the X-axis, access.
+Numpad one for front for you.
+GX.
+Blender is shortcut-centric, so yeah, you have to get used to knowing these keyboard, keyboard shortcuts.
+So we want to cross our legs.
+Wrap the leg here.
+The symmetry thing is still on, so we have to turn that off.
+The legs have pole targets that allow you to move the knees.
+Now, what we make won't be exactly a replication of this.
+We'll just, you know, it'll take me a considerable time to match this exact pose.
+It's just a tutorial, so it's just a tutorial, you know.
+I'll move this this way.
+I'll move this this way.
+I'll reactivate symmetry again.
+I'll move both hands.
+The hands have pole targets as well.
+So, of course, when you're making art, you'll spend a lot of time on this.
+It's just part process.
+It's unavoidable.
+Some people hate this process.
+Some people enjoy it.
+But first, I'm going to hit control tab to go back to object mode, you see.
+Object mode, pose mode, control tab.
+Switches between these modes.
+I'm going to object mode.
+I'm going to upper left corner here until my mouse changes to what looks like a target sign.
+And then drag to the right to create two panels.
+Two panes.
+I'm going to create a new camera here.
+I'm going to hit zero.
+I'm going to hit end.
+View.
+Camera to view.
+This will have me look through the camera.
+Without that, if I move around, I move out of the camera.
+It's not what we want.
+We want to see what the camera sees.
+When we make changes, when we move around, we want the camera to move around too.
+So that's what this option is for.
+We'll set up the camera.
+We could also go to the other pane and control the camera that way.
+This is just for convenience.
+As I'm posing the character, I could look at the other pane and see what I'm doing.
+To see how I'll get an idea of the final render for the camera.
+There's some other changes I want to make as well.
+Yeah, this camera, I want it to be outside the folder.
+And this option.
+Back to posing.
+See, I think the leg is all right.
+It's not perfect.
+I guess we should work on the hands next.
+Again, what we do won't be exact, but it just gives you an idea.
+Because of how the camera is positioned, we won't see her on the other side.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+I'm not going to be exact.
+Because of how the camera is positioned, we won't see her right hand.
+So, it doesn't really matter what we do.
+I think in the reference, we see both hands.
+But, you know, again, this is a tutorial.
+We just want to take some shortcuts.
+We just want to take some shortcuts.
+There's probably something in here that will make posing their fingers a whole lot easier.
+But, you know, there's so many options here.
+I'd rather just do it manually.
+We want the hand to look, to look like it's, uh, on the fly.
+It's not going to be perfect, but, you know, as long as it looks convincing.
+I'm going to try to tilt the head now.
+There's global and local space.
+If you look at the top right, you'll see the z-axis is up and down.
+The y-axis, the negative y-axis is towards the screen.
+The positive y-axis is in, you know, opposite direction.
+That's the global.
+Local is, uh, it's different.
+It moves along its own axis.
+So, you'll, you'll often find yourself switching between those.
+So, we want to tilt the head right towards the camera.
+It's rotating along the z-axis.
+We're going to pose the robotic hands, too.
+We're going to enable symmetry.
+Again, what we have won't be exact.
+If I were to exactly replicate the reference, you know, the tour will be a lot longer.
+Yeah, I think we should have it around here, I guess.
+Yeah, I think, I think that's alright.
+So, that's it for part one.
+Part two will set up the lighting.
+Have, uh, optimized render settings and do a little post processing.
+And, that's it.
+Thank you.

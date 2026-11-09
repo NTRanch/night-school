@@ -1,0 +1,111 @@
+at all. If I rotate it forward, you can see the head is not moving at all either. So that's
+not working. So what we're going to do first is I'm just going to hide these eyelashes.
+Honestly, we don't need these eyelashes and I might even delete these eyelashes because we don't need
+them. So what we need to do is to go to select this mesh, go to weight paint mode, and what we
+need to do is just go up to, so you can, what you can do is you can shift right click to see what
+weight paints have a weight paint in that area. So what we're going to do is go to joint head 01.
+So this one here, what we need to do is make it, make it equal to the head, the head, the head bone.
+Okay, so the head weight paint. So you'll see that it goes head dot 01. So I'm just going to tell you
+what you need to do. So basically, we want it to, to make, to be attached to this bone right here.
+So we want that vertex group to be attached to that bone. So what I'm going to do is I'm going
+to search up head in here. So the way to search up again is just you click down here, and then
+you search up head. Okay, so I want to delete the original head one, which was empty, and then use
+this one here. Okay, and wait, just make sure it's spelled all right. And from here, if you go back
+to weight paint mode, sorry, no, yeah, so you'll see that that's now correct. And let's just check
+that out. So we'll do it one bone at a time. So you can see this is working. So don't worry about
+the eyes and the jaw. They're not working yet. We'll get them working real quick. But that's a really
+good start. Okay, so you just need some place to start. Okay, next is this bone and this bone down
+here. So what we want to do is we want to first of all get the jaw. So the jaw bone or the jaw is
+kind of working. So I'm just going to go back to object mode, go to select the weight, the mesh,
+and go to weight paint mode. I want to shift right click here and joint jaw one. Okay, so I'm going
+to search for jaw here. And what you're going to see is there's a lower jaw thing and a joint
+jaw or one. So what I found to work is basically you rename this one to be the lower jaw. And then
+you delete this lower jaw. Okay. So now I'm just going to make sure this is called lower jaw. And
+this will now work. So I'll just show you when I go back to pose mode. And I rotate this. Now the
+jaw is starting to work, which is really nice. So you don't need to worry about those eyes and
+that that are the softest facial burns, we'll take care of them real quick. Okay, so the next one
+down is just the neck and the neck one dot tweak. Okay, so what we want to do is we want to go back
+to object mode, select this mesh here, go to weight paint mode. And what we want to do is we want to
+search up neck. And we want to make this joint neck a one equal to the joint neck one dot tweak.
+Okay, so the way we do that is pretty simple. We're just going to, so we're going to,
+or first things first, I'm just going to smooth these weights out a bit. So I'm just going to
+click on joint neck a one, and I'm going to just go smooth. I'm going to go smooth again.
+And I'm going to go smooth again. Wait, actually, let me just double check my other one as well,
+my other blender file to make sure I'm doing this correctly. Let me check the weight paint.
+Okay, so for this neck one dot tweak.
+Yeah, okay, I'll just move it out one more time. And that will basically be okay.
+Yeah, yeah. Okay, that's already okay. So that's the, that will be neck one dot tweak. Okay,
+so I'm just going to delete neck one dot tweak. So I'm going to double click on it,
+control C, and I'm going to delete neck one dot tweak, and I'm going to make it this one instead.
+Right. Okay, so that's all good. And now, now I will just actually, I'll just do a little bit of
+extra weight painting. So I'm going to just make this like a 0.1ish, 0.15 sure, why not? And I'm
+just going to white paint around this side here. So I have the X symmetry kind of thing active,
+and I'm just weight painting around the side here, just to make this white paint a little bit more
+even on the sides. Okay, let me just, okay. In fact, can I just bring up the weight a little bit
+just over here. And yeah, actually, no, no, actually, that's, that's probably fine there. In fact,
+let me just bring it down a little bit, 0.13. I just want to make sure that that isn't as much.
+Okay, yeah, that should be fine. In fact, I'll smooth it out one more time, just to be sure.
+Okay, yeah, that looks okay. So basically, I press space and it's searched up smooth,
+just to smooth that out. Okay, so neck dot tweak. So this one here, I'm just going to
+paint it. Okay, so I'm just going to, yeah. Okay, so yeah, just basically, I click on this neck
+dot tweak, and I start painting. So I'm just going to go with 0.2 ish. I have brush strength of
+one radius 93. I'm just going to paint around the side just to make sure. So how I found this
+originally is before I even did this is I just looked at the original model, the original Genesis
+8 Victoria 8 model. And then I just followed how they did the weight paint. And I did it like that
+myself as well. Okay, yeah, something like that. I do once move just to, you know, smooth things out.
+Okay, then let's just test that out. Okay, so I'm going to go back here and I'm just going to go to
+moving this one. Yeah, it's actually okay. You can see now it's starting to work. You see,
+like that actually looks really nice. This one not so good, like neck or one. I may even go back
+here because like this is really sharp here on this side. In fact, I might just go back to object
+mode and I might just wait paint, wait paint just that part again. If I can just paint that a little
+bit more just just so I can get that corner. How's it looking on object mode? Well, I'm not sure
+I can actually fix that. Honestly, wait paint. I want to try my best. Can I see if I can, I don't
+know. Yeah, I'll paint it in green a little bit. Just that area there. It's not as sharp, I think.
+And maybe here as well. And maybe here. Maybe I'll just paint like that. Yeah,
+I'll just paint like that actually. Okay, let me just check that out. So I'm going to go back to
+pose mode. I'm going to twist this bone around a little bit. Okay, so you can see that that neck
+is behaving a little bit better. Okay. Yeah, it's cracking a little bit. We just are to set to
+original position. Let's say if I wanted to rotate, say this way down. Yeah, that's good enough. Honestly,
+I'm going to say that's good enough. The eyes. So that's actually really, really simple. So the way
+we can do that is we just select this head skeleton and select the Genesis 8 female skeleton.
+All right, so head skeleton first, and then shift select the Genesis 8 female skeleton,
+control J to combine these skeletons together, and then go to edit mode. Okay, so you just go to
+edit mode here. So you go to edit mode. And if you just go here, so the join head A1, so you can see
+all the lines that are parented to that, but they should be parented. All these bones that
+are parented to this should be parented to the head. So how we can do that pretty easily is just
+we can make the parent. So basically, you just click this bone here, join head A1,
+go down to the green bone tab and make it head. Okay, now from there, we can just pretty much
+delete this bone here. And then all everything will now be parented to the head bone instead.
+So the head bone is this one. Then well, it's here. Well, it'll be one of those.
+Anyway, let's just have a check and see if this works. Okay, so yeah. Okay, so you can see this.
+This now works very nicely. And we still have the face controls that you can use to control the face.
+Okay, so I figured out the final bug. So basically, so last time we were just here,
+like, so when we rotated this, you could see that the neck was just all kind of screwed up.
+So this is because of just one bone. Oh my God. Oh my God. So it's basically you just
+search up torso. And this one here. So if you just, so basically, what I'm going to do is,
+I'm actually just going to go to edit mode and delete this bone, which is joint joint torso CO1.
+Edit mode. I'm just going to delete the joint torso. Where is it? So this joint torso CO1.
+I'm just going to delete it. Okay. And actually, these clavicle bones don't need to be here either.
+So I'm just going to go to object mode. And now, when I go to pose mode,
+you should see that the neck does not have any issues at all. Okay, it was because of that one
+leftover bone. Okay, that was causing the whole thing. So now you can kind of move it like that.
+You can also move it with a hip bone. And you can see that everything is all right. Okay, so
+this is finally working. Okay, so, and to finally finish off the tutorial,
+basically, you can use this MHX thing to show all the different bones here. Okay, but the head
+bones won't work because the head bones are gone. But everything else, like the FK arm and everything
+will work. Okay. You can also choose to put like these other bones on a separate layer if you want
+it. But I'll leave that to you. Like you can, and we can also switch from FK to IK with these.
+And you can also remove the stretch. Wait, so there's whereas properties. You can,
+where is it? Where is it? Okay, so you can
+yeah, so you can turn off the the, so in this, you can turn off like the IK stretch. But from here,
+you can pretty much move the legs or anything. So if I just go to pose mode, you have the arms,
+which have IK stretch, but you can turn that off obviously. You have this arm, you have like the
+hips, you have the legs that are IK. So just using these legs. So you can see, now we have a perfectly
+functional rig after all that pain and suffering. Okay, so I'm just going to press A and just just
+reset all the bones. Because from here, we have a complete completed, we have completed a head hacked
+model. So thank you so much for being here. I couldn't do this without you. I really couldn't
+have, because this just took me so goddamn long. I hope you guys enjoyed and learned something.
+Let me know if you need any help whatsoever. I will be doing more of these tutorials
+just to show you guys exactly how to do them. But this has kind of been a wrap on how to create
+a nude model for yeah, so for blender. Yeah. So thank you so much for being here. Anime yan,
+sleepy fish slash sleepy fish out.

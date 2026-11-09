@@ -1,0 +1,148 @@
+{
+ "band": {
+  "hi": 1.39581,
+  "lo": 1.10302,
+  "verts": 236
+ },
+ "blender": "5.2.3 LTS",
+ "body_mods_after": [
+  [
+   "Armature",
+   "ARMATURE"
+  ],
+  [
+   "Collision",
+   "COLLISION"
+  ],
+  [
+   "CageSurface.L",
+   "SURFACE_DEFORM"
+  ],
+  [
+   "CageSurface.R",
+   "SURFACE_DEFORM"
+  ]
+ ],
+ "bone_count": 54,
+ "cages": {
+  "L": {
+   "mods_after": [
+    [
+     "Armature",
+     "ARMATURE"
+    ],
+    [
+     "Cloth",
+     "CLOTH"
+    ],
+    [
+     "Collision",
+     "COLLISION"
+    ]
+   ],
+   "parent": "Armature",
+   "pin_verts": 16,
+   "weight_sum_max": 2.0,
+   "weight_sum_mean": 1.2857,
+   "weight_sum_min": 1.0
+  },
+  "R": {
+   "mods_after": [
+    [
+     "Armature",
+     "ARMATURE"
+    ],
+    [
+     "Cloth",
+     "CLOTH"
+    ],
+    [
+     "Collision",
+     "COLLISION"
+    ]
+   ],
+   "parent": "Armature",
+   "pin_verts": 16,
+   "weight_sum_max": 2.0,
+   "weight_sum_mean": 1.2857,
+   "weight_sum_min": 1.0
+  }
+ },
+ "camera": {
+  "centroid": [
+   0.0,
+   -0.0016,
+   1.2728
+  ],
+  "note": "bodies-only evidence renders (outfits/hair hidden in render); displacement measured on Prima_Body"
+ },
+ "drive": {
+  "keys": [
+   [
+    1,
+    0.0,
+    0.0
+   ],
+   [
+    4,
+    -5.0,
+    -3.0
+   ],
+   [
+    7,
+    7.0,
+    4.0
+   ],
+   [
+    10,
+    0.0,
+    0.0
+   ],
+   [
+    13,
+    2.5,
+    1.5
+   ],
+   [
+    19,
+    0.0,
+    0.0
+   ],
+   [
+    48,
+    0.0,
+    0.0
+   ]
+  ],
+  "linear_points": 42
+ },
+ "input": "inputs/prima.blend",
+ "mesh_deform_removed": {
+  "Prima_Body": [
+   "CageDeform.L",
+   "CageDeform.R"
+  ],
+  "Prima_Outfit": [
+   "CageDeform.L",
+   "CageDeform.R"
+  ],
+  "Prima_OutfitEnd": [
+   "CageDeform.L",
+   "CageDeform.R"
+  ]
+ },
+ "nocloth": false,
+ "pressure_factor": 1.0,
+ "surface_deform": {
+  "L": {
+   "falloff": 4.0,
+   "is_bound": true,
+   "strength": 1.0
+  },
+  "R": {
+   "falloff": 4.0,
+   "is_bound": true,
+   "strength": 1.0
+  }
+ }
+}

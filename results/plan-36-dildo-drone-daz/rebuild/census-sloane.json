@@ -1,0 +1,234 @@
+{
+ "armatures": {
+  "Armature": {
+   "bone_count": 54,
+   "bones": [
+    "mixamorig:Hips",
+    "mixamorig:Spine",
+    "mixamorig:Spine1",
+    "mixamorig:Spine2",
+    "mixamorig:Neck",
+    "mixamorig:Head",
+    "mixamorig:LeftEye",
+    "mixamorig:RightEye",
+    "mixamorig:LeftShoulder",
+    "mixamorig:LeftArm",
+    "mixamorig:LeftForeArm",
+    "mixamorig:LeftHand",
+    "mixamorig:LeftHandThumb1",
+    "mixamorig:LeftHandThumb2",
+    "mixamorig:LeftHandThumb3",
+    "mixamorig:LeftHandIndex1",
+    "mixamorig:LeftHandIndex2",
+    "mixamorig:LeftHandIndex3",
+    "mixamorig:LeftHandMiddle1",
+    "mixamorig:LeftHandMiddle2",
+    "mixamorig:LeftHandMiddle3",
+    "mixamorig:LeftHandRing1",
+    "mixamorig:LeftHandRing2",
+    "mixamorig:LeftHandRing3",
+    "mixamorig:LeftHandPinky1",
+    "mixamorig:LeftHandPinky2",
+    "mixamorig:LeftHandPinky3",
+    "mixamorig:RightShoulder",
+    "mixamorig:RightArm",
+    "mixamorig:RightForeArm",
+    "mixamorig:RightHand",
+    "mixamorig:RightHandThumb1",
+    "mixamorig:RightHandThumb2",
+    "mixamorig:RightHandThumb3",
+    "mixamorig:RightHandIndex1",
+    "mixamorig:RightHandIndex2",
+    "mixamorig:RightHandIndex3",
+    "mixamorig:RightHandMiddle1",
+    "mixamorig:RightHandMiddle2",
+    "mixamorig:RightHandMiddle3",
+    "mixamorig:RightHandRing1",
+    "mixamorig:RightHandRing2",
+    "mixamorig:RightHandRing3",
+    "mixamorig:RightHandPinky1",
+    "mixamorig:RightHandPinky2",
+    "mixamorig:RightHandPinky3",
+    "mixamorig:LeftUpLeg",
+    "mixamorig:LeftLeg",
+    "mixamorig:LeftFoot",
+    "mixamorig:LeftToeBase",
+    "mixamorig:RightUpLeg",
+    "mixamorig:RightLeg",
+    "mixamorig:RightFoot",
+    "mixamorig:RightToeBase"
+   ],
+   "custom_props": [],
+   "pose_constraints": {}
+  }
+ },
+ "file": "/home/phaedrus/.local/share/pax/night-school/plan-36/rebuild/sloane.blend",
+ "objects": [
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Anchor_Fluid_Chest",
+   "parent": "Armature",
+   "type": "EMPTY"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Anchor_Fluid_Hand.L",
+   "parent": "Armature",
+   "type": "EMPTY"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Anchor_Fluid_Hand.R",
+   "parent": "Armature",
+   "type": "EMPTY"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Anchor_Fluid_Mouth",
+   "parent": "Armature",
+   "type": "EMPTY"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Anchor_Fluid_Nipple.L",
+   "parent": "Armature",
+   "type": "EMPTY"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Anchor_Fluid_Nipple.R",
+   "parent": "Armature",
+   "type": "EMPTY"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Anchor_Fluid_Pelvis",
+   "parent": "Armature",
+   "type": "EMPTY"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Armature",
+   "parent": null,
+   "type": "ARMATURE"
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Sloane_Body",
+   "parent": "Armature",
+   "shape_keys": [
+    "Basis",
+    "Fac_Eye_Close",
+    "Fac_Eye_L_Open",
+    "Fac_Eye_R_Open",
+    "Fac_Eye_L_Wink",
+    "Fac_Eye_R_Wink",
+    "Fac_Eye_HalfClose",
+    "Fac_Eye_Sad",
+    "Fac_Eye_Angry",
+    "Fac_Eye_MidUp",
+    "Fac_Eye_MidDown",
+    "Fac_Eye_LowlidUp",
+    "Fac_Ebr_Up",
+    "Fac_Ebr_Down",
+    "Fac_Ebr_Angry",
+    "Fac_Ebr_Sad",
+    "Fac_Ebr_Relax",
+    "Fac_Mth_Aa",
+    "Fac_Mth_Ii",
+    "Fac_Mth_Uu",
+    "Fac_Mth_Ee",
+    "Fac_Mth_Oo",
+    "Fac_Mth_Talk",
+    "Fac_Mth_Laugh",
+    "Fac_Mth_Shout",
+    "Fac_Mth_Triangle",
+    "Fac_Mth_Smile",
+    "Fac_Mth_Open",
+    "Fac_Mth_L_Up",
+    "Fac_Mth_L_Down",
+    "Fac_Mth_L_In",
+    "Fac_Mth_L_Out",
+    "Fac_Mth_R_Up",
+    "Fac_Mth_R_Down",
+    "Fac_Mth_R_In",
+    "Fac_Mth_R_Out",
+    "Fac_Pupil_Heart",
+    "Body_Bust_Size"
+   ],
+   "type": "MESH",
+   "verts": 3084
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Sloane_Hair",
+   "parent": "Armature",
+   "shape_keys": [],
+   "type": "MESH",
+   "verts": 615
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Sloane_Outfit",
+   "parent": "Armature",
+   "shape_keys": [
+    "Basis",
+    "Body_Bust_Size"
+   ],
+   "type": "MESH",
+   "verts": 691
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "Sloane_OutfitEnd",
+   "parent": "Armature",
+   "shape_keys": [
+    "Basis",
+    "Body_Bust_Size"
+   ],
+   "type": "MESH",
+   "verts": 833
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "SloaneCage.L",
+   "parent": null,
+   "shape_keys": [
+    "Basis",
+    "Bounce"
+   ],
+   "type": "MESH",
+   "verts": 56
+  },
+  {
+   "constraints": [],
+   "custom_props": [],
+   "name": "SloaneCage.R",
+   "parent": null,
+   "shape_keys": [
+    "Basis",
+    "Bounce"
+   ],
+   "type": "MESH",
+   "verts": 56
+  }
+ ],
+ "totals": {
+  "object_constraints": 0,
+  "objects": 14,
+  "shape_keys": 46
+ }
+}

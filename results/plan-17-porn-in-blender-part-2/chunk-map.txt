@@ -1,0 +1,7 @@
+Plan 17 chunk map (chunked transcription lane, skill cap 3600 s, chunk size 3300 s)
+Media: plan17-source-720p.mp4, duration 3669.845 s, sha256 6501528046641b23f9b1593c000e2203c434515a0b8d6a871d5b16bc7422da72
+WAV: audio.wav 16 kHz mono (primo canonical dir)
+chunk1: source 0–3300 s -> chunks/chunk1.wav (105,601,024 B approx; ffprobe dur 3300.032 s)
+chunk2: source 3300–3669.845 s -> chunks/chunk2.wav (ffprobe dur 369.845 s)
+Stitch offset: chunk2 +3300 s. Seam marker at 3300 s in transcript.srt.
+Segment counts, stitch verify and loop census: see MANIFEST.md transcription addendum (filled when the run completes).

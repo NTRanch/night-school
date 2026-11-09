@@ -63,3 +63,24 @@ not a conclusion.
 ## Deliverables
 
 - `results/plan-03-testing-patterns/` — scene analysis record only.
+
+## Errata from the executed run (2026-11-06, runs/plan-03/)
+
+The capture contradicts this plan's intake correction in one
+respect. The file is not a rendered performance clip: it is a
+**screen recording of VaM 1.22.0.1 in Edit Mode** (UI bar,
+cursor, and in-scene controls visible throughout) in which
+the creator tests **one vamX animation pattern** live —
+depth / bias / speed sliders plus a play/stop toggle — over
+82.716667 s (file duration; the page's PT0H1M23S stands).
+The intake's rejected first reading ("a pattern-testing/QA
+item") was closer than the correction that replaced it,
+though the clip contains no instruction: no description
+(JSON-LD description is empty), no narration, and no audio
+stream at all (page tag "no sound" confirmed by ffprobe).
+The re-scope's deliverable (solver-vs-authored analysis +
+gap questions) was executed as written and stands; only the
+characterisation above is corrected. The solvers the
+SHOULD-BE-SEEN expected to star (hair, soft-body) are never
+exercised; the working solvers are control-follow and IK.
+Full record: `results/plan-03-testing-patterns/`.

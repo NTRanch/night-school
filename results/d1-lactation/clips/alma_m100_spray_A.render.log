@@ -1,0 +1,62 @@
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-26 14:00:03)
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+[ALSOFT] (EE)   Unexpected positions choice: type=1, count=3
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_rename_bvh" registration error: 'orientation' EnumProperty could not register (see previous error)
+ValueError: EnumProperty(...): expected 'items' function to take 2 arguments, not 1
+ValueError: bpy_struct "MCP_OT_load_and_retarget" registration error: 'orientation' EnumProperty could not register (see previous error)
+00:00.560  blend            | Read blend: "/home/phaedrus/.local/share/pax/nslac/out/clips/alma_m100_spray_A/alma_m100_spray_A_baked.blend"
+00:01.145  render           | Saved: 'out/clips/alma_m100_spray_A/renders/full_frame_0008.png'
+00:01.339  render           | Saved: 'out/clips/alma_m100_spray_A/renders/full_frame_0014.png'
+00:01.500  render           | Saved: 'out/clips/alma_m100_spray_A/renders/full_frame_0020.png'
+00:01.665  render           | Saved: 'out/clips/alma_m100_spray_A/renders/full_frame_0026.png'
+00:01.825  render           | Saved: 'out/clips/alma_m100_spray_A/renders/full_frame_0032.png'
+00:01.992  render           | Saved: 'out/clips/alma_m100_spray_A/renders/full_frame_0036.png'
+00:02.129  render           | Saved: 'out/clips/alma_m100_spray_A/renders/bust_frame_0008.png'
+00:02.279  render           | Saved: 'out/clips/alma_m100_spray_A/renders/bust_frame_0014.png'
+00:02.435  render           | Saved: 'out/clips/alma_m100_spray_A/renders/bust_frame_0020.png'
+00:02.592  render           | Saved: 'out/clips/alma_m100_spray_A/renders/bust_frame_0026.png'
+00:02.742  render           | Saved: 'out/clips/alma_m100_spray_A/renders/bust_frame_0032.png'
+00:02.894  render           | Saved: 'out/clips/alma_m100_spray_A/renders/bust_frame_0036.png'
+Loading MHX RTS v 5.2.0
+MHX RTS loaded
+Loading BVH Retargeter
+BVH Retargeter loaded
+DAZ loaded
+Register DAZ Importer
+Loading MHX Tools
+Register MHX Tools
+Loading Rigify Tools
+Register Rigify Tools
+Loading Hair Tools
+Register Hair Tools
+Loading Visibility Tools
+Register Visibility Tools
+Loading Export Tools
+Register Export Tools
+Settings directory: /home/phaedrus/DAZ Importer
+File does not exist:
+"/home/phaedrus/DAZ Importer/import_daz_settings.json"
+File does not exist:
+"/home/phaedrus/import-daz-settings-28x.json"
+init
+init
+NSLAC RENDER {'camera': 'full', 'frame': 8, 'mesh_verts': 814, 'render_seconds': 0.57}
+NSLAC RENDER {'camera': 'full', 'frame': 14, 'mesh_verts': 5682, 'render_seconds': 0.19}
+NSLAC RENDER {'camera': 'full', 'frame': 20, 'mesh_verts': 10044, 'render_seconds': 0.16}
+NSLAC RENDER {'camera': 'full', 'frame': 26, 'mesh_verts': 13706, 'render_seconds': 0.18}
+NSLAC RENDER {'camera': 'full', 'frame': 32, 'mesh_verts': 13222, 'render_seconds': 0.15}
+NSLAC RENDER {'camera': 'full', 'frame': 36, 'mesh_verts': 13418, 'render_seconds': 0.16}
+NSLAC RENDER {'camera': 'bust', 'frame': 8, 'mesh_verts': 814, 'render_seconds': 0.14}
+NSLAC RENDER {'camera': 'bust', 'frame': 14, 'mesh_verts': 5682, 'render_seconds': 0.15}
+NSLAC RENDER {'camera': 'bust', 'frame': 20, 'mesh_verts': 10044, 'render_seconds': 0.16}
+NSLAC RENDER {'camera': 'bust', 'frame': 26, 'mesh_verts': 13706, 'render_seconds': 0.16}
+NSLAC RENDER {'camera': 'bust', 'frame': 32, 'mesh_verts': 13222, 'render_seconds': 0.15}
+NSLAC RENDER {'camera': 'bust', 'frame': 36, 'mesh_verts': 13418, 'render_seconds': 0.15}
+NSLAC RENDER DONE
+
+Blender quit

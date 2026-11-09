@@ -1,0 +1,12 @@
+the character is built using standard godot nodes skeleton 2d along with a few plugins
+the first one is soup iK it allows you to create higher quality iK and
+wiggle animations though i modified it to better fit my needs
+the nsfw parts are just sprites layered on top of the main character
+they open and close using simple animations and shaders
+the hair is driven by a simple shader that deforms polygons creating a soft wind and swaying effect
+the eyes and eyebrows are also controlled and adjusted through shaders
+overall the character is made up of separate parts arms legs head and body
+all deformed by bones which together create a cohesive and visually appealing result
+all bones are controlled procedurally via scripts
+the second plugin is poly rig it's a paid plugin i bought it for six dollars
+It allows you to create a high-quality mesh

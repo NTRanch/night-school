@@ -1,0 +1,38 @@
+[
+  {
+    "camera": "full",
+    "frame": 14,
+    "mesh_verts": 4378,
+    "render_seconds": 0.56
+  },
+  {
+    "camera": "full",
+    "frame": 20,
+    "mesh_verts": 8764,
+    "render_seconds": 0.2
+  },
+  {
+    "camera": "full",
+    "frame": 28,
+    "mesh_verts": 12022,
+    "render_seconds": 0.16
+  },
+  {
+    "camera": "bust",
+    "frame": 14,
+    "mesh_verts": 4378,
+    "render_seconds": 0.14
+  },
+  {
+    "camera": "bust",
+    "frame": 20,
+    "mesh_verts": 8764,
+    "render_seconds": 0.14
+  },
+  {
+    "camera": "bust",
+    "frame": 28,
+    "mesh_verts": 12022,
+    "render_seconds": 0.15
+  }
+]

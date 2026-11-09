@@ -1,0 +1,2 @@
+- loop_census: rule=normalized-segment-v1 threshold_repeats=>8 segments=299 loop_segments=12 loop_share=4.0% recoverable_segments=287 recoverable_share=96.0% loop_phrases=1
+- loop_census_transcript: segments=299 loop_segments=12 loop_share=4.0%

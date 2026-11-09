@@ -40,3 +40,19 @@ PASS = beat map recorded and compared against one estate apex scene, differences
 ## Deliverables
 
 - `results/plan-18-bonnie-ending/` — technique sheet, rebuild record, gate result.
+
+---
+
+## Errata (execution run, 2026-11-06 — LOCAL copy only)
+
+- **Duration: "0:36" is WRONG.** Page JSON-LD: PT0H17M00S;
+  captured file probes at 1020.067 s (17:00.07), 30,602 frames
+  @ 30 fps. Error factor ~28×. Record: `runs/plan-18/INTAKE.md`.
+- **Artefact type:** not a finished 36 s clip. The video is a
+  Source Filmmaker screen-capture session in which the creator
+  finishes one already-animated shot (`shot1`, duration
+  20.000 s on the SFM timeline) — lighting, volumetrics,
+  camera — under a quiet narration. The plan's observation
+  design was re-scoped at intake; see `runs/plan-18/`.
+- **Creator (recorded at intake):** uploader Malikai Polk;
+  `video_models`: Hstudios. Upload date (JSON-LD): 2026-03-11.

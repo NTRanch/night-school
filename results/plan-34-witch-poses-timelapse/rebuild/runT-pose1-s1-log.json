@@ -1,0 +1,73 @@
+{
+ "run": "T",
+ "pose": 1,
+ "pose_name": "standing-alert",
+ "stage": 1,
+ "steps": [
+  {
+   "phase": "context",
+   "bones": [],
+   "wall_s": 0.0,
+   "note": "reference pinned; bench/prop placed (setup verified)"
+  },
+  {
+   "phase": "legs",
+   "bones": [
+    "mixamorig:LeftUpLeg",
+    "mixamorig:RightUpLeg",
+    "mixamorig:LeftLeg",
+    "mixamorig:RightLeg"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "pelvis",
+   "bones": [
+    "mixamorig:Hips"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "spine",
+   "bones": [
+    "mixamorig:Spine",
+    "mixamorig:Spine1",
+    "mixamorig:Spine2"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "head",
+   "bones": [
+    "mixamorig:Neck",
+    "mixamorig:Head"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "feet",
+   "bones": [
+    "mixamorig:LeftFoot",
+    "mixamorig:RightFoot"
+   ],
+   "wall_s": 0.0
+  },
+  {
+   "phase": "arms",
+   "bones": [
+    "mixamorig:LeftShoulder",
+    "mixamorig:LeftArm",
+    "mixamorig:LeftForeArm",
+    "mixamorig:RightShoulder",
+    "mixamorig:RightArm",
+    "mixamorig:RightForeArm"
+   ],
+   "wall_s": 0.0
+  }
+ ],
+ "preview_front_s": 1.16,
+ "preview_side_s": 0.06,
+ "retouch_bone_instances": 0,
+ "bones_touched": 18,
+ "posing_wall_s": 0.0
+}

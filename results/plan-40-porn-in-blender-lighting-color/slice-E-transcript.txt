@@ -1,0 +1,163 @@
+Hello, AnimeNyan here, and today I'm going to be teaching you how to make porn in Blender.
+Yes, you heard me right.
+The reason why I made this tutorial is because I feel like there aren't enough resources
+to make NSFW content, and furthermore, I think that there's a real taboo around making porn
+and NSFW content, just art, and just in general.
+And I think this is unfair because humans naturally have sex, we're attracted to sex,
+so I feel like that we should be able to create art on the subject,
+if it's something that's beautiful to us, or is attractive.
+Therefore, I'm making this tutorial and these tutorials to dispel some of that taboo
+around making NSFW content in Blender and otherwise.
+Please join the NSFW Blender Discord in the description below.
+Okay, so without further ado, let's get started.
+So what's the final result that we want to be able to create today?
+Okay, so the final result that we want to create is these images right here.
+Wait, okay, I don't know why that was lagging, but yeah, so we want to create these three.
+So what I'm going to be doing in this tutorial here is I'm going to be teaching you how to pose
+the character, how to light the character, add an environment, and another character,
+and also how to render as EXR, and then also color grade the image in DaVinci Resolve.
+And full credits goes to Polly Ford for his amazing tutorial on that subject.
+I just wanted to extend it further and take you through the whole complete process and also teach
+you through the color grading process, which I also stole from another video.
+So I'll credit him in the description below.
+So yeah, without further ado, let's get started.
+So what are the prerequisites for this tutorial here?
+So first off, let's start off with the files that you need to download.
+Okay, so the files that you need to download, first off, this is a paid product.
+So I'm not going to be able to share this environment here by Trum Studio because it is a paid product
+on Blender Market.
+However, if you want to use the same environment here, you can pay 19 USD, or you can just go
+to open3dlab.com.
+So just type open3dlab.com, and there's some amazing environments here that you can just
+use for free.
+For example, God of War, Resident Evil, the hallway from Kiriko Cinematic.
+So we have all these amazing, amazing environments that you can just download by gyro, by rigid3d,
+and otherwise.
+Okay, so anyway, so once we've downloaded our environment, we also need just two characters
+here.
+So the reason why I'm downloading this ashi file here is because, well, it is just another
+character to import, and I wanted to show you that.
+However, this one here, the ashi file, is optional.
+However, what we really want here is the Yoruichi Smutbase.
+Okay?
+So we want to download this fantastic model here.
+Please just download the v1.blend file right here.
+Okay, so just press download.
+Ignore this first one because you don't need it.
+So the other model that we also need is ashi Smutbase.
+Okay?
+So I'm just going to click on the first link here.
+This is going to give you the Aho Angel model here.
+So please just download both of these files here.
+So number one and number two.
+Okay?
+So you need both of them.
+If you don't download both of them, you will miss the textures.
+So this is not optional.
+You need to download both of them.
+Okay.
+So now we've downloaded that.
+We also need the add-ons here.
+Okay?
+So we also need the diffeomorphic.
+So I'm just going to type in diffeomorphic DAS add-on.
+Okay?
+And you're going to click on the first link here.
+Okay?
+So we're not going to be downloading 1.6 because that is now obsolete.
+And I'm just going to go to DAS importer here.
+Just click on DAS importer.
+And you can see it takes you straight to this page here.
+So just download the latest stable version here, which is 1.7.2.
+Okay?
+So download this zip file here.
+So I'm just going to download.
+And yeah.
+Okay?
+And then, well, I'm not going to download this because I already have downloaded it right here.
+So it's right here.
+This one here.
+But you'll have to download that there.
+So we need this for two reasons.
+Because we'll need this for installing the MHX plugin and the import DAS plugin.
+Because these are two add-ons that you'll need for a lot of models on SMUT base.
+And especially if you're using DAS models that have been imported to Blender,
+you'll need these two add-ons.
+So I highly advise you install them.
+How do we install them?
+Okay?
+So let's just go to Blender 4.0.
+That's all good.
+And I'm just going to go general.
+And we're going to install this plugin here.
+Okay?
+So what I'm going to do is I'm going to go edit preferences.
+I'm going to go to add-ons right here.
+So let me do that one more time.
+Edit preferences add-ons install.
+So we're going to install this MHX RTS V1.7.2 zip file.
+Okay?
+So I found the zip file.
+And I'm just going to double click on it.
+And it's going to install this one here.
+But you can see it's not enabled right now.
+So I need to make sure to enable it.
+Okay?
+So make sure this checkbox is on.
+The second thing we also need to install here is the MHX plugin.
+Okay?
+So it did install it, but it didn't actually enable it.
+So you need to search in this search bar right here, MHX, and make sure it's enabled.
+Make sure you also search DAS.
+And the DAS importer is also enabled with this checkbox right here.
+Okay?
+So we've installed both of those.
+Let me just install one more plugin, in fact.
+I'll just install Screencast Keys because I'll need it for the sake of this tutorial.
+Okay?
+So now we can basically get on with what we have.
+So what we can do is press N.
+And you can see on my side panel, a Properties panel appeared right here.
+So if I press N, this will toggle on and off the Properties panel.
+And you can see that we have two more plugins right now.
+We have the DAS Setup and DAS Runtime, as well as the MHX plugin right here.
+These plugins right here are in charge of managing DAS models and also importing models from DAS.
+And MHX allows you to manage skeletons, which one of our projects are going to be using.
+Open up the recent vault, the file, the Yoruichi file.
+So I'm going to just go File, Open, Don't Save.
+And I'm just going to go into this one here.
+I'm just going to bookmark this folder, in fact.
+Let me add a bookmark.
+And then now let me just open up Yoruichi.
+Okay?
+So we're going to start off from scratch.
+So right now, what you should see is we have the Yoruichi model.
+Okay?
+So what I'm going to do is I'm going to open up the collection.
+Yeah?
+So how this model manages the clothes here is you can turn on and off these outfits right here.
+Okay?
+So you can choose any outfit you'd like.
+I am going to be using the KDA outfit right here.
+Okay?
+And I'm just going to turn off the Shihoen outfit there.
+Okay?
+So what I'm actually also going to do here, just for the sake of this tutorial,
+to make it easier to manage these models.
+Because I know I'm not going to be using these other models.
+So I can just delete them.
+If you are not sure if you're going to be using these models,
+like because it does, even though they're turned off,
+it does actually take up memory, which is really weird.
+Well, yeah.
+So what I can advise here is to write.
+So you can shift or control quick all of these.
+Or you can shift would be faster, actually.
+If I just shift click here and I control quick, just to select the rest of these.
+I'm going to right click and I go delete hierarchy.
+Okay?
+So this makes your file faster.
+Okay?
+If you are suffering performance concerns.
+Now, the other things I'm going to do just to make my performance faster here
+is I'm just going to turn on,

@@ -1,0 +1,34 @@
+{
+ "input": "copy of Plan 02 template-nswfw.blend",
+ "samples": 64,
+ "res_pct": 25,
+ "res": [
+  1080,
+  1920
+ ],
+ "gloss_boost": 1.6,
+ "emit_boost": 2.0,
+ "rl_sockets": [
+  "Image",
+  "Alpha",
+  "Diffuse Direct",
+  "Diffuse Indirect",
+  "Diffuse Color",
+  "Glossy Direct",
+  "Glossy Indirect",
+  "Glossy Color",
+  "Transmission Direct",
+  "Transmission Indirect",
+  "Transmission Color",
+  "Volume Direct",
+  "Volume Indirect",
+  "Emission",
+  "Ambient Occlusion",
+  "Denoising Albedo",
+  "Denoising Specular Albedo",
+  "Denoising Normal",
+  "Denoising Roughness",
+  "Denoising Depth"
+ ],
+ "have_volume": true
+}

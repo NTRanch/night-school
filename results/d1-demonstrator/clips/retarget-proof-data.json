@@ -1,0 +1,522 @@
+{
+ "castings": [
+  {
+   "build": "01",
+   "follower": "prima",
+   "leader": "yui",
+   "parts": {
+    "follower": {
+     "role": "follower",
+     "authoring_girl": "prima",
+     "target": "prima",
+     "zs_ratio": 1.0,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Ebr_Relax",
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Aa",
+      "Fac_Pupil_Heart"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "f78da22ea96bf8de2d8465a6fb17b4a4a32e1407891805d93e5286ec5cb1a528",
+      "runB_sha256": "f78da22ea96bf8de2d8465a6fb17b4a4a32e1407891805d93e5286ec5cb1a528",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "01-prima-follower.clip.json",
+     "file_sha256": "c42ba4f31704f5dc4896d174cad7d2ebcd6b3e2e362d4f376bb17fd24d83d6a3"
+    },
+    "leader": {
+     "role": "leader",
+     "authoring_girl": "yui",
+     "target": "yui",
+     "zs_ratio": 1.0,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Smile"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "dd3fb0d6c03f2bd65eac4c3c66100d1c1c7180c989b5f0ade8672650263546cb",
+      "runB_sha256": "dd3fb0d6c03f2bd65eac4c3c66100d1c1c7180c989b5f0ade8672650263546cb",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "01-yui-leader.clip.json",
+     "file_sha256": "b25f49323556ab597684caaba06a221c5e65ad3f0eefbecf74d6f2fa3a11fbfe"
+    }
+   }
+  },
+  {
+   "build": "02",
+   "follower": "yui",
+   "leader": "prima",
+   "parts": {
+    "follower": {
+     "role": "follower",
+     "authoring_girl": "prima",
+     "target": "yui",
+     "zs_ratio": 0.909096,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Ebr_Relax",
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Aa",
+      "Fac_Pupil_Heart"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "23e65e46a815b62a2c9f81e07d4423d7f7f77aa507fd5b0bd73196bffbb8f70f",
+      "runB_sha256": "23e65e46a815b62a2c9f81e07d4423d7f7f77aa507fd5b0bd73196bffbb8f70f",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "02-yui-follower.clip.json",
+     "file_sha256": "f798d1f6ae44f32885f31f29a3e88d63f149e43117148505b3c6516c12df83b4"
+    },
+    "leader": {
+     "role": "leader",
+     "authoring_girl": "yui",
+     "target": "prima",
+     "zs_ratio": 1.099993,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Smile"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "runB_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "02-prima-leader.clip.json",
+     "file_sha256": "c21299c892d4d58c5595ce24e472fbcf52a327f9a12dfc14f6a961d3ffaf6f7a"
+    }
+   }
+  },
+  {
+   "build": "03",
+   "follower": "alma",
+   "leader": "prima",
+   "parts": {
+    "follower": {
+     "role": "follower",
+     "authoring_girl": "prima",
+     "target": "alma",
+     "zs_ratio": 1.10303,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Ebr_Relax",
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Aa",
+      "Fac_Pupil_Heart"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "c1140004df21589ecfcb03f956ac289f76650f6b5aeca1187479f1d5ded53a7e",
+      "runB_sha256": "c1140004df21589ecfcb03f956ac289f76650f6b5aeca1187479f1d5ded53a7e",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "03-alma-follower.clip.json",
+     "file_sha256": "714a37dee3551878ff9d1fef1232ad6927303f81f887378007f2d5132125b3dc"
+    },
+    "leader": {
+     "role": "leader",
+     "authoring_girl": "yui",
+     "target": "prima",
+     "zs_ratio": 1.099993,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Smile"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "runB_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "03-prima-leader.clip.json",
+     "file_sha256": "c21299c892d4d58c5595ce24e472fbcf52a327f9a12dfc14f6a961d3ffaf6f7a"
+    }
+   }
+  },
+  {
+   "build": "04",
+   "follower": "sloane",
+   "leader": "prima",
+   "parts": {
+    "follower": {
+     "role": "follower",
+     "authoring_girl": "prima",
+     "target": "sloane",
+     "zs_ratio": 1.018185,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [
+      "Fac_Pupil_Heart"
+     ],
+     "face_channels": [
+      "Fac_Ebr_Relax",
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Aa"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "d14d22c9a457ed0db8afe478e5d81db62344be24a5eaf351600b919af44dfd24",
+      "runB_sha256": "d14d22c9a457ed0db8afe478e5d81db62344be24a5eaf351600b919af44dfd24",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "04-sloane-follower.clip.json",
+     "file_sha256": "dbbcaa26e1309bec136530d8e2a518623c4cb3db3ccfcdca896d78b279dbe03d"
+    },
+    "leader": {
+     "role": "leader",
+     "authoring_girl": "yui",
+     "target": "prima",
+     "zs_ratio": 1.099993,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Smile"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "runB_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "04-prima-leader.clip.json",
+     "file_sha256": "c21299c892d4d58c5595ce24e472fbcf52a327f9a12dfc14f6a961d3ffaf6f7a"
+    }
+   }
+  },
+  {
+   "build": "05",
+   "follower": "lux",
+   "leader": "prima",
+   "parts": {
+    "follower": {
+     "role": "follower",
+     "authoring_girl": "prima",
+     "target": "lux",
+     "zs_ratio": 1.0,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [
+      "Fac_Pupil_Heart"
+     ],
+     "face_channels": [
+      "Fac_Ebr_Relax",
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Aa"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "778e5495a39bd81885fc1a023f4fac5e8f290457daaf7e578752efe77923a7f5",
+      "runB_sha256": "778e5495a39bd81885fc1a023f4fac5e8f290457daaf7e578752efe77923a7f5",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "05-lux-follower.clip.json",
+     "file_sha256": "63e1278fa328d34af115534e91f6c5311060a76443bd0f75a0659bd5959fabc0"
+    },
+    "leader": {
+     "role": "leader",
+     "authoring_girl": "yui",
+     "target": "prima",
+     "zs_ratio": 1.099993,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Smile"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "runB_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "05-prima-leader.clip.json",
+     "file_sha256": "c21299c892d4d58c5595ce24e472fbcf52a327f9a12dfc14f6a961d3ffaf6f7a"
+    }
+   }
+  },
+  {
+   "build": "06",
+   "follower": "piper",
+   "leader": "prima",
+   "parts": {
+    "follower": {
+     "role": "follower",
+     "authoring_girl": "prima",
+     "target": "piper",
+     "zs_ratio": 1.030301,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [
+      "Fac_Pupil_Heart"
+     ],
+     "face_channels": [
+      "Fac_Ebr_Relax",
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Aa"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "304d8e890d4430e13c0b580ab6ff19b47112165c1268c9fd6f7194a88f40e261",
+      "runB_sha256": "304d8e890d4430e13c0b580ab6ff19b47112165c1268c9fd6f7194a88f40e261",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "06-piper-follower.clip.json",
+     "file_sha256": "6a0faeac2781b195d023b532888f7a0b27d1f27bd2c6dfeabcc575996739169b"
+    },
+    "leader": {
+     "role": "leader",
+     "authoring_girl": "yui",
+     "target": "prima",
+     "zs_ratio": 1.099993,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Smile"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "runB_sha256": "a7811f679172eaed5dd873d1de52f8020b8d757804b19636e38270d9fc53d912",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "06-prima-leader.clip.json",
+     "file_sha256": "c21299c892d4d58c5595ce24e472fbcf52a327f9a12dfc14f6a961d3ffaf6f7a"
+    }
+   }
+  },
+  {
+   "build": "07",
+   "follower": "prima",
+   "leader": "alma",
+   "parts": {
+    "follower": {
+     "role": "follower",
+     "authoring_girl": "prima",
+     "target": "prima",
+     "zs_ratio": 1.0,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Ebr_Relax",
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Aa",
+      "Fac_Pupil_Heart"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "f78da22ea96bf8de2d8465a6fb17b4a4a32e1407891805d93e5286ec5cb1a528",
+      "runB_sha256": "f78da22ea96bf8de2d8465a6fb17b4a4a32e1407891805d93e5286ec5cb1a528",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "07-prima-follower.clip.json",
+     "file_sha256": "c42ba4f31704f5dc4896d174cad7d2ebcd6b3e2e362d4f376bb17fd24d83d6a3"
+    },
+    "leader": {
+     "role": "leader",
+     "authoring_girl": "yui",
+     "target": "alma",
+     "zs_ratio": 1.213326,
+     "keyed_body_tracks": 49,
+     "unkeyed_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_LeftShoulder",
+      "mixamorig_RightHand",
+      "mixamorig_RightShoulder",
+      "mixamorig_Spine2"
+     ],
+     "governance_dropped": [],
+     "face_channels": [
+      "Fac_Eye_HalfClose",
+      "Fac_Mth_Smile"
+     ],
+     "determinism_clip_space": {
+      "runA_sha256": "a1ffafaa4cf90b55a729964afb10b7651f1675104eae04f0eecb1865ff8801e1",
+      "runB_sha256": "a1ffafaa4cf90b55a729964afb10b7651f1675104eae04f0eecb1865ff8801e1",
+      "identical": true
+     },
+     "seam_clip_space": {
+      "rotation_max": 0.0,
+      "translation_max_mm": 0.0,
+      "face_max": 0.0,
+      "beat_max": 0.0
+     },
+     "file": "07-alma-leader.clip.json",
+     "file_sha256": "c462527042e1ed3d36a7a30d8160a2e7af8bdd55d67b7b127de2cf2287ef903a"
+    }
+   }
+  }
+ ],
+ "ingredient_sha256": {
+  "prima-contactloop-jiggle.clip.json": "5bff5c4adab5a3dbbdfcf6322b2acee32f1c07787cb0856d34e449ea58c9a746",
+  "yui-contactloop-jiggle.clip.json": "98805eee371f8c3cdeff350d4b75472c589f8205b4f3bbd3df83fe2ee3b19d7e"
+ }
+}

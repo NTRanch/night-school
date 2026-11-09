@@ -1,0 +1,85 @@
+{
+ "params": {
+  "variant": "sfw",
+  "aov_variant": "NS11-LightGroups-v1",
+  "groups": [
+   "Key",
+   "Rim",
+   "Fill",
+   "Accent_1",
+   "Accent_2",
+   "Accent_3",
+   "Accent_4",
+   "Backdrop"
+  ],
+  "assigned": {
+   "Key_Area": "Key",
+   "Rim_Spot": "Rim",
+   "Fill_Area": "Fill",
+   "Accent_Point_1": "Accent_1",
+   "Accent_Point_2": "Accent_2",
+   "Accent_Point_3": "Accent_3",
+   "Accent_Point_4": "Accent_4",
+   "Backdrop": "Backdrop"
+  },
+  "rl_outputs": [
+   "Image",
+   "Alpha",
+   "Emission",
+   "Noisy Image",
+   "Combined_Key",
+   "Combined_Rim",
+   "Combined_Fill",
+   "Combined_Accent_1",
+   "Combined_Accent_2",
+   "Combined_Accent_3",
+   "Combined_Accent_4",
+   "Combined_Backdrop"
+  ],
+  "tree_order": [
+   "RenderLayers",
+   "Key:RGB(gain/tint)",
+   "Key:Mix.MULTIPLY",
+   "Rim:RGB(gain/tint)",
+   "Rim:Mix.MULTIPLY",
+   "Mix.ADD(<- Rim)",
+   "Fill:RGB(gain/tint)",
+   "Fill:Mix.MULTIPLY",
+   "Mix.ADD(<- Fill)",
+   "Accent_1:RGB(gain/tint)",
+   "Accent_1:Mix.MULTIPLY",
+   "Mix.ADD(<- Accent_1)",
+   "Accent_2:RGB(gain/tint)",
+   "Accent_2:Mix.MULTIPLY",
+   "Mix.ADD(<- Accent_2)",
+   "Accent_3:RGB(gain/tint)",
+   "Accent_3:Mix.MULTIPLY",
+   "Mix.ADD(<- Accent_3)",
+   "Accent_4:RGB(gain/tint)",
+   "Accent_4:Mix.MULTIPLY",
+   "Mix.ADD(<- Accent_4)",
+   "Backdrop:RGB(gain/tint)",
+   "Backdrop:Mix.MULTIPLY",
+   "Mix.ADD(<- Backdrop)",
+   "Denoise(guides: none exposed on 5.2.3 RL node)",
+   "GroupOutput(composite)",
+   "Viewer",
+   "FileOutput(PNG comp-beauty)",
+   "FileOutput(EXR passes: Combined,Emission,Combined_Key,Combined_Rim,Combined_Fill,Combined_Accent_1,Combined_Accent_2,Combined_Accent_3,Combined_Accent_4,Combined_Backdrop)"
+  ],
+  "exr": {
+   "format": "OPEN_EXR_MULTILAYER",
+   "depth": "32",
+   "codec": "ZIP"
+  },
+  "denoise": false,
+  "samples": 4096,
+  "threshold": 0.009999999776482582,
+  "seed": 0,
+  "resolution": [
+   1080,
+   1920
+  ]
+ },
+ "fingerprint_sha256": "ca43b4b80fe079567b33e30b0d1084bb926a06e47370ca38c9fba0585476fad9"
+}
