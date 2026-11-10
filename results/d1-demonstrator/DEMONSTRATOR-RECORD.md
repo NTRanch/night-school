@@ -235,6 +235,11 @@ Owner PASS is declared.**
    but **no lactation emission was built and the flag is
    untouched** — casting the lactation module's lead remains an
    Owner decision for a later stage.
+   **RESOLVED (Owner ruling, 2026-11-09): the record is aligned
+   to Alma, per D-1055.** Alma leads the lactation demonstrator
+   in this lane; Maren's lactation canon stands separately in
+   the Strobe lane and is untouched by this alignment. The flag
+   is closed; no Maren rig is owed on this record's account.
 
 ## Addendum (2026-11-08, per D-1088 repair) — method defaults and POV direction notes landed
 
