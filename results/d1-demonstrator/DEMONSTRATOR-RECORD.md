@@ -121,6 +121,26 @@ recorded for the ingredient. **Late-window exception (02):** 35/486
 particles inside Prima_Body at f90 (0 at all gated frames and at
 f60/f78) — the only late interior event in the matrix.
 
+**Peak-form stream layer (build 01 only, D-1159).** Over this
+extrusion, the Prima/Yui pair shot carries the accepted stream
+layer of record (§8, D-1159 disposition): a deterministic
+authored curve-guided arc, generated per frame by
+`runs/plan-06/stream-proof-20261110/scripts/ns06s_build.py`
+under `runs/plan-06/stream-proof-20261110/stream_params.json`
+(bulge 0.34 m toward normalize(+X+Z), FLOW_KEYS envelope of the
+fluid gate above, head speed 2.0 m/s), sourcing f34, full at the
+f45 peak, drained by f56. Gates of record for the layer:
+interior 0 at all 37 measured frames (B4), timing exact (B2,
++10 retime first frame 44), vertex sha256 identical across two
+generator runs at 37/37 frames. Evidence of record:
+`runs/plan-06/stream-proof-20261110/REPORT.md`,
+`runs/plan-06/stream-proof-20261110/verdict/VERDICT.md` (the
+verdict pack), `measurements.json`, `frames/`, `masks/`,
+`proof_stream_f45.blend` in the same tree. The layer applies to
+build 01's pair shot only; builds 02–09 carry the extrusion
+alone, and the accepted bake is unchanged (sha256
+`cd361214…` — full hash in the proof report §3).
+
 ## 5. Bust-parameter spot proof — Alma (Amendment 2, stack level)
 
 Builds 08 (m=0.50) / 09 (m=1.50) vs 03 (canon), Alma as Follower:
@@ -240,6 +260,76 @@ Owner PASS is declared.**
    in this lane; Maren's lactation canon stands separately in
    the Strobe lane and is untouched by this alignment. The flag
    is closed; no Maren rig is owed on this record's account.
+
+### Section 8 disposition — superseded in part (2026-11-10, Owner ruling D-1154)
+
+Item 1 is RE-RULED: a visible travelling stream for
+the peak is required after all. (Its earlier
+disposition, D-1114 — extrusion at peak, accepted
+bake stands — is recorded in the runs/ copy of this
+record.) The Owner commissioned a stream proof
+(D-1154) on the mainA2 pair shot — different shot
+geometry and/or a different emission mechanism, the
+two routes §3 of the Plan 06 Pass 4 record names;
+plain FLIP inflow in-pocket remains refuted (D-1069)
+and is not retried. This supersedes D-1114's
+extrusion-at-peak disposition. The accepted bake
+stands unchanged until a stream proof passes the
+Owner's eye; the proof tree is
+`runs/plan-06/stream-proof-20261110/`. Item 2
+(lactation casting) is unaffected.
+
+### Section 8 disposition — accepted (2026-11-10, Owner ruling D-1159)
+
+Item 1 is CLOSED by acceptance. The Owner reviewed the
+D-1154 stream proof's verdict pack and rules (2026-11-10
+02:46 PST): "the authored curve-guided arc over the
+untouched extrusion is the peak form of record" for the
+D-1 pair shot. The pending clause of the D-1154
+disposition above ("stands unchanged until a stream
+proof passes the Owner's eye") is discharged: the proof
+passed. The stream layer of record is the one referenced
+in §4: generator
+`runs/plan-06/stream-proof-20261110/scripts/ns06s_build.py`,
+parameters
+`runs/plan-06/stream-proof-20261110/stream_params.json`,
+report `runs/plan-06/stream-proof-20261110/REPORT.md`,
+verdict pack
+`runs/plan-06/stream-proof-20261110/verdict/VERDICT.md`.
+The accepted bake is untouched and stands underneath
+the layer (sha256 `cd361214…`, full hash in the proof
+report §3); the extrusion remains the contact form at
+the pocket and carries the settle.
+
+Two qualifications ride with the acceptance, as measured
+in the proof report §2 and the verdict pack's eye items:
+
+1. **No full trace exists in this staging.** The peak
+   corridor is 8.7 mm; no complete source-to-surface
+   trace is achievable in this shot at any separation or
+   by any mechanism (route (a) measured: +0.30 m
+   re-separation caps at 0.59 visible fraction and
+   destroys the contact). The accepted read is the
+   strongest in-staging one: ~33 of ~69 projected px of
+   arc directly visible at f45, ends anchored at the
+   interface, passing behind the silhouette edges.
+2. **The two eye items are admitted with the layer.**
+   (a) The proof material — base (0.55, 0.68, 0.88),
+   roughness 0.08, emission × 0.40 — is the stream
+   layer's material of record for this shot; the shipped
+   `NS06_FluidMat` is unchanged and still shades the
+   extrusion. (b) The arc's form: a sideways escape
+   toward normalize(+X+Z), the pocket's only open side,
+   landing on Prima's exposed side at T, 0.204 m from
+   the interior aim anchor (the aim-line entry T0 sits
+   8.7 mm from the source, where the extrusion already
+   is).
+
+A camera/pose change for a longer, fully traced stream
+is NOT commissioned; the D-1154 proof's §5 fleet
+application is not commissioned either — this acceptance
+covers the pair shot (build 01) only. Item 2 (lactation
+casting) is unaffected.
 
 ## Addendum (2026-11-08, per D-1088 repair) — method defaults and POV direction notes landed
 
