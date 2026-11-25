@@ -5,12 +5,17 @@ Source: rule34video 4356674, "Yuuka & Noa HAIGURE" (RICKED55),
 follow-on wave; dossier of record in the extraction audit.
 
 **STATUS FLAG (read first):** This item entered the estate by
-Owner-directed intake (2026-11-12, D-1398) and has **never been
-passed through the fail-closed screen**. This sheet is the study
-artifact D-1398 commissioned (progression grammar), produced under
-explicit instruction not to re-screen. The unscreened status
-stands as an open item for the Owner; nothing in this sheet is an
-admission verdict.
+Owner-directed intake (2026-11-12, D-1398) and has ~~**never been
+passed through the fail-closed screen**~~ — **screened
+2026-11-25 on the Owner's ruling; verdict EXCLUDED.** This sheet
+is the study artifact D-1398 commissioned (progression grammar),
+produced under explicit instruction not to re-screen. ~~The
+unscreened status stands as an open item for the Owner;~~ the
+Owner resolved the flag on 2026-11-25 (decision walk #18);
+nothing in this sheet is an admission verdict — the verdict, of
+record in the plan file (`plans/56-yuuka-noa-haigure.md`), is
+exclusion, and this sheet is retained as part of the excluded
+item's record.
 
 Two-character MMD performance piece (Yuuka; Noa). One interior set
 (locker-room-like space with benches and a wet floor area). 21

@@ -4,8 +4,32 @@
 - **Video ID:** 4356674 · **Creator:** RICKED55 · **Duration:** 2:20
 - **Lane:** NSFW-primary / SFW translation: none — performance grammar for the estate's adult scene work
 - **Estate targets:** Prima's corruption-sim scene grammar (performance-form escalation), the P28–P34 family (D-1398) — third shelf, the favourites performance studies
-- **Status:** PLANNED — WITH A STANDING FLAG (see intake notes; the flag is part of this plan's record, not a footnote)
-- **Status after run:** EXECUTED through Pass 2 on 2026-11-24 (favourites follow-on wave) — the dossier is the study artifact D-1398 commissioned; Passes 3–4 open
+- **Status:** ~~PLANNED — WITH A STANDING FLAG (see intake notes; the flag is part of this plan's record, not a footnote)~~ **BARRED — screened and EXCLUDED on 2026-11-25 (see the screening verdict below).**
+- **Status after run:** EXECUTED through Pass 2 on 2026-11-24 (favourites follow-on wave) — the dossier is the study artifact D-1398 commissioned; ~~Passes 3–4 open~~ **Passes 3–4 closed as never-to-run (2026-11-25 verdict).**
+
+## Screening verdict (2026-11-25) — EXCLUDED
+
+This plan's standing flag was resolved by the Owner on
+2026-11-25 (decision walk #18): "Apply the fail-closed screen —
+exclude Plan 56." The item (rule34video 4356674) was screened
+from the held material and its dossier; no new download and no
+extraction were performed for the screen.
+
+**Grounds:** the cast is Yuuka and Noa of Blue Archive —
+students of Millennium Science School, presented canonically in
+school dress and a school setting. No adult age is established
+for either character. Under the estate's fail-closed standard,
+academy-student characters with no established adult age are
+minor-coded — the same class as the recorded exclusions 3146408
+(Mano-chan) and 4271353 / 15613722 (Rio).
+
+**Disposition:** this plan is barred. It leaves the syllabus's
+elective set and joins the barred set (21, 26, 27, 31, 32, 33,
+56). Pass 3 is closed as never-to-run; Pass 4 closes with it.
+The held media file stays held and quarantined on primo — not
+extracted, not deleted, not moved to any shipped surface. The
+dossier of record is retained as the screening record
+(favourites extraction audit, `dossiers/4356674-DOSSIER.md`).
 
 ## Why this video
 
@@ -26,13 +50,16 @@ performance form.
 ## Intake notes (2026-11-24) — READ THE FLAG FIRST
 
 **This item entered the estate by Owner-directed intake
-(2026-11-12, D-1398) and has never been passed through the
-fail-closed screen.** The dossier behind this plan is the study
+(2026-11-12, D-1398) and has ~~never been passed through the
+fail-closed screen~~ — screened 2026-11-25; verdict EXCLUDED
+(see the screening verdict above).** The dossier behind this plan is the study
 artifact D-1398 commissioned (progression grammar), produced in the
 2026-11-24 favourites follow-on wave under explicit instruction not
-to re-screen. **The unscreened status stands as an open item for
+to re-screen. ~~**The unscreened status stands as an open item for
 the Owner; nothing in this plan or its technique sheet is an
-admission verdict.** That is recorded here, at the head of the
+admission verdict.**~~ **The Owner resolved the flag on
+2026-11-25 (decision walk #18); the verdict is exclusion, and it
+is recorded at the head of this plan.** That is recorded here, at the head of the
 plan, because a curriculum that hides its own screening gaps would
 fail the standard the rest of the shelf is held to. Method:
 ffprobe census, scene-cut detection (21 cuts), 14 interval frames
@@ -70,11 +97,14 @@ Findings: `results/plan-56-yuuka-noa-haigure/TECHNIQUE.md`.
 
 ## Clean-room rebuild spec
 
-Pass 3 (open, and sequenced *after* the intake flag is resolved one
-way or the other by the Owner): the escalation grammar is authored
-into a Prima scene spec — register steps keyed to expression,
-framing intimacy scored in the camera track, edit tempo doubling
-into the final third — inside the corruption-sim programme.
+Pass 3 — **CLOSED as never-to-run (2026-11-25).** It stood
+sequenced *after* the intake flag was resolved one way or the
+other by the Owner; the Owner resolved it by exclusion, so this
+rung never runs. As designed, it would have authored the
+escalation grammar into a Prima scene spec — register steps
+keyed to expression, framing intimacy scored in the camera
+track, edit tempo doubling into the final third — inside the
+corruption-sim programme.
 
 ## Application
 
@@ -84,11 +114,13 @@ into the final third — inside the corruption-sim programme.
 
 ## Gate
 
-Pass 4 (open) is discharged in the Prima programme's verdict packs:
-the escalation readable from expression and tempo alone, with
-costume state held constant — if the rebuild needs exposure to
-escalate, it has not learned the piece.
+Pass 4 — **CLOSED as never-to-run (2026-11-25)**, with Pass 3.
+As designed, it would have been discharged in the Prima
+programme's verdict packs: the escalation readable from
+expression and tempo alone, with costume state held constant —
+if the rebuild needs exposure to escalate, it has not learned
+the piece.
 
 ## Deliverables
 
-- `results/plan-56-yuuka-noa-haigure/` — technique sheet (landed 2026-11-24), rebuild record and gate result when Passes 3–4 run.
+- `results/plan-56-yuuka-noa-haigure/` — technique sheet (landed 2026-11-24); ~~rebuild record and gate result when Passes 3–4 run~~ **no rebuild record or gate result will land — Passes 3–4 closed as never-to-run (2026-11-25).**

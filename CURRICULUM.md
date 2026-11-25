@@ -28,10 +28,16 @@ animation references — studied performances, not tutorials — and most
 feed one programme: Prima's corruption-sim scene grammar and the
 shared `iris_state` machine. A screened wider set exists behind this
 shelf; items the fail-closed screen excluded are not in the
-curriculum, are not planned, and are not named here. Plan 56 carries
+curriculum, are not planned, and are not named here. Plan 56 carried
 a standing flag in its own record: Owner-directed intake (D-1398),
-never fail-closed screened — the flag is part of the plan, and its
-Pass 3 is sequenced after the Owner resolves it.
+never fail-closed screened — ~~the flag is part of the plan, and its
+Pass 3 is sequenced after the Owner resolves it~~. The Owner
+resolved it on 2026-11-25 (decision walk #18): the item was
+screened under the fail-closed standard and barred
+(academy-student cast; no established adult age), and its Pass 3
+is closed as never-to-run. The verdict of record is in the plan
+file; Plan 56 is named in the shelf table below with its barred
+marking, as the barred Tutorials plans are named in theirs.
 
 Execution order is by dependency, not number: Plan 07 before Plan 06
 (simulation before integration), Plan 01 early (it feeds the two-body
@@ -126,12 +132,15 @@ and the phase-lock) → Plan 50 (the device-side display programme;
 occlusion-reveal) → Plan 52 (the in-room watcher; the
 continuous-gaze contrast case) → Plan 53 (both transition sub-types
 in one work; the phase-lock negative finding) → Plan 51 (the
-residue state the line's transitions all empty into). Plan 56
-stands apart as the performance-form study (escalation without an
-induction), Plan 55 as the shelf's editorial study, and Plan 57 as
+residue state the line's transitions all empty into). Plan 55
+stands as the shelf's editorial study, and Plan 57 as
 its closed worked example — the one item whose extraction already
-terminated in two shipped translations. Pass 4 for Plans 48–54 and
-56 is discharged in the Prima programme's verdict packs, as each
+terminated in two shipped translations. Plan 56 stood apart as
+the performance-form study (escalation without an induction)
+until 2026-11-25, when the Owner resolved its standing flag:
+screened under the fail-closed standard and barred; it takes no
+further part in the shelf. Pass 4 for Plans 48–54
+is discharged in the Prima programme's verdict packs, as each
 plan records.
 
 | Plan | Video | Primary capability |
@@ -144,5 +153,5 @@ plan records.
 | 53 | RWBY Barn Piece: Two Induction Arcs (17795813) | Transition sub-variants; multi-subject staging |
 | 54 | Arlecchino Hypnosis (3653201) | Eye-state signifier; PiP reaction inset |
 | 55 | SEX! JAZZ! LOVE! PMV Concept Album (4698532) | Editorial grammar (album form) |
-| 56 | Yuuka & Noa HAIGURE (4356674) | Performance-form escalation — FLAGGED: Owner-directed intake (D-1398), never fail-closed screened |
+| 56 | Yuuka & Noa HAIGURE (4356674) | BARRED on screening, 2026-11-25 (academy-student cast; fail-closed screen — see the plan file) |
 | 57 | Raiden x Yae — Animation (5447477, Danbooru) | Full RE recipe; two landed translations (CLOSED) |

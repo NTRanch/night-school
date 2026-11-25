@@ -37,7 +37,7 @@ keeps the three shelves legible.
 ## Start here — the course
 
 The shelves are the library; [`SYLLABUS.md`](SYLLABUS.md) is the
-course over it. The 51 admitted plans are sequenced into eight
+course over it. The 50 admitted plans are sequenced into eight
 modules that build on one another — orientation, foundations, the
 body in motion, two bodies, effects and finish, performance, toys
 and interactive systems, and production — each lesson taught by
@@ -176,7 +176,7 @@ behind this shelf and its exclusions are not named here):
 | [53](plans/53-rwby-barn-two-inductions.md) | RWBY Barn Piece: Two Induction Arcs (17795813) | Transition sub-variants; multi-subject staging |
 | [54](plans/54-arlecchino-hypnosis.md) | Arlecchino Hypnosis (3653201) | Eye-state signifier; PiP reaction inset |
 | [55](plans/55-sex-jazz-love-pmv-album.md) | SEX! JAZZ! LOVE! PMV Concept Album (4698532) | Editorial grammar (album form) |
-| [56](plans/56-yuuka-noa-haigure.md) | Yuuka & Noa HAIGURE (4356674) | Performance-form escalation — **flagged:** Owner-directed intake (D-1398), never fail-closed screened |
+| [56](plans/56-yuuka-noa-haigure.md) | Yuuka & Noa HAIGURE (4356674) | **Barred on screening** — academy-student cast (fail-closed screen, 2026-11-25) |
 | [57](plans/57-raiden-yae-animation-recipe.md) | Raiden x Yae — Animation (5447477, Danbooru) | Full RE recipe; two landed translations (closed) |
 
 <img src="assets/sparkles.svg" width="100%" height="28" alt="">

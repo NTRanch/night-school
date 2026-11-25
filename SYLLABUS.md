@@ -210,12 +210,16 @@ recipe is already extracted and landed, taken apart piece by piece.
 | 6.7 | Lux | 51 — The residue state; steady-register eye state | 6.6 | The residue state held as a scene's resting register |
 | 6.8 | Lux | 57 — Full RE recipe (closed worked example; dissection) | 6.7 | The landed recipe re-derived from the work; the student's derivation checked against the shipped translations |
 
-**Flagged elective — Plan 56** (Yuuka & Noa HAIGURE, performance-form
-escalation) sits under Lux as an elective, and it carries its flag
-into the syllabus unchanged: Owner-directed intake (D-1398), never
-fail-closed screened. Its Pass 3 is sequenced after the Owner
-resolves the flag, and nothing in this syllabus is an admission
-verdict for it.
+**Plan 56 — barred (2026-11-25).** Plan 56 (Yuuka & Noa HAIGURE,
+performance-form escalation) ~~sits under Lux as an elective, and
+it carries its flag into the syllabus unchanged: Owner-directed
+intake (D-1398), never fail-closed screened. Its Pass 3 is
+sequenced after the Owner resolves the flag~~ — the Owner
+resolved the flag on 2026-11-25 (decision walk #18): the item
+was passed through the fail-closed screen and **excluded**
+(academy-student cast; no established adult age). It is no
+longer an elective; its Pass 3 is closed as never-to-run. The
+verdict of record is in the plan file.
 
 ## Module 7 — Toys & Interactive Systems (Lana)
 
@@ -314,13 +318,12 @@ the same gates; they are simply not on the prerequisite spine.
 | E.5 | Alma | 24 — Appendage control (reference) | The Body — cross-referenced as a supporting citation in Lana's Module 7 strand (Lesson 7.2); its placement stays here |
 | E.6 | Piper | 04 — Layered scene/stage construction | Camera & Performance |
 | E.7 | Piper | 43 — Motion grammar; the cinematics read | Camera & Performance |
-| E.8 | Lux | 56 — Performance-form escalation | Expression & Eye State — **flagged**, see Module 6 |
 
 ## Coverage check
 
 The course contains only admitted curriculum. Of the library's 57
-plans, 51 are admitted; the six barred or intake-gated plans
-(21, 26, 27, 31, 32, 33) are not in the course, exactly as they are
+plans, 50 are admitted; the seven barred or intake-gated plans
+(21, 26, 27, 31, 32, 33, 56) are not in the course, exactly as they are
 not in the curriculum's working set.
 
 Every admitted plan appears **exactly once** above, as a lesson or
@@ -331,9 +334,9 @@ as a named elective:
   Module 4 — 01, 20, 15, 19, 18; Module 5 — 07, 09, 06, 11, 13, 35;
   Module 6 — 54, 48, 49, 50, 52, 53, 51, 57;
   Module 7 — 36; Module 8 — 16, 17, 08, 55.
-- Electives (8): 03, 05, 12, 37, 24, 04, 43, 56.
+- Electives (7): 03, 05, 12, 37, 24, 04, 43.
 
-43 + 8 = **51 of 51 admitted plans placed, each exactly once.**
+43 + 7 = **50 of 50 admitted plans placed, each exactly once.**
 Plan 39's placement is Alma's, in Module 3 — restored to her by
 the Owner's 2026-11-25 ruling (Amendment 3) after sitting briefly
 in a Maren strand under commit 30aa2fa; the placement is counted
