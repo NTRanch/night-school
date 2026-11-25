@@ -39,26 +39,28 @@ Every lesson has the same anatomy:
 
 ## Faculty
 
-- **Prima — Headmistress.** Orientation (with Sloane) and every
-  capstone. She is the canonical base: the rig every other girl's
-  template derives from, and the body the capstone is built on. She
-  teaches the two-body fundamentals herself — Plan 01 feeds the
-  two-body programme, and the programme is hers.
+- **Prima — Headmistress.** Orientation (with Sloane), and the
+  school itself. She is the canonical base: the rig every other
+  girl's template derives from, and the body a capstone character
+  is built on where one is needed. She teaches the two-body
+  fundamentals herself — Plan 01 feeds the two-body programme, and
+  the programme is hers.
 - **Yui — Foundations & the Still Image.** Animation fundamentals,
   posing, the posed still, light and colour. The on-ramp
   department: a student's first finished work is a still, and it is
   made in her classes.
-- **Alma — The Body.** Clothing, soft props, conversions, and the
-  fluid simulation chain. She is the fleet's body reference
-  implementation; where a technique makes a body usable, clothes
-  it, or finishes its effects, she teaches it. Module 3's
-  soft-body strand is Maren's, under the Owner's ruling below.
+- **Alma — The Body.** The whole body curriculum: breast and ass
+  animation, jiggle physics, lactation, clothing, soft props,
+  conversions, and the fluid simulation chain. She is the fleet's
+  body reference implementation; where a technique moves a body,
+  clothes it, or finishes its effects, she teaches it — and what
+  she teaches is examined at the capstone, by application.
 - **Sloane — The Pipeline.** Extraction, intake hygiene, census,
   retarget, conversion. The technical track: how material enters
   the estate, how it is counted, and how it is made ours.
 - **Piper — Camera & Performance.** The camera as a participant:
   POV craft, duration, ending beats, editorial form. (Her classroom
-  lessons sit inside Modules 4 and 9, where camera and editing
+  lessons sit inside Modules 4 and 8, where camera and editing
   belong; her named electives are below.)
 - **Lux — Expression & Eye State.** The performance line: reaction
   grammar and the eye-state machine the favourites shelf was
@@ -70,13 +72,19 @@ Every lesson has the same anatomy:
   one reaction engine driving both. Her department has three
   strands: animating toys, programming toys, and the build — a
   small game the student ships as the module's gate.
-- **Maren — Soft Body & the Mobile Build.** Breast and ass
-  animation, jiggle physics, and lactation in Module 3's soft-body
-  strand; building games for mobile in Module 8. Her home cast is
+- **Maren — The Capstone.** Capstone lead and examiner: the
+  milking-simulator build that closes the course, and the
+  four-target shipping gate it is judged by. She does not
+  re-teach; she validates — Alma teaches the body curriculum, and
+  Maren's capstone is where the student proves it by immediate
+  application, inside a build that has to ship. Her home cast is
   Strobe, and she teaches at Night School by the Owner's ruling.
-  Owner ruling 2026-11-25: Maren is seated as faculty; this
-  supersedes the November coordinator recommendation that read
-  the lactation-lead casting as Alma because Maren is Strobe cast.
+  Record: seated as faculty 2026-11-25, superseding the November
+  coordinator recommendation that read the lactation-lead casting
+  as Alma because Maren is Strobe cast; seated first over a
+  Module 3 soft-body strand and a Mobile Build module (commit
+  30aa2fa), then moved to the capstone by the Owner's same-day
+  ruling, which restored Alma's curriculum whole.
 
 ## Module 1 — Orientation (Sloane, with Prima)
 
@@ -115,28 +123,34 @@ the course.
 | 2.5 | Yui | 40 — Lighting and colour grading | 2.3 | Light + grade template built and applied; before/after judged at viewing size |
 | 2.6 | Yui | 44 — Paint rules (hard shadows, stacked shapes) | 2.5 | The paint rules read off a reference and re-applied; module gate: **a finished still**, judged expected-vs-seen |
 
-## Module 3 — The Body in Motion (Alma, with Maren)
+## Module 3 — The Body in Motion (Alma)
 
-One body, moving, wearing things, touching soft things. Alma
-leads the conversion, clothing, and soft-prop lessons — the wrap
-and headhack lessons make a body the student's to animate — and
-hands the soft-body strand to Maren: breast animation, ass
-animation, jiggle physics, and lactation, built on Plan 39's
-cage-deform method so secondary motion stays deterministic, not
-simulated and prayed over. Prerequisite throughout: Module 2's
-posing grammar (Lesson 2.2). Lactation's fluid-expression pass
-cross-references Module 5's fluid chain (Lessons 5.1–5.3) as a
-prerequisite note: the motion is learned here, and its fluid
-integration is gated after the chain is completed. The
-cross-reference is not a plan placement.
+One body, moving, wearing things, touching soft things — and all
+of it Alma's. She leads the conversion and headhack lessons that
+make a body the student's to animate, the soft-body lessons —
+breast animation, ass animation, jiggle physics, and lactation,
+built on Plan 39's cage-deform method so secondary motion stays
+deterministic, not simulated and prayed over — and the clothing
+and soft-prop lessons that finish the body. Prerequisite
+throughout: Module 2's posing grammar (Lesson 2.2). Lactation's
+fluid-expression pass cross-references Module 5's fluid chain
+(Lessons 5.1–5.3) as a prerequisite note: the motion is learned
+here, and its fluid integration is gated after the chain is
+completed. The cross-reference is not a plan placement.
+
+Record: this module's soft-body strand was briefly split to
+Maren (commit 30aa2fa); the Owner's ruling of 2026-11-25
+superseded that arrangement the same day, restoring the module
+to Alma whole and moving Maren to the capstone — where this
+module's teaching is examined by application.
 
 | Lesson | Teacher | Plan | Prerequisite | Gate |
 |--------|---------|------|--------------|------|
 | 3.1 | Alma | 38 — Wrapping/conversion flagship | 2.2 | A body converted through Wrap3D, the conversion recorded step by step |
 | 3.2 | Alma | 28 — Headhack practice audit | 3.1 | Our headhack practice audited against the plan's; divergences named, kept or cured with reasons |
-| 3.3 | Maren | 39 — Breast collision and jiggle through cage deforms (soft-body core text) | 2.2 | Breast animation and jiggle driven by cage deforms, identical across double renders; no simulation in the shipped path |
-| 3.4 | Maren | Practice lesson (no library plan) — Ass animation | 3.3 | Ass secondary motion specified through the cage-deform method across a movement range; weight, lag, and settle readable and identical across double renders |
-| 3.5 | Maren | Practice lesson (no library plan) — Lactation | 3.3 | The lactation cycle animated as a frozen spec on a second body; the fluid-expression pass gated after Lessons 5.1–5.3 (cross-reference, not a placement) |
+| 3.3 | Alma | 39 — Breast collision and jiggle through cage deforms (soft-body core text) | 2.2 | Breast animation and jiggle driven by cage deforms, identical across double renders; no simulation in the shipped path |
+| 3.4 | Alma | Practice lesson (no library plan) — Ass animation | 3.3 | Ass secondary motion specified through the cage-deform method across a movement range; weight, lag, and settle readable and identical across double renders |
+| 3.5 | Alma | Practice lesson (no library plan) — Lactation | 3.3 | The lactation cycle animated as a frozen spec on a second body; the fluid-expression pass gated after Lessons 5.1–5.3 (cross-reference, not a placement) |
 | 3.6 | Alma | 22 — Clothing fit (shrinkwrap sleeve) | 3.3 | A fitted garment that survives the body's range of motion without breaking contact or silhouette |
 | 3.7 | Alma | 23 — Procedural soft props (geonode pillows) | 3.3 | A soft prop built procedurally and deformed by contact, procedurally still |
 
@@ -231,35 +245,59 @@ presence; every earlier lesson is spec- and simulation-level.
 | 7.4 | Lana | Programming toys II: the safety contract as curriculum | 7.3 | The contract reproduced from memory and enforced in the student's own harness: master off by default, ceiling clamped, synchronous stop, no resume on reconnect, watchdog live, every command through the decide() gate; S1–S4 staging walked, live work named as S4-only |
 | 7.5 | Lana | The Build (project) | 7.2, 7.4 | **A working game build** integrating ache-driven toys at simulation level (S4 live integration only under the Owner's go and presence) — the game runs, the toys answer, the safety contract holds under adversarial poking |
 
-## Module 8 — The Mobile Build (Maren)
-
-Mobile is a target discipline, not an export checkbox. These are
-practice lessons (no library plan): phone-class performance
-budgets, touch-first input, and the Android build-and-ship route
-the estate itself uses — the same discipline behind the estate's
-Play and F-Droid titles. The module's gate is a project: a small
-game, built and running on a phone-class target.
-
-| Lesson | Teacher | Plan | Prerequisite | Gate |
-|--------|---------|------|--------------|------|
-| 8.1 | Maren | Practice lesson (no library plan) — Phone-class performance budgets | Module 7 | A written budget for frame time, memory, asset size, and sustained performance, profiled against a phone-class target |
-| 8.2 | Maren | Practice lesson (no library plan) — Touch-first input | 8.1 | A build playable end to end by touch alone: targets, gestures, and reach designed for the hand holding the phone |
-| 8.3 | Maren | Practice lesson (no library plan) — The Android build-and-ship route | 8.1 | An installable Android build carried through the estate's route, release checks recorded |
-| 8.4 | Maren | Practice lesson (no library plan) — The Mobile Build (project) | 8.2, 8.3 | **A small game built and running on a phone-class target**: budget held under sustained play, touch input complete, installable build produced |
-
-## Module 9 — Production & Capstone (all faculty)
+## Module 8 — Production & Capstone (Prima, Sloane, Piper; capstone led by Maren)
 
 How a scene becomes a production: the full workflow in two voices,
 the development process made visible, and editorial form. Then the
-capstone, supervised by Prima with the full faculty examining.
+capstone — and the capstone is Maren's.
 
 | Lesson | Teacher | Plan | Prerequisite | Gate |
 |--------|---------|------|--------------|------|
-| 9.1 | Prima | 16 — Workflow triangulation, part 1 | Modules 4–5 | A production workflow mapped against the student's own; divergences named |
-| 9.2 | Prima | 17 — Finishing triangulation, part 2 | 9.1 | A scene carried through the finishing workflow to a gated render |
-| 9.3 | Sloane | 08 — Development process (devlog) | 9.1 | The student's own production kept as a devlog: decisions, dead ends, and gates on the record |
-| 9.4 | Piper | 55 — Editorial grammar (album form) | 9.2 | A sequence edited to album form; cuts justified from the grammar |
-| 9.5 | All faculty | Capstone (no plan — the course's own work) | Modules 1–8, 9.1–9.4 | **A complete short scene**: spec-frozen, double-rendered byte-identical, built on Prima's rig, and judged as finished work — expected-vs-seen, at viewing size, against the house bar. A capstone may build on the game project from Lesson 7.5 |
+| 8.1 | Prima | 16 — Workflow triangulation, part 1 | Modules 4–5 | A production workflow mapped against the student's own; divergences named |
+| 8.2 | Prima | 17 — Finishing triangulation, part 2 | 8.1 | A scene carried through the finishing workflow to a gated render |
+| 8.3 | Sloane | 08 — Development process (devlog) | 8.1 | The student's own production kept as a devlog: decisions, dead ends, and gates on the record |
+| 8.4 | Piper | 55 — Editorial grammar (album form) | 8.2 | A sequence edited to album form; cuts justified from the grammar |
+
+### The Capstone — the milking simulator (Maren, examiner)
+
+**The brief.** Build a playable cow-girl milking simulator: a
+small game whose core loop is milking — hands on breasts, milk
+expressed, the body answering. The cow girl is built on Prima's
+canonical base, as every capstone character is; Prima remains
+Headmistress of the school, and Maren leads and examines the
+capstone itself.
+
+**The design, stated plainly: Alma teaches, Maren examines.** The
+capstone is the validation gate for Alma's teaching. Its core loop
+exercises her full soft-body curriculum — breast animation,
+lactation, and jiggle physics by Plan 39's cage-deform method,
+with the fluid chain (Lessons 5.1–5.3: Plans 07 → 09 → 06)
+carrying the milk — applied immediately, in a working game, not
+re-taught. Nothing in the capstone introduces a new body
+technique; a student who cannot yet do what Alma taught finds out
+here, in the build, which is the point. Maren validates: she
+checks the application against the lessons' own gates and judges
+the result as finished work, expected-vs-seen.
+
+**The build matrix is the shipping gate.** One game, four targets,
+and the same build must run on all of them: **Windows desktop,
+Android mobile, Linux x86_64, and Linux aarch64**. Each target is
+its own build lesson, taught from the estate's own ship
+discipline — how this estate actually packages and ships, not a
+generic export walkthrough. A capstone may grow out of Lana's
+Module 7 game project (Lesson 7.5); the matrix still applies in
+full.
+
+| Lesson | Teacher | Plan | Prerequisite | Gate |
+|--------|---------|------|--------------|------|
+| 8.5 | Maren | Capstone (no plan — the course's own work): the milking simulator, brief and build | Modules 1–7, 8.1–8.4 | **A playable milking simulator**: the core loop exercises breast animation, lactation, Plan 39 jiggle, and the fluid chain as taught; judged as finished work — expected-vs-seen, at viewing size, against the house bar |
+| 8.6 | Maren | Build lesson — Windows desktop | 8.5 | The capstone build packaged and running on Windows desktop, desktop packaging discipline recorded |
+| 8.7 | Maren | Build lesson — Android mobile | 8.5 | The capstone build running on Android: phone-class performance budgets held (frame time, memory, asset size, sustained performance), touch-first input complete — the milking loop playable end to end by touch alone — and an installable build carried through the estate's Play/F-Droid route, release checks recorded |
+| 8.8 | Maren | Build lesson — Linux x86_64 | 8.5 | The capstone build packaged and running on Linux x86_64 |
+| 8.9 | Maren | Build lesson — Linux aarch64 | 8.5 | The capstone build packaged and running on Linux aarch64 |
+
+The capstone passes when Lesson 8.5's game passes **and** all four
+build lessons pass: four targets, one game, no target waived.
 
 ## Electives
 
@@ -292,14 +330,16 @@ as a named elective:
   Module 2 — 10, 34, 02, 41, 40, 44; Module 3 — 38, 28, 39, 22, 23;
   Module 4 — 01, 20, 15, 19, 18; Module 5 — 07, 09, 06, 11, 13, 35;
   Module 6 — 54, 48, 49, 50, 52, 53, 51, 57;
-  Module 7 — 36; Module 9 — 16, 17, 08, 55.
+  Module 7 — 36; Module 8 — 16, 17, 08, 55.
 - Electives (8): 03, 05, 12, 37, 24, 04, 43, 56.
 
 43 + 8 = **51 of 51 admitted plans placed, each exactly once.**
-Plan 39's placement sits in Maren's Module 3 soft-body strand;
-the placement moved departments, not counts. Module 8's lessons
-and Module 3's two added strand lessons are practice lessons
-with no library plan, and they add no placements.
+Plan 39's placement is Alma's, in Module 3 — restored to her by
+the Owner's 2026-11-25 ruling (Amendment 3) after sitting briefly
+in a Maren strand under commit 30aa2fa; the placement is counted
+once, in Alma's lessons, as before. Module 3's two practice
+lessons and the capstone's build lessons carry no library plan,
+and they add no placements.
 Cross-references are not placements: Plan 24 is cited inside
 Module 7 as a supporting text, but its single placement is its
 elective row above, and it is counted once.

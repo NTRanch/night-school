@@ -37,16 +37,19 @@ keeps the three shelves legible.
 ## Start here — the course
 
 The shelves are the library; [`SYLLABUS.md`](SYLLABUS.md) is the
-course over it. The 51 admitted plans are sequenced into nine
+course over it. The 51 admitted plans are sequenced into eight
 modules that build on one another — orientation, foundations, the
 body in motion, two bodies, effects and finish, performance, toys
-and interactive systems, the mobile build, and production — each
-lesson taught by one of the Torogao girls: Prima (Headmistress),
-Yui, Alma, Sloane, Piper, Lux, Lana, and Maren. Maren teaches
-Module 3's soft-body strand and leads Module 8, the Mobile Build.
-Every lesson pairs its plan with the teacher's demonstration
-scene, an exercise on a different girl, and the plan's own gate.
-New students start at Lesson 1.1.
+and interactive systems, and production — each lesson taught by
+one of the Torogao girls: Prima (Headmistress), Yui, Alma,
+Sloane, Piper, Lux, Lana, and Maren. Alma teaches the body
+curriculum whole; Maren leads the capstone — a cow-girl milking
+simulator the student ships to Windows desktop, Android mobile,
+and Linux (x86_64 and aarch64) — where Alma's teaching is
+validated by immediate application. Every lesson pairs its plan
+with the teacher's demonstration scene, an exercise on a
+different girl, and the plan's own gate. New students start at
+Lesson 1.1.
 
 > **18+.** This repository documents study plans for adult material.
 > It contains no adult imagery and no source media — and never will:
