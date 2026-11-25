@@ -34,6 +34,19 @@ studies — studied performances from the Owner's own favourites,
 extracted for the scene grammar they carry. [`CURRICULUM.md`](CURRICULUM.md)
 keeps the three shelves legible.
 
+## Start here — the course
+
+The shelves are the library; [`SYLLABUS.md`](SYLLABUS.md) is the
+course over it. The 51 admitted plans are sequenced into eight
+modules that build on one another — orientation, foundations, the
+body in motion, two bodies, effects and finish, performance, toys
+and interactive systems, and production — each lesson taught by
+one of the Torogao girls: Prima (Headmistress), Yui, Alma, Sloane,
+Piper, Lux, and Lana, with Maren as guest lecturer. Every lesson
+pairs its plan with the teacher's demonstration scene, an exercise
+on a different girl, and the plan's own gate. New students start
+at Lesson 1.1.
+
 > **18+.** This repository documents study plans for adult material.
 > It contains no adult imagery and no source media — and never will:
 > see the standing rules in the protocol.
