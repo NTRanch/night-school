@@ -4,12 +4,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/studio-Nice_Thoughts_Ranch-521549?style=for-the-badge" alt="Studio: Nice Thoughts Ranch">
-  <img src="https://img.shields.io/badge/curriculum-41_plans-543A61?style=for-the-badge" alt="Curriculum: 41 plans">
+  <img src="https://img.shields.io/badge/curriculum-57_plans-543A61?style=for-the-badge" alt="Curriculum: 57 plans">
   <img src="https://img.shields.io/badge/method-5--pass_study_protocol-D4AF37?style=for-the-badge" alt="Method: five-pass study protocol">
   <img src="https://img.shields.io/badge/adults-18%2B_only-2DD4BF?style=for-the-badge" alt="Adults 18+ only">
 </p>
 
-<img src="assets/sparkles.svg" width="100%" alt="">
+<img src="assets/sparkles.svg" width="100%" height="28" alt="">
 
 # Night School
 
@@ -27,11 +27,18 @@ game. Where a technique is lane-neutral (camera craft, render passes,
 clothing fit, scene construction), the plan names its SFW translation
 explicitly — most craft is.
 
+The curriculum stands on three shelves: the founding Tutorials
+intake, a YouTube track of SFW pipeline study (ZZZ/Genshin setup,
+cinematics, extraction and retarget), and the favourites performance
+studies — studied performances from the Owner's own favourites,
+extracted for the scene grammar they carry. [`CURRICULUM.md`](CURRICULUM.md)
+keeps the three shelves legible.
+
 > **18+.** This repository documents study plans for adult material.
 > It contains no adult imagery and no source media — and never will:
 > see the standing rules in the protocol.
 
-<img src="assets/divider.svg" width="100%" alt="">
+<img src="assets/divider.svg" width="100%" height="6" alt="">
 
 ## The method
 
@@ -57,7 +64,7 @@ full duration. Every plan names the production target it feeds —
 a two-body scene, a keeper still, a stage, a fluid system — so study
 never floats free of the work.
 
-<img src="assets/divider.svg" width="100%" alt="">
+<img src="assets/divider.svg" width="100%" height="6" alt="">
 
 ## Curriculum
 
@@ -122,7 +129,40 @@ barred at intake on depicted-age grounds):
 | [40](plans/40-porn-in-blender-lighting-color.md) | Basics — Lighting & Color Grading | Light + grade template |
 | [41](plans/41-porn-in-blender-images.md) | Basics — Images | Still composition grammar |
 
-<img src="assets/sparkles.svg" width="100%" alt="">
+**Second shelf — the YouTube track** (added 2026-11-25: six plans,
+seven Owner-supplied videos — SFW pipeline study for the ZZZ/Genshin
+reference ecosystem the Prima canonical-base programme is built
+against; every plan stands at Pass 2, its adoptions already landed
+as programme inputs):
+
+| Plan | Study | Feeds |
+|------|-------|-------|
+| [42](plans/42-genshin-blender-tutorial-cynological.md) | Genshin Blender Tutorial (2026 update) · Cynological — the 2024 version rides as a superseded companion | Staged setup grammar; blink envelope (face kit) |
+| [43](plans/43-zzz-cinematics-analysis-dillongoo.md) | ZZZ Cinematics Analysis · Professor Goo / DillonGoo | Motion grammar; R5 springs acceptance read |
+| [44](plans/44-zzz-art-study-tppo.md) | ZZZ Art Study · tppo | R6 paint rules; hair atlas paint |
+| [45](plans/45-zzz-official-models-short.md) | Official ZZZ Models (Short) · Activemotionpictures | Reference intake route (pointer) |
+| [46](plans/46-zzz-animations-unity-blender-clubvixen.md) | ZZZ Animations → Unity/Blender · TheClubVixen | Retarget discipline (video-import programme) |
+| [47](plans/47-animestudio-extraction-lavendertownsghost.md) | AnimeStudio Extraction Tutorial · LavenderTownsGhost | Census grammar; intake hygiene |
+
+**Third shelf — the favourites performance studies** (added
+2026-11-25: ten plans from the Owner's favourites extraction set —
+studied performances, not tutorials; a screened wider set exists
+behind this shelf and its exclusions are not named here):
+
+| Plan | Study | Feeds |
+|------|-------|-------|
+| [48](plans/48-tifa-hypnosis-reaction-arc.md) | Tifa Hypnosis → Reaction Arc (8788697; in-scope span per the Owner's scoping ruling) | Reaction grammar; eyelid ladder |
+| [49](plans/49-sakuya-hypnosis-oral-performance.md) | Sakuya Hypnosis App → Oral Performance (6393073) | Three-layer eye state; gaze phase-lock |
+| [50](plans/50-samus-visor-program.md) | Samus Visor Program (5722675) | Display state machine; occlusion-reveal |
+| [51](plans/51-corporate-slave-residue-state.md) | The Corporate-Slave Me and Sakurako-chan (18215545) | The residue state; steady-register eye state |
+| [52](plans/52-cynthia-glowing-eye.md) | Cynthia — Desk, the Glowing Eye (18146327) | Continuous gaze; AI-gen source discipline |
+| [53](plans/53-rwby-barn-two-inductions.md) | RWBY Barn Piece: Two Induction Arcs (17795813) | Transition sub-variants; multi-subject staging |
+| [54](plans/54-arlecchino-hypnosis.md) | Arlecchino Hypnosis (3653201) | Eye-state signifier; PiP reaction inset |
+| [55](plans/55-sex-jazz-love-pmv-album.md) | SEX! JAZZ! LOVE! PMV Concept Album (4698532) | Editorial grammar (album form) |
+| [56](plans/56-yuuka-noa-haigure.md) | Yuuka & Noa HAIGURE (4356674) | Performance-form escalation — **flagged:** Owner-directed intake (D-1398), never fail-closed screened |
+| [57](plans/57-raiden-yae-animation-recipe.md) | Raiden x Yae — Animation (5447477, Danbooru) | Full RE recipe; two landed translations (closed) |
+
+<img src="assets/sparkles.svg" width="100%" height="28" alt="">
 
 ## House style — Daddy Style
 
