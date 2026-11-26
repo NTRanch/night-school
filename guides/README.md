@@ -49,6 +49,24 @@ engine's own documentation, and has no reference companions.
   weighting bounds, LoRA stack rules, and the provenance record that
   makes an image a keeper. Distilled from a public prompt gallery;
   no reference companions.
+- **[DADDY_STYLE_GLSL.md](DADDY_STYLE_GLSL.md)** — GLSL shader
+  authoring for adult production: skin, wetness, and fluid shader
+  contracts, mosaic passes held to the OE-1b transition floor, and
+  device-reactive uniforms driven one way from the safety gate.
+  No reference companions.
+- **[DADDY_STYLE_HLSL.md](DADDY_STYLE_HLSL.md)** — HLSL and ShaderLab
+  in studied and shipped Unity work: the studied-game shader census,
+  skin and censor models recorded as measurements, and URP censor
+  profiles as build-time contracts whose unselected paths are
+  stripped and verified absent. No reference companions.
+- **[DADDY_STYLE_CUDA.md](DADDY_STYLE_CUDA.md)** — CUDA and local GPU
+  compute under the Ranch's fences: adult compute is local-only,
+  training corpora carry per-row provenance, and adapters back up
+  gated and candidate-labelled. No reference companions.
+- **[DADDY_STYLE_FFMPEG.md](DADDY_STYLE_FFMPEG.md)** — FFmpeg media
+  finishing for adult work: named censor and mosaic converters with
+  pinned cell sizes, Tier A held-media handling, measured loop
+  finishing, and silent, instrument-only QC. No reference companions.
 
 ## How the guides relate to the study plans
 
